@@ -1,8 +1,8 @@
 \documentclass[11pt, a4paper]{article}
 \usepackage[a4paper, margin=2.5cm]{geometry}
-\usepackage{fontspec}
+% \usepackage{fontspec}
 \usepackage[german, bidi=basic, provide=*]{babel}
-\babelfont{rm}{Noto Sans}
+%\babelfont{rm}{Noto Sans}
 \usepackage{booktabs}
 \usepackage{xcolor}
 \usepackage{enumitem}
@@ -13,8 +13,8 @@
 
 \pagestyle{fancy}
 \fancyhf{}
-\fancyhead[L]{\small\color{bhtgray}Projektantrag Laboreinrichtung | F.-o. E-Projekt Mechatronik}
-\fancyhead[R]{\small\color{bhtgray}BHT Berlin}
+\fancyhead[L]{\small\color{bhtgray}Projektantrag | F.-o. E-Projekt Mechatronik}
+\fancyhead[R]{\small\color{bhtgray}Berliner Hochschule für Technik}
 \fancyfoot[C]{\thepage}
 \renewcommand{\headrulewidth}{0.4pt}
 \renewcommand{\footrulewidth}{0pt}
@@ -22,20 +22,18 @@
 \begin{document}
 
 \begin{center}
-    {\LARGE \textbf{\textcolor{bhtblue}{Detaillierte Beschreibung der Arbeitspakete}}}\\[6pt]
+    {\LARGE \textbf{Beschreibung der Arbeitspakete}}\\[6pt]
     {\large \textbf{Entwicklung eines Kraft-Weg-Messplatzes für Kraftsensoren aus leitendem PLA als DMS}}\\[4pt]
-    \normalsize \textit{Betreuer: Prof. Dr.-Ing. Karsten Pietsch | Labor B402L (GOS)}
+    \normalsize \textit{Betreuer: Prof. Dr.-Ing. Karsten Pietsch}
 \end{center}
 
 \vspace{0.5em}
-
-\noindent Dieses Dokument beschreibt die strukturierten Arbeitspakete (AP) für das studentische Mechatronik-Projekt (2--3 Studierende, Budget $<200\,€$) an der Berliner Hochschule für Technik.
 
 \section*{Übersicht der Projektphasen und Arbeitspakete}
 
 \subsection*{AP 1: Projektmanagement, Konzeption und Anforderungsanalyse}
 \begin{itemize}[leftmargin=*, label=$\bullet$]
-    \item \textbf{Ziele:} Definition der genauen Systemanforderungen, Zeit- und Ressourcenplanung sowie strikte Budgetüberwachung ($<200\,€$).
+    \item \textbf{Ziele:} Definition der genauen Systemanforderungen, Zeit- und Ressourcenplanung sowie grobe Budgetschätzung (< 200€).
     \item \textbf{Inhalte:}
     \begin{itemize}[leftmargin=*]
         \item Erstellung eines Lasten- und Pflichtenhefts für den Messplatz.
@@ -51,8 +49,8 @@
     \begin{itemize}[leftmargin=*]
         \item CAD-Modellierung der Führungseinrichtung und der Probenhalterungen.
         \item Konstruktion der mechanischen Schnittstellen für den Kraftaufnehmer und Verstellelemente.
-        \item Auswahl und Beschaffung der mechanischen Standardkomponenten innerhalb des Budgets.
-        \item Fertigung bzw. 3D-Druck der spezifischen Prototypenteile.
+        \item Auswahl und ggf. Beschaffung der mechanischen Komponenten.
+        \item Fertigung bzw. 3D-Druck der Prototypenteile.
     \end{itemize}
 \end{itemize}
 
@@ -63,7 +61,7 @@
     \begin{itemize}[leftmargin=*]
         \item Sichere Kontaktierung der Kraftsensoren aus leitendem PLA (mittels leitfähigem Faden und Metallstiften).
         \item Aufbau der Messschaltung (z.\,B. Wheatstone-Brücke zur Erfassung kleinster Widerstandsänderungen bei Verformung).
-        \item Verkabelung, Signalverstärkung und Anbindung an einen Mikrocontroller (z.\,B. Arduino oder ESP32).
+        \item Verkabelung, Signalverstärkung und Anbindung an einen Mikrocontroller wie STM32.
     \end{itemize}
 \end{itemize}
 
@@ -93,6 +91,5 @@
 \vspace{1em}
 \hrule
 \vspace{0.5em}
-\noindent \textit{Hinweis: Dieses Dokument dient als strukturierte Arbeitsgrundlage für den Projektantrag und wird hochschulintern verwendet.}
 
 \end{document}
