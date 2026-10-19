@@ -27,6 +27,7 @@
 \usepackage{enumitem}
 \usepackage{lastpage}
 \usepackage{needspace}
+\usepackage{siunitx}
 
 % ---------------------------------------------------------------------
 \newif\ifhinweise
@@ -82,31 +83,19 @@ Antragsdatum     & \feld{29.10.2026} \\
 \formfeld{Projektteam (Kernteam)}
 \begin{tabularx}{\linewidth}{|X|X|X|l|}
 \hline
-\rowcolor{bhtgrau}\textbf{Name} & \textbf{Rolle im Projekt} & \textbf{Voraussetzungen} & \textbf{AP} \\ \hline
-Khoa Nguyen            & Elektronikentwicklung und Programmieren & Elektronik-Prototyping, PCB-Design, Programmieren von Mikrokontrollern (STM32) & \feld{AP 1, 3, 5} \\ \hline
-Joffre Nunez Rodriguez & CAD-Design und Fertigung & CAD-Design mit Creo Parametrics, Fertigung (u.a. 3D-Druck) & \feld{AP 1, 2, 4, 5} \\ \hline
+\rowcolor{bhtgrau}\textbf{Name} & \textbf{Rolle im Projekt} & \textbf{Voraussetzungen} \\ \hline
+Khoa Nguyen            & Elektronikentwicklung und Programmieren & Elektronik-Prototyping, PCB-Design, Programmieren von Mikrokontrollern (STM32) \\ \hline
+Joffre Nunez Rodriguez & CAD-Design und Fertigung & CAD-Design mit Creo Parametrics, Fertigung (u.a. 3D-Druck) \\ \hline
 \end{tabularx}
 
 % ---------------------------------------------------------------------
-\formfeld{Ziel (nach SMART-Regel)}
-\hinweis{Ein Gesamtziel in 1--2 Sätzen, danach die fünf Kriterien prüfen. Tipp: Messbar heißt mit Zahl und Einheit (Kraftbereich in N, Weg in mm, Auflösung, Wiederholgenauigkeit \dots).}
-\textbf{Projektziel:}
-\begin{itemize}
-  \item Funktionsmuster eines Kraft-Weg-Messplatzes bis 17.12.2026
-  \item reproduzierbare Aufnahme von Kraft-Weg-Kennlinien additiv gefertigter Sensoren aus leitendem PLA
-  \item Sachkosten unter 200\,€
-\end{itemize}
+\formfeld{Projektziel}
+Ziel dieses Projekts besteht darin, einen Dehnmessstreifen (DMS) auf Basis von leitendem PLA als Kraftsensor zu entwickeln und additiv zu fertigen zwecks Erweiterung
+der Laborkapazitäten für Studierende des Fachbereichs VII an der BHT. 
+Dieser DMS soll in der Lage sein, Kräfte bis zu \qty{100}{\newton} bei einer Mindestauflösung von \qty{2}{\newton} zu erfassen. 
+Um dies zu überprüfen, wird zusätzlich ein prototypischer Kraft-Weg-Messaufbau konstruiert und mit dem 3D-Druck-Verfahren hergstellt.
 
 \smallskip
-\begin{tabularx}{\linewidth}{|>{\bfseries}l|X|}
-\hline
-\rowcolor{bhtgrau}\textbf{Kriterium} & \textbf{Ausprägung im Projekt} \\ \hline
-Spezifisch   & Messplatz mit Einspannung, geführter Belastung, Kraft- und Wegmessung sowie Auswertesoftware für gedruckte PLA-Sensoren \\ \hline
-Messbar      & Kraftbereich \feld{0--20\,N}, Weg \feld{0--10\,mm}, Auflösung \feld{0,1\,N / 0,01\,mm}, Wiederholgenauigkeit \feld{< 5\,\%} \\ \hline
-Attraktiv / Akzeptiert & Erweiterung der Laborkapazität für Studierende; Demonstrator für die Lehre; Vorstudie für ein Produkt mit verbesserten Eigenschaften \\ \hline
-Realistisch  & 2 Personen mit Vorkenntnissen in CAD, 3D-Druck, Elektronik und Programmierung; 3D-Drucker im Labor vorhanden; Methode in der Literatur beschrieben (Elgeneidy et al.\ 2018) \\ \hline
-Terminiert   & Funktionsmuster 17.12.2026; Technischer Bericht 28.01.2027 \\ \hline
-\end{tabularx}
 
 % ---------------------------------------------------------------------
 \formfeld{Aufgabenstellung}
