@@ -91,43 +91,35 @@ Joffre Nunez Rodriguez & CAD-Design und Fertigung & CAD-Design mit Creo Parametr
 % ---------------------------------------------------------------------
 \formfeld{Projektziel}
 Ziel dieses Projekts besteht darin, einen Dehnmessstreifen (DMS) auf Basis von leitendem PLA als Kraftsensor zu entwickeln und additiv zu fertigen zwecks Erweiterung
-der Laborkapazitäten für Studierende des Fachbereichs VII an der BHT. 
-Dieser DMS soll in der Lage sein, Kräfte bis zu \qty{100}{\newton} bei einer Mindestauflösung von \qty{2}{\newton} zu erfassen. 
-Um dies zu überprüfen, wird zusätzlich ein prototypischer Kraft-Weg-Messaufbau konstruiert und mit dem 3D-Druck-Verfahren hergstellt.
+der Laborkapazitäten für Studierende des Fachbereichs VII an der Berliner Hochschule für Technik. 
+Dieser DMS soll in der Lage sein, Kräfte bis zu \qty{100}{\newton} bei einer Mindestauflösung von \qty{2}{\newton} zu erfassen.  
 
 \smallskip
 
 % ---------------------------------------------------------------------
 \formfeld{Aufgabenstellung}
-\textbf{Technisches Gebilde (Teilaufgabe 1):}
-\hinweis{Welches mechatronische System wurde zugeteilt? Was ist die Ausgangssituation im Labor (was existiert schon, was fehlt)?}
-\begin{itemize}
-  \item Zugeteilt: Kraft-Weg-Messplatz (Thema 15), Labor B402L
-  \item Ausgangssituation: Kraftsensoren aus leitendem PLA nach Elgeneidy et al.\ 2018 als Idee vorhanden
-  \item Es fehlt ein Messplatz, um Kraft und Weg reproduzierbar zu messen
-  \item \feld{Gibt es im Labor schon einen Aufbau (Abb.\,2 Steckbrief)? Weiterentwicklung oder Neuaufbau?}
-\end{itemize}
+\textbf{Technisches Gebilde:}
+Als technisches Gebilde wurde dem Projektteam der Kraft-Weg-Messplatz im Labor B402L zugeteilt, der jedoch nicht mehr funktionstüchtig ist. 
+Außerdem wurde die wissenschaftliche Arbeit von Elgeneidy et al. (2018) bezüglich Kraftsensoren aus leitendem PLA als Grundidee nahegelegt. 
 
 \medskip
-\textbf{Entwicklungsthema (Teilaufgabe 2):}
-\hinweis{Mindestens drei nachvollziehbare Sätze. Alle Schnittstellen des mechatronischen Systems nennen: Mechanik (Einspannung, Führung, Messaufnehmer), Elektrotechnik (Sensoranbindung, Messschaltung, Mikrocontroller), Software (Steuer- und Auswertesoftware), Mensch-Maschine (Bedienung). Bezug: Elgeneidy et al.\ 2018.}
-\begin{itemize}
-  \item Mechanik: Einspannung der Probe, geführte Belastung, Anbindung Messaufnehmer für Kraft und Weg
-  \item Elektrotechnik: Kontaktierung (leitfähiger Faden, Metallstifte), Wheatstone-Brücke, Verstärker, Mikrocontroller (STM32)
-  \item Software: Messdatenerfassung, Kalibrierung, Visualisierung der Kraft-Weg-Kurve
-  \item Mensch-Maschine: einfache Bedienung für Studierende im Labor
-\end{itemize}
+\textbf{Entwicklungsthema:}
+Es handelt sich im Allgemeinen um einen Dehnmesstreifen auf Basis von leitendem PLA. An erster Stelle wird untersucht, welches Material
+sich als Untegrund fürs leitende PLA eignet. Elgeneidy et al. verwendeten in ihrer Arbeit NinjaFlex aufgrund der guten Haftung mit PLA
+beim Multi-Filament-3D-Druck. Da wir den Untergrund und PLA-Sensor separat herstellen möchten, spielt die Auswahl 
+der Montagemöglichkeit eine wichtige Rolle für eine verlässliche mechanische Kupplung.
 
-\medskip
-\textbf{Kurzbeschreibung des Vorhabens:}
-\hinweis{Wie wollt ihr vorgehen? Kurzer Verweis auf die Arbeitspakete AP\,1--5 genügt (ggf. als Anlage beifügen).}
-\begin{itemize}
-  \item Vorgehen nach V-Modell (VDI 2206): Anforderungen, Konzept, Entwurf CAD/ET/SW, Aufbau, Integration und Test
-  \item Gliederung in Arbeitspakete AP\,1--5, siehe Anlage „Beschreibung der Arbeitspakete“
-\end{itemize}
+Der DMS aus leitendem PLA verfügt über zwei Verbindungen, mit denen er sich einer externen Wheatstone'schen Brückenschaltung
+anschließen lässt, damit sein Widerstand bestimmt werden kann, z.B. mithilfe eines STM32. 
+Die Widerstandsänderung ist eine (im Idealfall lineare) Funktion von der Verformung und wird in einer Kraft-Weg-Kennlinie 
+dargestellt, sodass die Linearität bzw. Brauchbarkeit des zu entwickelnden Kraftsensors bewertet werden können.
+
+Aufgrund dessen, dass kein funktionsfähiger Messaufbau vorliegt, muss dieser evt. prototypisch neu konstruiert werden. 
+Die Konstruktion muss u.A. die Einspannung der Sensorprobe oder eine geführte Belastung sowie 
+Anbindung der Messelektronik ermöglichen.
 
 % ---------------------------------------------------------------------
-\formfeld{Zu erarbeitende Ergebnisse}
+\formfeld{Erwartete Ergebnisse}
 \hinweis{Liefergegenstände = was am Ende übergeben wird. Erfolgskriterium = woran man prüft, dass es gut ist (möglichst messbar).}
 \begin{tabularx}{\linewidth}{|l|X|X|}
 \hline
