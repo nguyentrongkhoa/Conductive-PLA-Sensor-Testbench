@@ -31,7 +31,7 @@
 
 % ---------------------------------------------------------------------
 \newif\ifhinweise
-\hinweisetrue   % <- bei Abgabe auf \hinweisefalse setzen
+\hinweisefalse   % <- bei Abgabe auf \hinweisefalse setzen
 
 \definecolor{bhtgrau}{gray}{0.92}
 \definecolor{hinweisgrau}{gray}{0.45}
@@ -76,7 +76,7 @@ Auftraggeber     & Berliner Hochschule für Technik, FB VII \\
 Betreuer         & Prof. Dr.-Ing. Karsten Pietsch \\
 Labor            & B402L (GOS); Fertigung im Labor B L17c \\
 Projektlaufzeit  & 15.10.2026 bis 28.01.2027 (WS 2026/27) \\
-Antragsdatum     & \feld{29.10.2026} \\
+Antragsdatum     & 29.10.2026 \\
 \end{tabularx}
 
 % ---------------------------------------------------------------------
@@ -98,21 +98,23 @@ Dieser DMS soll in der Lage sein, Kräfte bis zu \qty{100}{\newton} bei einer Mi
 
 % ---------------------------------------------------------------------
 \formfeld{Aufgabenstellung}
-\textbf{Technisches Gebilde:}
+\textbf{Technisches Gebilde:} \vspace{0.5em}
+
 Als technisches Gebilde wurde dem Projektteam der Kraft-Weg-Messplatz im Labor B402L zugeteilt, der jedoch nicht mehr funktionstüchtig ist. 
 Außerdem wurde die wissenschaftliche Arbeit von Elgeneidy et al. (2018) bezüglich Kraftsensoren aus leitendem PLA als Grundidee nahegelegt. 
 
 \medskip
-\textbf{Entwicklungsthema:}
+\textbf{Entwicklungsthema:} \vspace{0.5em}
+
 Es handelt sich im Allgemeinen um einen Dehnmesstreifen auf Basis von leitendem PLA. An erster Stelle wird untersucht, welches Material
 sich als Untegrund fürs leitende PLA eignet. Elgeneidy et al. verwendeten in ihrer Arbeit NinjaFlex aufgrund der guten Haftung mit PLA
 beim Multi-Filament-3D-Druck. Da wir den Untergrund und PLA-Sensor separat herstellen möchten, spielt die Auswahl 
-der Montagemöglichkeit eine wichtige Rolle für eine verlässliche mechanische Kupplung.
+der Montagemöglichkeit eine wichtige Rolle für eine verlässliche mechanische Kupplung. \vspace{0.5em}
 
 Der DMS aus leitendem PLA verfügt über zwei Verbindungen, mit denen er sich einer externen Wheatstone'schen Brückenschaltung
 anschließen lässt, damit sein Widerstand bestimmt werden kann, z.B. mithilfe eines STM32. 
 Die Widerstandsänderung ist eine (im Idealfall lineare) Funktion von der Verformung und wird in einer Kraft-Weg-Kennlinie 
-dargestellt, sodass die Linearität bzw. Brauchbarkeit des zu entwickelnden Kraftsensors bewertet werden können.
+dargestellt, sodass die Linearität bzw. Brauchbarkeit des zu entwickelnden Kraftsensors bewertet werden können. \vspace{0.5em}
 
 Aufgrund dessen, dass kein funktionsfähiger Messaufbau vorliegt, muss dieser evt. prototypisch neu konstruiert werden. 
 Die Konstruktion muss u.A. die Einspannung der Sensorprobe oder eine geführte Belastung sowie 
@@ -124,41 +126,31 @@ Anbindung der Messelektronik ermöglichen.
 \begin{tabularx}{\linewidth}{|l|X|X|}
 \hline
 \rowcolor{bhtgrau}\textbf{Nr.} & \textbf{Liefergegenstand} & \textbf{Erfolgskriterium} \\ \hline
-E1 & Funktionsmuster Kraft-Weg-Messplatz & Kraft-Weg-Kennlinie wird aufgenommen; Kennwerte aus Abschnitt 3 erreicht \\ \hline
-E2 & Mess- und Auswertesoftware (Firmware + PC) & Echtzeitanzeige der Kurve; Export der Messdaten \feld{(CSV)} \\ \hline
-E3 & Pflichtenheft, Anforderungsliste, Projektplan & Abgabe am 10.12.2026, mit Erfolg bewertet \\ \hline
-E4 & Vorführung des Funktionsmusters & Funktion am 17.12.2026 gezeigt \\ \hline
+E1 & Funktionsmuster DMS aus leitendem PLA (CAD-Dateien + 3D-Druck-Prototyp)& FEM-Analyse Ergebnisse stimmen mit definierten Kräften und Verformungen überein \\ \hline
+E2 & Mess- und Auswertesoftware  & Echtzeitanzeige der Kurve; Export der Messdaten im bspw. csv-Format \\ \hline
+E3 & Pflichtenheft, Anforderungsliste, Projektplan & Abgabe am 10.12.2026, Erfolgsbewertung durch Prof. Pietsch \\ \hline
+E4 & Vorführung des Funktionsmusters & Funktion am 17.12.2026 gezeigt, Erfolgsbewertung durch Prof. Pietsch \\ \hline
 E5 & Technischer Bericht mit Zeichnungen, Schaltplan, Quellcode, Bedienungsanleitung & Abgabe 28.01.2027; Studierende können eine Messung ohne Hilfe durchführen \\ \hline
 \end{tabularx}
 
 % ---------------------------------------------------------------------
 \formfeld{Kosten}
-\hinweis{Gesamtbudget aus Teilbudgets mit ersten wirtschaftlichen Überlegungen. Sachkosten: Steckbrief nennt < 200\,€. Personalkosten: Stunden je Person × angenommener Stundensatz (Annahme begründen). Eine Reserve ist sinnvoll.}
 \begin{tabularx}{\linewidth}{|X|l|r|}
 \hline
-\rowcolor{bhtgrau}\textbf{Position} & \textbf{Annahme / Grundlage} & \textbf{Betrag} \\ \hline
+\rowcolor{bhtgrau}\textbf{Artikel} & \textbf{Anmerkung} & \textbf{Betrag} \\ \hline
 \multicolumn{3}{|l|}{\textit{Sachkosten}} \\ \hline
-Mechanik (Linearführung, Antrieb, Schrauben) & Schätzung, Preise prüfen & \feld{60\,€} \\ \hline
-Elektronik/Sensorik (Wägezelle, Wegsensor, Verstärker, Mikrocontroller) & Schätzung, Preise prüfen & \feld{70\,€} \\ \hline
+Mechanik (Linearführung, Antrieb) & Schätzung & \feld{60\,€} \\ \hline
+Elektronik/Sensorik (Wägezelle, Wegsensor, Verstärker, Mikrocontroller) & Schätzung & \feld{70\,€} \\ \hline
 Verbrauchsmaterial (leitfähiges PLA, PLA, Kabel) & leitfähiges PLA ca.\ \feld{500\,g} & \feld{40\,€} \\ \hline
 Reserve & 10\,\% & \feld{17\,€} \\ \hline
 \multicolumn{2}{|r|}{\textbf{Summe Sachkosten}} & \feld{187\,€} \\ \hline
-\multicolumn{3}{|l|}{\textit{Personalkosten (kalkulatorisch, nicht ausgezahlt)}} \\ \hline
-Projektteam & 2 Pers.\ × \feld{100\,h} × \feld{25\,€/h} & \feld{5\,000\,€} \\ \hline
-\multicolumn{2}{|r|}{\textbf{Gesamtbudget}} & \feld{5\,187\,€} \\ \hline
 \end{tabularx}
 
 % ---------------------------------------------------------------------
 \formfeld{Randbedingungen}
-\hinweis{Grenzen des Projekts: Budget, Zeit (ein Semester), Labor und Öffnungszeiten, verfügbare Geräte (3D-Drucker, Messtechnik), Bestellschluss 05.11.2026, Sicherheit, was ausdrücklich \emph{nicht} Teil des Projekts ist.}
-\begin{itemize}
-  \item Sachbudget unter 200\,€
-  \item Laufzeit ein Semester; Annahmeschluss Bestellungen 05.11.2026
-  \item Arbeit im Labor nur in den Übungszeiten \feld{(Do 12:15--14:30)?}
-  \item Nutzung vorhandener Laborgeräte (3D-Drucker, Netzteil, Multimeter)
-  \item Nur Kleinspannung; Quetschgefahr an der Einspannung beachten
-  \item Nicht Teil des Projekts: Entwicklung neuer Sensormaterialien, Serienprodukt, Zertifizierung
-\end{itemize}
+Für dieses Projekt wurde ein Budgetlimit von 200 € vorgesehen. Die Bestellung aller erforderlichen Materialien bzw. Teile
+erfolgt am 05.11.2026, die Stückliste ist also bis zu diesem Datum fertigzustellen. Die Labornutzung ist ausschließlich in den
+Übungszeiten gestattet, nämlich donnerstags 12:15--14:30
 
 % ---------------------------------------------------------------------
 \formfeld{Termine / Meilensteine}
@@ -166,20 +158,19 @@ Projektteam & 2 Pers.\ × \feld{100\,h} × \feld{25\,€/h} & \feld{5\,000\,€}
 \begin{tabularx}{\linewidth}{|l|l|X|}
 \hline
 \rowcolor{bhtgrau}\textbf{Nr.} & \textbf{Termin} & \textbf{Meilenstein / Ergebnis} \\ \hline
-M1 & 29.10.2026 & Projektantrag abgegeben \\ \hline
+M1 & 29.10.2026 & Projektantrag einreichen \\ \hline
 M2 & 05.11.2026 & Stückliste fertig, Bauteile bestellt \\ \hline
 M3 & 12.11.2026 & Konzept und technische Darstellung präsentiert \\ \hline
-M4 & \feld{26.11.2026} & \textit{Eigener MS:} erster Sensor gedruckt und kontaktiert, Widerstandsänderung messbar \\ \hline
-M5 & \feld{03.12.2026} & \textit{Eigener MS:} Messkette läuft (Kraft und Weg im Mikrocontroller) \\ \hline
-M6 & 10.12.2026 & Pflichtenheft, Projektplan und Anforderungsliste abgegeben \\ \hline
-M7 & 17.12.2026 & Funktionsmuster vorgeführt \\ \hline
-M8 & \feld{14.01.2027} & \textit{Eigener MS:} Kalibrierung mit Referenzlasten abgeschlossen \\ \hline
+M4 & 26.11.2026 & erster Sensor gedruckt und kontaktiert, Widerstandsänderung messbar \\ \hline % eigener MS
+M5 & 03.12.2026 & Messkette läuft (erste Kraft-Weg-Kennlinie ausgeben) \\ \hline
+M6 & 10.12.2026 & Pflichtenheft, Projektplan und Anforderungsliste abgeben \\ \hline
+M7 & 17.12.2026 & Funktionsmuster vorführen \\ \hline
+M8 & 14.01.2027 &  Kalibrierung mit Referenzlasten abschließen \\ \hline
 M9 & 28.01.2027 & Technischer Bericht abgegeben, Übergabe an das Labor \\ \hline
 \end{tabularx}
 
 % ---------------------------------------------------------------------
 \formfeld{Risikoanalyse}
-\hinweis{Kurz und sinnvoll: technische, terminliche, finanzielle und personelle Risiken. Wahrscheinlichkeit und Auswirkung z.\,B. mit gering / mittel / hoch bewerten, dazu eine Gegenmaßnahme.}
 \begin{tabularx}{\linewidth}{|l|X|c|c|X|}
 \hline
 \rowcolor{bhtgrau}\textbf{Nr.} & \textbf{Risiko} & \textbf{W.} & \textbf{A.} & \textbf{Gegenmaßnahme} \\ \hline
@@ -200,7 +191,7 @@ Mit ihrer Unterschrift bestätigen alle Mitglieder des Projektteams den Inhalt d
 \vspace{1.2cm}
 \begin{tabularx}{\linewidth}{XX}
 \rule{0.9\linewidth}{0.4pt} & \rule{0.9\linewidth}{0.4pt} \\
-Ort, Datum, Khoa Nguyen & Ort, Datum, Joffre Nunez Rodriguez \\
+Berlin, 19.10.2026 Khoa Nguyen & Berlin, 19.10.2026 Joffre Nunez Rodriguez \\
 \end{tabularx}
 
 % =====================================================================
@@ -216,8 +207,7 @@ Für die Vorbereitung dieses Projektantrages wurden KI-Werkzeuge eingesetzt. Die
 \rowcolor{bhtgrau}\textbf{Tool / Modell} & \textbf{Datum} & \textbf{Einsatzzweck} & \textbf{Prompt (wesentlicher Teil)} \\ \hline
 Claude (Anthropic) & 15.10.2026 & Zusammenfassung der Aufgabenstellung, Gliederung des Formblatts mit Leitfragen (ohne Inhaltstexte) & „Ich bearbeite das mit einem Teampartner und muss es nach diesem Projekt erstellen [Steckbrief Thema 15]“ (übersetzt) \\ \hline
 Claude (Anthropic) & 15.10.2026 & Stichpunkte als Ausfüllhilfe für alle Felder, vom Team geprüft und ausformuliert & „Kannst du den ganzen Antrag mit diesen Informationen ausfüllen, damit wir ihn danach verbessern und erweitern?“ (übersetzt) \\ \hline
-\feld{\dots} & \feld{\dots} & \feld{\dots} & \feld{\dots} \\ \hline
-\feld{\dots} & \feld{\dots} & \feld{\dots} & \feld{\dots} \\ \hline
+Gemini (Google)    & 19.10.2026 & Korrigieren von Latex-Tabellen & „Die Spalten in dieser Tabelle sehen nicht gut aus. Kannst du sie umformattieren?" \\ \hline
 \end{tabularx}
 
 \end{document}

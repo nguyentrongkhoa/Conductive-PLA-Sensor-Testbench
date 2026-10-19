@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Projektantrag.md",
+                "file": "Notes.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Projektantrag"
+              "title": "Notes"
             }
           }
         ],
@@ -205,8 +205,8 @@
   },
   "active": "55706722e67e1957",
   "lastOpenFiles": [
-    "Notes.md",
     "Projektantrag.md",
+    "Notes.md",
     "Templates/Daily Notes.md",
     "Templates/Basics.md",
     "Templates"
