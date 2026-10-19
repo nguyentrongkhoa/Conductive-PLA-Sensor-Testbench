@@ -5,5 +5,6 @@ tags:
   - management
   - antrag
 ---
-## Entwicklung eines Dehnmessstreifens aus leitendem PLA
+### Teilaufgabe 1
+- Kraft-Weg-Messplatz im B01 gegeben aber nicht brauchbar
 - 

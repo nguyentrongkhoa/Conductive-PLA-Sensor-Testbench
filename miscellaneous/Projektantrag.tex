@@ -30,14 +30,14 @@
 
 % ---------------------------------------------------------------------
 \newif\ifhinweise
-\hinweisetrue   % <- fuer die Abgabe auf \hinweisefalse setzen
+\hinweisetrue   % <- bei Abgabe auf \hinweisefalse setzen
 
 \definecolor{bhtgrau}{gray}{0.92}
 \definecolor{hinweisgrau}{gray}{0.45}
 
 % Leitfrage / Hinweis (nur sichtbar, solange \hinweisetrue)
 \newcommand{\hinweis}[1]{\ifhinweise{\color{hinweisgrau}\small\itshape #1\par}\fi}
-% Platzhalter fuer eigenen Text
+% Platzhalter für eigenen Text
 \newcommand{\feld}[1]{\leavevmode\textcolor{red!70!black}{[#1]}}
 
 % Ueberschrift eines Formularfeldes (graue Leiste)
@@ -70,55 +70,72 @@
 % ---------------------------------------------------------------------
 \formfeld{Zum Projekt}
 \begin{tabularx}{\linewidth}{@{}>{\bfseries}p{4.2cm}X@{}}
-Projekttitel     & Entwicklung eines Kraft-Weg-Messplatzes für Kraftsensoren aus leitendem PLA als „DMS“ (Thema 15) \\
-Auftraggeber     & \feld{z.\,B. Berliner Hochschule für Technik, FB VII, vertreten durch \dots} \\
+Projekttitel     & Entwicklung eines Kraft-Weg-Messplatzes für Kraftsensoren aus leitendem PLA als „DMS“ \\
+Auftraggeber     & Berliner Hochschule für Technik, FB VII \\
 Betreuer         & Prof. Dr.-Ing. Karsten Pietsch \\
-Labor            & \feld{z.\,B. B402L (GOS)} \\
-Projektlaufzeit  & \feld{von \dots\ bis \dots} \\
-Antragsdatum     & \feld{TT.MM.2026} \\
+Labor            & B402L (GOS); Fertigung im Labor B L17c \\
+Projektlaufzeit  & 15.10.2026 bis 28.01.2027 (WS 2026/27) \\
+Antragsdatum     & \feld{29.10.2026} \\
 \end{tabularx}
 
 % ---------------------------------------------------------------------
 \formfeld{Projektteam (Kernteam)}
-\hinweis{Personelle Voraussetzungen: Wer bringt welche Kompetenz mit (CAD, Elektronik, Programmierung, 3D-Druck)? Welche Teamrolle nach Belbin? Wer übernimmt welche Arbeitspakete (AP\,1--5)?}
-\begin{tabularx}{\linewidth}{|l|l|X|l|}
+\begin{tabularx}{\linewidth}{|X|X|X|l|}
 \hline
-\rowcolor{bhtgrau}\textbf{Name} & \textbf{Rolle im Projekt} & \textbf{Kompetenzen / Voraussetzungen} & \textbf{AP} \\ \hline
-Khoa Nguyen            & \feld{\dots} & \feld{\dots} & \feld{\dots} \\ \hline
-Joffre Nunez Rodriguez & \feld{\dots} & \feld{\dots} & \feld{\dots} \\ \hline
+\rowcolor{bhtgrau}\textbf{Name} & \textbf{Rolle im Projekt} & \textbf{Voraussetzungen} & \textbf{AP} \\ \hline
+Khoa Nguyen            & Elektronikentwicklung und Programmieren & Elektronik-Prototyping, PCB-Design, Programmieren von Mikrokontrollern (STM32) & \feld{AP 1, 3, 5} \\ \hline
+Joffre Nunez Rodriguez & CAD-Design und Fertigung & CAD-Design mit Creo Parametrics, Fertigung (u.a. 3D-Druck) & \feld{AP 1, 2, 4, 5} \\ \hline
 \end{tabularx}
 
 % ---------------------------------------------------------------------
 \formfeld{Ziel (nach SMART-Regel)}
 \hinweis{Ein Gesamtziel in 1--2 Sätzen, danach die fünf Kriterien prüfen. Tipp: Messbar heißt mit Zahl und Einheit (Kraftbereich in N, Weg in mm, Auflösung, Wiederholgenauigkeit \dots).}
-\textbf{Projektziel:} \feld{\dots}
+\textbf{Projektziel:}
+\begin{itemize}
+  \item Funktionsmuster eines Kraft-Weg-Messplatzes bis 17.12.2026
+  \item reproduzierbare Aufnahme von Kraft-Weg-Kennlinien additiv gefertigter Sensoren aus leitendem PLA
+  \item Sachkosten unter 200\,€
+\end{itemize}
 
 \smallskip
 \begin{tabularx}{\linewidth}{|>{\bfseries}l|X|}
 \hline
 \rowcolor{bhtgrau}\textbf{Kriterium} & \textbf{Ausprägung im Projekt} \\ \hline
-Spezifisch   & \feld{Was genau wird gebaut?} \\ \hline
-Messbar      & \feld{Woran sieht man, dass das Ziel erreicht ist? (Kennwerte)} \\ \hline
-Attraktiv / Akzeptiert & \feld{Nutzen für Stakeholder: Laborkapazität, Demonstrator für die Lehre} \\ \hline
-Realistisch  & \feld{Warum mit Team, Budget und Zeit machbar?} \\ \hline
-Terminiert   & \feld{Bis wann? (Funktionsmuster, Abschluss)} \\ \hline
+Spezifisch   & Messplatz mit Einspannung, geführter Belastung, Kraft- und Wegmessung sowie Auswertesoftware für gedruckte PLA-Sensoren \\ \hline
+Messbar      & Kraftbereich \feld{0--20\,N}, Weg \feld{0--10\,mm}, Auflösung \feld{0,1\,N / 0,01\,mm}, Wiederholgenauigkeit \feld{< 5\,\%} \\ \hline
+Attraktiv / Akzeptiert & Erweiterung der Laborkapazität für Studierende; Demonstrator für die Lehre; Vorstudie für ein Produkt mit verbesserten Eigenschaften \\ \hline
+Realistisch  & 2 Personen mit Vorkenntnissen in CAD, 3D-Druck, Elektronik und Programmierung; 3D-Drucker im Labor vorhanden; Methode in der Literatur beschrieben (Elgeneidy et al.\ 2018) \\ \hline
+Terminiert   & Funktionsmuster 17.12.2026; Technischer Bericht 28.01.2027 \\ \hline
 \end{tabularx}
 
 % ---------------------------------------------------------------------
 \formfeld{Aufgabenstellung}
 \textbf{Technisches Gebilde (Teilaufgabe 1):}
 \hinweis{Welches mechatronische System wurde zugeteilt? Was ist die Ausgangssituation im Labor (was existiert schon, was fehlt)?}
-\feld{\dots}
+\begin{itemize}
+  \item Zugeteilt: Kraft-Weg-Messplatz (Thema 15), Labor B402L
+  \item Ausgangssituation: Kraftsensoren aus leitendem PLA nach Elgeneidy et al.\ 2018 als Idee vorhanden
+  \item Es fehlt ein Messplatz, um Kraft und Weg reproduzierbar zu messen
+  \item \feld{Gibt es im Labor schon einen Aufbau (Abb.\,2 Steckbrief)? Weiterentwicklung oder Neuaufbau?}
+\end{itemize}
 
 \medskip
 \textbf{Entwicklungsthema (Teilaufgabe 2):}
 \hinweis{Mindestens drei nachvollziehbare Sätze. Alle Schnittstellen des mechatronischen Systems nennen: Mechanik (Einspannung, Führung, Messaufnehmer), Elektrotechnik (Sensoranbindung, Messschaltung, Mikrocontroller), Software (Steuer- und Auswertesoftware), Mensch-Maschine (Bedienung). Bezug: Elgeneidy et al.\ 2018.}
-\feld{\dots}
+\begin{itemize}
+  \item Mechanik: Einspannung der Probe, geführte Belastung, Anbindung Messaufnehmer für Kraft und Weg
+  \item Elektrotechnik: Kontaktierung (leitfähiger Faden, Metallstifte), Wheatstone-Brücke, Verstärker, Mikrocontroller (STM32)
+  \item Software: Messdatenerfassung, Kalibrierung, Visualisierung der Kraft-Weg-Kurve
+  \item Mensch-Maschine: einfache Bedienung für Studierende im Labor
+\end{itemize}
 
 \medskip
 \textbf{Kurzbeschreibung des Vorhabens:}
 \hinweis{Wie wollt ihr vorgehen? Kurzer Verweis auf die Arbeitspakete AP\,1--5 genügt (ggf. als Anlage beifügen).}
-\feld{\dots}
+\begin{itemize}
+  \item Vorgehen nach V-Modell (VDI 2206): Anforderungen, Konzept, Entwurf CAD/ET/SW, Aufbau, Integration und Test
+  \item Gliederung in Arbeitspakete AP\,1--5, siehe Anlage „Beschreibung der Arbeitspakete“
+\end{itemize}
 
 % ---------------------------------------------------------------------
 \formfeld{Zu erarbeitende Ergebnisse}
@@ -126,10 +143,11 @@ Terminiert   & \feld{Bis wann? (Funktionsmuster, Abschluss)} \\ \hline
 \begin{tabularx}{\linewidth}{|l|X|X|}
 \hline
 \rowcolor{bhtgrau}\textbf{Nr.} & \textbf{Liefergegenstand} & \textbf{Erfolgskriterium} \\ \hline
-E1 & \feld{z.\,B. Funktionsmuster Messplatz} & \feld{\dots} \\ \hline
-E2 & \feld{\dots} & \feld{\dots} \\ \hline
-E3 & \feld{\dots} & \feld{\dots} \\ \hline
-E4 & \feld{\dots} & \feld{\dots} \\ \hline
+E1 & Funktionsmuster Kraft-Weg-Messplatz & Kraft-Weg-Kennlinie wird aufgenommen; Kennwerte aus Abschnitt 3 erreicht \\ \hline
+E2 & Mess- und Auswertesoftware (Firmware + PC) & Echtzeitanzeige der Kurve; Export der Messdaten \feld{(CSV)} \\ \hline
+E3 & Pflichtenheft, Anforderungsliste, Projektplan & Abgabe am 10.12.2026, mit Erfolg bewertet \\ \hline
+E4 & Vorführung des Funktionsmusters & Funktion am 17.12.2026 gezeigt \\ \hline
+E5 & Technischer Bericht mit Zeichnungen, Schaltplan, Quellcode, Bedienungsanleitung & Abgabe 28.01.2027; Studierende können eine Messung ohne Hilfe durchführen \\ \hline
 \end{tabularx}
 
 % ---------------------------------------------------------------------
@@ -139,23 +157,26 @@ E4 & \feld{\dots} & \feld{\dots} \\ \hline
 \hline
 \rowcolor{bhtgrau}\textbf{Position} & \textbf{Annahme / Grundlage} & \textbf{Betrag} \\ \hline
 \multicolumn{3}{|l|}{\textit{Sachkosten}} \\ \hline
-\feld{Mechanik} & \feld{\dots} & \feld{\dots\ €} \\ \hline
-\feld{Elektronik / Sensorik} & \feld{\dots} & \feld{\dots\ €} \\ \hline
-\feld{Verbrauchsmaterial (Filament \dots)} & \feld{\dots} & \feld{\dots\ €} \\ \hline
-\feld{Reserve} & \feld{\dots\,\%} & \feld{\dots\ €} \\ \hline
-\multicolumn{2}{|r|}{\textbf{Summe Sachkosten}} & \feld{\dots\ €} \\ \hline
-\multicolumn{3}{|l|}{\textit{Personalkosten}} \\ \hline
-\feld{Projektteam} & \feld{\dots\ h × \dots\ €/h} & \feld{\dots\ €} \\ \hline
-\multicolumn{2}{|r|}{\textbf{Gesamtbudget}} & \feld{\dots\ €} \\ \hline
+Mechanik (Linearführung, Antrieb, Schrauben) & Schätzung, Preise prüfen & \feld{60\,€} \\ \hline
+Elektronik/Sensorik (Wägezelle, Wegsensor, Verstärker, Mikrocontroller) & Schätzung, Preise prüfen & \feld{70\,€} \\ \hline
+Verbrauchsmaterial (leitfähiges PLA, PLA, Kabel) & leitfähiges PLA ca.\ \feld{500\,g} & \feld{40\,€} \\ \hline
+Reserve & 10\,\% & \feld{17\,€} \\ \hline
+\multicolumn{2}{|r|}{\textbf{Summe Sachkosten}} & \feld{187\,€} \\ \hline
+\multicolumn{3}{|l|}{\textit{Personalkosten (kalkulatorisch, nicht ausgezahlt)}} \\ \hline
+Projektteam & 2 Pers.\ × \feld{100\,h} × \feld{25\,€/h} & \feld{5\,000\,€} \\ \hline
+\multicolumn{2}{|r|}{\textbf{Gesamtbudget}} & \feld{5\,187\,€} \\ \hline
 \end{tabularx}
 
 % ---------------------------------------------------------------------
 \formfeld{Randbedingungen}
 \hinweis{Grenzen des Projekts: Budget, Zeit (ein Semester), Labor und Öffnungszeiten, verfügbare Geräte (3D-Drucker, Messtechnik), Bestellschluss 05.11.2026, Sicherheit, was ausdrücklich \emph{nicht} Teil des Projekts ist.}
 \begin{itemize}
-  \item \feld{\dots}
-  \item \feld{\dots}
-  \item \feld{\dots}
+  \item Sachbudget unter 200\,€
+  \item Laufzeit ein Semester; Annahmeschluss Bestellungen 05.11.2026
+  \item Arbeit im Labor nur in den Übungszeiten \feld{(Do 12:15--14:30)?}
+  \item Nutzung vorhandener Laborgeräte (3D-Drucker, Netzteil, Multimeter)
+  \item Nur Kleinspannung; Quetschgefahr an der Einspannung beachten
+  \item Nicht Teil des Projekts: Entwicklung neuer Sensormaterialien, Serienprodukt, Zertifizierung
 \end{itemize}
 
 % ---------------------------------------------------------------------
@@ -164,12 +185,15 @@ E4 & \feld{\dots} & \feld{\dots} \\ \hline
 \begin{tabularx}{\linewidth}{|l|l|X|}
 \hline
 \rowcolor{bhtgrau}\textbf{Nr.} & \textbf{Termin} & \textbf{Meilenstein / Ergebnis} \\ \hline
-M1 & \feld{TT.MM.} & \feld{\dots} \\ \hline
-M2 & \feld{TT.MM.} & \feld{\dots} \\ \hline
-M3 & \feld{TT.MM.} & \feld{\dots} \\ \hline
-M4 & \feld{TT.MM.} & \feld{\dots} \\ \hline
-M5 & \feld{TT.MM.} & \feld{\dots} \\ \hline
-M6 & \feld{TT.MM.} & \feld{\dots} \\ \hline
+M1 & 29.10.2026 & Projektantrag abgegeben \\ \hline
+M2 & 05.11.2026 & Stückliste fertig, Bauteile bestellt \\ \hline
+M3 & 12.11.2026 & Konzept und technische Darstellung präsentiert \\ \hline
+M4 & \feld{26.11.2026} & \textit{Eigener MS:} erster Sensor gedruckt und kontaktiert, Widerstandsänderung messbar \\ \hline
+M5 & \feld{03.12.2026} & \textit{Eigener MS:} Messkette läuft (Kraft und Weg im Mikrocontroller) \\ \hline
+M6 & 10.12.2026 & Pflichtenheft, Projektplan und Anforderungsliste abgegeben \\ \hline
+M7 & 17.12.2026 & Funktionsmuster vorgeführt \\ \hline
+M8 & \feld{14.01.2027} & \textit{Eigener MS:} Kalibrierung mit Referenzlasten abgeschlossen \\ \hline
+M9 & 28.01.2027 & Technischer Bericht abgegeben, Übergabe an das Labor \\ \hline
 \end{tabularx}
 
 % ---------------------------------------------------------------------
@@ -178,10 +202,11 @@ M6 & \feld{TT.MM.} & \feld{\dots} \\ \hline
 \begin{tabularx}{\linewidth}{|l|X|c|c|X|}
 \hline
 \rowcolor{bhtgrau}\textbf{Nr.} & \textbf{Risiko} & \textbf{W.} & \textbf{A.} & \textbf{Gegenmaßnahme} \\ \hline
-R1 & \feld{\dots} & \feld{\dots} & \feld{\dots} & \feld{\dots} \\ \hline
-R2 & \feld{\dots} & \feld{\dots} & \feld{\dots} & \feld{\dots} \\ \hline
-R3 & \feld{\dots} & \feld{\dots} & \feld{\dots} & \feld{\dots} \\ \hline
-R4 & \feld{\dots} & \feld{\dots} & \feld{\dots} & \feld{\dots} \\ \hline
+R1 & Kontaktierung des PLA-Sensors unzuverlässig (Übergangswiderstand, Drift) & hoch & hoch & mehrere Kontaktvarianten früh testen; Vorgehen nach Elgeneidy et al. \\ \hline
+R2 & Widerstandsänderung zu klein, starkes Rauschen & mittel & hoch & Wheatstone-Brücke, Verstärker, digitale Filter \\ \hline
+R3 & Lieferverzug von Bauteilen & mittel & mittel & früh bestellen; Alternativen aus dem Labor \\ \hline
+R4 & Zeitknappheit / Abwesenheit eines Teammitglieds & mittel & mittel & Pufferzeiten; klare Aufgabenverteilung; gemeinsame Dokumentation \\ \hline
+R5 & Budgetüberschreitung & gering & mittel & 10\,\% Reserve; vorhandene Laborteile nutzen \\ \hline
 \end{tabularx}
 
 \smallskip
@@ -204,11 +229,12 @@ Ort, Datum, Khoa Nguyen & Ort, Datum, Joffre Nunez Rodriguez \\
 Für die Vorbereitung dieses Projektantrages wurden KI-Werkzeuge eingesetzt. Die Verantwortung für die finalen Inhalte liegt vollständig bei den Autoren.
 
 \subsection*{Prompt-Protokoll}
-\hinweis{Jede KI-Nutzung über Rechtschreib- und Grammatikprüfung hinaus eintragen. Die erste Zeile dokumentiert die Nutzung zur Erstellung dieser Vorlage.}
+\hinweis{Jede KI-Nutzung über Rechtschreib- und Grammatikprüfung hinaus eintragen. Die ersten Zeilen dokumentieren die Nutzung für diese Vorlage.}
 \begin{tabularx}{\linewidth}{|p{2.6cm}|l|X|X|}
 \hline
 \rowcolor{bhtgrau}\textbf{Tool / Modell} & \textbf{Datum} & \textbf{Einsatzzweck} & \textbf{Prompt (wesentlicher Teil)} \\ \hline
-Claude (Anthropic) & 15.10.2026 & Zusammenfassung der Aufgabenstellung, Gliederung des Formblatts mit Leitfragen (ohne Inhaltstexte) & „lo hago con otro compañero y necesito hacerlo según este proyecto [Steckbrief Thema 15]“ \\ \hline
+Claude (Anthropic) & 15.10.2026 & Zusammenfassung der Aufgabenstellung, Gliederung des Formblatts mit Leitfragen (ohne Inhaltstexte) & „Ich bearbeite das mit einem Teampartner und muss es nach diesem Projekt erstellen [Steckbrief Thema 15]“ (übersetzt) \\ \hline
+Claude (Anthropic) & 15.10.2026 & Stichpunkte als Ausfüllhilfe für alle Felder, vom Team geprüft und ausformuliert & „Kannst du den ganzen Antrag mit diesen Informationen ausfüllen, damit wir ihn danach verbessern und erweitern?“ (übersetzt) \\ \hline
 \feld{\dots} & \feld{\dots} & \feld{\dots} & \feld{\dots} \\ \hline
 \feld{\dots} & \feld{\dots} & \feld{\dots} & \feld{\dots} \\ \hline
 \end{tabularx}
