@@ -4,3 +4,4 @@
 *.log
 *.synctex.gz
 miscellaneous/*.pdf
+*glossar/
