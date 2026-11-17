@@ -1,55 +1,55 @@
 ---
-topic:
-date: 2026-10-15
+topic: Ideas, open questions, to-dos
+date: 2026-11-17
 tags:
+  - forschungsprojekt
+  - inbox
 ---
-- Sensor soll bei Raumteperatur funktionieren (20-30 Grad)
-- Kraft-Weg-Messung
-- Bis 100N an Kraft
-- Ansys kann piezoresistive Simulationen durchführen
-- [Ansys guide](https://ansyshelp.ansys.com/public/account/secured?returnurl=/views/secured/corp/v251/en/ans_thry/thy_coup3.html)
-- FDM printing makes conductive PLA anisotropic—electrical conductivity and mechanical stiffness are different along the $Z$-axis (layer interface) compared to the $X/Y$ print plane
-- What happens to conductive PLA under repeated loads?
-- Conductive PLA and carrying material should have same thermal expansion coeff
-- Kreuzer bridge better than Wheatstone
-- Look at 3 4 6 wire measurements
-- **Zweites leitfähiges Filament** (anderer Typ oder TPU) für einen Variantenvergleich mit t-Test???
-- **Vermeide** lösungsmittelhaltige Kleber (z. B. UHU Alleskleber), die PLA anlösen und den Widerstand verändern können. Meide auch Heißkleber und doppelseitiges Klebeband, die kriechen
-- **EA 3430 (Epoxid)** als Hauptkleber. Er ist steif, kriecht wenig und isoliert elektrisch. Tipp: Trage die Schicht dünn auf und lass sie bei Raumtemperatur aushärten.
-- **Loctite 401 (Cyanacrylat)** für schnelle Vorversuche.
-- Für **3D-Drucker**: prime tower im Setting aktivieren, sodass der 2. Nozzle nicht leakt
-- **Dual extrusion**: Teile einzeln in CAD modellieren mit einem geteilten Ursprung (in Creo beide Teile auf einmal als .3mf exportieren im Assembly)
-**Paper Dynamic Measurement using ...**
-- 0,1mm Druckschicht, 220 und 225 Grad für PLA und Protopasta
-- M-förmig, 0,8mm breit und 0,5mm dick (5 Schichten)
-- E=3300 MPa, rho=1240kg/m3, 
-- Voltage divider instead of Wheatstone, since strain is large
-**Paper 3D-Printed Strain Gauge ...** (most useful paper so far)
-- Linearitätsfehler 4%
-- Empfindlichkeit 4-mal so hoch wie metal foil DMS
-- Protopasta auf PLA und nochmal mit cold curing superglue mit Stahlplatte verbunden
-- SG should be far from clamping edge (in this case 30mm from clamp, i.e 10mm from force application)
-- Before glueing: sanding and acetone treatment
-- Copper wires are melted into contact pads using soldering iron
-- Has formulas for analytical calc
-- Steel plate is loaded using universal testing machine
-- DMM used to measure change in R
-- Bass resistance of SG 18000 Ohm
-- k=8,3 (Gauge Factor)
-**3D Printed Strain Gauge Geometry and Orientation ...**
-- Simulated change in resistance 44% higher than calculated, since poisson was neglected
-- Average resistance 4.5K
-- Inconsistent extrusion causes deviation between simulation and reality
-- Adding end loops can decrease hysteresis errors
-- Only 1 layer of SG (0.2mm)
-- **0.6mm nozzle!!!** (maybe that's why they had inconsistent extrusion)
-- FEM: coupled thermal-electrical-mechanical simulation: change in strain will be translated to change in resistance
-- 3^3 factorial design
-- use load frame to measure
-- also use voltage divider and not wheatstone
-- avg linearity error 5-6%, hysteresis 20%
-**Paper Effect of Process Parameters ...**
-- 2^3 factorial experiment with temp, ironing and infill
-**Design of Experiments**
-- Factors: strand width, no. of end loops, gauge length, distance to clamp spot, 
-- Print factor: nozzle size & temp, bed temp, ironing
+# Notes – ideas, open questions, to-dos
+Back to [[Home]]
+
+This note replaces the old unsorted notes from 15.10.2026. Every old item was moved into a topic note; the table shows where.
+
+## Where the old notes went
+| Old note | Now in |
+|---|---|
+| Sensor must work at room temperature (20–30 °C) | [[Anforderungsliste#Gaps and inconsistencies to fix before 10.12.]] (suggested 14.1) |
+| Force-displacement measurement, up to 100 N | [[Projektauftrag]], [[Anforderungsliste]] |
+| ANSYS can do piezoresistive simulations (+ link) | [[Simulation ANSYS]] |
+| FDM makes conductive PLA anisotropic (Z vs. X/Y) | [[Grundlagen#Anisotropy from FDM printing]] |
+| Behaviour under repeated loads? | [[Grundlagen#Behaviour of conductive PLA under load]], [[Versuchsplanung#Load protocol (based on Chadda et al.)]] |
+| Same thermal expansion for carrier and conductive PLA | [[Grundlagen#Temperature]] |
+| Kreuzer bridge, 3/4/6-wire measurements | [[Grundlagen#Lead resistance and wiring]], [[Messschaltung#Wiring]] |
+| Second conductive filament + t-test | [[Versuchsplanung#Plan]] |
+| Adhesives (EA 3430, Loctite 401, what to avoid) | [[Kontaktierung und Kleben]] |
+| Prime tower for dual extrusion | [[Druckparameter#Dual extrusion on the Raise3D Pro2]] |
+| Dual extrusion: parts with shared origin, export 3MF from the assembly | [[Implementation#Export for printing]] |
+| Paper notes (Dynamic Measurement, 3D-Printed SG, Geometry & Orientation, Process Parameters) | [[Literatur]] |
+| DoE factors (strand width, end loops, gauge length, distance to clamp, nozzle, temps, ironing) | [[Versuchsplanung#Factors]] |
+
+## Open questions (for the jour fixe 19.11. and the team)
+- [ ] Demo date: 17.12. (Projektaufgabe/Projektantrag) or 18.12. (Lastenheft)? Dates in the assignment still say 2025.
+- [ ] Which sub-functions must be shown at the demo (Lastenheft Tabelle 4 is empty)?
+- [ ] Is a real **force–displacement** curve expected, or is force → signal enough? The PLA carrier only stretches ~0.04 mm at 100 N ([[Implementation#Expected signal]]).
+- [ ] What exactly is broken on the old Kraft-Weg-Messplatz? Repair or rebuild?
+- [ ] Is the 10 kg load cell (≈ 98 N) enough as reference for 100 N, or do we need 20 kg?
+- [ ] Which room: B001 (equipment), B402L (Projektantrag), B L17c (fabrication)?
+- [ ] Manufacturer contact (Projektaufgabe Teilaufgabe 3): e.g. ask Protoplant (Protopasta) for resistivity vs. temperature, recommended print temperature, anisotropy data – and **log the contact**.
+- [ ] Compression vs. tension: does k differ in sign/size? (Hashemi Sanatgar: resistance drops under compression.)
+- [ ] Can the GSV-3USB handle a ~30 kΩ bridge, or do we use HX711/ADS1115?
+
+## To-dos (next two weeks)
+- [ ] Measure the jaws of the stand → set `L_GRIP`, `B_GRIP` ([[Implementation#7. Checklist before the first print]])
+- [ ] Build FP-110/121/122 in Creo with parameters ([[Implementation#4. Building it in Creo Parametric]])
+- [ ] Contact test coupons ([[Kontaktierung und Kleben#Test plan for contacts]])
+- [ ] First print, R0 of 5+ sensors → order matching bridge resistors ([[Bestellung#Open points]])
+- [ ] Fix the requirement list gaps ([[Anforderungsliste#Gaps and inconsistencies to fix before 10.12.]])
+- [ ] Add today's AI use to the prompt log ([[Projektplanung#Rules on AI use (Anlage I of the assignment)]])
+- [ ] Schematic diagram (black/white line drawing, A4, caption + legend) for 03.12.
+- [ ] ProjectLibre plan: process-oriented PSP, Gantt, baseline, critical path, resources, costs
+
+## Ideas
+- Full bridge with front/back DMS + two dummies → temperature and bending compensation ([[Messschaltung#Recommended setup]]).
+- Use the second HX711 channel or a second HX711 for the PLA bridge.
+- Bonding jig for reproducible positioning ([[Implementation#5. Bonding jig]]).
+- Later: python GUI with live force-signal plot and CSV export (E2).
