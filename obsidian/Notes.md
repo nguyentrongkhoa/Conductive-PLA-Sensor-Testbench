@@ -39,7 +39,7 @@ This note replaces the old unsorted notes from 15.10.2026. Every old item was mo
 - [ ] Can the GSV-3USB handle a ~30 kΩ bridge, or do we use HX711/ADS1115?
 
 ## To-dos (next two weeks)
-- [ ] Measure the jaws of the stand → set `L_GRIP`, `B_GRIP` ([[Implementation#7. Checklist before the first print]])
+- [ ] Measure the jaws of the stand → set `L_GRIP`, `B_FK` ([[Implementation#7. Checklist before the first print]])
 - [ ] Build FP-110/121/122 in Creo with parameters ([[Implementation#4. Building it in Creo Parametric]])
 - [ ] Contact test coupons ([[Kontaktierung und Kleben#Test plan for contacts]])
 - [ ] First print, R0 of 5+ sensors → order matching bridge resistors ([[Bestellung#Open points]])

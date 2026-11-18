@@ -16,16 +16,25 @@ Back to [[Home]] · Related: [[Druckparameter]], [[Kontaktierung und Kleben]], [
 ## 1. Concept
 Two separate parts, like a conventional foil strain gauge (Chadda et al.), as planned in the Projektantrag ("substrate and sensor made separately"):
 1. **DMS element**: thin PLA substrate + meander grid of Protopasta, printed in one job with dual extrusion.
-2. **Federkörper (carrier / spring element)**: flat PLA dog-bone that is clamped in the Kraft-Weg-Messplatz and loaded **axially** (compression = must 1.6, tension = wish 1.7).
+2. **Federkörper (carrier / spring element)**: flat PLA strip (plain rectangle, no fillets) that is clamped in the Kraft-Weg-Messplatz and loaded **axially** (compression = must 1.6, tension = wish 1.7).
 
 The DMS is bonded with EA 3430 to the middle of the carrier. **Two DMS** (front + back) are active, **two more** sit on an unloaded PLA coupon as dummies → full bridge ([[Messschaltung#Recommended setup]]).
 
-Why axial instead of a bending beam: the existing stand pulls/pushes a dog-bone in line with the lead screw (see [[Labor]]), axial strain is uniform over the gauge section (no position sensitivity), and the same part works for tension and compression.
+Why axial instead of a bending beam: the existing stand pulls/pushes a flat specimen in line with the lead screw (see [[Labor]]), axial strain is uniform over the gauge section (no position sensitivity), and the same part works for tension and compression.
 
 Variant B for the DoE: the **same grid co-printed** into the carrier surface (embedded, like Maurizi/Gooding) → compare bonded vs. embedded ([[Versuchsplanung]]).
 
 ## 2. DMS element
-![[dms_geometrie.svg]]
+Red = value you type in (input parameter) · green = calculated by a relation. All figures in mm.
+
+![[dms_1_draufsicht.png]]
+*Top view to scale, with every parameter at its position.*
+
+![[dms_2_querschnitt.png]]
+*Where `B_GRID`, `Y_LEG1` and `Y_LEGN` come from, and the layer stack `T_S` / `T_G` / `DTM_GRID`.*
+
+![[dms_3_schleifen_pads.png]]
+*Why `N_LEG` must be even, how `N_FAR` / `N_NEAR` and the pattern spacing `2*P` follow, and how `PAD_Y0` is derived.*
 
 ### Parameters
 | Creo parameter | Value | Meaning | Reason |
@@ -72,21 +81,29 @@ Chadda's grid (4 × 6 mm, 0.8 × 0.3 mm) measured 18.7 kΩ, which back-calculate
 
 ## 3. Federkörper
 The carrier (spring element) that is clamped in the stand.
-![[federkoerper.svg]]
 
-| Creo parameter | Value | Meaning |
-|---|---|---|
-| `L_GRIP` | 20 mm | grip length (clamping zone) – **adapt to the jaws** |
-| `B_GRIP` | 20 mm | grip width |
-| `L_GAUGE` | 40 mm | parallel gauge section |
-| `B_GAUGE` | 12 mm | gauge section width |
-| `R_FIL` | 12 mm | transition radius (tangent to gauge section) |
-| `T_FK` | 3.0 mm | thickness (20 layers × 0.15) |
-| `L_TR` | = sqrt(R_FIL² − (R_FIL − (B_GRIP − B_GAUGE)/2)²) = 8.94 mm | transition length |
-| `L_TOT` | = 2·L_GRIP + 2·L_TR + L_GAUGE = **97.9 mm** | total length |
-| `X_DMS` | = L_GRIP + L_TR + 3 = 31.94 mm | x position of the DMS origin |
+![[federkoerper_1_draufsicht.png]]
+*Top view to scale: `L_GRIP`, `L_GAUGE`, `L_TOT`, `B_FK`, `X_DMS`, and why the DMS origin sits at x = 23 mm.*
 
-DMS placement: 3 mm into the gauge section, centred in width → the active grid is centred in the gauge section (grid centre x = 48.94 mm = section centre) and starts 15 mm after the transition, so it sees uniform strain. Second DMS mirrored on the back face.
+| Creo parameter | Value                          | Meaning                                                    |
+| -------------- | ------------------------------ | ---------------------------------------------------------- |
+| `L_GRIP`       | 20 mm                          | grip length (clamping zone) – **adapt to the jaws**        |
+| `L_GAUGE`      | 40 mm                          | free length between the jaws                               |
+| `B_FK`         | 12 mm                          | width of the whole strip – **adapt to the jaws**           |
+| `T_FK`         | 3.0 mm                         | thickness (20 layers × 0.15)                               |
+| `L_TOT`        | relation = **80 mm**           | total length                                               |
+| `X_DMS`        | relation = 23 mm               | x position of the DMS origin                               |
+
+Relations in FP-110 (**Tools → Relations**), plain characters only:
+```
+L_TOT = 2*L_GRIP + L_GAUGE
+X_DMS = L_GRIP + L_GAUGE/2 - X0 - L_A/2
+```
+`X0` and `L_A` are the DMS parameters from FP-121 (grid start and active length); if Creo doesn't know them in the carrier part, type `17` instead of `X0 + L_A/2` or copy both as parameters.
+
+The carrier is one rectangle: no transition radius, no `R_FIL`, `L_TR`, `B_GRIP`, `B_GAUGE`. The width stays at 12 mm, so the strain at 100 N is unchanged (about 630 µm/m). The drawback is a stress concentration at the jaw edges, but it lies 15 mm away from the grid and does not affect it.
+
+DMS placement: centred in width and in the free length → the grid centre is at x = 40 mm = middle of `L_GAUGE`, 15 mm away from each jaw, so it sees uniform strain. Second DMS mirrored on the back face.
 
 ### Check at 100 N
 E_PLA ≈ 3300 MPa (as in Maurizi et al.).
@@ -112,14 +129,14 @@ E_PLA ≈ 3300 MPa (as in Maurizi et al.).
 
 ## 4. Building it in Creo Parametric
 ### Files and numbering (Lastenheft requires a numbering system)
-| No. | File | Content |
-|---|---|---|
-| FP-100 | `fp_100_sensor_asm.asm` | carrier + 2 DMS (for the drawing and ANSYS) |
-| FP-110 | `fp_110_federkoerper.prt` | carrier |
-| FP-120 | `fp_120_dms_asm.asm` | DMS print assembly (export to 3MF) |
-| FP-121 | `fp_121_dms_substrat.prt` | substrate (PLA, extruder 1) |
-| FP-122 | `fp_122_dms_gitter.prt` | grid + leads + pads (Protopasta, extruder 2) |
-| FP-130 | `fp_130_klebelehre.prt` | bonding jig |
+| No.    | File                      | Content                                      |
+| ------ | ------------------------- | -------------------------------------------- |
+| FP-100 | `fp_100_sensor_asm.asm`   | carrier + 2 DMS (for the drawing and ANSYS)  |
+| FP-110 | `fp_110_federkoerper.prt` | carrier                                      |
+| FP-120 | `fp_120_dms_asm.asm`      | DMS print assembly (export to 3MF)           |
+| FP-121 | `fp_121_dms_substrat.prt` | substrate (PLA, extruder 1)                  |
+| FP-122 | `fp_122_dms_gitter.prt`   | grid + leads + pads (Protopasta, extruder 2) |
+| FP-130 | `fp_130_klebelehre.prt`   | bonding jig                                  |
 Store in `cad/` (version control: requirement 19.1).
 
 ### Parameters and relations
@@ -136,33 +153,13 @@ PAD_Y0 = B_S/2 - PAD_GAP/2 - PAD_W
 /* N_LEG must be even, otherwise the second pad lands on the far end */
 ```
 3. While sketching, **rename the dimension symbols** (right-click a dimension → Properties → Name, e.g. `leg_w`) and drive them by relations (`leg_w = W`). Then the sweep script ([[Simulation ANSYS]]) only changes parameters, never sketch dimensions.
-4. For ANSYS later: give the parameters you want to vary in Workbench the prefix `DS_` (e.g. `DS_W`, `DS_L_A`) or set them as designated parameters.
-
-### FP-121 substrate
-1. Sketch on TOP: rectangle from (0,0) to (`L_S`, `B_S`), lower-left corner on the default coordinate system.
-2. Extrude `T_S` upward. Done.
-
-### FP-122 grid (same default coordinate system!)
-1. Datum plane `DTM_GRID` = offset from TOP by `T_S` (relation: `d = T_S`).
-2. **Extrude LEG_1** on `DTM_GRID`: rectangle x `X0` … `X0+L_A`, y `Y_LEG1 ± W/2`, depth `T_G`.
-3. **Pattern LEG_1**: Direction pattern along y, members `N_LEG`, spacing `P` (driven by relation `p1 = N_LEG`, spacing dim = `P`).
-4. **Extrude FAR_LOOP_1**: x `X0+L_A` … `X0+L_A+L_E`, y `Y_LEG1-W/2` … `Y_LEG1+P+W/2`.
-   Pattern along y: members `N_FAR`, spacing `2*P`.
-5. **Extrude NEAR_LOOP_1**: x `X0-L_E` … `X0`, y `Y_LEG1+P-W/2` … `Y_LEG1+2*P+W/2`.
-   For `N_LEG = 4` there is only one near loop → no pattern (Creo patterns need ≥ 2 members). For 6 or 8 legs add a pattern with `N_NEAR` members, spacing `2*P`.
-6. **Extrude LEADS + PADS** in one sketch: lead 1 x `PAD_X1` … `X0`, y `Y_LEG1+W/2-W_L` … `Y_LEG1+W/2`; lead 2 x `PAD_X1` … `X0`, y `Y_LEGN-W/2` … `Y_LEGN-W/2+W_L`; pads x `PAD_X0` … `PAD_X1`, y `PAD_Y0` … `PAD_Y0+PAD_W` and `B_S/2+PAD_GAP/2` … `+PAD_W`.
-7. All extrusions merge into one solid (faces touch). Check in the model tree that the result is a single solid body.
-8. Optional v2: round the outer corners of the end loops (R = `W/2`). The 0.4 mm nozzle rounds sharp corners anyway.
-
-### FP-110 carrier
-1. Sketch on TOP, symmetric about the x-axis (centreline): grip rectangles `L_GRIP × B_GRIP` at both ends, gauge section lines at y = ±`B_GAUGE/2`, connected by arcs `R_FIL` **tangent** to the gauge-section lines and ending perpendicular on the grip edge.
-2. Extrude `T_FK`.
-3. Optional: holes/slots in the grips if the stand jaws need them (measure first, see [[Labor#The existing Kraft-Weg-Messplatz]]).
-4. Optional: a small engraved mark (0.2 mm deep) on the **grip** to show which face is "front" – not in the gauge section (no notches there).
+4. For ANSYS later: give the parameters you want to vary in Workbench the prefix `DS_` (e.g. `DS_W`, `DS_L_A`). The ANSYS Creo connection filters by this name key; the **Designate** checkbox is not needed (it only publishes parameters to Windchill).
 
 ### Assemblies
 - **FP-120** (print assembly): FP-121 and FP-122 both placed with **Default** constraint → shared origin. Used only for export.
-- **FP-100** (sensor assembly): FP-110 default; DMS front: coordinate-system constraint at x = `X_DMS`, y = −`B_S/2`, z = `T_FK`; DMS back: same x, flipped 180° about the x-axis, at z = 0 so it sits on the bottom face. (Adhesive layer neglected.)
+![[sensor_3_seitenansicht.png]]
+
+- **FP-100** (sensor assembly): FP-110 default; DMS front: coordinate-system constraint at x = `X_DMS`, y = -`B_S/2`, z = `T_FK`; DMS back: same x, flipped 180° about the x-axis, at z = 0 so it sits on the bottom face. (Adhesive layer neglected.)
 
 ### Export for printing
 - FP-120: **File → Save As → 3MF** if your Creo version offers it (both parts in one file, positions kept) or export each part as STL in the **assembly coordinate system**. Import into ideaMaker, assign extruder 1 = PLA (substrate), extruder 2 = Protopasta (grid). Details: [[Druckparameter]].
@@ -179,7 +176,7 @@ FP-130: a printed tray with a pocket matching the carrier outline (+0.2 mm clear
 - Compare with the bonded variant in [[Versuchsplanung]].
 
 ## 7. Checklist before the first print
-- [ ] Measure jaw width and clamping length of the stand → adjust `L_GRIP`, `B_GRIP`
+- [ ] Measure jaw width and clamping length of the stand → adjust `L_GRIP`, `B_FK`
 - [ ] Calibrate the nozzle X/Y offset of the Raise3D Pro2
 - [ ] Slicer preview: 2 lines per leg, gaps empty, loops and pads solid
 - [ ] Test print of the contact coupons ([[Kontaktierung und Kleben#Test plan for contacts]])
