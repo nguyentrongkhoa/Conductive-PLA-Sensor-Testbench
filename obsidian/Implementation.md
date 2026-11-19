@@ -30,11 +30,6 @@ Red = value you type in (input parameter) · green = calculated by a relation. A
 ![[dms_1_draufsicht.png]]
 *Top view to scale, with every parameter at its position.*
 
-![[dms_2_querschnitt.png]]
-*Where `B_GRID`, `Y_LEG1` and `Y_LEGN` come from, and the layer stack `T_S` / `T_G` / `DTM_GRID`.*
-
-![[dms_3_schleifen_pads.png]]
-*Why `N_LEG` must be even, how `N_FAR` / `N_NEAR` and the pattern spacing `2*P` follow, and how `PAD_Y0` is derived.*
 
 ### Parameters
 | Creo parameter | Value | Meaning | Reason |
@@ -153,19 +148,7 @@ PAD_Y0 = B_S/2 - PAD_GAP/2 - PAD_W
 /* N_LEG must be even, otherwise the second pad lands on the far end */
 ```
 3. While sketching, **rename the dimension symbols** (right-click a dimension → Properties → Name, e.g. `leg_w`) and drive them by relations (`leg_w = W`). Then the sweep script ([[Simulation ANSYS]]) only changes parameters, never sketch dimensions.
-4. For ANSYS later: give the parameters you want to vary in Workbench the prefix `DS_` (e.g. `DS_W`, `DS_L_A`). The ANSYS Creo connection filters by this name key; the **Designate** checkbox is not needed (it only publishes parameters to Windchill).
-
-### Assemblies
-- **FP-120** (print assembly): FP-121 and FP-122 both placed with **Default** constraint → shared origin. Used only for export.
-![[sensor_3_seitenansicht.png]]
-
-- **FP-100** (sensor assembly): FP-110 default; DMS front: coordinate-system constraint at x = `X_DMS`, y = -`B_S/2`, z = `T_FK`; DMS back: same x, flipped 180° about the x-axis, at z = 0 so it sits on the bottom face. (Adhesive layer neglected.)
-
-### Export for printing
-- FP-120: **File → Save As → 3MF** if your Creo version offers it (both parts in one file, positions kept) or export each part as STL in the **assembly coordinate system**. Import into ideaMaker, assign extruder 1 = PLA (substrate), extruder 2 = Protopasta (grid). Details: [[Druckparameter]].
-- Print several DMS per job (at least 5 identical, requirement 10.3) plus 2 extra for the dummy coupon.
-- FP-110: STL, 100 % infill, lines along x. Print an extra **dummy coupon** (e.g. a 30 × 12 × 3 mm plate) for the two dummy DMS.
-
+4. For ANSYS later: give the parameters you want to vary in Workbench the prefix `DS_` (e.g. `DS_W`, `DS_L_A`). The ANSYS Creo connection filters by this name key.
 ## 5. Bonding jig
 FP-130: a printed tray with a pocket matching the carrier outline (+0.2 mm clearance, depth = `T_FK`) and a hinged or loose **frame with a 30.2 × 10.2 mm window** whose edge starts at x = `X_DMS` from the grip end. Drop the DMS into the window → same position on every specimen (requirement 12.5). Flip the carrier for the back DMS. See [[Kontaktierung und Kleben]].
 

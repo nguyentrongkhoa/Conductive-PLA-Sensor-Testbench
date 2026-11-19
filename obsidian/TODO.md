@@ -1,0 +1,1 @@
+- Parametrize thickness of substrate to depend on thickness of meander 
