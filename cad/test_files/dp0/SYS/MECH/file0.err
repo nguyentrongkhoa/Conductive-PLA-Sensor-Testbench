@@ -1,0 +1,18 @@
+/COM,ANSYS RELEASE 2026 R1           BUILD 26.1      UP20260202       19:53:10
+
+ *** WARNING ***                         ELAPSED TIME =      18.882   TIME= 19:53:23
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         ELAPSED TIME =      18.956   TIME= 19:53:23
+ Material number 2 (used by element 885) should normally have at least   
+ one MP or one TB type command associated with it.  Output of energy by  
+ material may not be available.                                          
+
+ *** ERROR ***                           ELAPSED TIME =      20.262   TIME= 19:53:25
+ The solver has detected at least one small pivot term in the equation   
+ system (for example, at the UX degree of freedom of node 1301).  This   
+ may indicate that the model is insufficiently constrained.  Review the  
+ model setup to ensure proper constraints.  The list of small equation   
+ solver pivot values and their corresponding nodes and degrees of        
+ freedom is provided below.                                              

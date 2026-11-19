@@ -81,3 +81,11 @@ matlProp2.SetData(
     Variables=["Poisson's Ratio"],
     Values=[["0.4"]])
 Save(Overwrite=True)
+geometry1.Edit(IsDiscoveryGeometry=True)
+modelComponent1 = system3.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system3.GetContainer(ComponentName="Model")
+model1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
