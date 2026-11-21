@@ -86,3 +86,68 @@ matlProp4.SetData(
     Values=[["0.33"]])
 library1.Save()
 Save(Overwrite=True)
+matl3 = engineeringData1.ImportMaterial(
+    Name="PLA",
+    Source="Additive_Manufacturing_Materials.xml")
+EngData.EnableFilter(Enable=False)
+Save(Overwrite=True)
+template3 = GetTemplate(
+    TemplateName="Static Mechanical",
+    Solver="ANSYS")
+system3 = template3.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+geometryComponent3 = system3.GetComponent(Name="Geometry")
+geometryComponent3.ReplaceWithShare(
+    TargetSystem=system3,
+    ComponentToShare=geometryComponent2,
+    SourceSystem=system2)
+geometryComponent3.DeleteShare(System=system3)
+geometryComponent3.ReplaceWithShare(
+    TargetSystem=system3,
+    ComponentToShare=geometryComponent1,
+    SourceSystem=system1)
+Save(Overwrite=True)
+engineeringData2 = system2.GetContainer(ComponentName="Engineering Data")
+matl4 = engineeringData2.ImportMaterial(
+    Name="PLA",
+    Source="Additive_Manufacturing_Materials.xml")
+matl5 = engineeringData2.ImportMaterial(
+    Name="Protopasta cPLA",
+    Source="Additive_Manufacturing_Materials.xml")
+Update()
+Save(Overwrite=True)
+geometryComponent1.DeleteShare(System=system1)
+geometryComponent3.DeleteShare(System=system3)
+geometry3 = system1.GetContainer(ComponentName="Geometry")
+geometry3.SetFile(FilePath="C:/Users/khoa1/OneDrive/Desktop/Studium/Mechatronik/2. Sem/Forschungsprojekt/cad/fp_100_sensor_asm.stp")
+geometry2.SetFile(FilePath="C:/Users/khoa1/OneDrive/Desktop/Studium/Mechatronik/2. Sem/Forschungsprojekt/cad/fp_100_sensor_asm.stp")
+Save(Overwrite=True)
+Save(Overwrite=True)
+EngData.EnableFilter()
+EngData.EnableFilter(Enable=False)
+matlProp6 = matl2.CreateProperty(
+    Name="Resistivity",
+    Behavior="Isotropic",
+    Qualifiers={"Definition": "", "Behavior": "Isotropic"})
+matlProp6.SetData(
+    Index=-1,
+    Variables=["Resistivity"],
+    Values=[["1000000000000 [ohm m]"]])
+Save(Overwrite=True)
+Refresh()
+model1.Exit()
+Update()
+system1.Delete()
+library1.Save()
+Save(Overwrite=True)
+Refresh()
+model2.Exit()
+model2.Edit()
+matl4.Refresh(Source="Additive_Manufacturing_Materials.xml")
+Save(Overwrite=True)
+model2.Exit()
+system3.Delete()
+Update()
+model2.Edit()
+Save(Overwrite=True)
