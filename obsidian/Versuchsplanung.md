@@ -65,3 +65,5 @@ Use one row per printed sensor (requirement 10.2 + 11.2):
 
 ## Test report template (requirement 11.2)
 Date · operator · sensor ID · setup photo · amplifier settings · load protocol · temperature · raw data file name · results (k, linearity, hysteresis, creep) · remarks.
+
+

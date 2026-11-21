@@ -1,0 +1,88 @@
+# encoding: utf-8
+# 2026 R1
+SetScriptVersion(Version="26.1.174")
+template1 = GetTemplate(
+    TemplateName="Static Structural",
+    Solver="ANSYS")
+system1 = template1.CreateSystem()
+favorites1 = EngData.LoadFavoriteItems()
+library1 = EngData.OpenLibrary(
+    Name="Additive Manufacturing Materials",
+    Source="Additive_Manufacturing_Materials.xml")
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
+matl1 = engineeringData1.ImportMaterial(
+    Name="Protopasta cPLA",
+    Source="Additive_Manufacturing_Materials.xml")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath="C:/Users/khoa1/OneDrive/Desktop/Studium/Mechatronik/2. Sem/Forschungsprojekt/cad/fp_100_sensor_asm.stp")
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+template2 = GetTemplate(
+    TemplateName="Electric",
+    Solver="ANSYS")
+system2 = template2.CreateSystem(
+    Position="Right",
+    RelativeTo=system1)
+geometryComponent1 = system1.GetComponent(Name="Geometry")
+geometryComponent2 = system2.GetComponent(Name="Geometry")
+geometryComponent1.ReplaceWithShare(
+    TargetSystem=system1,
+    ComponentToShare=geometryComponent2,
+    SourceSystem=system2)
+geometry2 = system1.GetContainer(ComponentName="Geometry")
+geometry2.SetFile(FilePath="C:/Users/khoa1/OneDrive/Desktop/Studium/Mechatronik/2. Sem/Forschungsprojekt/cad/fp_100_sensor_asm.stp")
+Save(Overwrite=True)
+modelComponent2 = system2.GetComponent(Name="Model")
+modelComponent2.Refresh()
+model2 = system2.GetContainer(ComponentName="Model")
+model2.Edit()
+material1 = library1.GetMaterial(Name="Protopasta cPLA")
+matlProp1 = material1.GetProperty(Name="Elasticity")
+matlProp1.SetData(
+    Variables=["Young's Modulus"],
+    Values=[["1231000000 [Pa]"]])
+EngData.EnableFilter(Enable=False)
+matlProp2 = material1.CreateProperty(
+    Name="Tensile Yield Strength",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp2.SetData(
+    Index=-1,
+    Variables=["Tensile Yield Strength"],
+    Values=[["32100000 [Pa]"]])
+Save(Overwrite=True)
+matl2 = library1.CreateMaterial(Name="PLA")
+matlProp3 = matl2.CreateProperty(
+    Name="Density",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp3.SetData(
+    Index=-1,
+    Variables=["Density"],
+    Values=[["1250 [kg m^-3]"]])
+EngData.EnableFilter()
+matlProp4 = matl2.CreateProperty(
+    Name="Elasticity",
+    Behavior="Isotropic",
+    Qualifiers={"Definition": "", "Behavior": "Isotropic"})
+matlProp4.SetData(
+    Index=-1,
+    Variables=["Young's Modulus"],
+    Values=[["1050000000 [Pa]"]])
+matlProp5 = matl2.CreateProperty(
+    Name="Tensile Yield Strength",
+    Qualifiers={"Definition": "", "Behavior": ""})
+matlProp5.SetData(
+    Index=-1,
+    Variables=["Tensile Yield Strength"],
+    Values=[["47000000 [Pa]"]])
+Save(Overwrite=True)
+library1.Save()
+matlProp4.SetData(
+    Variables=["Poisson's Ratio"],
+    Values=[["0.33"]])
+library1.Save()
+Save(Overwrite=True)

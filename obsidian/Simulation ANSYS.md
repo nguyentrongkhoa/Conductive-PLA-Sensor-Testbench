@@ -59,3 +59,9 @@ Before automating: regenerate the Creo model by hand at the extreme parameter va
 ## Validation
 - Compare simulated strain with the analytical F/(E·A) ([[Implementation#Check at 100 N]]) and with the measured ΔR of the real sensors.
 - Report the deviation; expect the measured k to be higher than the purely geometric k ≈ 2.
+
+Add Protopasta conductive PLA as material in ANSYS:
+![[Pasted image 20261121072511.png]]
+What-if - Correlation - DoE - Response surface - Optimization - Six Sigma [Tutorial](https://www.youtube.com/watch?v=CaXvEyfy5D0)
+[Analyzing thin structures in Ansys](https://www.youtube.com/watch?v=r2v3kB3C0yc)
+
