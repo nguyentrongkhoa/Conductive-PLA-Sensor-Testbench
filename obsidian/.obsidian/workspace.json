@@ -13,28 +13,15 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "Simulation ANSYS.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO"
-            }
-          },
-          {
-            "id": "924b821fd20e3f7e",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Pasted image 20261121072511.png"
-              },
-              "icon": "lucide-image",
-              "title": "Pasted image 20261121072511"
+              "title": "Simulation ANSYS"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -201,12 +188,12 @@
       "bases:Create new base": false
     }
   },
-  "active": "924b821fd20e3f7e",
+  "active": "795dcfae5b7257c3",
   "lastOpenFiles": [
-    "Pasted image 20261121072511 1.png",
-    "Pasted image 20261121072511.png",
-    "Simulation ANSYS.md",
     "TODO.md",
+    "Pasted image 20261121072511.png",
+    "Pasted image 20261121072511 1.png",
+    "Simulation ANSYS.md",
     "Versuchsplanung.md",
     "Implementation.md",
     "Kontaktierung und Kleben.md",

@@ -1,0 +1,8 @@
+/COM,ANSYS RELEASE 2026 R1           BUILD 26.1      UP20260202       17:16:01
+
+ *** WARNING ***                         ELAPSED TIME =       6.090   TIME= 17:16:03
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         ELAPSED TIME =       7.604   TIME= 17:16:04
+ Coefficient ratio exceeds 1.0e8 - Check results.                        

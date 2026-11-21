@@ -61,7 +61,8 @@ Before automating: regenerate the Creo model by hand at the extreme parameter va
 - Report the deviation; expect the measured k to be higher than the purely geometric k ≈ 2.
 
 Add Protopasta conductive PLA as material in ANSYS:
-![[Pasted image 20261121072511.png]]
+[Young's modulus](https://pmc.ncbi.nlm.nih.gov/articles/PMC10921296/table/tab1/)
+
 What-if - Correlation - DoE - Response surface - Optimization - Six Sigma [Tutorial](https://www.youtube.com/watch?v=CaXvEyfy5D0)
 [Analyzing thin structures in Ansys](https://www.youtube.com/watch?v=r2v3kB3C0yc)
 
