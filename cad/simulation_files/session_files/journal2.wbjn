@@ -62,3 +62,22 @@ matl2.Refresh(Source="Additive_Manufacturing_Materials.xml")
 matl1.Refresh(Source="Additive_Manufacturing_Materials.xml")
 Refresh()
 Save(Overwrite=True)
+geometry1.Edit(IsDiscoveryGeometry=True)
+geometry1.Edit(IsSpaceClaimGeometry=True)
+geometryProperties1 = geometry1.GetGeometryProperties()
+geometryProperties1.GeometryImportLineBodies = True
+geometryProperties1.GeometryImportParameters = "CADImportParameterType_All"
+geometryProperties1.GeometryImportParametersFilter = ""
+geometryProperties1.GeometryImportCadAttributes = True
+geometryProperties1.GeometryImportCadAttributes = False
+geometryProperties1.GeometryImportParameters = "CADImportParameterType_Independent"
+geometry1.Edit(IsDiscoveryGeometry=True)
+model2.Exit()
+geometry1.Edit(IsDiscoveryGeometry=True)
+system1.Delete()
+geometry1.Edit(IsDiscoveryGeometry=True)
+geometry1.Edit(IsDiscoveryGeometry=True)
+geometry1.Exit()
+modelComponent1.Refresh()
+model2.Edit()
+Save(Overwrite=True)
