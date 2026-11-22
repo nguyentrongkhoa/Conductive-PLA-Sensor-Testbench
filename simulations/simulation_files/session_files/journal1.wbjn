@@ -1,0 +1,22 @@
+# encoding: utf-8
+# 2026 R1
+SetScriptVersion(Version="26.1.174")
+DesignModeler.CreateGeometrySystemWithActiveCAD(
+    FilePath=r"C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\cad\FP_100_SENSOR_ASM.ASM",
+    PlugInName="ProEngineer[22696]")
+system1 = GetSystem(Name="Geometry")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometryProperties1 = geometry1.GetGeometryProperties()
+geometryProperties1.GeometryImportParameters = "CADImportParameterType_All"
+geometryProperties1.GeometryImportParametersFilter = ""
+geometryProperties1.GeometryImportNamedSelections = True
+geometryProperties1.GeometryImportCadAttributes = True
+geometry1.Edit(IsDiscoveryGeometry=True)
+geometry1.Edit(IsDiscoveryGeometry=True)
+geometry1.Edit(IsDiscoveryGeometry=True)
+geometry1.Exit()
+Save(Overwrite=True)
+geometry1.Edit(IsDiscoveryGeometry=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
