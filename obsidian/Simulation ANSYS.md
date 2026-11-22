@@ -66,3 +66,5 @@ Add Protopasta conductive PLA as material in ANSYS:
 What-if - Correlation - DoE - Response surface - Optimization - Six Sigma [Tutorial](https://www.youtube.com/watch?v=CaXvEyfy5D0)
 [Analyzing thin structures in Ansys](https://www.youtube.com/watch?v=r2v3kB3C0yc)
 
+NOTE: when installing Creo Interface for Ansys, make sure to run CAD configuration manager as admin
+NOTE: changing params in Ansys also affects Creo files directly

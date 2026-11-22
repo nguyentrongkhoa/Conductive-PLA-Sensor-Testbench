@@ -1,0 +1,17 @@
+﻿# 
+# This file contains the parameter values of the Design Points successfully updated by Ansys Workbench.
+# Project name: wbnew
+# Creation date: 11/21/2026 20:15:23
+# 
+# 11/21/2026 20:15:23
+# The parameters defined in the project are:
+# ,"P14 - (B0_P11) FP_122_DMS_GITTER[48,41]: T_GAUGE","P13 - (B0_P14) FP_122_DMS_GITTER[48,41]: N_LAYER","P12 - (B0_P13) FP_122_DMS_GITTER[48,41]: N_LEG","P11 - (B0_P12) FP_122_DMS_GITTER[48,41]: T_G","P9 - (B0_P9) FP_122_DMS_GITTER[48,41]: W_LEG","P8 - (B0_P8) FP_122_DMS_GITTER[48,41]: L_S","P7 - (B0_P7) FP_122_DMS_GITTER[48,41]: L_GRIP","P6 - (B0_P6) FP_122_DMS_GITTER[48,41]: L_GAUGE","P5 - (B0_P5) FP_122_DMS_GITTER[48,41]: L_E","P4 - (B0_P4) FP_122_DMS_GITTER[48,41]: L_A","P3 - (B0_P3) FP_122_DMS_GITTER[48,41]: H_LAYER","P2 - (B0_P2) FP_122_DMS_GITTER[48,41]: G_LEGS","P1 - (B0_P1) FP_122_DMS_GITTER[48,41]: G"
+# 
+# The following header line defines the name of the columns by reference to the parameters.
+Name,P14,P13,P12,P11,P9,P8,P7,P6,P5,P4,P3,P2,P1
+DP 0,0.4,2,8,0.4,0.8,30,20,40,1.6,30,0.2,0.8,9.8
+DP 1,0.4,2,10,0.4,0.8,30,20,40,1.6,30,0.2,0.8,9.8
+# 
+# A non parametric change occurred and invalidated design point results.
+# 11/21/2026 20:30:21
+# 
