@@ -5,3 +5,15 @@
 *.synctex.gz
 miscellaneous/*.pdf
 *glossar/
+*.out
+*.err
+*.rst
+*.mntr
+*.gst
+*.DSP
+*.cnd
+*.aapresults
+*.dat
+simulations/simulation_files/.project_cache
+simulations/simulation_files/dp0/SYS/MECH/MatML.xml
+simulations/simulation_files/dp0/SYS/MECH/CAERep.xml

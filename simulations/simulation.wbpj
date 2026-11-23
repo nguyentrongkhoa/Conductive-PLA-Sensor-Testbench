@@ -2,10 +2,10 @@
 <Storage>
   <Project Version="25.2.1.0">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">9019</timestamp-max>
+    <timestamp-max valType="Int64">10163</timestamp-max>
     <framework-build-version valType="String">26.1.174.0</framework-build-version>
     <external-version-string valType="String">2026 R1</external-version-string>
-    <last-saved-utc valType="String">11/23/2026 05:43:04</last-saved-utc>
+    <last-saved-utc valType="String">11/23/2026 09:42:12</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
@@ -13,8 +13,8 @@
     <ReferenceCache>
       <ProjectReferenceList>
         <ReferenceList valType="String">{
-"9612bc28-a6e8-44b0-8ced-b9585e94bc54": "/FileContainer/FileReference:F2",
-"87752195-344d-42a0-8b3b-19edf6a8a292": "/FileContainer/FileReference:F1",
+"4cccab93-d297-4c06-9266-1d2c89283cde": "/Parameters/Parameter:P2",
+"479735fe-4691-4b01-8d27-3061545e50ba": "/Parameters/Parameter:P1",
 "0c1ac894-d02a-4eae-a51d-aadde02712cd": "/FileTypesContainer/FileType:GeometryFileType",
 "84ff8154-5b46-42c9-8587-bc3c107709cc": "/FileTypesContainer/FileType:project",
 "57a362dd-1745-4aab-b09e-689c3719946f": "/FileTypesContainer/FileType:ACTDatabase",
@@ -30,26 +30,6 @@
 "eca709c4-0772-4360-b13d-79a016de4110": "/Schematic/Template:Transient Thermal (ANSYS)",
 "f3e147de-738c-4fca-9c4c-bf3fb819cddb": "/Schematic/ComponentTemplate:GeometryCellTemplate",
 "e1f82a4f-6acc-4746-a752-6c9dfffda402": "/Schematic/System:Geometry",
-"2fb2f87d-3c8e-4a34-9752-c904cef15b9c": "/Parameters/Parameter:P5",
-"7a23ca3d-a539-4498-9ea6-1a146cf231c7": "/Parameters/Parameter:P4",
-"a95b4e69-e015-4ac8-993a-787745b85022": "/Parameters/Parameter:P3",
-"aac57c0c-829c-4e6a-abdc-defe7f6eb385": "/Parameters/Parameter:P2",
-"2bdca0a2-e07d-4d70-a653-67b189f5b314": "/Parameters/Parameter:P21",
-"3f376059-50e5-4273-989d-be884779f55f": "/Parameters/Parameter:P12",
-"a0cc8631-ddf8-4f41-8bb9-bc6f0767f7b6": "/Parameters/Parameter:P11",
-"fe017fc7-d271-4cd9-9785-9792fd2cba44": "/Parameters/Parameter:P10",
-"79bd3aa5-7b62-45cd-b8cb-9aa4af642a46": "/Parameters/Parameter:P9",
-"3eb750d0-4188-4be1-8b0a-0f025378963c": "/Parameters/Parameter:P8",
-"f4f3e233-1be4-483d-b01a-b5e864d8e7dc": "/Parameters/Parameter:P7",
-"da485be6-ab72-485c-80be-862c557bd28b": "/Parameters/Parameter:P6",
-"7ef6b6f5-0142-4310-8d3b-cea5cb8b831e": "/Parameters/Parameter:P20",
-"6c266e44-f432-4222-94b5-d6aad5d4e342": "/Parameters/Parameter:P19",
-"1f7c7a6a-7cec-47fc-bd4d-6b2dc376913a": "/Parameters/Parameter:P18",
-"f0d72c8b-7cdc-45a1-8e07-6521ab842b32": "/Parameters/Parameter:P17",
-"a0b6685d-0fbd-411a-9320-0ba285d11aac": "/Parameters/Parameter:P16",
-"85ddf1fb-995f-4381-9952-49867beb8c37": "/Parameters/Parameter:P15",
-"e3c23b1f-d875-4af4-a8ef-447b19e00ef8": "/Parameters/Parameter:P14",
-"023e2c54-61e4-4db8-b596-5a265d6f26dd": "/Parameters/Parameter:P13",
 "88b46e93-7953-42af-ada6-9325fcb0459f": "/FileContainer/FileReference:F5",
 "619b10e5-1c05-4ca6-8185-12a271c65d02": "/FileTypesContainer/FileType:EngineeringData",
 "cea3b797-37c3-4999-89e3-bbb59e3b939a": "/Schematic/System:SYS",
@@ -78,32 +58,28 @@
 "e76a43b9-0f6d-43b5-a444-5dfb54185b09": "/Schematic/Component:Solution 2",
 "a382e787-2ea1-4857-8779-7dcc65faf505": "/Schematic/Template:System Coupling",
 "46fc910c-ae65-4310-96e3-4e9ec67efaec": "/Schematic/ComponentTemplate:SystemCouplingSetupCellTemplate",
-"46b66161-cbc6-46d8-abdf-31e99bffa7e3": "/Schematic/ComponentTemplate:SystemCouplingSolutionCellTemplate"
+"46b66161-cbc6-46d8-abdf-31e99bffa7e3": "/Schematic/ComponentTemplate:SystemCouplingSolutionCellTemplate",
+"b71516b9-277d-434f-b13f-73ea4c4ee694": "/FileContainer/FileReference:F14",
+"4f2f7494-8a42-4d1a-8c59-3e2920861eff": "/Parameters/Parameter:P3",
+"27dbba4b-b45b-4238-ab50-08f9125515d2": "/Parameters/Parameter:P4",
+"539fe1a4-ed02-4c48-94df-9be0c23bbef3": "/Parameters/Parameter:P5",
+"7b193e8d-f665-49a8-8566-d2eb1e714c89": "/Parameters/Parameter:P6",
+"0a0a246d-263d-45df-85d1-2a713febc4f0": "/Parameters/Parameter:P7",
+"4c85b783-115c-44a6-a27d-7c1f9a6070da": "/Parameters/Parameter:P8",
+"3269eded-0328-4da3-912b-e8c28f3c1c70": "/Parameters/Parameter:P9",
+"49bf4135-4f7f-49d6-b947-f23c20429b66": "/Parameters/Parameter:P10",
+"9c1ab110-c12a-4d5a-9194-c6c18718be77": "/Parameters/Parameter:P11",
+"a87b5905-e3db-4126-9376-2d1f50ee87ec": "/Parameters/Parameter:P12",
+"a9407401-70f7-4418-bd6a-4f2acb55b08d": "/Parameters/Parameter:P13",
+"2e6439fb-5ee2-438d-bcef-8be70b499612": "/Parameters/Parameter:P15",
+"b28c0fea-9904-4377-af3f-5a7a61eaf2bd": "/Parameters/Parameter:P17",
+"6fca897b-25de-4d8e-a178-cf178e074e6c": "/Parameters/Parameter:P18",
+"16ca15d2-5663-43f5-872d-bb7cbe05d586": "/Parameters/Parameter:P16"
 }</ReferenceList>
       </ProjectReferenceList>
       <DesignPointReferenceListCollection>
         <DesignPointReferenceList Name="0">
           <ReferenceList valType="String">{
-"0fe7dda6-fae9-48a1-887d-4421825fbe74": "/Geometry/ParameterAdapter29:DesignModelerParameter",
-"207f8ac9-8d9b-4dcf-81be-ae303959b079": "/Geometry/ParameterAdapter28:DesignModelerParameter",
-"4e0c4416-45d1-4530-8442-054d5ef41608": "/Geometry/ParameterAdapter27:DesignModelerParameter",
-"2b851921-9686-4f63-8e93-4f94e2e2d28c": "/Geometry/ParameterAdapter26:DesignModelerParameter",
-"9d237edf-5509-4504-9bb2-83aa5d09ae6e": "/Geometry/ParameterAdapter36:DesignModelerParameter",
-"ca6723bb-0505-483d-b050-f88832ec6861": "/Geometry/ParameterAdapter35:DesignModelerParameter",
-"a6b16b18-e85d-46c9-8dca-150219fa01af": "/Geometry/ParameterAdapter34:DesignModelerParameter",
-"7afb13b0-e70d-49b9-b261-2ed2e8f0b6e1": "/Geometry/ParameterAdapter33:DesignModelerParameter",
-"8cdee0db-c8d0-4800-bafd-d29a413a4952": "/Geometry/ParameterAdapter32:DesignModelerParameter",
-"332e6d51-07a0-4aca-af7d-698d1531a454": "/Geometry/ParameterAdapter31:DesignModelerParameter",
-"32dc8049-fbd8-4422-8283-410e86f80847": "/Geometry/ParameterAdapter30:DesignModelerParameter",
-"7ea99d13-253e-4a59-a8a2-63b7669583be": "/Geometry/ParameterAdapter45:DesignModelerParameter",
-"53919bc9-1d65-4b65-a065-d69e7cb6632d": "/Geometry/ParameterAdapter44:DesignModelerParameter",
-"6e6ac50b-5b16-49ac-9404-0d0e01a2ee5f": "/Geometry/ParameterAdapter43:DesignModelerParameter",
-"7b05f9a3-6529-4fad-85d2-02e6cb3fffb2": "/Geometry/ParameterAdapter42:DesignModelerParameter",
-"2d9cc605-4ba1-427a-befc-950e44f366c6": "/Geometry/ParameterAdapter41:DesignModelerParameter",
-"29217713-f194-4cc3-b120-18dea49b78c0": "/Geometry/ParameterAdapter40:DesignModelerParameter",
-"cf0d3e68-a8b8-4848-99ac-b5a061dc5e37": "/Geometry/ParameterAdapter39:DesignModelerParameter",
-"dad61199-75e9-499c-a893-542bbe9bb9a4": "/Geometry/ParameterAdapter38:DesignModelerParameter",
-"1045c849-e198-45a8-bea5-c91c7f3bd0c0": "/Geometry/ParameterAdapter37:DesignModelerParameter",
 "fc753507-a9bb-4573-b50f-144a39e90a79": "/Engineering Data/ResourceTransferData:TransferData_material",
 "7420eff7-69bb-4027-9bb3-80b440b05776": "/Engineering Data/Material:Structural Steel",
 "7a93e83a-6b0e-4eee-88c6-52f6ebc5a3b3": "/Engineering Data/MaterialProperty:Appearance",
@@ -253,7 +229,24 @@
 "b88f671e-3511-419d-bf6e-b3a32dabbb04": "/Engineering Data/MaterialVariable:Interpolation Options 7",
 "42419011-4d4a-42b4-bcb7-04deccf79a84": "/Setup 2/ContainerInputConnections:CouplingContainerInputConnections",
 "9948284b-549a-4949-94f2-d383d9625f4e": "/Solution 2/ContainerInputConnections:CouplingContainerInputConnections",
-"482e6f8f-5473-44f7-b3e5-9a6464ccf4c3": "/Setup 2/CouplingSetupProvider:Setup 2Provider"
+"482e6f8f-5473-44f7-b3e5-9a6464ccf4c3": "/Setup 2/CouplingSetupProvider:Setup 2Provider",
+"e4dd97c5-66ec-4c28-b9f3-22cdac45411e": "/Geometry/ParameterAdapter1:DesignModelerParameter",
+"5e401f0b-bcca-44e4-8529-5c115df0332d": "/Geometry/ParameterAdapter2:DesignModelerParameter",
+"32bc8731-debf-4cad-98f8-74a4c1a6b7a5": "/Geometry/ParameterAdapter3:DesignModelerParameter",
+"45651d82-88ec-481f-90e9-fb5e17a34fb8": "/Geometry/ParameterAdapter4:DesignModelerParameter",
+"33e21f69-ebdf-4565-b0da-50d56497b1a9": "/Geometry/ParameterAdapter5:DesignModelerParameter",
+"a4b833c1-6cd3-4509-ae46-ba6cf0fd6c19": "/Geometry/ParameterAdapter6:DesignModelerParameter",
+"174ee146-fa35-465b-9ae4-3d31a56d07f9": "/Geometry/ParameterAdapter7:DesignModelerParameter",
+"6efc59d8-d87d-46ee-98fb-82ba0ae7812d": "/Geometry/ParameterAdapter8:DesignModelerParameter",
+"f59b681f-ad4d-439a-9004-005e6c660623": "/Geometry/ParameterAdapter9:DesignModelerParameter",
+"6cf1a250-bd42-4704-8d93-c4a4161d1154": "/Geometry/ParameterAdapter10:DesignModelerParameter",
+"acc7f8ba-9c17-4c0c-ac96-0286c8ddb23c": "/Geometry/ParameterAdapter11:DesignModelerParameter",
+"f80ed336-d24f-40b5-9656-ce6dd69d1e7f": "/Geometry/ParameterAdapter12:DesignModelerParameter",
+"6996b59e-fff3-4f32-8506-c66f968e84ee": "/Geometry/ParameterAdapter13:DesignModelerParameter",
+"e1d3766a-fd70-44e3-bb91-9074cdaeccfc": "/Geometry/ParameterAdapter15:DesignModelerParameter",
+"89a4f497-ddf4-4540-be5f-d71450fef4e8": "/Geometry/ParameterAdapter17:DesignModelerParameter",
+"38b19b7a-0dcf-48b0-8c71-6332435a913a": "/Geometry/ParameterAdapter18:DesignModelerParameter",
+"5df97d2f-8db5-452c-8dad-77cfda79a94e": "/Geometry/ParameterAdapter16:DesignModelerParameter"
 }</ReferenceList>
         </DesignPointReferenceList>
       </DesignPointReferenceListCollection>
@@ -280,17 +273,12 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 8516, "Input": 1514, "Output": 1514}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 9783, "Input": 1514, "Output": 1514}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
-      <Object Name="/FileContainer/FileReference:F1" Version="1.0">
+      <Object Name="/FileContainer/FileReference:F14" Version="1.0">
         <class-type valType="String">FileReference</class-type>
-        <object-name valType="String">F1</object-name>
-        <member-data valType="String">{"DisplayText": "FP_100_SENSOR_ASM.ASM", "FileType": $$0c1ac894-d02a-4eae-a51d-aadde02712cd, "DependentFiles": [], "ContainerAssociations": ["Geometry"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\cad\FP_100_SENSOR_ASM.ASM", "ReferenceCount": 1}</member-data>
-      </Object>
-      <Object Name="/FileContainer/FileReference:F2" Version="1.0">
-        <class-type valType="String">FileReference</class-type>
-        <object-name valType="String">F2</object-name>
+        <object-name valType="String">F14</object-name>
         <member-data valType="String">{"DisplayText": "Geom.dsco", "FileType": $$0c1ac894-d02a-4eae-a51d-aadde02712cd, "DependentFiles": [], "ContainerAssociations": ["Geometry"], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\Geom\DM\Geom.dsco", "ReferenceCount": 1}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F3" Version="1.0">
@@ -301,7 +289,7 @@
       <Object Name="/FileContainer/FileReference:F4" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F4</object-name>
-        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$57a362dd-1745-4aab-b09e-689c3719946f, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 22}</member-data>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$57a362dd-1745-4aab-b09e-689c3719946f, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 29}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F5" Version="1.0">
         <class-type valType="String">FileReference</class-type>
@@ -329,7 +317,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 6212, "Input": 1515, "Output": 1515}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 9090, "Input": 1515, "Output": 1515}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/Messages/StoredMessage:Message" Version="1.0">
@@ -371,6 +359,16 @@ C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\sim
         <object-name valType="String">Message 6</object-name>
         <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "The geometry editor was closed abnormally.", "Details": None, "Association": "", "DateTimeStamp": 11/22/2026 19:02:32, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
       </Object>
+      <Object Name="/Messages/StoredMessage:Message 7" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 7</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Error", "MessageCategory": "None", "Summary": "The geometry editor was closed abnormally.", "Details": None, "Association": "", "DateTimeStamp": 11/23/2026 09:39:16, "Visibility": "Error", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": None}</member-data>
+      </Object>
+      <Object Name="/Messages/StoredMessage:Message 8" Version="1.0">
+        <class-type valType="String">StoredMessage</class-type>
+        <object-name valType="String">Message 8</object-name>
+        <member-data valType="String">{"DisplayText": "Message", "MessageType": "Information", "MessageCategory": "None", "Summary": 'The Setup component in System Coupling requires user input before it can be updated. Edit the System Coupling Setup cell, then right-click on any ? in the Outline tree, and select "Display Validation Failure" for more details.', "Details": None, "Association": "", "DateTimeStamp": 11/23/2026 09:41:35, "Visibility": "Information", "MessageSourceContainer": None, "MessageSourceEntity": None, "AdditionalMessageData": None, "DesignPoint": "0"}</member-data>
+      </Object>
     </Container>
     <Container Name="Parameters" Version="1.0">
       <container-type valType="String">Ansys.ParameterManager.ParameterManagerAddin:parameters</container-type>
@@ -379,13 +377,13 @@ C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\sim
       <maxUpdateOrder valType="Double">1</maxUpdateOrder>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 9014, "Input": 5699, "Output": 1518}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 10138, "Input": 10160, "Output": 1518}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Parameters/DesignPoint:0" Version="1.0">
         <class-type valType="String">DesignPoint</class-type>
         <object-name valType="String">0</object-name>
-        <member-data valType="String">{"DisplayText": "DP 0", "JustDuplicated": False, "PartiallyRetainedData": [], "ValidRetainedData": [], "ErrorsOnLastUpdate": {}, "LastUpdateInformation": {"DidUpdate": "True", "DidPreRsmUpdate": "False", "UpdatedComponents": "Model 1 in SYS 1"}, "Parameters": {"$$2bdca0a2-e07d-4d70-a653-67b189f5b314": "30", "$$7ef6b6f5-0142-4310-8d3b-cea5cb8b831e": "5", "$$6c266e44-f432-4222-94b5-d6aad5d4e342": "0.8", "$$1f7c7a6a-7cec-47fc-bd4d-6b2dc376913a": "0.8", "$$f0d72c8b-7cdc-45a1-8e07-6521ab842b32": "8", "$$a0b6685d-0fbd-411a-9320-0ba285d11aac": "2", "$$85ddf1fb-995f-4381-9952-49867beb8c37": "1.6", "$$e3c23b1f-d875-4af4-a8ef-447b19e00ef8": "20", "$$023e2c54-61e4-4db8-b596-5a265d6f26dd": "1.6", "$$3f376059-50e5-4273-989d-be884779f55f": "20", "$$a0cc8631-ddf8-4f41-8bb9-bc6f0767f7b6": "0.2", "$$fe017fc7-d271-4cd9-9785-9792fd2cba44": "0.8", "$$79bd3aa5-7b62-45cd-b8cb-9aa4af642a46": "9.8", "$$3eb750d0-4188-4be1-8b0a-0f025378963c": "6", "$$f4f3e233-1be4-483d-b01a-b5e864d8e7dc": "0.6", "$$2fb2f87d-3c8e-4a34-9752-c904cef15b9c": "30", "$$7a23ca3d-a539-4498-9ea6-1a146cf231c7": "2", "$$a95b4e69-e015-4ac8-993a-787745b85022": "100", "$$aac57c0c-829c-4e6a-abdc-defe7f6eb385": "30", "$$da485be6-ab72-485c-80be-862c557bd28b": "50"}, "ParameterErrors": {}, "CurrentValues": {"$$2bdca0a2-e07d-4d70-a653-67b189f5b314": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "$$7ef6b6f5-0142-4310-8d3b-cea5cb8b831e": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "5"}, "$$6c266e44-f432-4222-94b5-d6aad5d4e342": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.8"}, "$$1f7c7a6a-7cec-47fc-bd4d-6b2dc376913a": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.8"}, "$$f0d72c8b-7cdc-45a1-8e07-6521ab842b32": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "8"}, "$$a0b6685d-0fbd-411a-9320-0ba285d11aac": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "2"}, "$$85ddf1fb-995f-4381-9952-49867beb8c37": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "1.6"}, "$$e3c23b1f-d875-4af4-a8ef-447b19e00ef8": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "20"}, "$$023e2c54-61e4-4db8-b596-5a265d6f26dd": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "1.6"}, "$$3f376059-50e5-4273-989d-be884779f55f": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "20"}, "$$a0cc8631-ddf8-4f41-8bb9-bc6f0767f7b6": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.2"}, "$$fe017fc7-d271-4cd9-9785-9792fd2cba44": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.8"}, "$$79bd3aa5-7b62-45cd-b8cb-9aa4af642a46": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "9.8"}, "$$3eb750d0-4188-4be1-8b0a-0f025378963c": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "6"}, "$$f4f3e233-1be4-483d-b01a-b5e864d8e7dc": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.6"}, "$$2fb2f87d-3c8e-4a34-9752-c904cef15b9c": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "$$7a23ca3d-a539-4498-9ea6-1a146cf231c7": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "2"}, "$$a95b4e69-e015-4ac8-993a-787745b85022": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "100"}, "$$aac57c0c-829c-4e6a-abdc-defe7f6eb385": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "$$da485be6-ab72-485c-80be-862c557bd28b": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "50"}}, "ParameterStatus": {"$$2bdca0a2-e07d-4d70-a653-67b189f5b314": "UpToDate", "$$7ef6b6f5-0142-4310-8d3b-cea5cb8b831e": "UpToDate", "$$6c266e44-f432-4222-94b5-d6aad5d4e342": "UpToDate", "$$1f7c7a6a-7cec-47fc-bd4d-6b2dc376913a": "UpToDate", "$$f0d72c8b-7cdc-45a1-8e07-6521ab842b32": "UpToDate", "$$a0b6685d-0fbd-411a-9320-0ba285d11aac": "UpToDate", "$$85ddf1fb-995f-4381-9952-49867beb8c37": "UpToDate", "$$e3c23b1f-d875-4af4-a8ef-447b19e00ef8": "UpToDate", "$$023e2c54-61e4-4db8-b596-5a265d6f26dd": "UpToDate", "$$3f376059-50e5-4273-989d-be884779f55f": "UpToDate", "$$a0cc8631-ddf8-4f41-8bb9-bc6f0767f7b6": "UpToDate", "$$fe017fc7-d271-4cd9-9785-9792fd2cba44": "UpToDate", "$$79bd3aa5-7b62-45cd-b8cb-9aa4af642a46": "UpToDate", "$$3eb750d0-4188-4be1-8b0a-0f025378963c": "UpToDate", "$$f4f3e233-1be4-483d-b01a-b5e864d8e7dc": "UpToDate", "$$2fb2f87d-3c8e-4a34-9752-c904cef15b9c": "UpToDate", "$$7a23ca3d-a539-4498-9ea6-1a146cf231c7": "UpToDate", "$$a95b4e69-e015-4ac8-993a-787745b85022": "UpToDate", "$$aac57c0c-829c-4e6a-abdc-defe7f6eb385": "UpToDate", "$$da485be6-ab72-485c-80be-862c557bd28b": "UpToDate"}, "Note": None, "IsUpToDate": False, "Exported": True, "Retained": True, "IsHpsRetainedDataValidAndAvailable": False, "CurrentStateExported": False, "IsDataModelValid": True, "HasRetainedData": True, "HasBeenSolved": True, "UpdateOrder": 1}</member-data>
+        <member-data valType="String">{"DisplayText": "DP 0", "JustDuplicated": False, "PartiallyRetainedData": [], "ValidRetainedData": [], "ErrorsOnLastUpdate": {}, "LastUpdateInformation": {"DidUpdate": "True", "DidPreRsmUpdate": "False", "UpdatedComponents": "Setup 2 in SC"}, "Parameters": {"$$479735fe-4691-4b01-8d27-3061545e50ba": "30", "$$4cccab93-d297-4c06-9266-1d2c89283cde": "50", "$$4f2f7494-8a42-4d1a-8c59-3e2920861eff": "30", "$$27dbba4b-b45b-4238-ab50-08f9125515d2": "100", "$$539fe1a4-ed02-4c48-94df-9be0c23bbef3": "2", "$$7b193e8d-f665-49a8-8566-d2eb1e714c89": "30", "$$0a0a246d-263d-45df-85d1-2a713febc4f0": "50", "$$4c85b783-115c-44a6-a27d-7c1f9a6070da": "0.6", "$$3269eded-0328-4da3-912b-e8c28f3c1c70": "6", "$$49bf4135-4f7f-49d6-b947-f23c20429b66": "0.2", "$$9c1ab110-c12a-4d5a-9194-c6c18718be77": "20", "$$a87b5905-e3db-4126-9376-2d1f50ee87ec": "1.6", "$$a9407401-70f7-4418-bd6a-4f2acb55b08d": "20", "$$2e6439fb-5ee2-438d-bcef-8be70b499612": "1.6", "$$b28c0fea-9904-4377-af3f-5a7a61eaf2bd": "0.8", "$$6fca897b-25de-4d8e-a178-cf178e074e6c": "5", "$$16ca15d2-5663-43f5-872d-bb7cbe05d586": "0.4"}, "ParameterErrors": {}, "CurrentValues": {"$$479735fe-4691-4b01-8d27-3061545e50ba": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "$$4cccab93-d297-4c06-9266-1d2c89283cde": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "50"}, "$$4f2f7494-8a42-4d1a-8c59-3e2920861eff": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "$$27dbba4b-b45b-4238-ab50-08f9125515d2": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "100"}, "$$539fe1a4-ed02-4c48-94df-9be0c23bbef3": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "2"}, "$$7b193e8d-f665-49a8-8566-d2eb1e714c89": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "$$0a0a246d-263d-45df-85d1-2a713febc4f0": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "50"}, "$$4c85b783-115c-44a6-a27d-7c1f9a6070da": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.6"}, "$$3269eded-0328-4da3-912b-e8c28f3c1c70": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "6"}, "$$49bf4135-4f7f-49d6-b947-f23c20429b66": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.2"}, "$$9c1ab110-c12a-4d5a-9194-c6c18718be77": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "20"}, "$$a87b5905-e3db-4126-9376-2d1f50ee87ec": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "1.6"}, "$$a9407401-70f7-4418-bd6a-4f2acb55b08d": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "20"}, "$$2e6439fb-5ee2-438d-bcef-8be70b499612": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "1.6"}, "$$b28c0fea-9904-4377-af3f-5a7a61eaf2bd": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.8"}, "$$6fca897b-25de-4d8e-a178-cf178e074e6c": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "5"}, "$$16ca15d2-5663-43f5-872d-bb7cbe05d586": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.4"}}, "ParameterStatus": {"$$479735fe-4691-4b01-8d27-3061545e50ba": "UpToDate", "$$4cccab93-d297-4c06-9266-1d2c89283cde": "UpToDate", "$$4f2f7494-8a42-4d1a-8c59-3e2920861eff": "UpToDate", "$$27dbba4b-b45b-4238-ab50-08f9125515d2": "UpToDate", "$$539fe1a4-ed02-4c48-94df-9be0c23bbef3": "UpToDate", "$$7b193e8d-f665-49a8-8566-d2eb1e714c89": "UpToDate", "$$0a0a246d-263d-45df-85d1-2a713febc4f0": "UpToDate", "$$4c85b783-115c-44a6-a27d-7c1f9a6070da": "UpToDate", "$$3269eded-0328-4da3-912b-e8c28f3c1c70": "UpToDate", "$$49bf4135-4f7f-49d6-b947-f23c20429b66": "UpToDate", "$$9c1ab110-c12a-4d5a-9194-c6c18718be77": "UpToDate", "$$a87b5905-e3db-4126-9376-2d1f50ee87ec": "UpToDate", "$$a9407401-70f7-4418-bd6a-4f2acb55b08d": "UpToDate", "$$2e6439fb-5ee2-438d-bcef-8be70b499612": "UpToDate", "$$b28c0fea-9904-4377-af3f-5a7a61eaf2bd": "UpToDate", "$$6fca897b-25de-4d8e-a178-cf178e074e6c": "UpToDate", "$$16ca15d2-5663-43f5-872d-bb7cbe05d586": "UpToDate"}, "Note": None, "IsUpToDate": False, "Exported": True, "Retained": True, "IsHpsRetainedDataValidAndAvailable": False, "CurrentStateExported": False, "IsDataModelValid": True, "HasRetainedData": True, "HasBeenSolved": True, "UpdateOrder": 1}</member-data>
         <properties-setByUserFlag-data valType="String">["IsHpsRetainedDataValidAndAvailable", "IsDataModelValid"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Parameters/DesignPointReportSetting:Design Points Report Setting" Version="1.0">
@@ -393,244 +391,208 @@ C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\sim
         <object-name valType="String">Design Points Report Setting</object-name>
         <member-data valType="String">{"DisplayText": "Design Points Report Setting", "DesignPointReportImage": "None"}</member-data>
       </Object>
-      <Object Name="/Parameters/Parameter:P21" Version="1.0">
+      <Object Name="/Parameters/Parameter:P1" Version="1.0">
         <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P21</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P20) SUBSTRATE_OFFSET", "PersistedNamedValueEntityReference": None, "Expression": "30", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P20" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P20</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P19) FP_122_DMS_GITTER[51,46]: W_PAD", "PersistedNamedValueEntityReference": None, "Expression": "5", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "5"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P19" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P19</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P18) FP_122_DMS_GITTER[51,46]: W_LEG", "PersistedNamedValueEntityReference": None, "Expression": "0.8", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.8"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P18" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P18</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P17) FP_122_DMS_GITTER[51,46]: W", "PersistedNamedValueEntityReference": None, "Expression": "0.8", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.8"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P17" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P17</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P16) FP_122_DMS_GITTER[51,46]: N_LEG", "PersistedNamedValueEntityReference": None, "Expression": "8", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "8"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P16" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P16</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P15) FP_122_DMS_GITTER[51,46]: N_LAYER", "PersistedNamedValueEntityReference": None, "Expression": "2", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "2"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P15" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P15</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P14) FP_122_DMS_GITTER[51,46]: L_START_LOOP", "PersistedNamedValueEntityReference": None, "Expression": "1.6", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "1.6"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P14" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P14</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P13) FP_122_DMS_GITTER[51,46]: L_GAUGE", "PersistedNamedValueEntityReference": None, "Expression": "20", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "20"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P13" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P13</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P12) FP_122_DMS_GITTER[51,46]: L_E", "PersistedNamedValueEntityReference": None, "Expression": "1.6", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "1.6"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P12" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P12</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P11) FP_122_DMS_GITTER[51,46]: L_A", "PersistedNamedValueEntityReference": None, "Expression": "20", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "20"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P11" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P11</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P10) FP_122_DMS_GITTER[51,46]: H_LAYER", "PersistedNamedValueEntityReference": None, "Expression": "0.2", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.2"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P10" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P10</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P9) FP_122_DMS_GITTER[51,46]: G_LEGS", "PersistedNamedValueEntityReference": None, "Expression": "0.8", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.8"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P9" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P9</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P8) FP_122_DMS_GITTER[51,46]: G", "PersistedNamedValueEntityReference": None, "Expression": "9.8", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "9.8"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P8" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P8</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P7) FP_122_DMS_GITTER[51,46]: B_GAUGE", "PersistedNamedValueEntityReference": None, "Expression": "6", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "6"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P7" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P7</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P6) FP_121_DMS_SUBSTRAT[51,40]: T_S", "PersistedNamedValueEntityReference": None, "Expression": "0.6", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.6"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P5" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P5</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P5) FP_121_DMS_SUBSTRAT[51,40]: B_S", "PersistedNamedValueEntityReference": None, "Expression": "30", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P4" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P4</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P4) FP_110_FEDERKÖRPER[40]: T_FK", "PersistedNamedValueEntityReference": None, "Expression": "2", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "2"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
-      </Object>
-      <Object Name="/Parameters/Parameter:P3" Version="1.0">
-        <class-type valType="String">Parameter</class-type>
-        <object-name valType="String">P3</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P3) FP_110_FEDERKÖRPER[40]: L_FK", "PersistedNamedValueEntityReference": None, "Expression": "100", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "100"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+        <object-name valType="String">P1</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P1) ANS_SUBSTRATE_OFFSET", "PersistedNamedValueEntityReference": None, "Expression": "30", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
       </Object>
       <Object Name="/Parameters/Parameter:P2" Version="1.0">
         <class-type valType="String">Parameter</class-type>
         <object-name valType="String">P2</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P2) FP_110_FEDERKÖRPER[40]: B_FK", "PersistedNamedValueEntityReference": None, "Expression": "30", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+        <member-data valType="String">{"DisplayText": "(B0_P2) FP_110_FEDERKÖRPER[40]: ANS_W_FK", "PersistedNamedValueEntityReference": None, "Expression": "50", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "50"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P3" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P3</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P3) FP_110_FEDERKÖRPER[40]: B_FK", "PersistedNamedValueEntityReference": None, "Expression": "30", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P4" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P4</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P4) FP_110_FEDERKÖRPER[40]: L_FK", "PersistedNamedValueEntityReference": None, "Expression": "100", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "100"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P5" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P5</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P5) FP_110_FEDERKÖRPER[40]: T_FK", "PersistedNamedValueEntityReference": None, "Expression": "2", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "2"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
       </Object>
       <Object Name="/Parameters/Parameter:P6" Version="1.0">
         <class-type valType="String">Parameter</class-type>
         <object-name valType="String">P6</object-name>
-        <member-data valType="String">{"DisplayText": "(B0_P1) FP_121_DMS_SUBSTRAT[51,40]: L_S", "PersistedNamedValueEntityReference": None, "Expression": "50", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "50"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+        <member-data valType="String">{"DisplayText": "(B0_P6) FP_121_DMS_SUBSTRAT[51,40]: B_S", "PersistedNamedValueEntityReference": None, "Expression": "30", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P7" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P7</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P7) FP_121_DMS_SUBSTRAT[51,40]: L_S", "PersistedNamedValueEntityReference": None, "Expression": "50", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "50"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P8" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P8</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P8) FP_121_DMS_SUBSTRAT[51,40]: T_S", "PersistedNamedValueEntityReference": None, "Expression": "0.6", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.6"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P9" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P9</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P9) FP_122_DMS_GITTER[51,46]: B_GAUGE", "PersistedNamedValueEntityReference": None, "Expression": "6", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "6"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P10" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P10</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P10) FP_122_DMS_GITTER[51,46]: H_LAYER", "PersistedNamedValueEntityReference": None, "Expression": "0.2", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.2"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P11" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P11</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P11) FP_122_DMS_GITTER[51,46]: L_A", "PersistedNamedValueEntityReference": None, "Expression": "20", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "20"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P12" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P12</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P12) FP_122_DMS_GITTER[51,46]: L_E", "PersistedNamedValueEntityReference": None, "Expression": "1.6", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "1.6"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P13" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P13</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P13) FP_122_DMS_GITTER[51,46]: L_GAUGE", "PersistedNamedValueEntityReference": None, "Expression": "20", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "20"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P15" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P15</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P15) FP_122_DMS_GITTER[51,46]: L_START_LOOP", "PersistedNamedValueEntityReference": None, "Expression": "1.6", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "1.6"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P17" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P17</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P17) FP_122_DMS_GITTER[51,46]: W_LEG", "PersistedNamedValueEntityReference": None, "Expression": "0.8", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.8"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P18" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P18</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P18) FP_122_DMS_GITTER[51,46]: W_PAD", "PersistedNamedValueEntityReference": None, "Expression": "5", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "5"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P16" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P16</object-name>
+        <member-data valType="String">{"DisplayText": "(B0_P16) FP_122_DMS_GITTER[51,46]: T_G", "PersistedNamedValueEntityReference": None, "Expression": "0.4", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.4"}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Dimensionless"}}</member-data>
       </Object>
       <ParameterToPropertyMap>
-        <Parameter Name="/Parameters/Parameter:P21">
-          <ParameterReference valType="String">2bdca0a2-e07d-4d70-a653-67b189f5b314</ParameterReference>
+        <Parameter Name="/Parameters/Parameter:P1">
+          <ParameterReference valType="String">479735fe-4691-4b01-8d27-3061545e50ba</ParameterReference>
           <LinkedEntityProperty>
-            <EntityReference valType="String">7ea99d13-253e-4a59-a8a2-63b7669583be</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P20">
-          <ParameterReference valType="String">7ef6b6f5-0142-4310-8d3b-cea5cb8b831e</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">53919bc9-1d65-4b65-a065-d69e7cb6632d</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P19">
-          <ParameterReference valType="String">6c266e44-f432-4222-94b5-d6aad5d4e342</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">6e6ac50b-5b16-49ac-9404-0d0e01a2ee5f</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P18">
-          <ParameterReference valType="String">1f7c7a6a-7cec-47fc-bd4d-6b2dc376913a</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">7b05f9a3-6529-4fad-85d2-02e6cb3fffb2</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P17">
-          <ParameterReference valType="String">f0d72c8b-7cdc-45a1-8e07-6521ab842b32</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">2d9cc605-4ba1-427a-befc-950e44f366c6</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P16">
-          <ParameterReference valType="String">a0b6685d-0fbd-411a-9320-0ba285d11aac</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">29217713-f194-4cc3-b120-18dea49b78c0</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P15">
-          <ParameterReference valType="String">85ddf1fb-995f-4381-9952-49867beb8c37</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">cf0d3e68-a8b8-4848-99ac-b5a061dc5e37</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P14">
-          <ParameterReference valType="String">e3c23b1f-d875-4af4-a8ef-447b19e00ef8</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">dad61199-75e9-499c-a893-542bbe9bb9a4</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P13">
-          <ParameterReference valType="String">023e2c54-61e4-4db8-b596-5a265d6f26dd</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">1045c849-e198-45a8-bea5-c91c7f3bd0c0</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P12">
-          <ParameterReference valType="String">3f376059-50e5-4273-989d-be884779f55f</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">9d237edf-5509-4504-9bb2-83aa5d09ae6e</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P11">
-          <ParameterReference valType="String">a0cc8631-ddf8-4f41-8bb9-bc6f0767f7b6</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">ca6723bb-0505-483d-b050-f88832ec6861</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P10">
-          <ParameterReference valType="String">fe017fc7-d271-4cd9-9785-9792fd2cba44</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">a6b16b18-e85d-46c9-8dca-150219fa01af</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P9">
-          <ParameterReference valType="String">79bd3aa5-7b62-45cd-b8cb-9aa4af642a46</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">7afb13b0-e70d-49b9-b261-2ed2e8f0b6e1</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P8">
-          <ParameterReference valType="String">3eb750d0-4188-4be1-8b0a-0f025378963c</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">8cdee0db-c8d0-4800-bafd-d29a413a4952</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P7">
-          <ParameterReference valType="String">f4f3e233-1be4-483d-b01a-b5e864d8e7dc</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">332e6d51-07a0-4aca-af7d-698d1531a454</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P5">
-          <ParameterReference valType="String">2fb2f87d-3c8e-4a34-9752-c904cef15b9c</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">0fe7dda6-fae9-48a1-887d-4421825fbe74</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P4">
-          <ParameterReference valType="String">7a23ca3d-a539-4498-9ea6-1a146cf231c7</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">207f8ac9-8d9b-4dcf-81be-ae303959b079</EntityReference>
-            <Property valType="String">Value</Property>
-          </LinkedEntityProperty>
-        </Parameter>
-        <Parameter Name="/Parameters/Parameter:P3">
-          <ParameterReference valType="String">a95b4e69-e015-4ac8-993a-787745b85022</ParameterReference>
-          <LinkedEntityProperty>
-            <EntityReference valType="String">4e0c4416-45d1-4530-8442-054d5ef41608</EntityReference>
+            <EntityReference valType="String">e4dd97c5-66ec-4c28-b9f3-22cdac45411e</EntityReference>
             <Property valType="String">Value</Property>
           </LinkedEntityProperty>
         </Parameter>
         <Parameter Name="/Parameters/Parameter:P2">
-          <ParameterReference valType="String">aac57c0c-829c-4e6a-abdc-defe7f6eb385</ParameterReference>
+          <ParameterReference valType="String">4cccab93-d297-4c06-9266-1d2c89283cde</ParameterReference>
           <LinkedEntityProperty>
-            <EntityReference valType="String">2b851921-9686-4f63-8e93-4f94e2e2d28c</EntityReference>
+            <EntityReference valType="String">5e401f0b-bcca-44e4-8529-5c115df0332d</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P3">
+          <ParameterReference valType="String">4f2f7494-8a42-4d1a-8c59-3e2920861eff</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">32bc8731-debf-4cad-98f8-74a4c1a6b7a5</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P4">
+          <ParameterReference valType="String">27dbba4b-b45b-4238-ab50-08f9125515d2</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">45651d82-88ec-481f-90e9-fb5e17a34fb8</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P5">
+          <ParameterReference valType="String">539fe1a4-ed02-4c48-94df-9be0c23bbef3</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">33e21f69-ebdf-4565-b0da-50d56497b1a9</EntityReference>
             <Property valType="String">Value</Property>
           </LinkedEntityProperty>
         </Parameter>
         <Parameter Name="/Parameters/Parameter:P6">
-          <ParameterReference valType="String">da485be6-ab72-485c-80be-862c557bd28b</ParameterReference>
+          <ParameterReference valType="String">7b193e8d-f665-49a8-8566-d2eb1e714c89</ParameterReference>
           <LinkedEntityProperty>
-            <EntityReference valType="String">32dc8049-fbd8-4422-8283-410e86f80847</EntityReference>
+            <EntityReference valType="String">a4b833c1-6cd3-4509-ae46-ba6cf0fd6c19</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P7">
+          <ParameterReference valType="String">0a0a246d-263d-45df-85d1-2a713febc4f0</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">174ee146-fa35-465b-9ae4-3d31a56d07f9</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P8">
+          <ParameterReference valType="String">4c85b783-115c-44a6-a27d-7c1f9a6070da</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">6efc59d8-d87d-46ee-98fb-82ba0ae7812d</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P9">
+          <ParameterReference valType="String">3269eded-0328-4da3-912b-e8c28f3c1c70</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">f59b681f-ad4d-439a-9004-005e6c660623</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P10">
+          <ParameterReference valType="String">49bf4135-4f7f-49d6-b947-f23c20429b66</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">6cf1a250-bd42-4704-8d93-c4a4161d1154</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P11">
+          <ParameterReference valType="String">9c1ab110-c12a-4d5a-9194-c6c18718be77</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">acc7f8ba-9c17-4c0c-ac96-0286c8ddb23c</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P12">
+          <ParameterReference valType="String">a87b5905-e3db-4126-9376-2d1f50ee87ec</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">f80ed336-d24f-40b5-9656-ce6dd69d1e7f</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P13">
+          <ParameterReference valType="String">a9407401-70f7-4418-bd6a-4f2acb55b08d</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">6996b59e-fff3-4f32-8506-c66f968e84ee</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P15">
+          <ParameterReference valType="String">2e6439fb-5ee2-438d-bcef-8be70b499612</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">e1d3766a-fd70-44e3-bb91-9074cdaeccfc</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P17">
+          <ParameterReference valType="String">b28c0fea-9904-4377-af3f-5a7a61eaf2bd</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">89a4f497-ddf4-4540-be5f-d71450fef4e8</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P18">
+          <ParameterReference valType="String">6fca897b-25de-4d8e-a178-cf178e074e6c</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">38b19b7a-0dcf-48b0-8c71-6332435a913a</EntityReference>
+            <Property valType="String">Value</Property>
+          </LinkedEntityProperty>
+        </Parameter>
+        <Parameter Name="/Parameters/Parameter:P16">
+          <ParameterReference valType="String">16ca15d2-5663-43f5-872d-bb7cbe05d586</ParameterReference>
+          <LinkedEntityProperty>
+            <EntityReference valType="String">5df97d2f-8db5-452c-8dad-77cfda79a94e</EntityReference>
             <Property valType="String">Value</Property>
           </LinkedEntityProperty>
         </Parameter>
@@ -642,7 +604,7 @@ C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\sim
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 8526, "Input": 8527, "Output": 1521}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 9788, "Input": 9078, "Output": 1521}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Schematic/System:Geometry" Version="1.0">
@@ -792,9 +754,9 @@ C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\sim
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 1844, "Input": 1846, "Output": 1844}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 1844, "Input": 10142, "Output": 1844}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <contains-significant-data valType="Boolean">false</contains-significant-data>
+      <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Units/UnitSystemProjectSettings:UnitSystemProjectSettings" Version="1.0">
         <class-type valType="String">UnitSystemProjectSettings</class-type>
         <object-name valType="String">UnitSystemProjectSettings</object-name>
@@ -805,6 +767,11 @@ C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\sim
         <object-name valType="String">UnitSys</object-name>
         <member-data valType="String">{"DisplayText": "Metric (kg,m,s,°C,A,N,V)", "ChangedQuantityUnits": {}, "UnitSystemName": "MKS_STANDARD", "BaseUnitSystemName": "SI", "IsProjectUnitSystem": True, "IsDefault": False}</member-data>
       </Object>
+      <Object Name="/Units/UnitSystem:UnitSys 1" Version="1.0">
+        <class-type valType="String">UnitSystem</class-type>
+        <object-name valType="String">UnitSys 1</object-name>
+        <member-data valType="String">{"DisplayText": "Metric (kg,mm,s,°C,mA,N,mV)", "ChangedQuantityUnits": {"Current": "mA", "Length": "mm", "Temperature": "C", "Electric Charge": "mcoulomb", "Energy": "mJ", "Pressure": "MPa", "Voltage": "mV", "MAPDL Enthalpy": "mJ mm^-3", "Acceleration": "mm s^-2", "Area": "mm^2", "Compressibility": "MPa^-1", "Concentration": "mm^-3", "Current Transfer Coefficient": "mA mm^-2 mV^-1", "Density": "kg mm^-3", "Density Derivative": "mm^-2 s^2", "Dynamic Viscosity": "MPa s", "Electric Charge Density": "mcoulomb mm^-3", "Electric Current Density": "mA mm^-2", "Electric Current Source": "mA mm^-3", "Electric Field": "mV mm^-1", "Electrical Conductivity": "S mm^-1", "Electrical Permittivity": "microfarad mm^-1", "Electrical Resistivity": "ohm mm", "Energy Source": "W mm^-3", "Energy Source Coefficient": "W mm^-3 C^-1", "Enthalpy Variance": "mm^4 s^-4", "Epsilon": "mm^2 s^-3", "Epsilon Flux": "W mm^-2 s^-1", "Epsilon Flux Coefficient": "kg mm^-2 s^-2", "Epsilon Source": "W mm^-3 s^-1", "Epsilon Source Coefficient": "kg mm^-3 s^-2", "Flame Surface Density Source": "mm^-1 s^-1", "Fracture Energy": "mJ mm^-2", "Heat Flux in": "W mm^-2", "Heat Transfer Coefficient": "W mm^-2 C^-1", "Interphase Transfer Coefficient": "kg mm^-2 s^-1", "Inverse Area": "mm^-2", "Inverse Length": "mm^-1", "k": "mm^2 s^-2", "k Flux": "W mm^-2", "k Flux Coefficient": "kg mm^-2 s^-1", "k Source": "W mm^-3", "k Source Coefficient": "kg mm^-3 s^-1", "Kinematic Diffusivity": "mm^2 s^-1", "Magnetic Field": "mA mm^-1", "Magnetic Field Intensity": "mA mm^-1", "Magnetic Flux": "mWb", "Magnetic Flux Density": "mT", "Magnetic Induction": "mT", "Magnetic Potential": "mT mm", "Magnetic Permeability": "mH mm^-1", "Mass Concentration": "kg mm^-3", "Mass Concentration Rate": "kg mm^-3 s^-1", "Mass Flux": "kg s^-1 mm^-2", "Mass Flux Coefficient": "kg s^-1 mm^-2", "Mass Flux Pressure Coefficient": "kg s^-1 mm^-2 MPa^-1", "Mass Per Area": "kg mm^-2", "Mass Source": "kg s^-1 mm^-3", "Mass Source Coefficient": "kg s^-1 mm^-3", "Mass Source Pressure Coefficient": "kg s^-1 mm^-3 MPa^-1", "Total Mass Source Pressure Coefficient": "kg s^-1 MPa^-1", "Material Impedance": "kg mm^-2 s^-1", "Molar Concentration": "mol mm^-3", "Molar Concentration Henry Coefficient": "MPa mm^3 mol^-1", "Molar Concentration Rate": "mol mm^-3 s^-1", "Molar Energy": "mJ mol^-1", "Molar Entropy": "mJ mol^-1 C^-1", "Molar Volume": "mm^3 mol^-1", "Moment": "N mm", "Momentum Source": "kg mm^-2 s^-2", "Momentum Source Lin Coeff": "kg mm^-3 s^-1", "Momentum Source Quad Coeff": "kg mm^-4", "Normalized Value": "mm mm^-1", "Omega Source": "kg mm^-3 s^-2", "Pressure Gradient": "MPa mm^-1", "Molar Mass": "kg mol^-1", "Seebeck Coefficient": "mV C^-1", "Shock Velocity": "s mm^-1", "Soot Cross Coefficient": "mm^3 mol^-1 s^-1", "Specific Energy": "mJ kg^-1", "Specific Enthalpy": "mJ kg^-1", "Specific Entropy": "mJ kg^-1 C^-1", "Specific Flame Surface Density": "mm^2 kg^-1", "Specific Heat Capacity": "mJ kg^-1 C^-1", "Specific Volume": "kg^-1 mm^3", "Surface Tension": "N mm^-1", "InvTemp1": "C^-1", "InvTemp2": "C^-2", "InvTemp3": "C^-3", "InvTemp4": "C^-4", "Temperature Gradient": "C mm^-1", "Temperature Variance Source": "kg mm^-3 s^-1 K^2", "Thermal Conductivity": "W mm^-1 C^-1", "Thermal Expansivity": "C^-1", "Torque": "N mm", "Total Radiative Intensity": "W mm^-2 sr^-1", "Turbulent Heat Flux": "mm^3 s^-3", "Velocity": "mm s^-1", "Volume": "mm^3", "Volumetric": "kg mm^-3", "Volumetric Flow": "mm^3 s^-1", "Volumetric Flow in": "mm^3 s^-1", "Number Source": "mm^-3 s^-1", "Capacitance": "microfarad", "Electric Conductance Per Unit Area": "S mm^-2", "Electric Flux Density": "mcoulomb mm^-2", "Energy Density by Mass": "mJ kg^-1", "Force Intensity": "N mm^-1", "Gasket Stiffness": "MPa mm^-1", "Heat Flux": "W mm^-2", "Heat Generation": "W mm^-3", "Inductance": "mH", "Inverse Stress": "MPa^-1", "Moment of Inertia of Area": "mm^2 mm^2", "Moment of Inertia of Mass": "kg mm^2", "PSD Acceleration": "mm^2 s^-4 Hz^-1", "PSD Displacement": "mm^2 Hz^-1", "PSD Moment": "N^2 mm^2 Hz^-1", "PSD Pressure": "MPa^2 Hz^-1", "PSD Strain": "mm^2 mm^-2 Hz^-1", "PSD Stress": "MPa^2 Hz^-1", "PSD Velocity": "mm^2 s^-2 Hz^-1", "Relative Permeability": "mH mH^-1", "Relative Permittivity": "microfarad microfarad^-1", "Rotational Damping": "N mm s rad^-1", "Rotational Stiffness": "N mm rad^-1", "Section Modulus": "mm^3", "Specific Weight": "N mm^-3", "Stiffness": "N mm^-1", "Strain": "mm mm^-1", "Strength": "MPa", "Stress": "MPa", "Stress Intensity Factor": "MPa mm^0.5", "Stress Per Temperature": "MPa C^-1", "Temperature Difference": "C", "Translational Damping": "N s mm^-1", "Warping Factor": "mm^6", "Contact Resistance": "mm^2 s kg^-1", "Density Derivative wrt Pressure": "mm^-2 s^2", "Density Derivative wrt Temperature": "kg mm^-3 C^-1", "Dielectric Contact Resistance": "microfarad^-1 mm^2", "Electric Charge Transfer Coefficient": "microfarad mm^-2", "Electrical Contact Resistance": "S^-1 mm^2", "Pressure Derivative wrt Temperature": "MPa C^-1", "Pressure Derivative wrt Volume": "MPa kg mm^-3", "Surface Charge Density": "mA s mm^-2", "Thermal Capacitance": "mJ C^-1", "Thermal Conductance": "W C^-1", "Thermal Contact Resistance": "W^-1 mm^2 C", "Torsional Spring Constant": "N mm radian^-1", "Fracture Energy Rate": "mJ mm^-2 s^-1", "Surface Power Density": "W mm^-2", "Force Density": "N mm^-3", "Surface Force Density": "N mm^-2", "Mass Flow Rate Per Area": "kg s^-1 mm^-2", "Mass Flow Rate Per Length": "kg s^-1 mm^-1", "Mass Flow Rate Per Volume": "kg s^-1 mm^-3", "Piezoelectric Stress Coefficient": "coulomb mm^-2", "Mass Per Length": "kg mm^-1", "Mass Source Rate Per Area": "kg s^-2 mm^-2", "Mass Source Rate Per Length": "kg s^-2 mm^-1", "Mass Source Rate Per Volume": "kg s^-2 mm^-3", "Thermal Compliance": "W C", "Length Per Cycle": "mm cycle^-1"}, "UnitSystemName": "NMM_STANDARD", "BaseUnitSystemName": "SI", "IsProjectUnitSystem": False, "IsDefault": False}</member-data>
+      </Object>
     </Container>
     <Container Name="HpsContainer" Version="1.0">
       <container-type valType="String">Ansys.HPS.Addin:HpsContainer</container-type>
@@ -812,7 +779,7 @@ C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\sim
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 3997, "Input": 1847, "Output": 1847}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 10161, "Input": 1847, "Output": 1847}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
       <Object Name="/HpsContainer/HpsSettings:HPS Settings Entity" Version="1.0">
