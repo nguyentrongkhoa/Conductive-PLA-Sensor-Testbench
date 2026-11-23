@@ -24,13 +24,10 @@ dpall/
 session_files/
 dp0/Geom/
 dp0/global/
-dp0/SC/
 dp0/SYS/
 dp0/Geom/DM/
 dp0/global/MECH/
 dp0/global/MECH/SYS/
-dp0/SC/SC/
-dp0/SC/SC/SyC/
 dp0/SYS/ENGD/
 dp0/SYS/MECH/
 dpall/global/
