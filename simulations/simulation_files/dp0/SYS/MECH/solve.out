@@ -1,0 +1,2548 @@
+
+ Ansys Mechanical Enterprise Academic Student      
+
+
+ *------------------------------------------------------------------*
+ |                                                                  |
+ |   W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M     |
+ |                                                                  |
+ *------------------------------------------------------------------*
+
+
+
+
+ ***************************************************************
+ *         ANSYS MAPDL 2026 R1          LEGAL NOTICES          *
+ ***************************************************************
+ *                                                             *
+ * Copyright (c) 2026 Synopsys, Inc. and ANSYS, Inc.           *
+ * All rights reserved.                                        *
+ * Unauthorized use, distribution or duplication is            *
+ * prohibited.                                                 *
+ *                                                             *
+ * Ansys is a registered trademark of Ansys, Inc. or its       *
+ * subsidiaries in the United States or other countries.       *
+ * See the Ansys, Inc. online documentation or the Ansys, Inc. *
+ * documentation CD or online help for the complete Legal      *
+ * Notice.                                                     *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+ * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+ * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+ * The software products and documentation are furnished by    *
+ * Ansys, Inc. or its subsidiaries under a software license    *
+ * agreement that contains provisions concerning               *
+ * non-disclosure, copying, length and nature of use,          *
+ * compliance with exporting laws, warranties, disclaimers,    *
+ * limitations of liability, and remedies, and other           *
+ * provisions.  The software products and documentation may be *
+ * used, disclosed, transferred, or copied only in accordance  *
+ * with the terms and conditions of that software license      *
+ * agreement.                                                  *
+ *                                                             *
+ * Ansys, Inc. is a UL registered                              *
+ * ISO 9001:2015 company.                                      *
+ *                                                             *
+ ***************************************************************
+ *                                                             *
+ * This product is subject to U.S. laws governing export and   *
+ * re-export.                                                  *
+ *                                                             *
+ * For U.S. Government users, except as specifically granted   *
+ * by the Ansys, Inc. software license agreement, the use,     *
+ * duplication, or disclosure by the United States Government  *
+ * is subject to restrictions stated in the Ansys, Inc.        *
+ * software license agreement and FAR 12.212 (for non-DOD      *
+ * licenses).                                                  *
+ *                                                             *
+ ***************************************************************
+
+ 2026 R1 
+     
+ Point Releases and Patches installed:   
+     
+ Ansys, Inc. License Manager 2026 R1 
+ Discovery (full install) 2026 R1
+ Core WB Files 2026 R1   
+ optiSLang Core UI 2026 R1   
+ CFX (includes CFD-Post) 2026 R1 
+ Chemkin 2026 R1 
+ EnSight 2026 R1 
+ FENSAP-ICE 2026 R1  
+ Fluent (includes CFD-Post) 2026 R1  
+ Polyflow (includes CFD-Post) 2026 R1
+ Forte (includes EnSight) 2026 R1
+ Rocky 2026 R1   
+ TurboGrid 2026 R1   
+ ACIS Geometry Interface 2026 R1 
+ AutoCAD Geometry Interface 2026 R1  
+ Catia, Version 4 Geometry Interface 2026 R1 
+ Catia, Version 5 Geometry Interface 2026 R1 
+ Catia, Version 6 Geometry Interface 2026 R1 
+ Creo Elements/Direct Modeling Geometry Interface 2026 R1
+ Creo Parametric Geometry Interface 2026 R1  
+ Inventor Geometry Interface 2026 R1 
+ JTOpen Geometry Interface 2026 R1   
+ NX Geometry Interface 2026 R1   
+ Parasolid Geometry Interface  2026 R1   
+ Solid Edge Geometry Interface 2026 R1   
+ SOLIDWORKS Geometry Interface 2026 R1   
+ Speos 2026 R1   
+ SpaceClaim 2026 R1  
+ Speos RPC 2026 R1   
+ Zemax OpticStudio 2026 R1   
+ Dynamic Reporting 2026 R1   
+ Aqwa 2026 R1
+ Autodyn 2026 R1 
+ Material Calibration App 2026 R1
+ Mechanical Products 2026 R1 
+ Motion 2026 R1  
+ Academic Student 2026 R1
+
+
+          *****  MAPDL COMMAND LINE ARGUMENTS  *****
+  BATCH MODE REQUESTED (-b)    = NOLIST
+  INPUT FILE COPY MODE (-c)    = COPY
+  DISTRIBUTED MEMORY PARALLEL REQUESTED
+       4 PARALLEL PROCESSES REQUESTED WITH SINGLE THREAD PER PROCESS
+    TOTAL OF     4 CORES REQUESTED
+  INPUT FILE NAME              = C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\simulations\_ProjectScratch\Scr616C\dummy.dat
+  OUTPUT FILE NAME             = C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\simulations\_ProjectScratch\Scr616C\solve.out
+  START-UP FILE MODE           = NOREAD
+  STOP FILE MODE               = NOREAD
+
+ RELEASE= 2026 R1              BUILD= 26.1      UP20260202   VERSION=WINDOWS x64 
+ CURRENT JOBNAME=file0  06:35:42  NOV 23, 2026  Elapsed Time=       0.109
+
+
+ PARAMETER _DS_PROGRESS =     999.0000000    
+
+ /INPUT FILE= ds.dat  LINE=       0
+
+
+
+ *** NOTE ***                            ELAPSED TIME =       6.344   TIME= 06:35:43
+ The /CONFIG,NOELDB command is not valid in a distributed memory         
+ parallel solution.  Command is ignored.                                 
+
+ *GET  _WALLSTRT  FROM  ACTI  ITEM=TIME WALL  VALUE= 0.177478333E-02
+
+ TITLE= 
+ simulation--Coupled Field Static (B5)                                         
+
+  ACT Extensions:
+      LSDYNA, 2026.1
+      5f463412-bd3e-484b-87e7-cbc0a665e474, wbex
+      ANSYSMotion, 2026.1
+      20180725-3f81-49eb-9f31-41364844c769, wbex
+
+ SET PARAMETER DIMENSIONS ON  _WB_PROJECTSCRATCH_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_PROJECTSCRATCH_DIR(1) = C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\simulations\_ProjectScratch\Scr616C\
+
+ SET PARAMETER DIMENSIONS ON  _WB_SOLVERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_SOLVERFILES_DIR(1) = C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\simulations\simulation_files\dp0\SYS\MECH\
+
+ SET PARAMETER DIMENSIONS ON  _WB_USERFILES_DIR
+  TYPE=STRI  DIMENSIONS=      248        1        1
+
+ PARAMETER _WB_USERFILES_DIR(1) = C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\simulations\simulation_files\user_files\
+ --- Data in consistent uMKS units. See Solving Units in the help system for mor
+
+ uMKS UNITS SPECIFIED FOR INTERNAL    
+  LENGTH      = MICROMETERS (um)
+  MASS        = KILOGRAM (kg)
+  TIME        = SECONDS (sec)
+  TEMPERATURE = CELSIUS (C)
+  TOFFSET     = 273.0
+  FORCE       = MICRONEWTON (uN)
+  HEAT        = PICOJOULES (pJ)
+
+ INPUT  UNITS ARE ALSO SET TO UMKS
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2026 R1          26.1     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   06:35:43  NOV 23, 2026 Elapsed Time=      6.420
+
+ simulation--Coupled Field Static (B5)                                         
+
+
+
+          ***** MAPDL ANALYSIS DEFINITION (PREP7) *****
+ *********** Send User Defined Coordinate System(s) ***********
+ *********** Nodes for the whole assembly ***********
+ *********** Elements for Body 1 'Geom\FP_110_FEDERKÖRPER[40]' ***********
+ *********** Elements for Body 2 'Geom\FP_121_DMS_SUBSTRAT[51,40]' ***********
+ *********** Elements for Body 3 'Geom\FP_122_DMS_GITTER[51,46]' ***********
+ *********** Set Reference Temperature ***********
+ *********** Send Materials ***********
+ *********** Create Contact "Contact Region" ***********
+             Real Constant Set For Above Contact Is 5 & 4
+ *********** Create Contact "Contact Region 2" ***********
+             Real Constant Set For Above Contact Is 7 & 6
+ *********** Create Contact "Contact Region 3" ***********
+             Real Constant Set For Above Contact Is 9 & 8
+ *********** Send Named Selection as Node Component ***********
+ *********** Send Named Selection as Node Component ***********
+ *********** Send Named Selection as Node Component ***********
+ *********** Fixed Supports ***********
+ *********** Define Temperature Constraint ***********
+ *********** Define Force Without Surface Effect Elements "Force" ***********
+ *********** Create Voltage "Voltage (Ground)" ***********
+ *********** Create Current ***********
+ ***************** Define Uniform Initial temperature ***************
+
+
+ ***** ROUTINE COMPLETED *****  ELAPSED TIME =         6.702
+
+
+ --- Number of total nodes = 6351
+ --- Number of contact elements = 2412
+ --- Number of spring elements = 0
+ --- Number of bearing elements = 0
+ --- Number of solid elements = 1992
+ --- Number of condensed parts = 0
+ --- Number of total elements = 4404
+
+ *GET  _WALLBSOL  FROM  ACTI  ITEM=TIME WALL  VALUE= 0.186218775E-02
+ ****************************************************************************
+ *************************    SOLUTION       ********************************
+ ****************************************************************************
+
+ *****  MAPDL SOLUTION ROUTINE  *****
+
+
+ PERFORM A STATIC ANALYSIS
+  THIS WILL BE A NEW ANALYSIS
+
+ LARGE DEFORMATION ANALYSIS
+
+ PARAMETER _THICKRATIO =     0.000000000    
+
+ USE SPARSE MATRIX DIRECT SOLVER
+
+ CONTACT INFORMATION PRINTOUT LEVEL       1
+
+ CHECK INITIAL OPEN/CLOSED STATUS OF SELECTED CONTACT ELEMENTS
+      AND LIST DETAILED CONTACT PAIR INFORMATION
+
+ SPLIT CONTACT SURFACES AT SOLVE PHASE
+
+    NUMBER OF SPLITTING TBD BY PROGRAM
+
+ DO NOT COMBINE ELEMENT MATRIX FILES (.emat) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ DO NOT COMBINE ELEMENT SAVE DATA FILES (.esav) AFTER DISTRIBUTED PARALLEL SOLUTION
+
+ NLDIAG: Nonlinear diagnostics CONT option is set to ON. 
+         Writing frequency : each ITERATION.
+
+ DEFINE RESTART CONTROL FOR LOADSTEP LAST
+ AT FREQUENCY OF LAST AND NUMBER FOR OVERWRITE IS   -1
+
+ DELETE RESTART FILES OF ENDSTEP
+ ****************************************************
+ ******************* SOLVE FOR LS 1 OF 10 ****************
+ *********** Set Force Without Surface Effect Elements "Force" ***********
+
+ SPECIFIED CONTROL SET FOR SURFACE LOAD PRES
+  KCS   LCOMP   ESYS  KTaper  KUse  KArea  KProj
+    1      0     12      0      0      1      0
+
+ SPECIFIED SURFACE LOAD PRES FOR ALL PICKED ELEMENTS  LKEY =  1   KVAL = 1
+     VALUES =     0.0000         0.0000         0.0000         0.0000    
+
+ SPECIFIED CONTROL SET FOR SURFACE LOAD PRES
+  KCS   LCOMP   ESYS  KTaper  KUse  KArea  KProj
+    1      1     12      0      0      1      0
+
+ SPECIFIED SURFACE LOAD PRES FOR ALL PICKED ELEMENTS  LKEY =  1   KVAL = 1
+     VALUES =     0.0000         0.0000         0.0000         0.0000    
+
+ SPECIFIED CONTROL SET FOR SURFACE LOAD PRES
+  KCS   LCOMP   ESYS  KTaper  KUse  KArea  KProj
+    1      2     12      0      0      1      0
+
+ SPECIFIED SURFACE LOAD PRES FOR ALL PICKED ELEMENTS  LKEY =  1   KVAL = 1
+      SET ACCORDING TO TABLE PARAMETER = _LOADVARI151Z                                                                                                                                                                                                                                                   
+
+ ALL SELECT   FOR ITEM=NODE COMPONENT=    
+  IN RANGE         1 TO       6351 STEP          1
+
+       6351  NODES (OF       6351  DEFINED) SELECTED BY NSEL  COMMAND.
+
+ ALL SELECT   FOR ITEM=ELEM COMPONENT=    
+  IN RANGE         1 TO       6400 STEP          1
+
+       4404  ELEMENTS (OF       4404  DEFINED) SELECTED BY  ESEL  COMMAND.
+
+ PRINTOUT RESUMED BY /GOP
+
+ SPECIFIED CONSTRAINT VOLT FOR PICKED NODES 
+ REAL=  0.00000000       IMAG=  0.00000000    
+
+ ALL SELECT   FOR ITEM=NODE COMPONENT=    
+  IN RANGE         1 TO       6351 STEP          1
+
+       6351  NODES (OF       6351  DEFINED) SELECTED BY NSEL  COMMAND.
+
+ SPECIFIED NODAL LOAD AMPS FOR SELECTED NODES      5768 TO     5768 BY        1
+  REAL= 1.000000000E+09   IMAG=  0.00000000    
+
+ CONSTRAINT EQUATION NO.          1 HAS        2 TERMS.  CONSTANT=  0.000000    
+ NODE=       5768  DIR= VOLT  COEFFICIENT= -1.000000    
+ NODE=       5772  DIR= VOLT  COEFFICIENT=  1.000000    
+
+ CONSTRAINT EQUATION NO.          2 HAS        2 TERMS.  CONSTANT=  0.000000    
+ NODE=       5768  DIR= VOLT  COEFFICIENT= -1.000000    
+ NODE=       5943  DIR= VOLT  COEFFICIENT=  1.000000    
+
+ CONSTRAINT EQUATION NO.          3 HAS        2 TERMS.  CONSTANT=  0.000000    
+ NODE=       5768  DIR= VOLT  COEFFICIENT= -1.000000    
+ NODE=       5947  DIR= VOLT  COEFFICIENT=  1.000000    
+
+ CONSTRAINT EQUATION NO.          4 HAS        2 TERMS.  CONSTANT=  0.000000    
+ NODE=       5768  DIR= VOLT  COEFFICIENT= -1.000000    
+ NODE=       5977  DIR= VOLT  COEFFICIENT=  1.000000    
+
+ CONSTRAINT EQUATION NO.          5 HAS        2 TERMS.  CONSTANT=  0.000000    
+ NODE=       5768  DIR= VOLT  COEFFICIENT= -1.000000    
+ NODE=       5978  DIR= VOLT  COEFFICIENT=  1.000000    
+
+ CONSTRAINT EQUATION NO.          6 HAS        2 TERMS.  CONSTANT=  0.000000    
+ NODE=       5768  DIR= VOLT  COEFFICIENT= -1.000000    
+ NODE=       5989  DIR= VOLT  COEFFICIENT=  1.000000    
+
+ CONSTRAINT EQUATION NO.          7 HAS        2 TERMS.  CONSTANT=  0.000000    
+ NODE=       5768  DIR= VOLT  COEFFICIENT= -1.000000    
+ NODE=       6349  DIR= VOLT  COEFFICIENT=  1.000000    
+
+ SPECIFIED CONSTRAINT TEMP FOR PICKED NODES 
+ REAL=  22.0000000       IMAG=  0.00000000    
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE     10 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  1.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE ETMP ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NLOA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPTH ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ALLCONTACTS
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FGRA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ CONVERGENCE ON AMPS BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *GET  ANSINTER_  FROM  ACTI  ITEM=INT        VALUE=  0.00000000    
+
+ *IF  ANSINTER_  ( =   0.00000     )  NE  
+      0  ( =   0.00000     )  THEN    
+
+ *ENDIF
+
+ *** NOTE ***                            ELAPSED TIME =       6.850   TIME= 06:35:43
+ The automatic domain decomposition logic has selected the MESH domain   
+ decomposition method with 4 processes per solution.                     
+
+ *****  MAPDL SOLVE    COMMAND  *****
+
+ *** WARNING ***                         ELAPSED TIME =       9.222   TIME= 06:35:46
+ Element shape checking is currently inactive.  Issue SHPP,ON or         
+ SHPP,WARN to reactivate, if desired.                                    
+
+ *** WARNING ***                         ELAPSED TIME =       9.611   TIME= 06:35:46
+ Constraint equations may not be valid for elements that undergo large   
+ deflections.                                                            
+
+ *** NOTE ***                            ELAPSED TIME =       9.796   TIME= 06:35:46
+ The model data was checked and warning messages were found.             
+  Please review output or errors file (                                  
+ C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2.                  
+ Sem\Forschungsprojekt\simulations\_ProjectScratch\Scr616C\file0.err )   
+ for these warning messages.                                             
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2026 R1          26.1     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   06:35:46  NOV 23, 2026 Elapsed Time=      9.821
+
+ simulation--Coupled Field Static (B5)                                         
+
+
+
+                       S O L U T I O N   O P T I O N S
+
+   PROBLEM DIMENSIONALITY. . . . . . . . . . . . .3-D                  
+   DEGREES OF FREEDOM. . . . . . UX   UY   UZ   TEMP VOLT
+   ANALYSIS TYPE . . . . . . . . . . . . . . . . .STATIC (STEADY-STATE)
+   OFFSET TEMPERATURE FROM ABSOLUTE ZERO . . . . .  273.15    
+   NONLINEAR GEOMETRIC EFFECTS . . . . . . . . . .ON
+   EQUATION SOLVER OPTION. . . . . . . . . . . . .SPARSE             
+   NEWTON-RAPHSON OPTION . . . . . . . . . . . . .PROGRAM CHOSEN   
+   GLOBALLY ASSEMBLED MATRIX . . . . . . . . . . .UNSYMMETRIC
+
+ *** NOTE ***                            ELAPSED TIME =       9.884   TIME= 06:35:46
+ This nonlinear analysis defaults to using the full Newton-Raphson       
+ solution procedure.  This can be modified using the NROPT command.      
+
+ *** NOTE ***                            ELAPSED TIME =       9.885   TIME= 06:35:46
+ The conditions for direct assembly have been met.  No .emat or .erot    
+ files will be produced.                                                 
+
+ TRIM CONTACT/TARGET SURFACE
+
+ *** WARNING ***                         ELAPSED TIME =      10.066   TIME= 06:35:46
+ Contact element 5129 is missing DOF VOLT (and possibly others) of       
+ underlying base element 1965.  Similar mismatches may exist elsewhere,  
+ but checking for this is discontinued.                                  
+ START TRIMMING SMALL/BONDED CONTACT PAIRS FOR DMP RUN.                  
+
+     437 CONTACT ELEMENTS &     772 TARGET ELEMENTS ARE DELETED DUE TO TRIMMING LOGIC.
+       3 CONTACT PAIRS ARE REMOVED. 
+
+ CHECK INITIAL OPEN/CLOSED STATUS OF SELECTED CONTACT ELEMENTS
+      AND LIST DETAILED CONTACT PAIR INFORMATION
+ *WARNING*: Some target elements on target surface specified by real     
+ constant set 8 belong to symmetric contact (e.g.  7), some do not.      
+ 
+ SPLITTING CONTACT SURFACES WITH A CONNECTED REGION
+ 
+
+ CONTACT PAIR ASSOCIATED WITH REAL CONSTANT 8 SPLIT INTO 2 NEW PAIRS 
+ ASSOCIATED WITH REAL CONSTANTS 10 - 10
+
+ NEW TARGET ELEMENTS FROM 6401 TO 6552 WERE CREATED TO HANDLE
+ THE SPLIT CONTACT PAIRS
+
+ TRIM CONTACT/TARGET SURFACE
+ *WARNING*: Some target elements on target surface specified by real     
+ constant set 8 belong to symmetric contact (e.g.  7), some do not.      
+
+       0 CONTACT ELEMENTS &     142 TARGET ELEMENTS ARE DELETED DUE TO SPLITTING LOGIC.
+ *WARNING*: Some target elements on target surface specified by real     
+ constant set 8 belong to symmetric contact (e.g.  7), some do not.      
+
+ *** NOTE ***                            ELAPSED TIME =      10.827   TIME= 06:35:47
+ Smoothing on certain target nodes (e.g.5779) for pair ID 8 may have     
+ accuracy issue.  Please verify element normal of connected target       
+ elements (e.g.6251 & 6386).                                             
+
+ *** NOTE ***                            ELAPSED TIME =      10.978   TIME= 06:35:47
+ Deformable-deformable contact pair identified by real constant set 5    
+ and contact element type 4 has been set up.                             
+ Thermal-structure coupling contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Small sliding logic is assumed
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness       192.79    
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance           108.93    
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Default elastic slip factor SLTOL            0.50000E-02
+ The resulting elastic slip tolerance          18.155    
+ Update contact stiffness at each iteration
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length                3631.0    
+ Average contact pair depth                    1089.3    
+ Average target surface length                 2970.6    
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                  272.32    
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.57931E+07
+ Default fraction of friction energy FHTG      1.0000    
+ Default weight of dissip. to contact FWGT    0.50000    
+ Heat radiation is excluded.
+
+ *** NOTE ***                            ELAPSED TIME =      10.979   TIME= 06:35:47
+ Max.  Initial penetration 4.547473509E-13 was detected between contact  
+ element 4378 and target element 4127.                                   
+ ****************************************
+  
+
+ *** NOTE ***                            ELAPSED TIME =      10.979   TIME= 06:35:47
+ Deformable-deformable contact pair identified by real constant set 7    
+ and contact element type 6 has been set up.                             
+ Thermal-structure coupling contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Small sliding logic is assumed
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness       220.01    
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance           111.91    
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Default elastic slip factor SLTOL            0.50000E-02
+ The resulting elastic slip tolerance          18.552    
+ Update contact stiffness at each iteration
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length                3710.5    
+ Average contact pair depth                    1119.1    
+ Average target surface length                 2970.6    
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                  279.76    
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.57931E+07
+ Default fraction of friction energy FHTG      1.0000    
+ Default weight of dissip. to contact FWGT    0.50000    
+ Heat radiation is excluded.
+
+ *** NOTE ***                            ELAPSED TIME =      10.980   TIME= 06:35:47
+ Min.  Initial gap 200 was detected between contact element 5146 and     
+ target element 4997.                                                    
+ Contact is detected due to initial settings.                            
+ *WARNING*: The geometric gap/penetration may be too large.  Increase    
+ pinball radius if it is a true geometric gap/penetration.  Decrease     
+ pinball if it is a false one.                                           
+ ****************************************
+  
+
+ *** NOTE ***                            ELAPSED TIME =      10.981   TIME= 06:35:47
+ Deformable-deformable contact pair identified by real constant set 8    
+ and contact element type 8 has been set up.                             
+ The current pair was split from a base pair (real ID 8).                
+ Thermal-structure coupling contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Small sliding logic is assumed
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness       152.34    
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance           137.85    
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Default elastic slip factor SLTOL            0.50000E-02
+ The resulting elastic slip tolerance          12.757    
+ Update contact stiffness at each iteration
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length                2551.4    
+ Average contact pair depth                    1378.5    
+ Average target surface length                 2972.2    
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                  344.62    
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.57931E+07
+ Default fraction of friction energy FHTG      1.0000    
+ Default weight of dissip. to contact FWGT    0.50000    
+ Heat radiation is excluded.
+
+ *** NOTE ***                            ELAPSED TIME =      10.981   TIME= 06:35:47
+ Max.  Initial penetration 5.456968211E-12 was detected between contact  
+ element 5943 and target element 6352.                                   
+ ****************************************
+  
+
+ *** NOTE ***                            ELAPSED TIME =      10.981   TIME= 06:35:47
+ Deformable-deformable contact pair identified by real constant set 10   
+ and contact element type 8 has been set up.                             
+ The current pair was split from a base pair (real ID 8).                
+ Thermal-structure coupling contact is activated.
+ The emissivity is defined through the material property.
+ Thermal convection coefficient, environment temperature, and
+  heat flux are defined using the SFE command.
+ Target temperature is used for convection/radiation calculation
+  for near field contact.
+ Small sliding logic is assumed
+ Contact algorithm: Augmented Lagrange method
+ Contact detection at: Gauss integration point
+ Contact stiffness factor FKN                  10.000    
+ The resulting initial contact stiffness       152.34    
+ Default penetration tolerance factor FTOLN   0.10000    
+ The resulting penetration tolerance           137.85    
+ Default opening contact stiffness OPSF will be used.
+ Default tangent stiffness factor FKT          1.0000    
+ Default elastic slip factor SLTOL            0.50000E-02
+ The resulting elastic slip tolerance          12.757    
+ Update contact stiffness at each iteration
+ Default Max. friction stress TAUMAX          0.10000E+21
+ Average contact surface length                2551.4    
+ Average contact pair depth                    1378.5    
+ Average target surface length                 3031.6    
+ Default pinball region factor PINB           0.25000    
+ The resulting pinball region                  344.62    
+ Initial penetration/gap is excluded.
+ Bonded contact (always) is defined.
+ Thermal contact conductance coef. TCC        0.57931E+07
+ Default fraction of friction energy FHTG      1.0000    
+ Default weight of dissip. to contact FWGT    0.50000    
+ Heat radiation is excluded.
+
+ *** NOTE ***                            ELAPSED TIME =      10.982   TIME= 06:35:47
+ Max.  Initial penetration 5.456968211E-12 was detected between contact  
+ element 5943 and target element 6352.                                   
+ ****************************************
+  
+  
+  
+
+  
+  
+     D I S T R I B U T E D   D O M A I N   D E C O M P O S E R
+  
+  ...Number of elements: 3205
+  ...Number of nodes:    6351
+  ...Decompose to 4 CPU domains
+  ...Element load balance ratio =     1.143
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     1
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  1.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .    15
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   STRESS-STIFFENING . . . . . . . . . . . . . . .    ON
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   NODAL DOF SOLUTION LIMIT. . . . . . . . . . . . 0.10000E+10
+   CONVERGENCE CONTROLS
+      LABEL   REFERENCE    TOLERANCE  NORM     MINREF
+       HEAT    0.000       0.1000E-02   2     0.1000E+07
+       AMPS    0.000       0.1000E-02   2     0.1000E+07
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      ETMP        ALL               
+      VENG        ALL               
+      NLOA        ALL               
+      STRS        ALL               
+      EPEL        ALL               
+      EPPL        ALL               
+      EPTH        ALL               
+      MISC        ALL       _ALLCONTACTS
+      CONT        ALL               
+      FFLU        ALL               
+      FGRA        ALL               
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+ MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS HAS BEEN MODIFIED              
+  TO BE, NEQIT = 26, BY SOLUTION CONTROL LOGIC.                          
+
+
+
+                         ***********  PRECISE MASS SUMMARY  ***********
+
+   TOTAL RIGID BODY MASS MATRIX ABOUT ORIGIN
+               Translational mass               |   Coupled translational/rotational mass
+        0.48216E-01    0.0000        0.0000     |     0.0000        49.665        5.5786    
+         0.0000       0.48216E-01    0.0000     |    -49.665        0.0000       0.28153E-01
+         0.0000        0.0000       0.48216E-01 |    -5.5786      -0.28153E-01    0.0000    
+     ------------------------------------------ | ------------------------------------------
+                                                |         Rotational mass (inertia)
+                                                |    0.39580E+08    140.77       -67.568    
+                                                |     140.77       0.36850E+07    12826.    
+                                                |    -67.568        12826.       0.43128E+08
+
+   TOTAL MASS = 0.48216E-01
+     The mass principal axes coincide with the global Cartesian axes
+
+   CENTER OF MASS (X,Y,Z)=   0.58390       -115.70        1030.1    
+
+   TOTAL INERTIA ABOUT CENTER OF MASS
+        0.39528E+08    137.51       -38.568    
+         137.51       0.36339E+07    7079.9    
+        -38.568        7079.9       0.43127E+08
+     The inertia principal axes coincide with the global Cartesian axes
+
+
+  *** MASS SUMMARY BY ELEMENT TYPE ***
+
+  TYPE      MASS
+     1  0.471000E-01
+     2  0.100912E-02
+     3  0.106610E-03
+
+ Range of element maximum matrix coefficients in global coordinates
+ Maximum = 3.26530129E+13 at element 4431.                               
+ Minimum = 70874974.1 at element 1352.                                   
+
+   *** ELEMENT MATRIX FORMULATION TIMES
+     TYPE    NUMBER     ENAME   TOTAL ELAPSED   AVG ELAPSED
+
+        1       340  SOLID226          0.8511   0.002503190
+        2      1590  SOLID227          1.2247   0.000770266
+        3        62  SOLID226          0.1737   0.002800845
+        4       285  CONTA174          0.2502   0.000877860
+        5       180  TARGE170          0.0066   0.000036932
+        6        62  CONTA174          0.0839   0.001352661
+        7       102  TARGE170          0.0073   0.000071375
+        8       422  CONTA174          0.3694   0.000875433
+        9       162  TARGE170          0.0048   0.000029459
+ Elapsed Time at end of element matrix formulation = 14.3448295.         
+
+ ALL CURRENT MAPDL DATA WRITTEN TO FILE NAME= file.rdb
+  FOR POSSIBLE RESUME FROM THIS POINT
+     FORCE CONVERGENCE VALUE  =  0.7693E-02  CRITERION=  0.1523E+09
+     HT FLOW CONVERGENCE VALUE=   177.1      CRITERION=   1000.    
+     CURRENT CONVERGENCE VALUE=  0.1000E+10  CRITERION=  0.1000E+07
+
+ DISTRIBUTED SPARSE MATRIX DIRECT SOLVER.
+  Number of equations =       25230,    Maximum wavefront =    695
+
+
+  Memory allocated on only this MPI rank (rank     0)
+  -------------------------------------------------------------------
+  Equation solver memory allocated                     =    93.540 MB
+  Equation solver memory required for in-core mode     =    89.561 MB
+  Equation solver memory required for out-of-core mode =    33.609 MB
+  Total (solver and non-solver) memory allocated       =   553.025 MB
+
+
+  Total memory summed across all MPI ranks on this machines
+  -------------------------------------------------------------------
+  Equation solver memory allocated                     =   437.356 MB
+  Equation solver memory required for in-core mode     =   420.103 MB
+  Equation solver memory required for out-of-core mode =   173.189 MB
+  Total (solver and non-solver) memory allocated       =  1647.141 MB
+
+ *** NOTE ***                            ELAPSED TIME =      16.763   TIME= 06:35:53
+ The Distributed Sparse Matrix Solver is currently running in the        
+ in-core memory mode.  This memory mode uses the most amount of memory   
+ in order to avoid using the hard drive as much as possible, which most  
+ often results in the fastest solution time.  This mode is recommended   
+ if enough physical memory is present to accommodate all of the solver   
+ data.                                                                   
+
+ *** NOTE ***                            ELAPSED TIME =      16.763   TIME= 06:35:53
+ The system matrix is unsymmetric.                                       
+ curEqn=   4332  totEqn=   4332 Job CP sec=     11.844
+      Factor Done=  93% Factor Wall sec=      1.915 rate=       3.1 GFlops
+ Distributed sparse solver maximum pivot= 3.548044766E+13 at node 1475   
+ TEMP.                                                                   
+ Distributed sparse solver minimum pivot= 108968.91 at node 2779 UZ.     
+ Distributed sparse solver minimum pivot in absolute value= 108968.91 at 
+ node 2779 UZ.                                                           
+     DISP CONVERGENCE VALUE   =  0.1535E-10  CRITERION=  0.3710E-08 <<< CONVERGED
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=   163.5    
+     DISP CONVERGENCE VALUE   =  0.1535E-10  CRITERION=  0.1028E-01 <<< CONVERGED
+      The calculated reference DISP CONVERGENCE VALUE   =  0.1535E-10
+       is less than MINREF (which can be modified on the CNVTOL command).
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =   163.5    
+     FORCE CONVERGENCE VALUE  =  0.4884E-02  CRITERION=  0.1523E+09 <<< CONVERGED
+     HT FLOW CONVERGENCE VALUE=   10.19      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.6043E-02  CRITERION=  0.1206E+07 <<< CONVERGED
+     DISP CONVERGENCE VALUE   =  0.1535E-10  CRITERION=  0.1028E-01 <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =   163.5    
+     FORCE CONVERGENCE VALUE  =  0.4884E-02  CRITERION=  0.1523E+09 <<< CONVERGED
+     HT FLOW CONVERGENCE VALUE=   10.19      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.6043E-02  CRITERION=  0.1206E+07 <<< CONVERGED
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   2
+
+   *** ELEMENT RESULT CALCULATION TIMES
+     TYPE    NUMBER     ENAME   TOTAL ELAPSED   AVG ELAPSED
+
+        1       340  SOLID226          1.0626   0.003125263
+        2      1590  SOLID227          2.0442   0.001285677
+        3        62  SOLID226          0.1889   0.003045969
+        4       285  CONTA174          0.1945   0.000682550
+        6        62  CONTA174          0.0579   0.000933916
+        8       422  CONTA174          0.1904   0.000451281
+
+   *** NODAL LOAD CALCULATION TIMES
+     TYPE    NUMBER     ENAME   TOTAL ELAPSED   AVG ELAPSED
+
+        1       340  SOLID226          0.0377   0.000110846
+        2      1590  SOLID227          0.1651   0.000103846
+        3        62  SOLID226          0.0059   0.000095968
+        4       285  CONTA174          0.0334   0.000117061
+        6        62  CONTA174          0.0279   0.000449919
+        8       422  CONTA174          0.0420   0.000099456
+ *** LOAD STEP     1   SUBSTEP     1  COMPLETED.    CUM ITER =      2
+ *** TIME =   1.00000         TIME INC =   1.00000    
+
+
+ *** MAPDL BINARY FILE STATISTICS
+  BUFFER SIZE USED= 16384
+        1.938 MB WRITTEN ON ELEMENT SAVED DATA FILE: file0.esav
+        4.312 MB WRITTEN ON ASSEMBLED MATRIX FILE: file0.full
+        0.812 MB WRITTEN ON RESULTS FILE: file0.rst
+ *************** Write FE CONNECTORS *********
+
+ WRITE OUT CONSTRAINT EQUATIONS TO FILE= file.ce                                                                                                                                                                                                                                                             
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 1 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 2 OF 10 ****************
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE     10 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  2.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE ETMP ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NLOA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPTH ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ALLCONTACTS
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FGRA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ CONVERGENCE ON AMPS BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  MAPDL SOLVE    COMMAND  *****
+
+ *** NOTE ***                            ELAPSED TIME =      31.294   TIME= 06:36:08
+ This nonlinear analysis defaults to using the full Newton-Raphson       
+ solution procedure.  This can be modified using the NROPT command.      
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2026 R1          26.1     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   06:36:08  NOV 23, 2026 Elapsed Time=     31.521
+
+ simulation--Coupled Field Static (B5)                                         
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     2
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  2.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .    15
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   STRESS-STIFFENING . . . . . . . . . . . . . . .    ON
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   NODAL DOF SOLUTION LIMIT. . . . . . . . . . . . 0.10000E+10
+   CONVERGENCE CONTROLS
+      LABEL   REFERENCE    TOLERANCE  NORM     MINREF
+       HEAT    0.000       0.1000E-02   2     0.1000E+07
+       AMPS    0.000       0.1000E-02   2     0.1000E+07
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      ETMP        ALL               
+      VENG        ALL               
+      NLOA        ALL               
+      STRS        ALL               
+      EPEL        ALL               
+      EPPL        ALL               
+      EPTH        ALL               
+      MISC        ALL       _ALLCONTACTS
+      CONT        ALL               
+      FFLU        ALL               
+      FGRA        ALL               
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+ MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS HAS BEEN MODIFIED              
+  TO BE, NEQIT = 26, BY SOLUTION CONTROL LOGIC.                          
+
+     FORCE CONVERGENCE VALUE  =  0.2952E+07  CRITERION=  0.1523E+09
+     HT FLOW CONVERGENCE VALUE=   10.19      CRITERION=   1000.    
+     CURRENT CONVERGENCE VALUE=  0.6043E-02  CRITERION=  0.1206E+07
+     DISP CONVERGENCE VALUE   =   1653.      CRITERION=   82.63    
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -1653.    
+     DISP CONVERGENCE VALUE   =   742.6      CRITERION=   82.63    
+     LINE SEARCH PARAMETER =  0.4494     SCALED MAX DOF INC =  -742.6    
+     FORCE CONVERGENCE VALUE  =  0.3176E+10  CRITERION=  0.1523E+09
+     HT FLOW CONVERGENCE VALUE=   10.99      CRITERION=   1000.     <<< CONVERGED
+     The calculated reference HT FLOW CONVERGENCE VALUE=   7.865    
+      is less than MINREF (which can be modified on the CNVTOL command).
+     CURRENT CONVERGENCE VALUE=  0.2179E+07  CRITERION=  0.1206E+07
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -348.6    
+     DISP CONVERGENCE VALUE   =   348.6      CRITERION=   82.63    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -348.6    
+     FORCE CONVERGENCE VALUE  =  0.6219E+09  CRITERION=  0.1523E+09
+     HT FLOW CONVERGENCE VALUE=   13.30      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.9335E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -421.3    
+     DISP CONVERGENCE VALUE   =   358.7      CRITERION=   82.63    
+     LINE SEARCH PARAMETER =  0.8515     SCALED MAX DOF INC =  -358.7    
+     FORCE CONVERGENCE VALUE  =  0.9432E+09  CRITERION=  0.1523E+09
+     HT FLOW CONVERGENCE VALUE=   13.23      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1193E+07  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -129.0    
+     DISP CONVERGENCE VALUE   =   129.0      CRITERION=   82.63    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -129.0    
+     FORCE CONVERGENCE VALUE  =  0.1076E+09  CRITERION=  0.1523E+09 <<< CONVERGED
+     HT FLOW CONVERGENCE VALUE=   12.61      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.3666E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   5 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -69.90    
+     DISP CONVERGENCE VALUE   =   69.90      CRITERION=   82.63     <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -69.90    
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   5
+ *** LOAD STEP     2   SUBSTEP     1  COMPLETED.    CUM ITER =      7
+ *** TIME =   2.00000         TIME INC =   1.00000    
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 2 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 3 OF 10 ****************
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE     10 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  3.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE ETMP ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NLOA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPTH ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ALLCONTACTS
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FGRA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ CONVERGENCE ON AMPS BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  MAPDL SOLVE    COMMAND  *****
+
+ *** NOTE ***                            ELAPSED TIME =      82.735   TIME= 06:36:59
+ This nonlinear analysis defaults to using the full Newton-Raphson       
+ solution procedure.  This can be modified using the NROPT command.      
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2026 R1          26.1     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   06:36:59  NOV 23, 2026 Elapsed Time=     82.887
+
+ simulation--Coupled Field Static (B5)                                         
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     3
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  3.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .    15
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   STRESS-STIFFENING . . . . . . . . . . . . . . .    ON
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   NODAL DOF SOLUTION LIMIT. . . . . . . . . . . . 0.10000E+10
+   CONVERGENCE CONTROLS
+      LABEL   REFERENCE    TOLERANCE  NORM     MINREF
+       HEAT    0.000       0.1000E-02   2     0.1000E+07
+       AMPS    0.000       0.1000E-02   2     0.1000E+07
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      ETMP        ALL               
+      VENG        ALL               
+      NLOA        ALL               
+      STRS        ALL               
+      EPEL        ALL               
+      EPPL        ALL               
+      EPTH        ALL               
+      MISC        ALL       _ALLCONTACTS
+      CONT        ALL               
+      FFLU        ALL               
+      FGRA        ALL               
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+ MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS HAS BEEN MODIFIED              
+  TO BE, NEQIT = 26, BY SOLUTION CONTROL LOGIC.                          
+
+     FORCE CONVERGENCE VALUE  =  0.3599E+08  CRITERION=  0.1524E+09
+     HT FLOW CONVERGENCE VALUE=   13.05      CRITERION=   1000.    
+     CURRENT CONVERGENCE VALUE=  0.2097E+06  CRITERION=  0.1206E+07
+     DISP CONVERGENCE VALUE   =   1627.      CRITERION=   82.63    
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -1627.    
+     DISP CONVERGENCE VALUE   =   546.7      CRITERION=   82.63    
+     LINE SEARCH PARAMETER =  0.3361     SCALED MAX DOF INC =  -546.7    
+     FORCE CONVERGENCE VALUE  =  0.1739E+10  CRITERION=  0.1524E+09
+     HT FLOW CONVERGENCE VALUE=   11.89      CRITERION=   1000.     <<< CONVERGED
+     The calculated reference HT FLOW CONVERGENCE VALUE=   7.735    
+      is less than MINREF (which can be modified on the CNVTOL command).
+     CURRENT CONVERGENCE VALUE=  0.1719E+07  CRITERION=  0.1206E+07
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -575.8    
+     DISP CONVERGENCE VALUE   =   575.8      CRITERION=   82.63    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -575.8    
+     FORCE CONVERGENCE VALUE  =  0.1739E+10  CRITERION=  0.1525E+09
+     HT FLOW CONVERGENCE VALUE=   13.47      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1568E+07  CRITERION=  0.1206E+07
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -266.2    
+     DISP CONVERGENCE VALUE   =   266.2      CRITERION=   82.63    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -266.2    
+     FORCE CONVERGENCE VALUE  =  0.4781E+09  CRITERION=  0.1525E+09
+     HT FLOW CONVERGENCE VALUE=   14.60      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.7445E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -207.7    
+     DISP CONVERGENCE VALUE   =   207.7      CRITERION=   82.63    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -207.7    
+     FORCE CONVERGENCE VALUE  =  0.2885E+09  CRITERION=  0.1526E+09
+     HT FLOW CONVERGENCE VALUE=   14.30      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.6254E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   5 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -52.17    
+     DISP CONVERGENCE VALUE   =   52.17      CRITERION=   82.63     <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -52.17    
+     FORCE CONVERGENCE VALUE  =  0.1928E+08  CRITERION=  0.1526E+09 <<< CONVERGED
+     HT FLOW CONVERGENCE VALUE=   14.41      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1508E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   5
+ *** LOAD STEP     3   SUBSTEP     1  COMPLETED.    CUM ITER =     12
+ *** TIME =   3.00000         TIME INC =   1.00000    
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 3 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 4 OF 10 ****************
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE     10 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  4.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE ETMP ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NLOA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPTH ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ALLCONTACTS
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FGRA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ CONVERGENCE ON AMPS BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  MAPDL SOLVE    COMMAND  *****
+
+ *** NOTE ***                            ELAPSED TIME =     130.409   TIME= 06:37:47
+ This nonlinear analysis defaults to using the full Newton-Raphson       
+ solution procedure.  This can be modified using the NROPT command.      
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2026 R1          26.1     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   06:37:47  NOV 23, 2026 Elapsed Time=    130.551
+
+ simulation--Coupled Field Static (B5)                                         
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     4
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  4.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .    15
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   STRESS-STIFFENING . . . . . . . . . . . . . . .    ON
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   NODAL DOF SOLUTION LIMIT. . . . . . . . . . . . 0.10000E+10
+   CONVERGENCE CONTROLS
+      LABEL   REFERENCE    TOLERANCE  NORM     MINREF
+       HEAT    0.000       0.1000E-02   2     0.1000E+07
+       AMPS    0.000       0.1000E-02   2     0.1000E+07
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      ETMP        ALL               
+      VENG        ALL               
+      NLOA        ALL               
+      STRS        ALL               
+      EPEL        ALL               
+      EPPL        ALL               
+      EPTH        ALL               
+      MISC        ALL       _ALLCONTACTS
+      CONT        ALL               
+      FFLU        ALL               
+      FGRA        ALL               
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+ MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS HAS BEEN MODIFIED              
+  TO BE, NEQIT = 26, BY SOLUTION CONTROL LOGIC.                          
+
+     FORCE CONVERGENCE VALUE  =  0.2107E+08  CRITERION=  0.1526E+09
+     HT FLOW CONVERGENCE VALUE=   14.41      CRITERION=   1000.    
+     CURRENT CONVERGENCE VALUE=  0.1508E+06  CRITERION=  0.1206E+07
+     DISP CONVERGENCE VALUE   =   1644.      CRITERION=   82.63    
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -1644.    
+     DISP CONVERGENCE VALUE   =   741.1      CRITERION=   82.63    
+     LINE SEARCH PARAMETER =  0.4509     SCALED MAX DOF INC =  -741.1    
+     FORCE CONVERGENCE VALUE  =  0.3173E+10  CRITERION=  0.1527E+09
+     HT FLOW CONVERGENCE VALUE=   12.94      CRITERION=   1000.     <<< CONVERGED
+     The calculated reference HT FLOW CONVERGENCE VALUE=   7.667    
+      is less than MINREF (which can be modified on the CNVTOL command).
+     CURRENT CONVERGENCE VALUE=  0.2257E+07  CRITERION=  0.1206E+07
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -351.7    
+     DISP CONVERGENCE VALUE   =   351.7      CRITERION=   82.63    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -351.7    
+     FORCE CONVERGENCE VALUE  =  0.6351E+09  CRITERION=  0.1528E+09
+     HT FLOW CONVERGENCE VALUE=   14.54      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.9420E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -422.7    
+     DISP CONVERGENCE VALUE   =   361.8      CRITERION=   82.63    
+     LINE SEARCH PARAMETER =  0.8559     SCALED MAX DOF INC =  -361.8    
+     FORCE CONVERGENCE VALUE  =  0.9597E+09  CRITERION=  0.1529E+09
+     HT FLOW CONVERGENCE VALUE=   13.56      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1205E+07  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -129.6    
+     DISP CONVERGENCE VALUE   =   129.6      CRITERION=   82.63    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -129.6    
+     FORCE CONVERGENCE VALUE  =  0.1091E+09  CRITERION=  0.1529E+09 <<< CONVERGED
+     HT FLOW CONVERGENCE VALUE=   13.68      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.3739E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   5 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -71.27    
+     DISP CONVERGENCE VALUE   =   71.27      CRITERION=   82.75     <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -71.27    
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   5
+ *** LOAD STEP     4   SUBSTEP     1  COMPLETED.    CUM ITER =     17
+ *** TIME =   4.00000         TIME INC =   1.00000    
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 4 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 5 OF 10 ****************
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE     10 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  5.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE ETMP ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NLOA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPTH ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ALLCONTACTS
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FGRA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ CONVERGENCE ON AMPS BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  MAPDL SOLVE    COMMAND  *****
+
+ *** NOTE ***                            ELAPSED TIME =     164.542   TIME= 06:38:21
+ This nonlinear analysis defaults to using the full Newton-Raphson       
+ solution procedure.  This can be modified using the NROPT command.      
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2026 R1          26.1     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   06:38:21  NOV 23, 2026 Elapsed Time=    164.674
+
+ simulation--Coupled Field Static (B5)                                         
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     5
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  5.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .    15
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   STRESS-STIFFENING . . . . . . . . . . . . . . .    ON
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   NODAL DOF SOLUTION LIMIT. . . . . . . . . . . . 0.10000E+10
+   CONVERGENCE CONTROLS
+      LABEL   REFERENCE    TOLERANCE  NORM     MINREF
+       HEAT    0.000       0.1000E-02   2     0.1000E+07
+       AMPS    0.000       0.1000E-02   2     0.1000E+07
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      ETMP        ALL               
+      VENG        ALL               
+      NLOA        ALL               
+      STRS        ALL               
+      EPEL        ALL               
+      EPPL        ALL               
+      EPTH        ALL               
+      MISC        ALL       _ALLCONTACTS
+      CONT        ALL               
+      FFLU        ALL               
+      FGRA        ALL               
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+ MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS HAS BEEN MODIFIED              
+  TO BE, NEQIT = 26, BY SOLUTION CONTROL LOGIC.                          
+
+     FORCE CONVERGENCE VALUE  =  0.3753E+08  CRITERION=  0.1529E+09
+     HT FLOW CONVERGENCE VALUE=   14.00      CRITERION=   1000.    
+     CURRENT CONVERGENCE VALUE=  0.2162E+06  CRITERION=  0.1206E+07
+     DISP CONVERGENCE VALUE   =   1620.      CRITERION=   82.75    
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -1620.    
+     DISP CONVERGENCE VALUE   =   547.2      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =  0.3377     SCALED MAX DOF INC =  -547.2    
+     FORCE CONVERGENCE VALUE  =  0.1747E+10  CRITERION=  0.1531E+09
+     HT FLOW CONVERGENCE VALUE=   12.01      CRITERION=   1000.     <<< CONVERGED
+     The calculated reference HT FLOW CONVERGENCE VALUE=   7.555    
+      is less than MINREF (which can be modified on the CNVTOL command).
+     CURRENT CONVERGENCE VALUE=  0.1728E+07  CRITERION=  0.1206E+07
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -571.8    
+     DISP CONVERGENCE VALUE   =   571.8      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -571.8    
+     FORCE CONVERGENCE VALUE  =  0.1720E+10  CRITERION=  0.1533E+09
+     HT FLOW CONVERGENCE VALUE=   14.04      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1564E+07  CRITERION=  0.1206E+07
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -266.2    
+     DISP CONVERGENCE VALUE   =   266.2      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -266.2    
+     FORCE CONVERGENCE VALUE  =  0.4802E+09  CRITERION=  0.1533E+09
+     HT FLOW CONVERGENCE VALUE=   14.60      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.7578E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -204.6    
+     DISP CONVERGENCE VALUE   =   204.6      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -204.6    
+     FORCE CONVERGENCE VALUE  =  0.2811E+09  CRITERION=  0.1534E+09
+     HT FLOW CONVERGENCE VALUE=   13.34      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.6241E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   5 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -51.63    
+     DISP CONVERGENCE VALUE   =   51.63      CRITERION=   82.75     <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -51.63    
+     FORCE CONVERGENCE VALUE  =  0.1902E+08  CRITERION=  0.1534E+09 <<< CONVERGED
+     HT FLOW CONVERGENCE VALUE=   13.48      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1564E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   5
+ *** LOAD STEP     5   SUBSTEP     1  COMPLETED.    CUM ITER =     22
+ *** TIME =   5.00000         TIME INC =   1.00000    
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 5 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 6 OF 10 ****************
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE     10 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  6.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE ETMP ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NLOA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPTH ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ALLCONTACTS
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FGRA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ CONVERGENCE ON AMPS BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  MAPDL SOLVE    COMMAND  *****
+
+ *** NOTE ***                            ELAPSED TIME =     200.087   TIME= 06:38:56
+ This nonlinear analysis defaults to using the full Newton-Raphson       
+ solution procedure.  This can be modified using the NROPT command.      
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2026 R1          26.1     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   06:38:57  NOV 23, 2026 Elapsed Time=    200.230
+
+ simulation--Coupled Field Static (B5)                                         
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     6
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  6.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .    15
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   STRESS-STIFFENING . . . . . . . . . . . . . . .    ON
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   NODAL DOF SOLUTION LIMIT. . . . . . . . . . . . 0.10000E+10
+   CONVERGENCE CONTROLS
+      LABEL   REFERENCE    TOLERANCE  NORM     MINREF
+       HEAT    0.000       0.1000E-02   2     0.1000E+07
+       AMPS    0.000       0.1000E-02   2     0.1000E+07
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      ETMP        ALL               
+      VENG        ALL               
+      NLOA        ALL               
+      STRS        ALL               
+      EPEL        ALL               
+      EPPL        ALL               
+      EPTH        ALL               
+      MISC        ALL       _ALLCONTACTS
+      CONT        ALL               
+      FFLU        ALL               
+      FGRA        ALL               
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+ MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS HAS BEEN MODIFIED              
+  TO BE, NEQIT = 26, BY SOLUTION CONTROL LOGIC.                          
+
+     FORCE CONVERGENCE VALUE  =  0.2083E+08  CRITERION=  0.1534E+09
+     HT FLOW CONVERGENCE VALUE=   13.48      CRITERION=   1000.    
+     CURRENT CONVERGENCE VALUE=  0.1564E+06  CRITERION=  0.1206E+07
+     DISP CONVERGENCE VALUE   =   1634.      CRITERION=   82.75    
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -1634.    
+     DISP CONVERGENCE VALUE   =   737.6      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =  0.4514     SCALED MAX DOF INC =  -737.6    
+     FORCE CONVERGENCE VALUE  =  0.3154E+10  CRITERION=  0.1537E+09
+     HT FLOW CONVERGENCE VALUE=   11.40      CRITERION=   1000.     <<< CONVERGED
+     The calculated reference HT FLOW CONVERGENCE VALUE=   7.869    
+      is less than MINREF (which can be modified on the CNVTOL command).
+     CURRENT CONVERGENCE VALUE=  0.2256E+07  CRITERION=  0.1206E+07
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -350.6    
+     DISP CONVERGENCE VALUE   =   350.6      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -350.6    
+     FORCE CONVERGENCE VALUE  =  0.6346E+09  CRITERION=  0.1539E+09
+     HT FLOW CONVERGENCE VALUE=   13.95      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.9545E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -417.3    
+     DISP CONVERGENCE VALUE   =   360.6      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =  0.8640     SCALED MAX DOF INC =  -360.6    
+     FORCE CONVERGENCE VALUE  =  0.9541E+09  CRITERION=  0.1540E+09
+     HT FLOW CONVERGENCE VALUE=   12.26      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1206E+07  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -125.7    
+     DISP CONVERGENCE VALUE   =   125.7      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -125.7    
+     FORCE CONVERGENCE VALUE  =  0.1035E+09  CRITERION=  0.1540E+09 <<< CONVERGED
+     HT FLOW CONVERGENCE VALUE=   14.19      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.3738E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   5 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -68.65    
+     DISP CONVERGENCE VALUE   =   68.65      CRITERION=   82.75     <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -68.65    
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   5
+ *** LOAD STEP     6   SUBSTEP     1  COMPLETED.    CUM ITER =     27
+ *** TIME =   6.00000         TIME INC =   1.00000    
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 6 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 7 OF 10 ****************
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE     10 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  7.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE ETMP ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NLOA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPTH ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ALLCONTACTS
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FGRA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ CONVERGENCE ON AMPS BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  MAPDL SOLVE    COMMAND  *****
+
+ *** NOTE ***                            ELAPSED TIME =     229.628   TIME= 06:39:26
+ This nonlinear analysis defaults to using the full Newton-Raphson       
+ solution procedure.  This can be modified using the NROPT command.      
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2026 R1          26.1     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   06:39:26  NOV 23, 2026 Elapsed Time=    229.842
+
+ simulation--Coupled Field Static (B5)                                         
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     7
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  7.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .    15
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   STRESS-STIFFENING . . . . . . . . . . . . . . .    ON
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   NODAL DOF SOLUTION LIMIT. . . . . . . . . . . . 0.10000E+10
+   CONVERGENCE CONTROLS
+      LABEL   REFERENCE    TOLERANCE  NORM     MINREF
+       HEAT    0.000       0.1000E-02   2     0.1000E+07
+       AMPS    0.000       0.1000E-02   2     0.1000E+07
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      ETMP        ALL               
+      VENG        ALL               
+      NLOA        ALL               
+      STRS        ALL               
+      EPEL        ALL               
+      EPPL        ALL               
+      EPTH        ALL               
+      MISC        ALL       _ALLCONTACTS
+      CONT        ALL               
+      FFLU        ALL               
+      FGRA        ALL               
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+ MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS HAS BEEN MODIFIED              
+  TO BE, NEQIT = 26, BY SOLUTION CONTROL LOGIC.                          
+
+     FORCE CONVERGENCE VALUE  =  0.3525E+08  CRITERION=  0.1540E+09
+     HT FLOW CONVERGENCE VALUE=   13.29      CRITERION=   1000.    
+     CURRENT CONVERGENCE VALUE=  0.2122E+06  CRITERION=  0.1206E+07
+     DISP CONVERGENCE VALUE   =   1608.      CRITERION=   82.75    
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -1608.    
+     DISP CONVERGENCE VALUE   =   547.0      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =  0.3402     SCALED MAX DOF INC =  -547.0    
+     FORCE CONVERGENCE VALUE  =  0.1753E+10  CRITERION=  0.1543E+09
+     HT FLOW CONVERGENCE VALUE=   11.84      CRITERION=   1000.     <<< CONVERGED
+     The calculated reference HT FLOW CONVERGENCE VALUE=   7.665    
+      is less than MINREF (which can be modified on the CNVTOL command).
+     CURRENT CONVERGENCE VALUE=  0.1732E+07  CRITERION=  0.1206E+07
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -564.1    
+     DISP CONVERGENCE VALUE   =   564.1      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -564.1    
+     FORCE CONVERGENCE VALUE  =  0.1684E+10  CRITERION=  0.1546E+09
+     HT FLOW CONVERGENCE VALUE=   13.97      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1556E+07  CRITERION=  0.1206E+07
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -265.1    
+     DISP CONVERGENCE VALUE   =   265.1      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -265.1    
+     FORCE CONVERGENCE VALUE  =  0.4799E+09  CRITERION=  0.1547E+09
+     HT FLOW CONVERGENCE VALUE=   13.41      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.7674E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -198.3    
+     DISP CONVERGENCE VALUE   =   198.3      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -198.3    
+     FORCE CONVERGENCE VALUE  =  0.2662E+09  CRITERION=  0.1547E+09
+     HT FLOW CONVERGENCE VALUE=   13.57      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.6116E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    EQUIL ITER   5 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -50.10    
+     DISP CONVERGENCE VALUE   =   50.10      CRITERION=   82.75     <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -50.10    
+     FORCE CONVERGENCE VALUE  =  0.1813E+08  CRITERION=  0.1547E+09 <<< CONVERGED
+     HT FLOW CONVERGENCE VALUE=   15.03      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1557E+06  CRITERION=  0.1206E+07 <<< CONVERGED
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   5
+ *** LOAD STEP     7   SUBSTEP     1  COMPLETED.    CUM ITER =     32
+ *** TIME =   7.00000         TIME INC =   1.00000    
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 7 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 8 OF 10 ****************
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE     10 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  8.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE ETMP ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NLOA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPTH ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ALLCONTACTS
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FGRA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ CONVERGENCE ON AMPS BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  MAPDL SOLVE    COMMAND  *****
+
+ *** NOTE ***                            ELAPSED TIME =     258.378   TIME= 06:39:55
+ This nonlinear analysis defaults to using the full Newton-Raphson       
+ solution procedure.  This can be modified using the NROPT command.      
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2026 R1          26.1     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   06:39:55  NOV 23, 2026 Elapsed Time=    258.509
+
+ simulation--Coupled Field Static (B5)                                         
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     8
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  8.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .    15
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   STRESS-STIFFENING . . . . . . . . . . . . . . .    ON
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   NODAL DOF SOLUTION LIMIT. . . . . . . . . . . . 0.10000E+10
+   CONVERGENCE CONTROLS
+      LABEL   REFERENCE    TOLERANCE  NORM     MINREF
+       HEAT    0.000       0.1000E-02   2     0.1000E+07
+       AMPS    0.000       0.1000E-02   2     0.1000E+07
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      ETMP        ALL               
+      VENG        ALL               
+      NLOA        ALL               
+      STRS        ALL               
+      EPEL        ALL               
+      EPPL        ALL               
+      EPTH        ALL               
+      MISC        ALL       _ALLCONTACTS
+      CONT        ALL               
+      FFLU        ALL               
+      FGRA        ALL               
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+ MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS HAS BEEN MODIFIED              
+  TO BE, NEQIT = 26, BY SOLUTION CONTROL LOGIC.                          
+
+     FORCE CONVERGENCE VALUE  =  0.1995E+08  CRITERION=  0.1548E+09
+     HT FLOW CONVERGENCE VALUE=   15.03      CRITERION=   1000.    
+     CURRENT CONVERGENCE VALUE=  0.1557E+06  CRITERION=  0.1206E+07
+     DISP CONVERGENCE VALUE   =   1615.      CRITERION=   82.75    
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -1615.    
+     DISP CONVERGENCE VALUE   =   542.4      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =  0.3359     SCALED MAX DOF INC =  -542.4    
+     FORCE CONVERGENCE VALUE  =  0.1724E+10  CRITERION=  0.1550E+09
+     HT FLOW CONVERGENCE VALUE=   11.32      CRITERION=   1000.     <<< CONVERGED
+     The calculated reference HT FLOW CONVERGENCE VALUE=   8.165    
+      is less than MINREF (which can be modified on the CNVTOL command).
+     CURRENT CONVERGENCE VALUE=  0.1687E+07  CRITERION=  0.1206E+07
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -568.2    
+     DISP CONVERGENCE VALUE   =   568.2      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -568.2    
+     FORCE CONVERGENCE VALUE  =  0.1716E+10  CRITERION=  0.1554E+09
+     HT FLOW CONVERGENCE VALUE=   12.91      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1580E+07  CRITERION=  0.1207E+07
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -259.2    
+     DISP CONVERGENCE VALUE   =   259.2      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -259.2    
+     FORCE CONVERGENCE VALUE  =  0.4616E+09  CRITERION=  0.1555E+09
+     HT FLOW CONVERGENCE VALUE=   13.80      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.7661E+06  CRITERION=  0.1207E+07 <<< CONVERGED
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -198.9    
+     DISP CONVERGENCE VALUE   =   198.9      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -198.9    
+     FORCE CONVERGENCE VALUE  =  0.2695E+09  CRITERION=  0.1556E+09
+     HT FLOW CONVERGENCE VALUE=   13.67      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.6199E+06  CRITERION=  0.1207E+07 <<< CONVERGED
+    EQUIL ITER   5 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -48.08    
+     DISP CONVERGENCE VALUE   =   48.08      CRITERION=   82.75     <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -48.08    
+     FORCE CONVERGENCE VALUE  =  0.1683E+08  CRITERION=  0.1556E+09 <<< CONVERGED
+     HT FLOW CONVERGENCE VALUE=   13.66      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1514E+06  CRITERION=  0.1207E+07 <<< CONVERGED
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   5
+ *** LOAD STEP     8   SUBSTEP     1  COMPLETED.    CUM ITER =     37
+ *** TIME =   8.00000         TIME INC =   1.00000    
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 8 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 9 OF 10 ****************
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE     10 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  9.0000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE ETMP ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NLOA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPTH ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ALLCONTACTS
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FGRA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ CONVERGENCE ON AMPS BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  MAPDL SOLVE    COMMAND  *****
+
+ *** NOTE ***                            ELAPSED TIME =     293.072   TIME= 06:40:29
+ This nonlinear analysis defaults to using the full Newton-Raphson       
+ solution procedure.  This can be modified using the NROPT command.      
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2026 R1          26.1     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   06:40:30  NOV 23, 2026 Elapsed Time=    293.432
+
+ simulation--Coupled Field Static (B5)                                         
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .     9
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  9.0000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .    15
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   STRESS-STIFFENING . . . . . . . . . . . . . . .    ON
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   NODAL DOF SOLUTION LIMIT. . . . . . . . . . . . 0.10000E+10
+   CONVERGENCE CONTROLS
+      LABEL   REFERENCE    TOLERANCE  NORM     MINREF
+       HEAT    0.000       0.1000E-02   2     0.1000E+07
+       AMPS    0.000       0.1000E-02   2     0.1000E+07
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      ETMP        ALL               
+      VENG        ALL               
+      NLOA        ALL               
+      STRS        ALL               
+      EPEL        ALL               
+      EPPL        ALL               
+      EPTH        ALL               
+      MISC        ALL       _ALLCONTACTS
+      CONT        ALL               
+      FFLU        ALL               
+      FGRA        ALL               
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+ MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS HAS BEEN MODIFIED              
+  TO BE, NEQIT = 26, BY SOLUTION CONTROL LOGIC.                          
+
+     FORCE CONVERGENCE VALUE  =  0.1866E+08  CRITERION=  0.1556E+09
+     HT FLOW CONVERGENCE VALUE=   13.66      CRITERION=   1000.    
+     CURRENT CONVERGENCE VALUE=  0.1514E+06  CRITERION=  0.1207E+07
+     DISP CONVERGENCE VALUE   =   1603.      CRITERION=   82.75    
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -1603.    
+     DISP CONVERGENCE VALUE   =   542.4      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =  0.3383     SCALED MAX DOF INC =  -542.4    
+     FORCE CONVERGENCE VALUE  =  0.1730E+10  CRITERION=  0.1559E+09
+     HT FLOW CONVERGENCE VALUE=   11.77      CRITERION=   1000.     <<< CONVERGED
+     The calculated reference HT FLOW CONVERGENCE VALUE=   7.794    
+      is less than MINREF (which can be modified on the CNVTOL command).
+     CURRENT CONVERGENCE VALUE=  0.1688E+07  CRITERION=  0.1207E+07
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -561.4    
+     DISP CONVERGENCE VALUE   =   561.4      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -561.4    
+     FORCE CONVERGENCE VALUE  =  0.1682E+10  CRITERION=  0.1564E+09
+     HT FLOW CONVERGENCE VALUE=   14.07      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1611E+07  CRITERION=  0.1207E+07
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -258.5    
+     DISP CONVERGENCE VALUE   =   258.5      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -258.5    
+     FORCE CONVERGENCE VALUE  =  0.4617E+09  CRITERION=  0.1565E+09
+     HT FLOW CONVERGENCE VALUE=   13.55      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.8031E+06  CRITERION=  0.1207E+07 <<< CONVERGED
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -193.7    
+     DISP CONVERGENCE VALUE   =   193.7      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -193.7    
+     FORCE CONVERGENCE VALUE  =  0.2569E+09  CRITERION=  0.1566E+09
+     HT FLOW CONVERGENCE VALUE=   13.31      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.6279E+06  CRITERION=  0.1207E+07 <<< CONVERGED
+    EQUIL ITER   5 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -46.99    
+     DISP CONVERGENCE VALUE   =   46.99      CRITERION=   82.75     <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -46.99    
+     FORCE CONVERGENCE VALUE  =  0.1621E+08  CRITERION=  0.1566E+09 <<< CONVERGED
+     HT FLOW CONVERGENCE VALUE=   13.75      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1546E+06  CRITERION=  0.1207E+07 <<< CONVERGED
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   5
+ *** LOAD STEP     9   SUBSTEP     1  COMPLETED.    CUM ITER =     42
+ *** TIME =   9.00000         TIME INC =   1.00000    
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 9 *************
+ ****************************************************
+ ******************* SOLVE FOR LS 10 OF 10 ****************
+
+ PRINTOUT RESUMED BY /GOP
+
+ USE AUTOMATIC TIME STEPPING THIS LOAD STEP
+
+ USE       1 SUBSTEPS INITIALLY THIS LOAD STEP FOR ALL  DEGREES OF FREEDOM
+ FOR AUTOMATIC TIME STEPPING:
+   USE     10 SUBSTEPS AS A MAXIMUM
+   USE      1 SUBSTEPS AS A MINIMUM
+
+ TIME=  10.000    
+
+ ERASE THE CURRENT DATABASE OUTPUT CONTROL TABLE.
+
+
+ WRITE ALL  ITEMS TO THE DATABASE WITH A FREQUENCY OF NONE
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE RSOL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EANG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE ETMP ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE VENG ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE NLOA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE STRS ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPEL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPPL ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE EPTH ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE MISC ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR THE ENTITIES DEFINED BY COMPONENT _ALLCONTACTS
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE CONT ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FFLU ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ WRITE FGRA ITEMS TO THE DATABASE WITH A FREQUENCY OF ALL 
+   FOR ALL APPLICABLE ENTITIES
+
+ CONVERGENCE ON HEAT BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ CONVERGENCE ON AMPS BASED ON THE NORM OF THE N-R LOAD
+   WITH A TOLERANCE OF 0.1000E-02 AND A MINIMUM REFERENCE VALUE OF 0.1000E+07
+   USING THE L2 NORM (CHECK THE SRSS VALUE)
+
+ *****  MAPDL SOLVE    COMMAND  *****
+
+ *** NOTE ***                            ELAPSED TIME =     327.458   TIME= 06:41:04
+ This nonlinear analysis defaults to using the full Newton-Raphson       
+ solution procedure.  This can be modified using the NROPT command.      
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2026 R1          26.1     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   06:41:04  NOV 23, 2026 Elapsed Time=    327.788
+
+ simulation--Coupled Field Static (B5)                                         
+
+
+
+                      L O A D   S T E P   O P T I O N S
+
+   LOAD STEP NUMBER. . . . . . . . . . . . . . . .    10
+   TIME AT END OF THE LOAD STEP. . . . . . . . . .  10.000    
+   AUTOMATIC TIME STEPPING . . . . . . . . . . . .    ON
+      INITIAL NUMBER OF SUBSTEPS . . . . . . . . .     1
+      MAXIMUM NUMBER OF SUBSTEPS . . . . . . . . .    10
+      MINIMUM NUMBER OF SUBSTEPS . . . . . . . . .     1
+   MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS. . . .    15
+   STEP CHANGE BOUNDARY CONDITIONS . . . . . . . .    NO
+   STRESS-STIFFENING . . . . . . . . . . . . . . .    ON
+   TERMINATE ANALYSIS IF NOT CONVERGED . . . . . .YES (EXIT)  
+   NODAL DOF SOLUTION LIMIT. . . . . . . . . . . . 0.10000E+10
+   CONVERGENCE CONTROLS
+      LABEL   REFERENCE    TOLERANCE  NORM     MINREF
+       HEAT    0.000       0.1000E-02   2     0.1000E+07
+       AMPS    0.000       0.1000E-02   2     0.1000E+07
+   PRINT OUTPUT CONTROLS . . . . . . . . . . . . .NO PRINTOUT
+   DATABASE OUTPUT CONTROLS
+      ITEM     FREQUENCY   COMPONENT
+       ALL       NONE               
+      NSOL        ALL               
+      RSOL        ALL               
+      EANG        ALL               
+      ETMP        ALL               
+      VENG        ALL               
+      NLOA        ALL               
+      STRS        ALL               
+      EPEL        ALL               
+      EPPL        ALL               
+      EPTH        ALL               
+      MISC        ALL       _ALLCONTACTS
+      CONT        ALL               
+      FFLU        ALL               
+      FGRA        ALL               
+
+
+ SOLUTION MONITORING INFO IS WRITTEN TO FILE= file.mntr                                                                                                                                                                                                                                                           
+ MAXIMUM NUMBER OF EQUILIBRIUM ITERATIONS HAS BEEN MODIFIED              
+  TO BE, NEQIT = 26, BY SOLUTION CONTROL LOGIC.                          
+
+     FORCE CONVERGENCE VALUE  =  0.1805E+08  CRITERION=  0.1566E+09
+     HT FLOW CONVERGENCE VALUE=   13.75      CRITERION=   1000.    
+     CURRENT CONVERGENCE VALUE=  0.1546E+06  CRITERION=  0.1207E+07
+     DISP CONVERGENCE VALUE   =   1588.      CRITERION=   82.75    
+    EQUIL ITER   1 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -1588.    
+     DISP CONVERGENCE VALUE   =   542.5      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =  0.3415     SCALED MAX DOF INC =  -542.5    
+     FORCE CONVERGENCE VALUE  =  0.1738E+10  CRITERION=  0.1570E+09
+     HT FLOW CONVERGENCE VALUE=   11.64      CRITERION=   1000.     <<< CONVERGED
+     The calculated reference HT FLOW CONVERGENCE VALUE=   7.533    
+      is less than MINREF (which can be modified on the CNVTOL command).
+     CURRENT CONVERGENCE VALUE=  0.1693E+07  CRITERION=  0.1207E+07
+    EQUIL ITER   2 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -552.8    
+     DISP CONVERGENCE VALUE   =   552.8      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -552.8    
+     FORCE CONVERGENCE VALUE  =  0.1639E+10  CRITERION=  0.1575E+09
+     HT FLOW CONVERGENCE VALUE=   13.72      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1623E+07  CRITERION=  0.1207E+07
+    EQUIL ITER   3 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -257.7    
+     DISP CONVERGENCE VALUE   =   257.7      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -257.7    
+     FORCE CONVERGENCE VALUE  =  0.4620E+09  CRITERION=  0.1576E+09
+     HT FLOW CONVERGENCE VALUE=   14.26      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.8244E+06  CRITERION=  0.1207E+07 <<< CONVERGED
+    EQUIL ITER   4 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -187.5    
+     DISP CONVERGENCE VALUE   =   187.5      CRITERION=   82.75    
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -187.5    
+     FORCE CONVERGENCE VALUE  =  0.2423E+09  CRITERION=  0.1577E+09
+     HT FLOW CONVERGENCE VALUE=   13.85      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.7420E+06  CRITERION=  0.1207E+07 <<< CONVERGED
+    EQUIL ITER   5 COMPLETED.  NEW TRIANG MATRIX.  MAX DOF INC=  -45.78    
+     DISP CONVERGENCE VALUE   =   45.78      CRITERION=   82.75     <<< CONVERGED
+     LINE SEARCH PARAMETER =   1.000     SCALED MAX DOF INC =  -45.78    
+     FORCE CONVERGENCE VALUE  =  0.1555E+08  CRITERION=  0.1577E+09 <<< CONVERGED
+     HT FLOW CONVERGENCE VALUE=   15.44      CRITERION=   1000.     <<< CONVERGED
+     CURRENT CONVERGENCE VALUE=  0.1973E+06  CRITERION=  0.1207E+07 <<< CONVERGED
+    >>> SOLUTION CONVERGED AFTER EQUILIBRIUM ITERATION   5
+ *** LOAD STEP    10   SUBSTEP     1  COMPLETED.    CUM ITER =     47
+ *** TIME =   10.0000         TIME INC =   1.00000    
+ ****************************************************
+ *************** FINISHED SOLVE FOR LS 10 *************
+
+ FINISH SOLUTION PROCESSING
+
+
+ ***** ROUTINE COMPLETED *****  ELAPSED TIME =       367.456
+
+
+
+ *GET  _WALLASOL  FROM  ACTI  ITEM=TIME WALL  VALUE= 0.102073999    
+
+ PRINTOUT RESUMED BY /GOP
+
+ *** MAPDL - ENGINEERING ANALYSIS SYSTEM  RELEASE 2026 R1          26.1     ***
+ Ansys Mechanical Enterprise Academic Student      
+ 01055371  VERSION=WINDOWS x64   06:41:44  NOV 23, 2026 Elapsed Time=    367.542
+
+ simulation--Coupled Field Static (B5)                                         
+
+
+
+          ***** MAPDL RESULTS INTERPRETATION (POST1) *****
+
+ *** NOTE ***                            ELAPSED TIME =     367.550   TIME= 06:41:44
+ Reading results into the database (SET command) will update the current 
+ displacement and force boundary conditions in the database with the     
+ values from the results file for that load set.  Note that any          
+ subsequent solutions will use these values unless action is taken to    
+ either SAVE the current values or not overwrite them (/EXIT,NOSAVE).    
+
+ Set Encoding of XML File to:ISO-8859-1
+
+ Set Output of XML File to:
+     PARM,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,     ,
+         ,     ,     ,     ,     ,     ,     ,
+
+ DATABASE WRITTEN ON FILE  parm.xml                                                                                                                                                                                                                                                            
+
+ EXIT THE MAPDL POST1 DATABASE PROCESSOR
+
+
+ ***** ROUTINE COMPLETED *****  ELAPSED TIME =       367.584
+
+
+
+ PRINTOUT RESUMED BY /GOP
+
+ *GET  _WALLDONE  FROM  ACTI  ITEM=TIME WALL  VALUE= 0.102106997    
+
+ PARAMETER _PREPTIME =    0.3146559000    
+
+ PARAMETER _SOLVTIME =     360.7625213    
+
+ PARAMETER _POSTTIME =    0.1187925000    
+
+ PARAMETER _TOTALTIM =     361.1959697    
+
+ *GET  _DLBRATIO  FROM  ACTI  ITEM=SOLU DLBR  VALUE=  1.14265335    
+
+ *GET  _COMBTIME  FROM  ACTI  ITEM=SOLU COMB  VALUE= 0.434776800    
+
+ *GET  _SSMODE   FROM  ACTI  ITEM=SOLU SSMM  VALUE=  2.00000000    
+
+ *GET  _NDOFS    FROM  ACTI  ITEM=SOLU NDOF  VALUE=  25230.0000    
+
+ *GET  _SOL_END_TIME  FROM  ACTI  ITEM=SET  TIME  VALUE=  10.0000000    
+
+ *IF  _sol_end_time  ( =   10.0000     )  EQ  
+      10.000000  ( =   10.0000     )  THEN    
+
+ /FCLEAN COMMAND REMOVING ALL LOCAL FILES
+
+ *ENDIF
+ --- Total number of nodes = 6351
+ --- Total number of elements = 3205
+ --- Element load balance ratio = 1.14265335
+ --- Time to combine distributed files = 0.4347768
+ --- Sparse memory mode = 2
+ --- Number of DOF = 25230
+
+ EXIT MAPDL WITHOUT SAVING DATABASE
+
+
+ NUMBER OF WARNING MESSAGES ENCOUNTERED=          3
+ NUMBER OF ERROR   MESSAGES ENCOUNTERED=          0
+
+ *** WARNING ***                         ELAPSED TIME =     379.671   TIME= 06:41:56
+ During this session the elapsed time exceeds the CPU time by 124%.      
+ This often indicates either a lack of physical memory (RAM) required    
+ to efficiently handle this simulation or a particularly slow hard       
+ drive configuration.  This simulation can be expected to run faster on  
+ identical hardware if additional RAM or a faster hard drive             
+ configuration is made available.  For more details, please see the      
+ Mechanical APDL Performance Guide which is part of the Ansys Help       
+ system.                                                                 
+
++--------------------- M A P D L   S T A T I S T I C S ------------------------+
+
+Release: 2026 R1            Build: 26.1       Update: UP20260202   Platform: WINDOWS x64 
+Date Run: 11/23/2026   Time: 06:41     Process ID: 36972
+Operating System: Windows 11  (Build: 26200)
+
+Processor Model: Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz
+
+Compiler: Intel(R) Fortran Compiler Classic Version 2021.9  (Build: 20230302)
+          Intel(R) C/C++ Compiler Classic Version 2021.9  (Build: 20230302)
+          Intel(R) oneAPI Math Kernel Library Version 2024.2.3-Product Build 20250403
+
+Number of machines requested            :    1
+Total number of cores available         :    8
+Number of physical cores available      :    4
+Number of processes requested           :    4
+Number of threads per process requested :    1
+Total number of cores requested         :    4 (Distributed Memory Parallel)               
+MPI Type: INTELMPI
+MPI Version: Intel(R) MPI Library 2021.16 for Windows* OS
+
+
+GPU Acceleration: Not Requested
+
+Job Name: file0
+Input File: dummy.dat
+
+  Core                Machine Name   Working Directory
+ -----------------------------------------------------
+     0             LAPTOP-4PM7MF9K   C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\simulations\_ProjectScratch\Scr616C
+     1             LAPTOP-4PM7MF9K   C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\simulations\_ProjectScratch\Scr616C
+     2             LAPTOP-4PM7MF9K   C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\simulations\_ProjectScratch\Scr616C
+     3             LAPTOP-4PM7MF9K   C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\simulations\_ProjectScratch\Scr616C
+ 
+Latency time from master to core     1 =    4.008 microseconds
+Latency time from master to core     2 =    4.284 microseconds
+Latency time from master to core     3 =    5.194 microseconds
+ 
+Communication speed from master to core     1 =  1537.34 MB/sec
+Communication speed from master to core     2 =  2552.86 MB/sec
+Communication speed from master to core     3 =  2363.54 MB/sec
+
+Total CPU time for main thread                    :      169.4 seconds
+Total CPU time summed for all threads             :      177.7 seconds
+
+Elapsed time spent obtaining a license            :        0.9 seconds
+Elapsed time spent pre-processing model (/PREP7)  :        0.3 seconds
+Elapsed time spent solution - preprocessing       :        4.1 seconds
+Elapsed time spent computing solution             :      350.5 seconds
+   Elapsed time in element formation & assembly   :      112.2 seconds
+   Elapsed time in equation solver                :      136.2 seconds
+   Elapsed time in element result calculations    :       14.6 seconds
+Elapsed time spent solution - postprocessing      :        0.4 seconds
+Elapsed time spent post-processing model (/POST1) :        0.0 seconds
+ 
+Equation solver used                              :            Sparse (unsymmetric)
+Sparse direct equation solver computational rate  :       10.2 Gflops
+Sparse direct equation solver effective I/O rate  :        1.8 GB/sec
+
+Sum of disk space used on all processes           :      129.9 MB
+
+Sum of memory used on all processes               :      503.0 MB
+Sum of memory allocated on all processes          :     3273.0 MB
+Physical memory available                         :         16 GB
+Total amount of I/O written to disk               :        2.8 GB
+Total amount of I/O read from disk                :       11.7 GB
+
++------------------ E N D   M A P D L   S T A T I S T I C S -------------------+
+
+
+ *-----------------------------------------------------------------------------*
+ |                                                                             |
+ |                               RUN COMPLETED                                 |
+ |                                                                             |
+ |-----------------------------------------------------------------------------|
+ |                                                                             |
+ |  Ansys MAPDL 2026 R1         Build 26.1         UP20260202    WINDOWS x64   |
+ |                                                                             |
+ |-----------------------------------------------------------------------------|
+ |                                                                             |
+ |  Database Requested(-db)     1024 MB     Scratch Memory Requested   1024 MB |
+ |  Max Database Used(Master)      8 MB     Max Scratch Used(Master)    111 MB |
+ |  Max Database Used(Workers)     1 MB     Max Scratch Used(Workers)   144 MB |
+ |  Sum Database Used(All)        11 MB     Sum Scratch Used(All)       492 MB |
+ |                                                                             |
+ |-----------------------------------------------------------------------------|
+ |                                                                             |
+ |        CP Time      (sec) =        177.688       Time  =  06:41:56          |
+ |        Elapsed Time (sec) =        379.670       Date  =  11/23/2026        |
+ |                                                                             |
+ *-----------------------------------------------------------------------------*

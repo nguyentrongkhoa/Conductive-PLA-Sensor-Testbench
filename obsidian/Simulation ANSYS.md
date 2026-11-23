@@ -68,3 +68,5 @@ What-if - Correlation - DoE - Response surface - Optimization - Six Sigma [Tutor
 
 NOTE: when installing Creo Interface for Ansys, make sure to run CAD configuration manager as admin
 NOTE: changing params in Ansys also affects Creo files directly
+
+R/R₀ = (1 + ε) / (1 − νε)²
