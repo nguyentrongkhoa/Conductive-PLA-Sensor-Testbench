@@ -35,7 +35,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">9763</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10163, "Input": 9760, "Output": 9760}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 10553, "Input": 9760, "Output": 9760}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -937,7 +937,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">9947</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10101, "Input": 9849, "Output": 9849}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 10485, "Input": 9849, "Output": 9849}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 8693, "Setup": 9015, "Solution": 9016, "Results": 9017, "Setup 2": 0, "Solution 2": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "DiscoverySessionContainer": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
@@ -1039,10 +1039,10 @@
       <container-type valType="String">Ansys.Simulation.Core.Addin:SimulationSetup</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">10139</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10123, "Input": 10123, "Output": 10123}</last-modified-by-usage>
+      <last-updated valType="Int64">10549</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 10533, "Input": 10533, "Output": 10533}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 9947, "Setup": 10088, "Solution": 10089, "Results": 10090, "Setup 2": 0, "Solution 2": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "DiscoverySessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 9947, "Setup": 10506, "Solution": 10507, "Results": 10511, "Setup 2": 0, "Solution 2": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "DiscoverySessionContainer": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Setup/MechanicalSystemType:SystemClass for MechanicalMultiphysics|Static|ANSYS" Version="1.0">
@@ -1109,10 +1109,10 @@
       <container-type valType="String">Ansys.Simulation.Core.Addin:SimulationSolution</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">10140</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10125, "Input": 10125, "Output": 10125}</last-modified-by-usage>
+      <last-updated valType="Int64">10550</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 10535, "Input": 10535, "Output": 10535}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 9947, "Setup": 10139, "Solution": 10089, "Results": 10090, "Setup 2": 0, "Solution 2": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "DiscoverySessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 9947, "Setup": 10549, "Solution": 10507, "Results": 10511, "Setup 2": 0, "Solution 2": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "DiscoverySessionContainer": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Solution/MechanicalSystemType:SystemClass for MechanicalMultiphysics|Static|ANSYS" Version="1.0">
@@ -1197,10 +1197,10 @@
       <container-type valType="String">Ansys.Simulation.Core.Addin:SimulationResults</container-type>
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">10141</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10159, "Input": 10137, "Output": 10137}</last-modified-by-usage>
+      <last-updated valType="Int64">10551</last-updated>
+      <last-modified-by-usage valType="String">{"Extrinsic": 10547, "Input": 10547, "Output": 10547}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 9947, "Setup": 10139, "Solution": 10140, "Results": 10090, "Setup 2": 0, "Solution 2": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "DiscoverySessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 9947, "Setup": 10549, "Solution": 10550, "Results": 10511, "Setup 2": 0, "Solution 2": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "DiscoverySessionContainer": 0}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Results/MechanicalSystemType:SystemClass for MechanicalMultiphysics|Static|ANSYS" Version="1.0">
@@ -1315,7 +1315,7 @@
       <Object Name="/Solution 2/SolutionInformation:solutionInformation" Version="1.0">
         <class-type valType="String">SolutionInformation</class-type>
         <object-name valType="String">solutionInformation</object-name>
-        <member-data valType="String">{"DisplayText": "System Coupling", "RelativePath": r"SyC\SyC\SyC\SyC\SyC\SyC", "IsDefault": True, "Participant": None}</member-data>
+        <member-data valType="String">{"DisplayText": "System Coupling", "RelativePath": r"SyC\SyC\SyC\SyC\SyC\SyC\SyC\SyC\SyC", "IsDefault": True, "Participant": None}</member-data>
       </Object>
       <Object Name="/Solution 2/SystemCouplingSettings:systemCouplingSettings" Version="1.0">
         <class-type valType="String">Ansys.Core.DataModel.DataObjects.DynamicDataObject, Ans.Core</class-type>
