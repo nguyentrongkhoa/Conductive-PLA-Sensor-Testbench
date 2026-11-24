@@ -1,0 +1,58 @@
++++++++++  beginning new protocol of OCO run  ++++++++++++
+time: Nov 24 2026 08:27:30
+working directory: C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\simulations\simulation_files\optislang.opd\One-Click_Optimization_(OCO)
+--------------------------------------------------------------------------------
+
+
+Nov 24 2026 08:27:30: first log line created in function InitializeAlgorithm
+Nov 24 2026 08:27:30: The objective is to maximize
+Nov 24 2026 08:27:30: The objective is to minimize
+Nov 24 2026 08:27:30: The objective is to minimize
+
+
+************************************************************ 
+************************************************************ 
+The settings values:
+Maximum number of samples: 50
+Use start designs only: False
+Design of experiments size: 25
+Start range: 0.5
+Minimum objective difference: 0.0001
+Minimum parameter difference: 0.0001
+Seed Value: 2761847144865
+Show advanced settings: False
+Show expert settings: False
+Use MOP: True
+Use default MOP: True
+Enforce MOP on criteria: False
+Use isotropic Kriging: True
+Use anisotropic Kriging: False
+Use Moving least squares: True
+Use Polynomials: True
+Use DFFN: False
+Use DIM-GP: False
+Use GARS: False
+Use SVR: False
+Use NLPQL: True
+Use MISQP: True
+Use Simplex: True
+Use ARSM: True
+Filter inputs: True
+Use AMOP: False
+Use EA: True
+Use PSO: True
+Use SDI: True
+Use CMA: True
+Use DLS: False
+Max nb of optim in parallel: 1
+Activate calibration: False
+Parallel design evaluation: False
+Number of designs in parallel: 0
+Minimum number of evaluations: 25
+Number of stagnation evaluations: 10
+Stop at first feasible design: False
+************************************************************ 
+************************************************************ 
+
+
+Nov 24 2026 08:27:41: Total number of submitted designs: 0 out of 50 at maximum.

@@ -1,0 +1,159 @@
+{
+    "hid" : "0.1",
+    "parameters" : 
+    [
+        {
+            "id" : "P38",
+            "name" : "(B0_P17) FP_122_DMS_GITTER[51,46]: N_LEG",
+            "unit" : null,
+            "value" : 8.0
+        },
+        {
+            "id" : "P37",
+            "name" : "(B0_P16) FP_122_DMS_GITTER[51,46]: N_LAYER",
+            "unit" : null,
+            "value" : 2.0
+        },
+        {
+            "id" : "P36",
+            "name" : "(B0_P15) FP_122_DMS_GITTER[51,46]: L_START_LOOP",
+            "unit" : null,
+            "value" : 1.6000000000000001
+        },
+        {
+            "id" : "P35",
+            "name" : "(B0_P14) FP_122_DMS_GITTER[51,46]: L_PAD",
+            "unit" : null,
+            "value" : 5.0
+        },
+        {
+            "id" : "P34",
+            "name" : "(B0_P13) FP_122_DMS_GITTER[51,46]: L_GAUGE",
+            "unit" : null,
+            "value" : 20.0
+        },
+        {
+            "id" : "P33",
+            "name" : "(B0_P12) FP_122_DMS_GITTER[51,46]: L_E",
+            "unit" : null,
+            "value" : 1.6000000000000001
+        },
+        {
+            "id" : "P32",
+            "name" : "(B0_P11) FP_122_DMS_GITTER[51,46]: L_A",
+            "unit" : null,
+            "value" : 20.0
+        },
+        {
+            "id" : "P31",
+            "name" : "(B0_P10) FP_122_DMS_GITTER[51,46]: H_LAYER",
+            "unit" : null,
+            "value" : 0.20000000000000001
+        },
+        {
+            "id" : "P30",
+            "name" : "(B0_P9) FP_122_DMS_GITTER[51,46]: G_LEGS",
+            "unit" : null,
+            "value" : 0.80000000000000004
+        },
+        {
+            "id" : "P29",
+            "name" : "(B0_P8) FP_122_DMS_GITTER[51,46]: B_GAUGE",
+            "unit" : null,
+            "value" : 6.0
+        },
+        {
+            "id" : "P28",
+            "name" : "(B0_P7) FP_121_DMS_SUBSTRAT[51,40]: T_S",
+            "unit" : null,
+            "value" : 0.59999999999999998
+        },
+        {
+            "id" : "P27",
+            "name" : "(B0_P6) FP_121_DMS_SUBSTRAT[51,40]: L_S",
+            "unit" : null,
+            "value" : 50.0
+        },
+        {
+            "id" : "P26",
+            "name" : "(B0_P5) FP_121_DMS_SUBSTRAT[51,40]: B_S",
+            "unit" : null,
+            "value" : 30.0
+        },
+        {
+            "id" : "P25",
+            "name" : "(B0_P4) FP_110_FEDERKRPER[40]: T_FK",
+            "unit" : null,
+            "value" : 2.0
+        },
+        {
+            "id" : "P23",
+            "name" : "(B0_P2) FP_110_FEDERKRPER[40]: ANS_W_FK",
+            "unit" : null,
+            "value" : 50.0
+        },
+        {
+            "id" : "P22",
+            "name" : "(B0_P1) ANS_SUBSTRATE_OFFSET",
+            "unit" : null,
+            "value" : 30.0
+        },
+        {
+            "id" : "P24",
+            "name" : "(B0_P3) FP_110_FEDERKRPER[40]: L_FK",
+            "unit" : null,
+            "value" : 100.0
+        },
+        {
+            "id" : "P39",
+            "name" : "(B0_P18) FP_122_DMS_GITTER[51,46]: W_LEG",
+            "unit" : null,
+            "value" : 0.80000000000000004
+        },
+        {
+            "id" : "P40",
+            "name" : "(B0_P19) FP_122_DMS_GITTER[51,46]: W_PAD",
+            "unit" : null,
+            "value" : 5.0
+        }
+    ],
+    "responses" : 
+    [
+        {
+            "id" : "P19",
+            "name" : "Electric Voltage Minimum Maximum Value Over Time",
+            "unit" : "mV",
+            "value" : 163469.89440917969
+        },
+        {
+            "id" : "P20",
+            "name" : "Electric Voltage Maximum Maximum Value Over Time",
+            "unit" : "mV",
+            "value" : 163515.15197753906
+        },
+        {
+            "id" : "P41",
+            "name" : "Change in Resistance",
+            "unit" : "",
+            "value" : 0.00027685567745025443
+        },
+        {
+            "id" : "P42",
+            "name" : "W_SG_TOTAL",
+            "unit" : null,
+            "value" : 27.199999999999999
+        },
+        {
+            "id" : "P43",
+            "name" : "H_SG_TOTAL",
+            "unit" : null,
+            "value" : 23.200000000000003
+        },
+        {
+            "id" : "P44",
+            "name" : "T_SG",
+            "unit" : null,
+            "value" : 0.40000000000000002
+        }
+    ]
+}

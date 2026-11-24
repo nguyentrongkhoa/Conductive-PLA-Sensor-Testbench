@@ -29,6 +29,7 @@
   <ParameterSets>
     <ParameterSet ID="D7C773B9-4FC0-4C13-81D4-1FE4F06F31B5"/>
     <ParameterSet ID="BE54F0A9-A272-4947-8898-DA3F7F5094AF"/>
+    <ParameterSet ID="D7E0AC0C-7088-43DC-B94B-866995167018"/>
   </ParameterSets>
 
   <ExpressionIds>
@@ -167,6 +168,31 @@
     <ID>P133</ID>
     <ID>P134</ID>
     <ID>P135</ID>
+    <ID>P136</ID>
+    <ID>P137</ID>
+    <ID>P138</ID>
+    <ID>P139</ID>
+    <ID>P140</ID>
+    <ID>P141</ID>
+    <ID>P142</ID>
+    <ID>P143</ID>
+    <ID>P144</ID>
+    <ID>P145</ID>
+    <ID>P146</ID>
+    <ID>P147</ID>
+    <ID>P148</ID>
+    <ID>P149</ID>
+    <ID>P150</ID>
+    <ID>P151</ID>
+    <ID>P152</ID>
+    <ID>P153</ID>
+    <ID>P154</ID>
+    <ID>P155</ID>
+    <ID>P156</ID>
+    <ID>P157</ID>
+    <ID>P158</ID>
+    <ID>P159</ID>
+    <ID>P160</ID>
   </ExpressionIds>
 
   <Parameter Disabled="False" ID="FA4AF341-2521-4DB5-BE6B-DCE3453817E8" Version="1">
@@ -18765,20 +18791,6 @@
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
-      <Attribute ID="D13D129B-4172-4DA9-B5FF-9C8867A94397">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
       <Attribute ID="6B9E056F-FF19-46CC-ABCF-26E894E8DA22">
         <Name>ManagedParameter</Name>
         <AttributeTemplate>
@@ -18943,20 +18955,6 @@
           <AttributeValueBase>
             <Type>0</Type>
             <IntegerValue>1</IntegerValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
-      <Attribute ID="612B3893-D1A3-45F8-B4AD-5F7A80928C7C">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
@@ -19127,20 +19125,6 @@
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
-      <Attribute ID="9ED55DD6-ED41-4349-8CD2-11B18C91F29C">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
       <Attribute ID="1E812B05-6C82-4F64-BD46-ABD103764796">
         <Name>ManagedParameter</Name>
         <AttributeTemplate>
@@ -19304,20 +19288,6 @@
           <AttributeValueBase>
             <Type>0</Type>
             <IntegerValue>1</IntegerValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
-      <Attribute ID="8AB489EE-3AC6-4726-A3E8-48BFEF838E11">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
@@ -19487,20 +19457,6 @@
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
-      <Attribute ID="5654B5EB-F62C-444E-9783-0CE18293620B">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
       <Attribute ID="F2B5E9FE-91FD-4E68-93F9-DAF098E01302">
         <Name>ManagedParameter</Name>
         <AttributeTemplate>
@@ -19664,20 +19620,6 @@
           <AttributeValueBase>
             <Type>0</Type>
             <IntegerValue>1</IntegerValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
-      <Attribute ID="A86A4346-81B3-4035-BF66-F00E37B094D1">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
@@ -19847,20 +19789,6 @@
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
-      <Attribute ID="24036A17-5730-4C16-B639-6FD79D91096E">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
       <Attribute ID="6463BF45-BA8C-4FE9-8A28-8A44369B9308">
         <Name>ManagedParameter</Name>
         <AttributeTemplate>
@@ -20024,20 +19952,6 @@
           <AttributeValueBase>
             <Type>0</Type>
             <IntegerValue>1</IntegerValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
-      <Attribute ID="02EE565B-D4F5-4A85-B81D-2AB4BB4ED105">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
@@ -20207,20 +20121,6 @@
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
-      <Attribute ID="A6FEAB93-F79E-4072-9F18-81A099104C86">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
       <Attribute ID="89F792DA-20EF-455F-858B-09E5299BA6B9">
         <Name>ManagedParameter</Name>
         <AttributeTemplate>
@@ -20387,20 +20287,6 @@
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
-      <Attribute ID="31E02848-D827-4B18-8F34-ED6B44CDABB6">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
       <Attribute ID="43306DFB-66EC-45EF-827A-BA7515A9DA7E">
         <Name>ManagedParameter</Name>
         <AttributeTemplate>
@@ -20564,20 +20450,6 @@
           <AttributeValueBase>
             <Type>0</Type>
             <IntegerValue>1</IntegerValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
-      <Attribute ID="594054D7-7788-4D78-816C-84A301EB831A">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
@@ -20777,20 +20649,6 @@
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
-      <Attribute ID="FC20871C-0603-46A4-8B24-08ECF0A3E128">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
       <Attribute ID="EB4766CC-170C-4A2B-AACA-68C5260491B5">
         <Name>ManagedParameter</Name>
         <AttributeTemplate>
@@ -20954,20 +20812,6 @@
           <AttributeValueBase>
             <Type>0</Type>
             <IntegerValue>1</IntegerValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
-      <Attribute ID="215DA0CE-28C3-4134-8787-0F139F354FE0">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
@@ -21137,20 +20981,6 @@
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
-      <Attribute ID="653AF91D-2827-41B5-9BEE-A816C95D9072">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
       <Attribute ID="97E1C393-E257-4922-B0C2-E5FD21235315">
         <Name>ManagedParameter</Name>
         <AttributeTemplate>
@@ -21314,20 +21144,6 @@
           <AttributeValueBase>
             <Type>0</Type>
             <IntegerValue>1</IntegerValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
-      <Attribute ID="BFABC205-82D9-4A25-B531-FC33AC2E4940">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
@@ -21497,20 +21313,6 @@
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
-      <Attribute ID="41F9C440-F98B-406B-8DFE-B7653CD517BA">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
       <Attribute ID="BDDCA910-3D8D-42EC-BED2-3C69F34B97D9">
         <Name>ManagedParameter</Name>
         <AttributeTemplate>
@@ -21674,20 +21476,6 @@
           <AttributeValueBase>
             <Type>0</Type>
             <IntegerValue>1</IntegerValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
-      <Attribute ID="F901C393-D6D5-4FE8-96AD-0B6718EC9205">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
@@ -21877,20 +21665,6 @@
           <AttributeValueBase>
             <Type>0</Type>
             <IntegerValue>1</IntegerValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
-      <Attribute ID="BCAB54D9-CEDE-4DC4-B585-FBE204FD3557">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
@@ -22132,20 +21906,6 @@
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
-      <Attribute ID="1750A781-517D-47A3-B9F4-9D571ABA0B60">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
       <Attribute ID="D237761B-FC0D-4DEC-983A-43DDA3D1C260">
         <Name>ManagedParameter</Name>
         <AttributeTemplate>
@@ -22309,20 +22069,6 @@
           <AttributeValueBase>
             <Type>0</Type>
             <IntegerValue>1</IntegerValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
-      <Attribute ID="57463926-34F5-48F2-B9EF-1905BB902C91">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
@@ -22492,20 +22238,6 @@
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
-      <Attribute ID="65C91BA6-79FE-4223-81DA-63A44C04F2E3">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
       <Attribute ID="936D0162-6B7F-4F12-9172-6B170373A5D8">
         <Name>ManagedParameter</Name>
         <AttributeTemplate>
@@ -22661,20 +22393,6 @@
           <AttributeValueBase>
             <Type>0</Type>
             <IntegerValue>1</IntegerValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
-      <Attribute ID="E05B7B67-F387-476B-9479-193967489620">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
@@ -22862,20 +22580,6 @@
           <AttributeValueBase>
             <Type>0</Type>
             <IntegerValue>1</IntegerValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
-      <Attribute ID="CB1292EF-A7A4-4CBF-9687-2DD57EB4DFD2">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
@@ -23078,20 +22782,6 @@
           <AttributeValueBase>
             <Type>0</Type>
             <IntegerValue>1</IntegerValue>
-          </AttributeValueBase>
-        </AttributeValueBases>
-      </Attribute>
-      <Attribute ID="17E1D865-34EE-43D6-890E-2A9CDAC2EB07">
-        <Name>ParameterSetID</Name>
-        <AttributeTemplate>
-          <AttributeValueType>
-            <Type>2</Type>
-          </AttributeValueType>
-        </AttributeTemplate>
-        <AttributeValueBases>
-          <AttributeValueBase>
-            <Type>2</Type>
-            <StringValue>FB017CA3-617E-404C-A64A-458B8021293D</StringValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
@@ -23432,6 +23122,4747 @@
             <Name>DerivedDependsFromOutput</Name>
             <Type>2</Type>
             <StringValue>False</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="C75C527E-FFD7-4138-9703-C572D7E59600" Version="1">
+    <TemplateID>EDE99060-47AF-4FCE-9FE6-D5B98FC42839</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P19 - Electric Voltage Minimum Maximum Value Over Time</Caption>
+    <ExpressionID>P136</ExpressionID>
+    <ValueContainer>
+      <CurrentValue>0.</CurrentValue>
+      <InitialValue>0.</InitialValue>
+      <ValueTypes>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>0</Index>
+          <ArraySelection>0</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+      </ValueTypes>
+      <DoubleValues>
+        <Value>163469.89440917969</Value>
+      </DoubleValues>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="B28A3AC9-D650-47CD-A7C2-7849217E0B47">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="514D401B-857C-4494-BEE2-4C972660B795">
+        <Name>Output</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="03A52DD2-65EC-47BE-B363-9828D400CBFB">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="329F33FE-D5B1-422E-BEC1-6B5196415664">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>ea1ec59a-aab5-4e31-8972-9ff6320bcdd4</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="51659055-21FF-4896-BB50-705044285524">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P19</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="90BB3581-C01F-406A-B253-C5BF06ECA515">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>Electric Voltage Minimum Maximum Value Over Time</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="21C23F95-5655-441A-9233-7188853C103E">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Voltage</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="83956959-FE06-4BC4-80FF-AAFD4FDF9036">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+            <StringValue>mV</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="BC080584-752B-43CC-AF0D-A1E7EEF8254A">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="33DC34D9-FF8D-4E16-96C4-C49006ABAFD3">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>FA4AF341-2521-4DB5-BE6B-DCE3453817E8</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>FA4AF341-2521-4DB5-BE6B-DCE3453817E8</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="70C6A764-2895-498C-A523-D0D5EEF28AEC" Version="1">
+    <TemplateID>EDE99060-47AF-4FCE-9FE6-D5B98FC42839</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P20 - Electric Voltage Maximum Maximum Value Over Time</Caption>
+    <ExpressionID>P137</ExpressionID>
+    <ValueContainer>
+      <CurrentValue>0.</CurrentValue>
+      <InitialValue>0.</InitialValue>
+      <ValueTypes>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>0</Index>
+          <ArraySelection>0</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+      </ValueTypes>
+      <DoubleValues>
+        <Value>163515.15197753906</Value>
+      </DoubleValues>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="1C624C26-A0AD-40AD-A952-239CB28355EB">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="75EFAB07-C7DB-4F8C-9F0E-D0342D26F0D8">
+        <Name>Output</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="8E7813E4-4B16-454E-A05E-FA78FFE4CF7E">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="CE21E98B-21C3-4A8B-A79A-11E93EE5E4CD">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>28986e81-ba72-41ac-871d-3bb525cb1c02</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="D0F7971B-6BDC-49A9-B435-981EA473A00C">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P20</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="32FEC067-64BB-48B4-96F2-2B2F77EF3A50">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>Electric Voltage Maximum Maximum Value Over Time</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="A17C58B4-B0E3-4763-B11D-22DA96C2A397">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Voltage</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="9871DD66-512C-40AC-A181-1CA46BEFFCAE">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+            <StringValue>mV</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="029C8F24-5E28-46AA-8FF9-BC6A288131A0">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="8662C265-C67E-4592-9105-FE717E425270">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>24D48D80-AEE7-4CC2-8091-75CFD84E4C6F</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>24D48D80-AEE7-4CC2-8091-75CFD84E4C6F</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="0F173E7A-935C-4E0B-8CEC-1BEB74714C94" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P22 - (B0_P1) ANS_SUBSTRATE_OFFSET</Caption>
+    <ExpressionID>P138</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>57.5</CurrentValue>
+      <InitialValue>30.</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>100.</UpperBound>
+      <LowerBound>15.</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="FDA93C92-37A3-4B8A-A63A-093F3ECF6D02">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="2CAA48C3-715C-48F1-B70B-9F5046C39231">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="28661DF6-EA2B-494D-8AF7-4961CBB51886">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="A0F4C0A2-4416-4A21-BDBA-7F4081D25DC2">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>7b73574e-2223-40c8-8f7d-99d61f765397</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="DC4DB752-03E0-40F6-AE54-B199C583FDD6">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P22</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="C2E4F771-FF57-41DD-AD6B-47DE0789CDA8">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P1) ANS_SUBSTRATE_OFFSET</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="C5110527-2D09-42C6-A5C1-4E515A5A0DBF">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="1D1B6C9A-1358-4ABD-90E7-CB10D61CB94D">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="C68D994A-A9BC-4C0E-9B46-23CE81D5DE22">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="3D718554-9EF1-4363-AC4C-07E083C0DF91">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>69B87A95-DFDF-4599-ABB3-77B461321F3D</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>69B87A95-DFDF-4599-ABB3-77B461321F3D</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="810B2A6E-6C88-4B2A-A690-9BB2982A6AE3" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P23 - (B0_P2) FP_110_FEDERKÖRPER[40]: ANS_W_FK</Caption>
+    <ExpressionID>P139</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>60.</CurrentValue>
+      <InitialValue>50.</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>100.</UpperBound>
+      <LowerBound>20.</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="B42F9FA5-19AA-4AF3-939F-340232EB3BDA">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="42C67601-9E61-41BB-ADB3-01E2BF98AFD7">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="4DF60C7E-B735-4929-A283-C66E953F3D89">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="3F6137E3-C95D-416F-BF1A-C1AC8D138CE4">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>398b440e-6546-49a3-80d2-15de9cfde902</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="B45DC4EA-D344-4716-8C8B-C16AE8B7EDEE">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P23</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="DBA0C8CA-48FF-4AE7-82BA-A9E9514155B8">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P2) FP_110_FEDERKÖRPER[40]: ANS_W_FK</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="2C7B9D9E-0EE7-4DA1-936C-5416E7BF1174">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="13EE23D4-DA60-4A4A-9E74-463AD2237BCA">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="28FF30AC-67D6-4427-BCFA-FE0983170C7D">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="B097C87F-C051-4D25-B028-48555563CE65">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>190FFD4C-830E-470C-81E1-DFC769B8E7CC</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>190FFD4C-830E-470C-81E1-DFC769B8E7CC</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="8187D79A-8285-4392-8381-7571C67342FA" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P24 - (B0_P3) FP_110_FEDERKÖRPER[40]: L_FK</Caption>
+    <ExpressionID>P140</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>130.</CurrentValue>
+      <InitialValue>100.</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>210.</UpperBound>
+      <LowerBound>50.</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="4767FCAE-4608-43FD-B5C3-B26D996914EA">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="84E39B75-1F66-45FB-8406-7EECDD449BA4">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="344C86BB-712F-4EC3-AE78-94274F2AD215">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="98F6FA2D-82EF-45A5-854C-70AF8C8D13D1">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>ae37662a-6a03-4ac4-8da8-c143357ddaba</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="0DD371F9-2EB5-4202-A153-0142EE0CD2A8">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P24</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="B0B09010-BDCD-4539-AB94-EFB2C29E311B">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P3) FP_110_FEDERKÖRPER[40]: L_FK</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="AA210730-FC40-42DB-961D-258CEE6918F1">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="0A01F0D0-28D6-4236-8C22-458B417ECF89">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="A2EC6BCE-ABF2-4AB4-AB76-EE6AF00F7DA6">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="A840AE24-AB9D-4001-A60C-74CEEE63EA31">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>B56F436C-45B7-4382-A369-2B8B4B260230</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>B56F436C-45B7-4382-A369-2B8B4B260230</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="47AA8205-55BB-459B-8666-287EA6924E12" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P25 - (B0_P4) FP_110_FEDERKÖRPER[40]: T_FK</Caption>
+    <ExpressionID>P141</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>1.1000000000000001</CurrentValue>
+      <InitialValue>2.</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>2.</UpperBound>
+      <LowerBound>0.20000000000000001</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="5F11AD6B-D7BE-4CC0-BDD9-247087174CB6">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="41BEC8C7-4F9A-429C-AE39-91763B9C61B1">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="64B723EE-051A-40E7-AED5-82B28C6F3772">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="A0475C83-F8B2-4B68-AA9C-5476E24F23BD">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>aeb52624-e7bb-41bc-bdb8-7212bf0dce91</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="024E42F1-C30A-4945-BCA9-7FE42D7A60D8">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P25</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="CD330EFD-A6B7-4331-81D5-EFA3A32B7C12">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P4) FP_110_FEDERKÖRPER[40]: T_FK</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="FCD1F13E-76D1-4073-91BE-AFFE3DB2E60F">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="E3E74156-AD18-4ADC-BCC8-C42AF0963873">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="C1D145AB-DD1A-4D8A-999A-B84BDD0493B8">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="B99655BC-D931-42AD-A604-80EB10ECE189">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>1259B8BB-F5A4-44EE-9CC7-7126C34FF13E</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>1259B8BB-F5A4-44EE-9CC7-7126C34FF13E</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="F1F41842-361A-43B1-B555-20FBD4D10E92" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P26 - (B0_P5) FP_121_DMS_SUBSTRAT[51,40]: B_S</Caption>
+    <ExpressionID>P142</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>60.</CurrentValue>
+      <InitialValue>30.</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>100.</UpperBound>
+      <LowerBound>20.</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="2DE69B01-60E8-4EA7-8466-AD2BEAD8784B">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="5C7AEC93-CABD-4687-AD96-789CE626C650">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="EE57D9B6-6076-49BB-8DF9-04F381168812">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="61BF2014-7EC2-41E0-9BD9-FB0FBF2B7CE2">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>d9426e27-f50d-4e50-942e-00f2638f3882</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="F12D59C4-F42D-4487-B79D-2E225A0F159C">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P26</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="7990C3B1-2435-4716-84DD-C553EDC4349D">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P5) FP_121_DMS_SUBSTRAT[51,40]: B_S</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="0BB82585-874F-4875-B318-1D778E3F4266">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="67F84D52-346E-4375-841E-F40374CA87DF">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="22CDC532-07D0-42CC-8EFD-864596BF33A3">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="6A8CA33B-91D8-4ED3-BBAF-7AF9F62F4E04">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>340BF7AC-BE54-4FF2-988C-29411772DBC5</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>340BF7AC-BE54-4FF2-988C-29411772DBC5</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="DAD19321-FD62-4618-BA6D-AE99DD249D97" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P27 - (B0_P6) FP_121_DMS_SUBSTRAT[51,40]: L_S</Caption>
+    <ExpressionID>P143</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>120.</CurrentValue>
+      <InitialValue>50.</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>200.</UpperBound>
+      <LowerBound>40.</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="CB91946B-4C30-45E9-8192-BC3294B17C26">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="66F64208-CC21-41C1-A16D-6553BA137160">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="91877DB9-D0A7-409D-9DF7-799772DDE6CE">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="9BA75F3B-66B6-487D-95B8-366A4E04F461">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>dc34b1c4-a114-4708-bb8c-13cc67da3774</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="47837BE1-EE98-4E57-9A7A-61C1AB7FF50C">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P27</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="34FCEC06-673E-4901-8F2A-AB09B602E5FF">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P6) FP_121_DMS_SUBSTRAT[51,40]: L_S</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="CD045B92-20D2-4CA2-BC18-1F12B592348A">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="73D5CDED-7F80-4E60-A66F-74F9F358870D">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="B8F741FC-D704-46C0-9DCE-380AF597090A">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="4159ED54-8F74-42D0-A732-66F706EA87C2">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>65D56F53-E930-417B-9FBA-68EFEDFA7CFC</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>65D56F53-E930-417B-9FBA-68EFEDFA7CFC</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="2DE42816-AA66-4557-9771-CADB3BE10738" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P28 - (B0_P7) FP_121_DMS_SUBSTRAT[51,40]: T_S</Caption>
+    <ExpressionID>P144</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>2.7999999999999998</CurrentValue>
+      <InitialValue>0.59999999999999998</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>5.</UpperBound>
+      <LowerBound>0.59999999999999998</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="2309E9C1-D6B6-4137-8AB0-68DB2D7E7D32">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="1D88CC8A-0D37-4B00-95C7-6E1FC1A0A9B5">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="38155021-67E1-4A5A-8C7D-06422B28030F">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="B7CCD54B-571C-4CC1-A461-2D6CB78BCA25">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>41a1ec44-c5b4-4e88-bae7-5e646afbc475</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="B8E3ECE9-5ABC-4EF9-A2C1-9FC465280EF3">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P28</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="C76F07FF-5F68-4649-8E31-02E3F444BED2">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P7) FP_121_DMS_SUBSTRAT[51,40]: T_S</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="31B0E78C-2877-420F-99BE-835BCE31A4C7">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="0B841570-2F78-45C4-AB56-B37F5A6916B6">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="EFB9302E-A791-4727-9D42-9B69A041BEC4">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="B9DEC479-75ED-4160-BB3B-97DA767FB38D">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>F485E2D6-8520-47D7-86F6-370E815D4FA7</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>F485E2D6-8520-47D7-86F6-370E815D4FA7</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="502C278D-7348-48B3-A1EB-43BC1F0BA411" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P29 - (B0_P8) FP_122_DMS_GITTER[51,46]: B_GAUGE</Caption>
+    <ExpressionID>P145</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>11.</CurrentValue>
+      <InitialValue>6.</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>20.</UpperBound>
+      <LowerBound>2.</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="A9BDE504-7961-4C99-B644-F17648082B29">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="30A4B476-B132-4C20-977C-BC19FF483B3A">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="C1DB72C9-28DD-4943-BA48-E17C2BD4D29E">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="F5DB03DE-D05C-416D-8522-0D733320376B">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>488a26c2-d6ff-4375-8240-2ced2c575204</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="802865D6-C67D-497E-8165-11A207C7D57D">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P29</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="21D558BF-03A7-427B-8387-03877A45A2CE">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P8) FP_122_DMS_GITTER[51,46]: B_GAUGE</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="D86611BE-A93B-43BC-B47B-02B47C7414AD">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="C14DEE9C-5F40-4E2B-92C4-E4F1302F6933">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="74CCBC95-990A-4C96-BC35-2D11F41642C3">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="572FDD03-5260-4AAA-8C67-3A0107ADBFA9">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>B302C744-536E-4089-A047-A8A5DA175DC0</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>B302C744-536E-4089-A047-A8A5DA175DC0</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="89DC068A-0822-45C8-862C-89EA7D924BE4" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P30 - (B0_P9) FP_122_DMS_GITTER[51,46]: G_LEGS</Caption>
+    <ExpressionID>P146</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>2.8999999999999999</CurrentValue>
+      <InitialValue>0.80000000000000004</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>5.</UpperBound>
+      <LowerBound>0.80000000000000004</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="561EC6B9-4047-4E99-B1FE-9BA39F396536">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="1935572B-C0D7-44C7-B600-CDECFADC88B7">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="B93AD777-E840-49A4-9B2C-01F48495DA09">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="8F907EAD-86FD-46E7-BFA7-FE7315193A6F">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>db2bd2d9-158c-43b7-8401-cc35c3b44c19</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="E0BE8FF6-96D0-46EB-9BD9-B02B0283755A">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P30</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="410DB0C3-4293-46E9-A25F-B5ED8263B409">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P9) FP_122_DMS_GITTER[51,46]: G_LEGS</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="0C10A251-970E-47D0-8302-0CD2B4E19C41">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="9D8AFB9C-D7E1-4325-A1A1-496BAC12359E">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="C6D9232D-68CD-442F-820B-9953961DFD85">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="C6E92235-5CF0-4F45-A11B-11BC909A6CE0">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>EF49685B-64F4-4F1C-A89A-755C619669BF</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>EF49685B-64F4-4F1C-A89A-755C619669BF</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="6FDFE6EB-9646-46E6-9A26-2BC8829452AD" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P31 - (B0_P10) FP_122_DMS_GITTER[51,46]: H_LAYER</Caption>
+    <ExpressionID>P147</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>0.5</CurrentValue>
+      <InitialValue>0.20000000000000001</InitialValue>
+      <ValueTypes>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>0</Index>
+          <ArraySelection>0</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>1</Index>
+          <ArraySelection>0</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>2</Index>
+          <ArraySelection>0</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>3</Index>
+          <ArraySelection>0</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+      </ValueTypes>
+      <DoubleValues>
+        <Value>0.14999999999999999</Value>
+        <Value>0.20000000000000001</Value>
+        <Value>0.29999999999999999</Value>
+        <Value>0.40000000000000002</Value>
+      </DoubleValues>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>2</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>true</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>1.</UpperBound>
+      <LowerBound>0.</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="82A96AD5-9F83-44B1-A550-FF4BF4C9517D">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="72AA30E9-4DBD-4833-96E1-FE348EE0AE87">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="D4485228-39F8-4E44-A6AD-23C0E2506295">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="FF5CB2FE-69FF-47D4-B8BE-565DF142321E">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>24a88d0b-310c-4773-a031-90232d64f6d9</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="08C360C5-FF0B-4AC4-B727-2FF2F0619822">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P31</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="A449968C-241F-49C0-A86B-E27B4024187A">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P10) FP_122_DMS_GITTER[51,46]: H_LAYER</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="780F4A9D-779C-49EB-A355-CD2A28AC64D0">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="FF3D81D6-3075-4564-AC21-C4165EF6B7F9">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="58D8CD6C-A899-44B9-9998-1D0D9813A9FB">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="41AC44E8-FB22-4730-AA35-5808F1AC9639">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>869860F1-E7F3-482B-993C-31B8A25453D6</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>869860F1-E7F3-482B-993C-31B8A25453D6</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="42B5FC96-0432-4F37-AB3D-9634405A0733" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P32 - (B0_P11) FP_122_DMS_GITTER[51,46]: L_A</Caption>
+    <ExpressionID>P148</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>45.</CurrentValue>
+      <InitialValue>20.</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>80.</UpperBound>
+      <LowerBound>10.</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="AA8CA744-F590-4551-888F-DF8B0659CE61">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="9BEA8335-70DE-42B8-BD02-CBA97C729918">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="F17AA492-9B67-4C7B-B192-16E738FE2554">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="546DBBEC-5A75-462C-939B-A8BA20B21851">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>9e7214c8-a8b2-4cdd-964a-c723f51ed394</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="0FD955C1-B72B-4808-B5CE-E54A3DA1ED9F">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P32</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="FC4327C1-895F-4285-805B-51EAE6008265">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P11) FP_122_DMS_GITTER[51,46]: L_A</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="3B9DF3F6-F3E9-43E3-A12A-9B3B000E7336">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="FA386738-7FFF-4201-BF50-4D0D4250296C">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="2793ECA9-47D7-4887-9A0F-0A4C174BABB2">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="CDE812F0-E3B6-4B00-A0AA-80523B3813E5">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>BFBAC0C6-D848-4CCF-A655-E2B94FFCF0BE</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>BFBAC0C6-D848-4CCF-A655-E2B94FFCF0BE</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="804B0B38-6328-4331-AB12-A6580D34A233" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P33 - (B0_P12) FP_122_DMS_GITTER[51,46]: L_E</Caption>
+    <ExpressionID>P149</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>5.5</CurrentValue>
+      <InitialValue>1.6000000000000001</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>10.</UpperBound>
+      <LowerBound>1.</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="3F009AC0-A4D4-47D1-8A1A-25CA737E4AB7">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="A2307E78-6072-450F-886C-5DDD1971AB8A">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="9DB5CA91-840B-4A16-9A99-BA4BFE1D7077">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="02C3F608-8C77-47B7-970A-AA0C4E10D189">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>6e0e599e-5bbb-4dd5-8a32-1692865d370b</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="A5016A77-10C8-4D35-B322-B0C69F65EA81">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P33</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="15273039-DF40-42CA-8CBB-1423283C9185">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P12) FP_122_DMS_GITTER[51,46]: L_E</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="5A499AF0-0EB7-4B94-97F3-4F80CE491A6D">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="DE84DD5B-CED0-4A4E-A09F-2A97154EF2DB">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="951211C6-AA56-4867-82B3-AD6F6EC70B7E">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="CB581BCF-19BB-4591-BEA5-6B173E671855">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>ED71AF76-E3B1-4702-9816-04444BBF371F</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ED71AF76-E3B1-4702-9816-04444BBF371F</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="True" ID="866A5775-54D8-461C-90D1-E58D42DEE542" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P34 - (B0_P13) FP_122_DMS_GITTER[51,46]: L_GAUGE</Caption>
+    <ExpressionID>P150</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>20.</CurrentValue>
+      <InitialValue>20.</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>22.</UpperBound>
+      <LowerBound>18.</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="AD57EE44-84A4-40EC-B0D1-D04299E880B2">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="B64174CE-8F84-4F35-A5C6-B3A93F86CD13">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="27B0A4A5-D67F-485F-9AAF-2A0F1C9B6CB4">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="1A078153-09A1-41B9-B136-5B7A2AA29AA3">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>9cd1db31-f4dd-4e71-ab93-a63551983c2e</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="7454FD77-9B61-4CCF-BAB4-A100E2B6488F">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P34</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="0EF38C84-2757-481E-9802-5864283CF45A">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P13) FP_122_DMS_GITTER[51,46]: L_GAUGE</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="147D97E2-FE36-47BE-9225-CE588657EB9A">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="715B2707-08FD-4257-82EC-074C9FA6B53A">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="02D547AC-D53F-449E-A1F0-6A354DCACDA4">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="BAD710C2-B621-4AEA-B167-3193EBDFA08D">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>4E86288D-0D4A-492D-810D-C2A70EB025BE</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>4E86288D-0D4A-492D-810D-C2A70EB025BE</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="True" ID="064FA2CD-BB56-492F-88B0-90D668A0FBA8" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P35 - (B0_P14) FP_122_DMS_GITTER[51,46]: L_PAD</Caption>
+    <ExpressionID>P151</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>5.</CurrentValue>
+      <InitialValue>5.</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>5.5</UpperBound>
+      <LowerBound>4.5</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="4FBD483F-C5E0-40A5-9DEA-1F78627EC95D">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="0E183AD2-080A-4739-80B2-691C54E45A7D">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="FC20E623-B6FA-425E-AE90-2F9F3D338A09">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="DE3211B1-F714-442A-ADF0-92C33C3F8C33">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>ea5db8f0-15e5-40e7-9b49-5f2a613ad20d</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="7C2FAB44-8A58-47C8-BC80-E46494FF172F">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P35</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="39D5240A-A1A6-4FEB-9C65-73795C3FE776">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P14) FP_122_DMS_GITTER[51,46]: L_PAD</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="15563CA7-683D-4AE0-B36C-E84034B61D6F">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="C44A58BB-6A71-480F-932C-F9779FFF70EA">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="2B963520-1F45-463E-A717-8AB65D509CFF">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="499C9747-0BE3-4AFB-8854-9319ABC98EFB">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>EAA87EE6-2D8E-4F0F-874A-EB055E8F5279</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>EAA87EE6-2D8E-4F0F-874A-EB055E8F5279</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="4A60C00A-E1EA-412F-8956-199221C45B2C" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P36 - (B0_P15) FP_122_DMS_GITTER[51,46]: L_START_LOOP</Caption>
+    <ExpressionID>P152</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>5.5</CurrentValue>
+      <InitialValue>1.6000000000000001</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>10.</UpperBound>
+      <LowerBound>1.</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="FA807361-A283-48F4-A79D-D1998C830BEE">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="5E9ADED5-03B5-4F1A-BBDF-E6F37DF338B7">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="8C1446DE-CE11-4CE4-AE0C-D0B3457370BD">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="636D45DD-CAC7-41B7-A578-74B50AA3FB1B">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>0344a39a-dcdc-4ead-b426-d9720d7f72d4</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="2187792F-4125-4222-A7BE-5448C03C0ED5">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P36</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="6A3415FD-1862-49CB-9336-F725BF817D87">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P15) FP_122_DMS_GITTER[51,46]: L_START_LOOP</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="ECCF9491-F891-41E9-9E42-6B7335D19EF3">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="D08858FC-0D76-486D-9362-AF3784208200">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="58560CB2-E48D-40B9-9D38-FB9445B45EFC">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="804A1BE4-DB28-44AF-B228-0D08FC6EA9EC">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>89CBF773-EA67-4DF7-A100-877524AD9727</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>89CBF773-EA67-4DF7-A100-877524AD9727</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="2FF53E0C-ED6E-41C0-B423-119B277699D3" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>2</ParameterNature>
+    <Caption>P37 - (B0_P16) FP_122_DMS_GITTER[51,46]: N_LAYER</Caption>
+    <ExpressionID>P153</ExpressionID>
+    <ValueContainer>
+      <CurrentValue>0.</CurrentValue>
+      <InitialValue>0.</InitialValue>
+      <ValueTypes>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>0</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>1</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>2</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>3</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+      </ValueTypes>
+      <DoubleValues/>
+      <LongValues>
+        <Value>1</Value>
+        <Value>2</Value>
+        <Value>3</Value>
+        <Value>4</Value>
+      </LongValues>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>2</ValueStatus>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="052CFAFB-4916-4730-B677-91DF4C50E104">
+        <Name>Discrete</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="4C5BCE77-5918-4A9A-A8E0-EF09118E7BBE">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="2A149941-4579-478A-9D27-DF45904B951B">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="F8D0CC61-C532-491A-B052-8DC9865613B1">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>b19e8b01-9745-4bd0-8f1d-de884495dbbb</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="3F6C1C8E-3E7E-4C71-83D8-E02150E090F9">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P37</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="FB89A0D8-CB83-48E0-893D-4F1E41C13719">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P16) FP_122_DMS_GITTER[51,46]: N_LAYER</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="3285F41C-B4ED-48E0-A106-D52518C5F995">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="D1B9726A-90EB-4C73-A5AB-28DAA53CD12E">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="577E6050-4C5F-488E-8BEC-ACB090CB350D">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="C794B69E-9534-4E6B-A13A-8C91CBBC1BD3">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>4B2F3266-92EC-4902-86D2-C0611FE6FEDB</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>4B2F3266-92EC-4902-86D2-C0611FE6FEDB</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="CB8647DD-5421-457D-91B8-5B4CF0834D94" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>2</ParameterNature>
+    <Caption>P38 - (B0_P17) FP_122_DMS_GITTER[51,46]: N_LEG</Caption>
+    <ExpressionID>P154</ExpressionID>
+    <ValueContainer>
+      <CurrentValue>0.</CurrentValue>
+      <InitialValue>0.</InitialValue>
+      <ValueTypes>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>0</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>1</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>2</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>3</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>4</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>5</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>6</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>7</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>8</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>9</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+        <ValueMapping>
+          <Enabled>true</Enabled>
+          <Index>10</Index>
+          <ArraySelection>1</ArraySelection>
+          <StepValueType>2</StepValueType>
+        </ValueMapping>
+      </ValueTypes>
+      <DoubleValues/>
+      <LongValues>
+        <Value>4</Value>
+        <Value>6</Value>
+        <Value>8</Value>
+        <Value>10</Value>
+        <Value>12</Value>
+        <Value>14</Value>
+        <Value>16</Value>
+        <Value>18</Value>
+        <Value>20</Value>
+        <Value>22</Value>
+        <Value>24</Value>
+      </LongValues>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>2</ValueStatus>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="60B97CDD-814D-40C6-8F66-195804DADFF3">
+        <Name>Discrete</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="FA19813D-286C-47AD-BE44-06353ABB1B19">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="1B832393-10BB-4FA5-BC74-07CCBCB34CCA">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="546FFE62-404E-430F-B400-FC747925654E">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>8a97b721-9f8c-446d-814a-2f7f552bc499</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="8F7BE2F8-1090-4256-8D25-B0FD3EE76F63">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P38</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="A4CA4BDA-80AD-4851-86F6-E83EE7652F9E">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P17) FP_122_DMS_GITTER[51,46]: N_LEG</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="D1C54B30-2FED-43F8-B9B1-FF73BEC6E459">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="9EC8E009-FA8F-495D-9303-8D450CE4F5F3">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="2F731980-B205-4BF8-BA1E-11E8403EFF2D">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="35271916-A38E-4D0D-8DF7-05355EA38FC5">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>A542BA6F-4F88-45D0-971B-C48F85BC4973</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>A542BA6F-4F88-45D0-971B-C48F85BC4973</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="620BBCB0-1EBB-4A13-9B38-C5A5DDEDAAA5" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P39 - (B0_P18) FP_122_DMS_GITTER[51,46]: W_LEG</Caption>
+    <ExpressionID>P155</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>10.</CurrentValue>
+      <InitialValue>0.80000000000000004</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>4.</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>16.</UpperBound>
+      <LowerBound>4.</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="6E1F3030-5828-4A08-97BA-0844ED8282E0">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="EAEFA85A-BEBA-4AB6-ABC3-EFE0D0A010BD">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="DC956D99-09F0-4FFD-94C1-A83B9E1C3DE9">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="D07D8863-B7C9-4AA0-8B5E-5CA28CABC9FF">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>cb82fbc6-96d8-4670-938f-9067396afbec</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="57E92547-9FC5-4603-93B6-EC9560B319A2">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P39</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="4CC8478B-2EAB-42EA-B016-4B61D0BADA76">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P18) FP_122_DMS_GITTER[51,46]: W_LEG</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="6AA40C2D-CDDF-4E88-B954-5DB3AB770B35">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="3C5F688A-2E8F-49C5-A258-ED4998666944">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="EF992615-BAC3-45C6-A7F0-FE72CE0A7006">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="797BEF05-86FE-442C-A699-FD7F1D1D5C04">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>53993BB7-EE3A-4657-BFCC-1A12B34C0A76</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>53993BB7-EE3A-4657-BFCC-1A12B34C0A76</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="True" ID="032BFC14-8C14-41F2-A255-86A97854F9EC" Version="1">
+    <TemplateID>AAEF4714-0809-440C-A552-C08A52AAFC49</TemplateID>
+    <ParameterNature>0</ParameterNature>
+    <Caption>P40 - (B0_P19) FP_122_DMS_GITTER[51,46]: W_PAD</Caption>
+    <ExpressionID>P156</ExpressionID>
+    <ValueContainer Version="1">
+      <CurrentValue>5.</CurrentValue>
+      <InitialValue>5.</InitialValue>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+      <StepDefinition>0</StepDefinition>
+      <ValueStatus>1</ValueStatus>
+      <InvalidState>false</InvalidState>
+      <NewUpperBound>1.7976931168853843e+308</NewUpperBound>
+      <NewLowerBound>-1.7976931168853843e+308</NewLowerBound>
+      <UseLevels>false</UseLevels>
+      <CurrentLevelIndex>0</CurrentLevelIndex>
+      <UpperBound>5.5</UpperBound>
+      <LowerBound>4.5</LowerBound>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="44DA44E1-985C-4D24-B5C9-91429F4D947B">
+        <Name>Continuous</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="1DEE9087-99A6-468D-9C26-E3DB80DFAFCC">
+        <Name>Input</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="BDD3F6F2-D11D-49DF-9AF4-CFDF8A338C4D">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="80BD941F-27C4-4CF1-8562-F9A3D0CCD58B">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>41e0d200-08a2-450a-aa82-b5add45db908</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="68DEC457-1670-4DE1-B2B0-9732E98CF56E">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P40</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="9C8FB419-E26A-4454-98C7-F537DBEECBF6">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>(B0_P19) FP_122_DMS_GITTER[51,46]: W_PAD</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="63D3E6F0-76DF-4173-BD03-4FA7DE1BAA74">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+            <StringValue>Dimensionless</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="ECD70277-20E4-4066-ADA6-1E02A9A66C47">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="7A3BF1A0-4569-4AE7-9E25-F8FB1C98E663">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="42D1E75A-E7FE-42A2-9F6A-11F87A37C6E1">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>33731CBE-7A3B-499B-A2AC-86A0F95B8FE9</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>33731CBE-7A3B-499B-A2AC-86A0F95B8FE9</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="6A25410E-C2E5-4A58-AA8D-4F3D745CE834" Version="1">
+    <TemplateID>B388F2C9-6CE2-4991-B9B8-8922634EF2DE</TemplateID>
+    <ParameterNature>5</ParameterNature>
+    <Caption>P41 - Change in Resistance</Caption>
+    <ExpressionID>P157</ExpressionID>
+    <ValueContainer>
+      <CurrentValue>0.</CurrentValue>
+      <InitialValue>-1.7976931168853843e+308</InitialValue>
+      <Expression>(P20-P19)/P19</Expression>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="6C107700-8A43-4478-A963-274BCDFF9CF1">
+        <Name>Derived</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="1FB0823D-C8FE-48C0-B161-529452610D98">
+        <Name>Output</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="3CBE6EE0-FDD7-40DB-A6AB-12A13FEF1D35">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="843C8B08-B7D4-4E53-A07F-8EA3067EA9CF">
+        <Name>DrivenExpression</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="389C3A99-8F4B-4160-9A4C-5C8CBB796D66">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>03392c82-0d8e-4762-9647-bd6b041eb9fc</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="43A58BA1-A6D7-4A0F-890B-9047005C18DE">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P41</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="801E0A08-A71F-422A-9818-EA0378E4FED6">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>Change in Resistance</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="88DBF7F4-C6B8-4994-87C3-607F5C9CE33C">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="7E7796F3-FCDB-42D1-B50A-C318217EE552">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="4F03CA93-C4BA-4162-9A02-3FE14642BCE0">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="71118C2E-8EC2-40EE-AD61-8EC12CCF4ADE">
+        <Name>DerivedDependsFromOutput</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>DerivedDependsFromOutput</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>DerivedDependsFromOutput</Name>
+            <Type>2</Type>
+            <StringValue>True</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="AE689CF5-5979-4E57-944B-FF29B33CA5E3">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>B9092F5C-6FA7-464B-AC51-A3D4557137B3</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>B9092F5C-6FA7-464B-AC51-A3D4557137B3</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="3BE306F5-20C5-4431-9178-8A61DF4EA5E1" Version="1">
+    <TemplateID>B388F2C9-6CE2-4991-B9B8-8922634EF2DE</TemplateID>
+    <ParameterNature>5</ParameterNature>
+    <Caption>P42 - W_SG_TOTAL</Caption>
+    <ExpressionID>P158</ExpressionID>
+    <ValueContainer>
+      <CurrentValue>0.</CurrentValue>
+      <InitialValue>-1.7976931168853843e+308</InitialValue>
+      <Expression>(P30 + P29)*P38/2</Expression>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="E804FC3D-0BA7-4C6B-9567-5BA798BDA8F9">
+        <Name>Derived</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="095D130C-8F85-486B-A62E-0B4D144DB745">
+        <Name>Output</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="64CF295E-E464-48CC-A392-9738C7D59DFD">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="C9910942-1559-4EA4-9FBD-7ACFFA11725A">
+        <Name>DrivenExpression</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="9B00B132-9765-42B3-9A64-2312CC695294">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>21302a86-5221-4b0c-9d43-b6397e24cea8</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="B87A3E1D-1723-4A27-A7C0-43D224A405FA">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P42</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="FA7F5BA9-C12F-41FC-8329-C21A9A8C6B59">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>W_SG_TOTAL</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="A05B66C6-A107-4398-A583-A747CF50C89C">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="7DB6EAD8-18E4-4F45-A7C9-668F9C8E0D50">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="3BB81DD8-F84A-4536-9650-70ACA507433B">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="B4C38EB1-D4EE-443F-B2EF-125F5C55712D">
+        <Name>ParameterErrorMessage</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ParameterErrorMessage</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ParameterErrorMessage</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="5EC0B980-A0D5-4099-BABD-96AC6F0B785F">
+        <Name>DerivedDependsFromOutput</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>DerivedDependsFromOutput</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>DerivedDependsFromOutput</Name>
+            <Type>2</Type>
+            <StringValue>False</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="88FC7473-189C-4C76-9CC6-9541AE3D6917">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>DE28CEF7-C767-48F1-BDD5-00FB7BA7C32D</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>DE28CEF7-C767-48F1-BDD5-00FB7BA7C32D</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="E1F5AEDC-BDCC-4AA0-A31E-6C0E88DB934B" Version="1">
+    <TemplateID>B388F2C9-6CE2-4991-B9B8-8922634EF2DE</TemplateID>
+    <ParameterNature>5</ParameterNature>
+    <Caption>P43 - H_SG_TOTAL</Caption>
+    <ExpressionID>P159</ExpressionID>
+    <ValueContainer>
+      <CurrentValue>0.</CurrentValue>
+      <InitialValue>-1.7976931168853843e+308</InitialValue>
+      <Expression>P32+P33+P36</Expression>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="029C8A1D-5E32-46AD-B4AB-6E5150B84EBA">
+        <Name>Derived</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="4D1C80D2-BA13-46E7-BDE5-40FC6DB7673E">
+        <Name>Output</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="42AACF93-D642-4D8C-955C-A9C9D2B1C51A">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="36AD6C3D-F48A-4F11-A289-E088E4FF713B">
+        <Name>DrivenExpression</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="C2CABF3C-A60F-4D0C-A5B6-E278D51990B0">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>18827c79-61de-4017-a91a-73106851e83e</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="E6E01BBE-DAF1-4D76-AD28-DD1704591DCB">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P43</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="8F85E12A-928C-4B02-8B38-2E2FB79FBCED">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>H_SG_TOTAL</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="BDE87640-B250-47CD-9F2F-632E47DF419C">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="7CB3192E-525F-4061-A3D7-D82B51E06568">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="5CBEED2F-C895-499B-A0D0-7A66324B32F2">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="CA7C4CF9-08E9-4CB8-8F6A-5B0E448DE729">
+        <Name>ParameterErrorMessage</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ParameterErrorMessage</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ParameterErrorMessage</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="A1626C9B-6E8F-4DF6-B674-3727B6AA0F7B">
+        <Name>DerivedDependsFromOutput</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>DerivedDependsFromOutput</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>DerivedDependsFromOutput</Name>
+            <Type>2</Type>
+            <StringValue>False</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="D0774222-6869-4FC8-8047-95907FBE480F">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>CCFF83A6-E9A9-4C64-AB60-04C19B261F06</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>CCFF83A6-E9A9-4C64-AB60-04C19B261F06</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+    </Attributes>
+  </Parameter>
+
+  <Parameter Disabled="False" ID="6DAEA2A7-CD7D-4443-B196-C4A19797C5BD" Version="1">
+    <TemplateID>B388F2C9-6CE2-4991-B9B8-8922634EF2DE</TemplateID>
+    <ParameterNature>5</ParameterNature>
+    <Caption>P44 - T_SG</Caption>
+    <ExpressionID>P160</ExpressionID>
+    <ValueContainer>
+      <CurrentValue>0.</CurrentValue>
+      <InitialValue>-1.7976931168853843e+308</InitialValue>
+      <Expression>P37*P31</Expression>
+      <ValueTypes/>
+      <DoubleValues/>
+      <LongValues/>
+      <ArrayValues/>
+      <StringValues/>
+    </ValueContainer>
+    <Attributes>
+      <Attribute ID="18333856-3A0A-48CF-B60D-0CB8BBE7BBD7">
+        <Name>Derived</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="02E7F092-A445-40A7-86E9-8F4530CB22C8">
+        <Name>Output</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="4C13A571-2BB4-4261-BD89-3BBCF8DC7FDA">
+        <Name>ParameterSetID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>2</Type>
+            <StringValue>881886F1-6890-4A79-A668-3AB32BA4457D</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="B5973B0C-C623-4338-B905-A60C2BBDD7E2">
+        <Name>DrivenExpression</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Type>0</Type>
+            <IntegerValue>1</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="C3CADEC6-DF4E-4AD8-BC60-81DB2802303F">
+        <Name>ManagedParameter</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ID</Name>
+            <Type>2</Type>
+            <StringValue>ccdb426c-ac58-47a9-ad2c-21e1d579c1b6</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="BAE7B4CE-59DA-40BF-BB1E-FBF392C6FBCF">
+        <Name>immutableID</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>immutableID</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>immutableID</Name>
+            <Type>2</Type>
+            <StringValue>P44</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="F575DCCB-CE8F-41FF-B52E-8365395933E1">
+        <Name>ProjectDisplayText</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ProjectDisplayText</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ProjectDisplayText</Name>
+            <Type>2</Type>
+            <StringValue>T_SG</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="6B5BA5A0-F850-4419-A269-F1B299FB058D">
+        <Name>WB2Quantity</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Quantity</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Quantity</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="E9277646-0BC4-481C-A3EF-AF9D4C7545E1">
+        <Name>WB2Units</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>WB2Units</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>WB2Units</Name>
+            <Type>2</Type>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="0AB6090A-D8A7-4714-8294-CA9D4C934D0E">
+        <Name>IntrinsicType</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>IntrinsicType</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>IntrinsicType</Name>
+            <Type>2</Type>
+            <StringValue>eNatureContinuous</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="0B268EFC-1F90-4A44-9F66-F154B65AE7DF">
+        <Name>DerivedDependsFromOutput</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>DerivedDependsFromOutput</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>DerivedDependsFromOutput</Name>
+            <Type>2</Type>
+            <StringValue>False</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="09257985-245F-487E-8CAA-9F1E7FCA4C55">
+        <Name>Duplicate</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>0</Type>
+            <Name>919B4483-7BB3-45D0-9B26-923FDC478EB2</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>919B4483-7BB3-45D0-9B26-923FDC478EB2</Name>
+            <Type>0</Type>
+            <IntegerValue>0</IntegerValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
