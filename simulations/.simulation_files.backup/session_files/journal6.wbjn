@@ -17,3 +17,78 @@ model1 = system2.GetContainer(ComponentName="Model")
 model1.Edit()
 Save(Overwrite=True)
 Save(Overwrite=True)
+parameter2 = Parameters.CreateParameter(
+    IsOutput=True,
+    Expression="(P20-P19)/P19",
+    DisplayText="Output Parameter")
+parameter2.DisplayText = "Change in Resistance"
+system3 = GetSystem(Name="DOP")
+optimizationComponent1 = system3.GetComponent(Name="Optimization")
+optimizationComponent1.Refresh()
+optimization1 = system3.GetContainer(ComponentName="Optimization")
+optimizationModel1 = optimization1.GetModel()
+outputParameter1 = optimizationModel1.GetParameter(Name="P20")
+optimizationCriterion1 = outputParameter1.GetOptimizationCriterion()
+optimizationCriterion1.DisplayText = "Seek base resistance 100K"
+outputParameter2 = optimizationModel1.GetParameter(Name="P41")
+optimizationCriterion2 = outputParameter2.CreateOptimizationCriterion()
+optimizationCriterion2.ObjectiveType = "GT_MaximumPossible"
+optimizationCriterion2.ConstraintType = "CT_LessThanTarget"
+optimizationCriterion2.ConstraintFirstValue = 0.008
+optimizationCriterion2.FeasibleTolerance = 0.002
+optimizationCriterion2.DisplayText = "Maximize Sensitivity"
+Save(Overwrite=True)
+parameterRelationship1 = optimizationModel1.GetParameterRelationship(Name="ParameterRelationship")
+optimizationModel1.DeleteParameterRelationships(ParameterRelationships=[parameterRelationship1])
+parameterRelationship2 = optimizationModel1.GetParameterRelationship(Name="ParameterRelationship 1")
+parameterRelationship2.LeftExpression = "P23"
+parameterRelationship2.RightExpression = "P26"
+inputParameter1 = optimizationModel1.GetParameter(Name="P38")
+optimizationCriterion3 = inputParameter1.GetOptimizationCriterion()
+optimizationCriterion3.LowerBound = 4
+optimizationCriterion3.UpperBound = 16
+inputParameter2 = optimizationModel1.GetParameter(Name="P39")
+inputParameter2.Nature = "NatureDiscrete"
+discreteLevel1 = inputParameter2.GetDiscreteLevel(Name="Level")
+discreteLevel1.SetValue(Value=4)
+discreteLevel2 = inputParameter2.GetDiscreteLevel(Name="Level 1")
+discreteLevel2.SetValue(Value=6)
+level1 = inputParameter2.AddDiscreteLevel(Value=8)
+level2 = inputParameter2.AddDiscreteLevel(Value=10)
+level3 = inputParameter2.AddDiscreteLevel(Value=12)
+level4 = inputParameter2.AddDiscreteLevel(Value=14)
+level5 = inputParameter2.AddDiscreteLevel(Value=16)
+inputParameter3 = optimizationModel1.GetParameter(Name="P40")
+inputParameter3.Enabled = False
+inputParameter4 = optimizationModel1.GetParameter(Name="P37")
+inputParameter4.Nature = "NatureDiscrete"
+discreteLevel3 = inputParameter4.GetDiscreteLevel(Name="Level 8")
+discreteLevel3.SetValue(Value=2)
+discreteLevel4 = inputParameter4.GetDiscreteLevel(Name="Level 7")
+discreteLevel4.SetValue(Value=1)
+level6 = inputParameter4.AddDiscreteLevel(Value=3)
+level7 = inputParameter4.AddDiscreteLevel(Value=4)
+Save(Overwrite=True)
+inputParameter5 = optimizationModel1.GetParameter(Name="P34")
+inputParameter5.Enabled = False
+parameter3 = Parameters.CreateParameter(
+    IsOutput=False,
+    Expression="(G_LEGS + B_GAUGE) ",
+    DisplayText="Input Parameter")
+designPoint1 = Parameters.GetDesignPoint(Name="0")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="(P30 + B_GAUGE)")
+designPoint1.SetParameterExpression(
+    Parameter=parameter3,
+    Expression="(P30 + P29)*P38/2")
+parameter3.DisplayText = "W_SG_TOTAL"
+parameter4 = Parameters.CreateParameter(
+    IsOutput=False,
+    Expression="L_A + L_E + L_START_LOOP",
+    DisplayText="Input Parameter")
+designPoint1.SetParameterExpression(
+    Parameter=parameter4,
+    Expression="P32+P33+P36")
+parameter4.DisplayText = "H_SG_TOTAL"
+Save(Overwrite=True)
