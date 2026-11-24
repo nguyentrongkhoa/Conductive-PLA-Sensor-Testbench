@@ -2,10 +2,10 @@
 <Storage>
   <Project Version="25.2.1.0">
     <base-designpoint-name valType="String">0</base-designpoint-name>
-    <timestamp-max valType="Int64">25177</timestamp-max>
+    <timestamp-max valType="Int64">30883</timestamp-max>
     <framework-build-version valType="String">26.1.174.0</framework-build-version>
     <external-version-string valType="String">2026 R1</external-version-string>
-    <last-saved-utc valType="String">11/24/2026 05:39:22</last-saved-utc>
+    <last-saved-utc valType="String">11/24/2026 06:05:52</last-saved-utc>
     <managed-categories valType="String">[report, misc, progress]</managed-categories>
     <expression-scope-container valType="String">Parameters</expression-scope-container>
     <project-type valType="String">WB2</project-type>
@@ -108,43 +108,52 @@
 "cb82fbc6-96d8-4670-938f-9067396afbec": "/Parameters/Parameter:P39",
 "41e0d200-08a2-450a-aa82-b5add45db908": "/Parameters/Parameter:P40",
 "9bdf55d4-dafd-45aa-b51c-b5257c391a1e": "/FileContainer/FileReference:F17",
+"ccdb426c-ac58-47a9-ad2c-21e1d579c1b6": "/Parameters/Parameter:P44",
+"f94cbf22-6bb4-4fb4-90a4-c5181de1ccd2": "/Optimization/OptimizationCriterion:P43",
+"a67577ed-7864-4b80-bff4-3125391f1662": "/Optimization/OptimizationCriterion:P42",
+"ecd3baf6-419f-440e-a124-ecff86ee56b1": "/Optimization/OutputParameter:P43",
+"a5448848-be42-4651-b6ba-bb2be1deade6": "/Optimization/OutputParameter:P42",
+"1e49d887-e027-4a46-8983-ddfd83465f7c": "/Optimization/OutputParameter:P41",
+"cf4b0542-125f-4a06-a178-3e63d2773354": "/Optimization/OutputParameter:P20",
+"56707e72-234d-4f48-a148-e20489609f1f": "/Optimization/OutputParameter:P19",
+"ad06904e-47d9-4310-813f-22cb4d0a1dd6": "/Optimization/InputParameter:P40",
+"93ee65e7-0e5c-41cb-84ae-5787d2f6fdec": "/Optimization/InputParameter:P39",
+"901bf0db-219b-47de-8abb-51909432e399": "/Optimization/InputParameter:P36",
+"67e49a03-fb36-47d4-af79-6e2f7ec20c7f": "/Optimization/InputParameter:P35",
+"3a3bcbd5-0bbb-47c6-b568-616701973de8": "/Optimization/InputParameter:P34",
+"6c7b5d2f-9167-4ed3-b13f-a4c5d0385fcd": "/Optimization/InputParameter:P33",
+"57da0a6d-7222-4d92-b55a-666d9e90712a": "/Optimization/InputParameter:P32",
+"383275c9-c5ac-4de3-b549-a2a02ecfd63b": "/Optimization/InputParameter:P31",
+"c6a6f46d-db34-4c31-b9c3-b517f7931066": "/Optimization/InputParameter:P30",
+"cf4446d1-ced9-44bd-88f0-3b38ee72dd1d": "/Optimization/InputParameter:P29",
+"e2b3b01a-87fb-4e2a-9471-4487df5cf781": "/Optimization/InputParameter:P28",
+"81484c17-0f4c-4ea1-9388-5dab7e5d5ca3": "/Optimization/InputParameter:P27",
+"f3009157-c409-40c6-9394-c8ae463d9798": "/Optimization/InputParameter:P26",
+"16e55474-46b2-479b-8961-6f212e61b582": "/Optimization/InputParameter:P25",
+"0c3e1c92-60fe-4e9c-9b68-214c82e1fd86": "/Optimization/InputParameter:P24",
+"845e1a48-db80-46e5-9145-0eaecf5be835": "/Optimization/InputParameter:P23",
+"0ec87f46-4c38-4551-9e95-f676a9047fba": "/Optimization/InputParameter:P22",
+"21d11e30-14a6-4145-9754-4068e180fce3": "/Optimization/InputParameter:P37",
+"8fd1003a-7389-415e-b9a8-da07ca00c6c0": "/Optimization/InputParameter:P38",
+"af5ca9ea-865c-41ab-985c-787c0f09af24": "/Optimization/DiscreteLevel:Level 3",
+"ffed54dd-9c44-456d-b132-5be2a493e957": "/Optimization/DiscreteLevel:Level 2",
+"8cacb9c9-c156-4ffb-b57d-6a5116f91f38": "/Optimization/DiscreteLevel:Level 1",
+"724b82a7-75d5-40d5-a076-7ad1f48b830f": "/Optimization/DiscreteLevel:Level",
+"c56742fd-d0da-47eb-92d2-f6d1b530cae7": "/Optimization/DiscreteLevel:Level 14",
+"1ca23c73-58f7-4aa3-b568-c90cd4c2c8c8": "/Optimization/DiscreteLevel:Level 13",
+"18a49f8a-c12f-46f1-b1f6-194f3c49067d": "/Optimization/DiscreteLevel:Level 12",
+"62945a91-08ad-47e4-ae99-70cf09893db4": "/Optimization/DiscreteLevel:Level 11",
+"8a6db139-ffef-4ba7-9aa3-67a60970337d": "/Optimization/DiscreteLevel:Level 10",
+"b5d4708e-9ab4-41a7-a180-dbdc29bab0d2": "/Optimization/DiscreteLevel:Level 9",
+"95ee0a77-dedc-4d7d-8b9b-472eb63ecb68": "/Optimization/DiscreteLevel:Level 8",
+"74e02e5e-3808-457f-b871-e75b5be50db4": "/Optimization/DiscreteLevel:Level 7",
+"b2924eb0-301a-4189-bb51-2f984ec0708c": "/Optimization/DiscreteLevel:Level 6",
+"c80bec9a-3378-43b4-ba4c-2ab4a20fe7c9": "/Optimization/DiscreteLevel:Level 5",
+"9f862cb0-fbcb-46bc-8a1d-9b9d19aef242": "/Optimization/DiscreteLevel:Level 4",
 "61f3957a-227e-48f2-abdf-040f2c318b04": "/Optimization/OptimizationCriterion:P41",
-"42517dc5-f68d-4608-b748-9f5d98bbe0e2": "/Optimization/OutputParameter:P41",
-"7498e781-3932-4d84-bd7b-ff83d71cd9e0": "/Optimization/OutputParameter:P20",
-"3a935a95-bca7-47d0-9c6c-f997ef3a0754": "/Optimization/OutputParameter:P19",
-"b00d8647-8359-42e7-a9b4-520294f8645d": "/Optimization/InputParameter:P40",
-"a4adfeb0-e00a-408a-9898-81d56f81698f": "/Optimization/InputParameter:P39",
-"dabe077a-2082-42b9-b9b3-92f805d6079c": "/Optimization/InputParameter:P38",
-"ea80cdfe-317b-444f-9f1a-b28cac7f59a9": "/Optimization/InputParameter:P37",
-"8b0c92d3-f1a2-4401-b1b8-a8db9ebb6065": "/Optimization/InputParameter:P36",
-"0364bf49-ed10-4352-8ba2-abd2b0b686a8": "/Optimization/InputParameter:P35",
-"0e1b4236-bdff-413d-9061-15d44dc29ece": "/Optimization/InputParameter:P34",
-"38ae5444-b68c-4d66-91bd-ce338f13e827": "/Optimization/InputParameter:P33",
-"460ad7b4-0b7a-4fc2-a273-aee5d73b9892": "/Optimization/InputParameter:P32",
-"92e1a8c0-e6b7-4413-bebc-83973ded2795": "/Optimization/InputParameter:P31",
-"5c86bba0-eb1e-4dbb-a53d-24e5c15aa3d0": "/Optimization/InputParameter:P30",
-"d51aae57-47ad-45b4-bcb1-bb0b3b2accc0": "/Optimization/InputParameter:P29",
-"859529cf-f75c-4388-947e-547ee522a78c": "/Optimization/InputParameter:P28",
-"1cfc7ee5-a110-4e56-928c-c78931875310": "/Optimization/InputParameter:P27",
-"291767d8-7c3c-4a9a-9be1-fa8c021ee4a6": "/Optimization/InputParameter:P26",
-"027670cb-99bd-4a03-a184-5cae390e8d03": "/Optimization/InputParameter:P25",
-"0c147fb8-518c-4d4f-9cb5-1c4207047647": "/Optimization/InputParameter:P24",
-"4276e723-d4ca-4974-849b-87d307aeeb85": "/Optimization/InputParameter:P23",
-"eb44610f-f452-4075-b812-1fc4a39d9668": "/Optimization/InputParameter:P22",
-"cb200d9f-675f-4403-a734-cbf10cbaa45c": "/DXOptimizationEvaluateContainer/ParametricTable:RawDataTable",
 "18827c79-61de-4017-a91a-73106851e83e": "/Parameters/Parameter:P43",
 "21302a86-5221-4b0c-9d43-b6397e24cea8": "/Parameters/Parameter:P42",
-"e4eca77c-71f8-425a-a01f-2480e17cd1e3": "/Optimization/DiscreteLevel:Level 10",
-"2b5066de-5ee5-4971-b04e-f628b73da82e": "/Optimization/DiscreteLevel:Level 9",
-"0529c923-65c6-4a68-bdf6-d94ee118f017": "/Optimization/DiscreteLevel:Level 8",
-"86fc9d13-3c13-4cff-a7fd-e6dcb1223355": "/Optimization/DiscreteLevel:Level 7",
-"4b399cd1-13b2-4570-8fe6-626e4f4aca8d": "/Optimization/DiscreteLevel:Level 6",
-"9a53fff5-842f-43e3-a9e6-4c0b1c23b2a3": "/Optimization/DiscreteLevel:Level 5",
-"86a1d18e-a656-4916-b6ce-58598b170946": "/Optimization/DiscreteLevel:Level 4",
-"97f8bf66-cd9f-401d-a542-9156f29c84a3": "/Optimization/DiscreteLevel:Level 3",
-"21bfb4ee-4ca5-4069-9ed8-b22e85ed1251": "/Optimization/DiscreteLevel:Level 2",
-"15d499b8-7a95-4804-bddd-4acaa103ecb7": "/Optimization/DiscreteLevel:Level 1",
-"430044e7-103c-4493-80e8-735f50826c9b": "/Optimization/DiscreteLevel:Level"
+"35abaa1d-2d4a-4ad4-be87-c618cbf64f09": "/DXOptimizationEvaluateContainer/ParametricTable:RawDataTable"
 }</ReferenceList>
       </ProjectReferenceList>
       <DesignPointReferenceListCollection>
@@ -371,7 +380,7 @@
       <Object Name="/FileContainer/FileReference:F4" Version="1.0">
         <class-type valType="String">FileReference</class-type>
         <object-name valType="String">F4</object-name>
-        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$57a362dd-1745-4aab-b09e-689c3719946f, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 46}</member-data>
+        <member-data valType="String">{"DisplayText": "act.dat", "FileType": $$57a362dd-1745-4aab-b09e-689c3719946f, "DependentFiles": [], "ContainerAssociations": [], "SkipForDesignPointDuplication": False, "IsDeletable": True, "ExternalSource": None, "LastDownloadFromRepository": -1, "Location": r"$(ProjectName)_files\dp0\act.dat", "ReferenceCount": 53}</member-data>
       </Object>
       <Object Name="/FileContainer/FileReference:F5" Version="1.0">
         <class-type valType="String">FileReference</class-type>
@@ -501,13 +510,13 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <maxUpdateOrder valType="Double">1</maxUpdateOrder>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 25170, "Input": 25165, "Output": 1518}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 28242, "Input": 28231, "Output": 1518}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Parameters/DesignPoint:0" Version="1.0">
         <class-type valType="String">DesignPoint</class-type>
         <object-name valType="String">0</object-name>
-        <member-data valType="String">{"DisplayText": "DP 0", "JustDuplicated": False, "PartiallyRetainedData": [], "ValidRetainedData": [], "ErrorsOnLastUpdate": {}, "LastUpdateInformation": {"DidUpdate": "True", "DidPreRsmUpdate": "False", "UpdatedComponents": "Setup 2 in SC"}, "Parameters": {"$$8a97b721-9f8c-446d-814a-2f7f552bc499": "8", "$$b19e8b01-9745-4bd0-8f1d-de884495dbbb": "2", "$$0344a39a-dcdc-4ead-b426-d9720d7f72d4": "1.6", "$$ea5db8f0-15e5-40e7-9b49-5f2a613ad20d": "5", "$$9cd1db31-f4dd-4e71-ab93-a63551983c2e": "20", "$$6e0e599e-5bbb-4dd5-8a32-1692865d370b": "1.6", "$$9e7214c8-a8b2-4cdd-964a-c723f51ed394": "20", "$$24a88d0b-310c-4773-a031-90232d64f6d9": "0.2", "$$db2bd2d9-158c-43b7-8401-cc35c3b44c19": "0.8", "$$488a26c2-d6ff-4375-8240-2ced2c575204": "6", "$$41a1ec44-c5b4-4e88-bae7-5e646afbc475": "0.6", "$$dc34b1c4-a114-4708-bb8c-13cc67da3774": "50", "$$d9426e27-f50d-4e50-942e-00f2638f3882": "30", "$$aeb52624-e7bb-41bc-bdb8-7212bf0dce91": "2", "$$398b440e-6546-49a3-80d2-15de9cfde902": "50", "$$7b73574e-2223-40c8-8f7d-99d61f765397": "30", "$$ae37662a-6a03-4ac4-8da8-c143357ddaba": "100", "$$03392c82-0d8e-4762-9647-bd6b041eb9fc": "(P20-P19)/P19", "$$cb82fbc6-96d8-4670-938f-9067396afbec": "0.8", "$$41e0d200-08a2-450a-aa82-b5add45db908": "5", "$$21302a86-5221-4b0c-9d43-b6397e24cea8": "(P30 + P29)*P38/2", "$$18827c79-61de-4017-a91a-73106851e83e": "P32+P33+P36"}, "ParameterErrors": {}, "CurrentValues": {"$$8a97b721-9f8c-446d-814a-2f7f552bc499": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "8"}, "$$b19e8b01-9745-4bd0-8f1d-de884495dbbb": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "2"}, "$$0344a39a-dcdc-4ead-b426-d9720d7f72d4": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "1.6"}, "$$ea5db8f0-15e5-40e7-9b49-5f2a613ad20d": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "5"}, "$$9cd1db31-f4dd-4e71-ab93-a63551983c2e": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "20"}, "$$6e0e599e-5bbb-4dd5-8a32-1692865d370b": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "1.6"}, "$$9e7214c8-a8b2-4cdd-964a-c723f51ed394": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "20"}, "$$24a88d0b-310c-4773-a031-90232d64f6d9": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.2"}, "$$db2bd2d9-158c-43b7-8401-cc35c3b44c19": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.8"}, "$$488a26c2-d6ff-4375-8240-2ced2c575204": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "6"}, "$$41a1ec44-c5b4-4e88-bae7-5e646afbc475": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.6"}, "$$dc34b1c4-a114-4708-bb8c-13cc67da3774": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "50"}, "$$d9426e27-f50d-4e50-942e-00f2638f3882": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "$$aeb52624-e7bb-41bc-bdb8-7212bf0dce91": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "2"}, "$$398b440e-6546-49a3-80d2-15de9cfde902": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "50"}, "$$7b73574e-2223-40c8-8f7d-99d61f765397": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "$$ae37662a-6a03-4ac4-8da8-c143357ddaba": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "100"}, "$$ea1ec59a-aab5-4e31-8972-9ff6320bcdd4": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "163469.89440917969 [mV]"}, "$$28986e81-ba72-41ac-871d-3bb525cb1c02": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "163515.15197753906 [mV]"}, "$$03392c82-0d8e-4762-9647-bd6b041eb9fc": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.00027685567745025443"}, "$$cb82fbc6-96d8-4670-938f-9067396afbec": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.8"}, "$$41e0d200-08a2-450a-aa82-b5add45db908": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "5"}, "$$21302a86-5221-4b0c-9d43-b6397e24cea8": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 27.2}, "$$18827c79-61de-4017-a91a-73106851e83e": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 23.200000000000003}}, "ParameterStatus": {"$$8a97b721-9f8c-446d-814a-2f7f552bc499": "UpToDate", "$$b19e8b01-9745-4bd0-8f1d-de884495dbbb": "UpToDate", "$$0344a39a-dcdc-4ead-b426-d9720d7f72d4": "UpToDate", "$$ea5db8f0-15e5-40e7-9b49-5f2a613ad20d": "UpToDate", "$$9cd1db31-f4dd-4e71-ab93-a63551983c2e": "UpToDate", "$$6e0e599e-5bbb-4dd5-8a32-1692865d370b": "UpToDate", "$$9e7214c8-a8b2-4cdd-964a-c723f51ed394": "UpToDate", "$$24a88d0b-310c-4773-a031-90232d64f6d9": "UpToDate", "$$db2bd2d9-158c-43b7-8401-cc35c3b44c19": "UpToDate", "$$488a26c2-d6ff-4375-8240-2ced2c575204": "UpToDate", "$$41a1ec44-c5b4-4e88-bae7-5e646afbc475": "UpToDate", "$$dc34b1c4-a114-4708-bb8c-13cc67da3774": "UpToDate", "$$d9426e27-f50d-4e50-942e-00f2638f3882": "UpToDate", "$$aeb52624-e7bb-41bc-bdb8-7212bf0dce91": "UpToDate", "$$398b440e-6546-49a3-80d2-15de9cfde902": "UpToDate", "$$7b73574e-2223-40c8-8f7d-99d61f765397": "UpToDate", "$$ae37662a-6a03-4ac4-8da8-c143357ddaba": "UpToDate", "$$ea1ec59a-aab5-4e31-8972-9ff6320bcdd4": "UpToDate", "$$28986e81-ba72-41ac-871d-3bb525cb1c02": "UpToDate", "$$03392c82-0d8e-4762-9647-bd6b041eb9fc": "UpToDate", "$$cb82fbc6-96d8-4670-938f-9067396afbec": "UpToDate", "$$41e0d200-08a2-450a-aa82-b5add45db908": "UpToDate", "$$21302a86-5221-4b0c-9d43-b6397e24cea8": "UpToDate", "$$18827c79-61de-4017-a91a-73106851e83e": "UpToDate"}, "Note": None, "IsUpToDate": True, "Exported": True, "Retained": True, "IsHpsRetainedDataValidAndAvailable": False, "CurrentStateExported": False, "IsDataModelValid": True, "HasRetainedData": True, "HasBeenSolved": True, "UpdateOrder": 1}</member-data>
+        <member-data valType="String">{"DisplayText": "DP 0", "JustDuplicated": False, "PartiallyRetainedData": [], "ValidRetainedData": [], "ErrorsOnLastUpdate": {}, "LastUpdateInformation": {"DidUpdate": "True", "DidPreRsmUpdate": "False", "UpdatedComponents": "Setup 2 in SC"}, "Parameters": {"$$8a97b721-9f8c-446d-814a-2f7f552bc499": "8", "$$b19e8b01-9745-4bd0-8f1d-de884495dbbb": "2", "$$0344a39a-dcdc-4ead-b426-d9720d7f72d4": "1.6", "$$ea5db8f0-15e5-40e7-9b49-5f2a613ad20d": "5", "$$9cd1db31-f4dd-4e71-ab93-a63551983c2e": "20", "$$6e0e599e-5bbb-4dd5-8a32-1692865d370b": "1.6", "$$9e7214c8-a8b2-4cdd-964a-c723f51ed394": "20", "$$24a88d0b-310c-4773-a031-90232d64f6d9": "0.2", "$$db2bd2d9-158c-43b7-8401-cc35c3b44c19": "0.8", "$$488a26c2-d6ff-4375-8240-2ced2c575204": "6", "$$41a1ec44-c5b4-4e88-bae7-5e646afbc475": "0.6", "$$dc34b1c4-a114-4708-bb8c-13cc67da3774": "50", "$$d9426e27-f50d-4e50-942e-00f2638f3882": "30", "$$aeb52624-e7bb-41bc-bdb8-7212bf0dce91": "2", "$$398b440e-6546-49a3-80d2-15de9cfde902": "50", "$$7b73574e-2223-40c8-8f7d-99d61f765397": "30", "$$ae37662a-6a03-4ac4-8da8-c143357ddaba": "100", "$$03392c82-0d8e-4762-9647-bd6b041eb9fc": "(P20-P19)/P19", "$$cb82fbc6-96d8-4670-938f-9067396afbec": "0.8", "$$41e0d200-08a2-450a-aa82-b5add45db908": "5", "$$21302a86-5221-4b0c-9d43-b6397e24cea8": "(P30 + P29)*P38/2", "$$18827c79-61de-4017-a91a-73106851e83e": "P32+P33+P36", "$$ccdb426c-ac58-47a9-ad2c-21e1d579c1b6": "P37*P31"}, "ParameterErrors": {}, "CurrentValues": {"$$8a97b721-9f8c-446d-814a-2f7f552bc499": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "8"}, "$$b19e8b01-9745-4bd0-8f1d-de884495dbbb": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "2"}, "$$0344a39a-dcdc-4ead-b426-d9720d7f72d4": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "1.6"}, "$$ea5db8f0-15e5-40e7-9b49-5f2a613ad20d": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "5"}, "$$9cd1db31-f4dd-4e71-ab93-a63551983c2e": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "20"}, "$$6e0e599e-5bbb-4dd5-8a32-1692865d370b": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "1.6"}, "$$9e7214c8-a8b2-4cdd-964a-c723f51ed394": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "20"}, "$$24a88d0b-310c-4773-a031-90232d64f6d9": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.2"}, "$$db2bd2d9-158c-43b7-8401-cc35c3b44c19": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.8"}, "$$488a26c2-d6ff-4375-8240-2ced2c575204": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "6"}, "$$41a1ec44-c5b4-4e88-bae7-5e646afbc475": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.6"}, "$$dc34b1c4-a114-4708-bb8c-13cc67da3774": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "50"}, "$$d9426e27-f50d-4e50-942e-00f2638f3882": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "$$aeb52624-e7bb-41bc-bdb8-7212bf0dce91": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "2"}, "$$398b440e-6546-49a3-80d2-15de9cfde902": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "50"}, "$$7b73574e-2223-40c8-8f7d-99d61f765397": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "30"}, "$$ae37662a-6a03-4ac4-8da8-c143357ddaba": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "100"}, "$$ea1ec59a-aab5-4e31-8972-9ff6320bcdd4": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "163469.89440917969 [mV]"}, "$$28986e81-ba72-41ac-871d-3bb525cb1c02": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "163515.15197753906 [mV]"}, "$$03392c82-0d8e-4762-9647-bd6b041eb9fc": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.00027685567745025443"}, "$$cb82fbc6-96d8-4670-938f-9067396afbec": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "0.8"}, "$$41e0d200-08a2-450a-aa82-b5add45db908": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.QuantitySpec", "value": "5"}, "$$21302a86-5221-4b0c-9d43-b6397e24cea8": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 27.2}, "$$18827c79-61de-4017-a91a-73106851e83e": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 23.200000000000003}, "$$ccdb426c-ac58-47a9-ad2c-21e1d579c1b6": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 0.4}}, "ParameterStatus": {"$$8a97b721-9f8c-446d-814a-2f7f552bc499": "UpToDate", "$$b19e8b01-9745-4bd0-8f1d-de884495dbbb": "UpToDate", "$$0344a39a-dcdc-4ead-b426-d9720d7f72d4": "UpToDate", "$$ea5db8f0-15e5-40e7-9b49-5f2a613ad20d": "UpToDate", "$$9cd1db31-f4dd-4e71-ab93-a63551983c2e": "UpToDate", "$$6e0e599e-5bbb-4dd5-8a32-1692865d370b": "UpToDate", "$$9e7214c8-a8b2-4cdd-964a-c723f51ed394": "UpToDate", "$$24a88d0b-310c-4773-a031-90232d64f6d9": "UpToDate", "$$db2bd2d9-158c-43b7-8401-cc35c3b44c19": "UpToDate", "$$488a26c2-d6ff-4375-8240-2ced2c575204": "UpToDate", "$$41a1ec44-c5b4-4e88-bae7-5e646afbc475": "UpToDate", "$$dc34b1c4-a114-4708-bb8c-13cc67da3774": "UpToDate", "$$d9426e27-f50d-4e50-942e-00f2638f3882": "UpToDate", "$$aeb52624-e7bb-41bc-bdb8-7212bf0dce91": "UpToDate", "$$398b440e-6546-49a3-80d2-15de9cfde902": "UpToDate", "$$7b73574e-2223-40c8-8f7d-99d61f765397": "UpToDate", "$$ae37662a-6a03-4ac4-8da8-c143357ddaba": "UpToDate", "$$ea1ec59a-aab5-4e31-8972-9ff6320bcdd4": "UpToDate", "$$28986e81-ba72-41ac-871d-3bb525cb1c02": "UpToDate", "$$03392c82-0d8e-4762-9647-bd6b041eb9fc": "UpToDate", "$$cb82fbc6-96d8-4670-938f-9067396afbec": "UpToDate", "$$41e0d200-08a2-450a-aa82-b5add45db908": "UpToDate", "$$21302a86-5221-4b0c-9d43-b6397e24cea8": "UpToDate", "$$18827c79-61de-4017-a91a-73106851e83e": "UpToDate", "$$ccdb426c-ac58-47a9-ad2c-21e1d579c1b6": "UpToDate"}, "Note": None, "IsUpToDate": True, "Exported": True, "Retained": True, "IsHpsRetainedDataValidAndAvailable": False, "CurrentStateExported": False, "IsDataModelValid": True, "HasRetainedData": True, "HasBeenSolved": True, "UpdateOrder": 1}</member-data>
         <properties-setByUserFlag-data valType="String">["IsHpsRetainedDataValidAndAvailable", "IsDataModelValid"]</properties-setByUserFlag-data>
       </Object>
       <Object Name="/Parameters/DesignPointReportSetting:Design Points Report Setting" Version="1.0">
@@ -636,6 +645,12 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <class-type valType="String">Parameter</class-type>
         <object-name valType="String">P43</object-name>
         <member-data valType="String">{"DisplayText": "H_SG_TOTAL", "PersistedNamedValueEntityReference": None, "Expression": "P32+P33+P36", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 23.200000000000003}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib]], Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": 0, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False, "UndefinedValue": 1.79769313486231E+308}}</member-data>
+        <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
+      </Object>
+      <Object Name="/Parameters/Parameter:P44" Version="1.0">
+        <class-type valType="String">Parameter</class-type>
+        <object-name valType="String">P44</object-name>
+        <member-data valType="String">{"DisplayText": "T_SG", "PersistedNamedValueEntityReference": None, "Expression": "P37*P31", "Usage": "Input", "IsParameter": True, "Scope": None, "SystemData": {}, "SerializedNamedExpression": None, "Description": None, "ErrorMessage": None, "HasRemovedLinksFromMigration": False, "Value": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 0.4}, "ValueSpec": {"SpecType": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib]], Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": 0, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False, "UndefinedValue": 1.79769313486231E+308}}</member-data>
         <properties-setByUserFlag-data valType="String">["DisplayText"]</properties-setByUserFlag-data>
       </Object>
       <ParameterToPropertyMap>
@@ -794,7 +809,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 20688, "Input": 16894, "Output": 1521}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 25610, "Input": 16894, "Output": 1521}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Schematic/System:Geometry" Version="1.0">
@@ -929,7 +944,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 24377, "Input": 1843, "Output": 1843}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 29311, "Input": 1843, "Output": 1843}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">false</contains-significant-data>
     </Container>
@@ -1012,30 +1027,30 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <InputParameters_0Count valType="Int32">20</InputParameters_0Count>
       <InputParameters_0 valType="StringArray">
         <ArrayEntry Index="0">e1f82a4f-6acc-4746-a752-6c9dfffda402</ArrayEntry>
-        <ArrayEntry Index="1">eb44610f-f452-4075-b812-1fc4a39d9668</ArrayEntry>
-        <ArrayEntry Index="2">4276e723-d4ca-4974-849b-87d307aeeb85</ArrayEntry>
-        <ArrayEntry Index="3">0c147fb8-518c-4d4f-9cb5-1c4207047647</ArrayEntry>
-        <ArrayEntry Index="4">027670cb-99bd-4a03-a184-5cae390e8d03</ArrayEntry>
-        <ArrayEntry Index="5">291767d8-7c3c-4a9a-9be1-fa8c021ee4a6</ArrayEntry>
-        <ArrayEntry Index="6">1cfc7ee5-a110-4e56-928c-c78931875310</ArrayEntry>
-        <ArrayEntry Index="7">859529cf-f75c-4388-947e-547ee522a78c</ArrayEntry>
-        <ArrayEntry Index="8">d51aae57-47ad-45b4-bcb1-bb0b3b2accc0</ArrayEntry>
-        <ArrayEntry Index="9">5c86bba0-eb1e-4dbb-a53d-24e5c15aa3d0</ArrayEntry>
-        <ArrayEntry Index="10">92e1a8c0-e6b7-4413-bebc-83973ded2795</ArrayEntry>
-        <ArrayEntry Index="11">460ad7b4-0b7a-4fc2-a273-aee5d73b9892</ArrayEntry>
-        <ArrayEntry Index="12">38ae5444-b68c-4d66-91bd-ce338f13e827</ArrayEntry>
-        <ArrayEntry Index="13">0e1b4236-bdff-413d-9061-15d44dc29ece</ArrayEntry>
-        <ArrayEntry Index="14">0364bf49-ed10-4352-8ba2-abd2b0b686a8</ArrayEntry>
-        <ArrayEntry Index="15">8b0c92d3-f1a2-4401-b1b8-a8db9ebb6065</ArrayEntry>
-        <ArrayEntry Index="16">ea80cdfe-317b-444f-9f1a-b28cac7f59a9</ArrayEntry>
-        <ArrayEntry Index="17">dabe077a-2082-42b9-b9b3-92f805d6079c</ArrayEntry>
-        <ArrayEntry Index="18">a4adfeb0-e00a-408a-9898-81d56f81698f</ArrayEntry>
-        <ArrayEntry Index="19">b00d8647-8359-42e7-a9b4-520294f8645d</ArrayEntry>
+        <ArrayEntry Index="1">0ec87f46-4c38-4551-9e95-f676a9047fba</ArrayEntry>
+        <ArrayEntry Index="2">845e1a48-db80-46e5-9145-0eaecf5be835</ArrayEntry>
+        <ArrayEntry Index="3">0c3e1c92-60fe-4e9c-9b68-214c82e1fd86</ArrayEntry>
+        <ArrayEntry Index="4">16e55474-46b2-479b-8961-6f212e61b582</ArrayEntry>
+        <ArrayEntry Index="5">f3009157-c409-40c6-9394-c8ae463d9798</ArrayEntry>
+        <ArrayEntry Index="6">81484c17-0f4c-4ea1-9388-5dab7e5d5ca3</ArrayEntry>
+        <ArrayEntry Index="7">e2b3b01a-87fb-4e2a-9471-4487df5cf781</ArrayEntry>
+        <ArrayEntry Index="8">cf4446d1-ced9-44bd-88f0-3b38ee72dd1d</ArrayEntry>
+        <ArrayEntry Index="9">c6a6f46d-db34-4c31-b9c3-b517f7931066</ArrayEntry>
+        <ArrayEntry Index="10">383275c9-c5ac-4de3-b549-a2a02ecfd63b</ArrayEntry>
+        <ArrayEntry Index="11">57da0a6d-7222-4d92-b55a-666d9e90712a</ArrayEntry>
+        <ArrayEntry Index="12">6c7b5d2f-9167-4ed3-b13f-a4c5d0385fcd</ArrayEntry>
+        <ArrayEntry Index="13">3a3bcbd5-0bbb-47c6-b568-616701973de8</ArrayEntry>
+        <ArrayEntry Index="14">67e49a03-fb36-47d4-af79-6e2f7ec20c7f</ArrayEntry>
+        <ArrayEntry Index="15">901bf0db-219b-47de-8abb-51909432e399</ArrayEntry>
+        <ArrayEntry Index="16">21d11e30-14a6-4145-9754-4068e180fce3</ArrayEntry>
+        <ArrayEntry Index="17">8fd1003a-7389-415e-b9a8-da07ca00c6c0</ArrayEntry>
+        <ArrayEntry Index="18">93ee65e7-0e5c-41cb-84ae-5787d2f6fdec</ArrayEntry>
+        <ArrayEntry Index="19">ad06904e-47d9-4310-813f-22cb4d0a1dd6</ArrayEntry>
       </InputParameters_0>
       <OutputSystemsCount valType="Int32">0</OutputSystemsCount>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 25169, "Input": 25168, "Output": 25111}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 30881, "Input": 30880, "Output": 30879}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Optimization": 0, "DXOptimizationEvaluateContainer": 0, "Scopes": 0, "Geometry": 17418, "Engineering Data": 7769, "Model": 20209, "Setup": 20236, "Solution": 20237, "Results": 20238, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "DiscoverySessionContainer": 0}</last-update-regen-times>
       <unique-system-dir valType="String">DOP</unique-system-dir>
@@ -1043,10 +1058,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P40" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P40</object-name>
-        <member-data valType="String">{"DisplayText": "P40 - (B0_P19) FP_122_DMS_GITTER[51,46]: W_PAD", "ID": "2A6E9D1D-E38F-4B27-887A-40EB989E7CE6", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": False, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 4.5, "UpperBound": 5.5, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 5}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 5}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 4.5, "DistributionUpperBound": 5.5, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
-        <properties-setByUserFlag-data valType="String">["Enabled"]</properties-setByUserFlag-data>
+        <member-data valType="String">{"DisplayText": "P40 - (B0_P19) FP_122_DMS_GITTER[51,46]: W_PAD", "ID": "E33142D9-084A-4783-AC95-F9E8265862F6", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": False, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 4.5, "UpperBound": 5.5, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 5}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 5}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 4.5, "DistributionUpperBound": 5.5, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">2A6E9D1D-E38F-4B27-887A-40EB989E7CE6</DXParameterID>
+          <DXParameterID valType="String">E33142D9-084A-4783-AC95-F9E8265862F6</DXParameterID>
           <NativeInitialValue valType="String">5</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1054,10 +1068,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P39" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P39</object-name>
-        <member-data valType="String">{"DisplayText": "P39 - (B0_P18) FP_122_DMS_GITTER[51,46]: W_LEG", "ID": "68AAED2C-4E2D-42A7-9104-6E30E052F5F8", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureDiscrete", "LowerBound": 0, "UpperBound": 0, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 4}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 4}, "UseManufacturableValues": False, "NumberOfLevels": 7, "DistributionType": "Gauss", "DistributionLowerBound": 0, "DistributionUpperBound": 0, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [$$430044e7-103c-4493-80e8-735f50826c9b, $$15d499b8-7a95-4804-bddd-4acaa103ecb7, $$21bfb4ee-4ca5-4069-9ed8-b22e85ed1251, $$97f8bf66-cd9f-401d-a542-9156f29c84a3, $$86a1d18e-a656-4916-b6ce-58598b170946, $$9a53fff5-842f-43e3-a9e6-4c0b1c23b2a3, $$4b399cd1-13b2-4570-8fe6-626e4f4aca8d], "DiscreteLevelValues": [{"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 4}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 6}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 8}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 10}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 12}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 14}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 16}], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
-        <properties-setByUserFlag-data valType="String">["Nature"]</properties-setByUserFlag-data>
+        <member-data valType="String">{"DisplayText": "P39 - (B0_P18) FP_122_DMS_GITTER[51,46]: W_LEG", "ID": "0EDFE7DA-71E0-4049-B9D0-57CFD3E39F8A", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 4, "UpperBound": 16, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 0.8}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 10}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 4, "DistributionUpperBound": 16, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">68AAED2C-4E2D-42A7-9104-6E30E052F5F8</DXParameterID>
+          <DXParameterID valType="String">0EDFE7DA-71E0-4049-B9D0-57CFD3E39F8A</DXParameterID>
           <NativeInitialValue valType="String">0.8</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1065,30 +1078,27 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P38" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P38</object-name>
-        <member-data valType="String">{"DisplayText": "P38 - (B0_P17) FP_122_DMS_GITTER[51,46]: N_LEG", "ID": "701E700F-5390-4AD9-8B7E-112E9988CD59", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 4, "UpperBound": 16, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 8}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 10}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 4, "DistributionUpperBound": 16, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P38 - (B0_P17) FP_122_DMS_GITTER[51,46]: N_LEG", "ID": "DD38BCDC-0591-453C-BA73-EC7D34648A32", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureDiscrete", "LowerBound": 0, "UpperBound": 0, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 4}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 4}, "UseManufacturableValues": False, "NumberOfLevels": 11, "DistributionType": "Gauss", "DistributionLowerBound": 0, "DistributionUpperBound": 0, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [$$9f862cb0-fbcb-46bc-8a1d-9b9d19aef242, $$c80bec9a-3378-43b4-ba4c-2ab4a20fe7c9, $$b2924eb0-301a-4189-bb51-2f984ec0708c, $$74e02e5e-3808-457f-b871-e75b5be50db4, $$95ee0a77-dedc-4d7d-8b9b-472eb63ecb68, $$b5d4708e-9ab4-41a7-a180-dbdc29bab0d2, $$8a6db139-ffef-4ba7-9aa3-67a60970337d, $$62945a91-08ad-47e4-ae99-70cf09893db4, $$18a49f8a-c12f-46f1-b1f6-194f3c49067d, $$1ca23c73-58f7-4aa3-b568-c90cd4c2c8c8, $$c56742fd-d0da-47eb-92d2-f6d1b530cae7], "DiscreteLevelValues": [{"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 4}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 6}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 8}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 10}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 12}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 14}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 16}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 18}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 20}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 22}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 24}], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">701E700F-5390-4AD9-8B7E-112E9988CD59</DXParameterID>
-          <NativeInitialValue valType="String">8</NativeInitialValue>
-          <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
+          <DXParameterID valType="String">DD38BCDC-0591-453C-BA73-EC7D34648A32</DXParameterID>
+          <value-keys valType="String">{"DXParameterID": System.String}</value-keys>
         </custom-data>
       </Object>
       <Object Name="/Optimization/InputParameter:P37" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P37</object-name>
-        <member-data valType="String">{"DisplayText": "P37 - (B0_P16) FP_122_DMS_GITTER[51,46]: N_LAYER", "ID": "72346775-5552-4A79-B224-3B608D7903F7", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureDiscrete", "LowerBound": 0, "UpperBound": 0, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 1}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 1}, "UseManufacturableValues": False, "NumberOfLevels": 4, "DistributionType": "Gauss", "DistributionLowerBound": 0, "DistributionUpperBound": 0, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [$$86fc9d13-3c13-4cff-a7fd-e6dcb1223355, $$0529c923-65c6-4a68-bdf6-d94ee118f017, $$2b5066de-5ee5-4971-b04e-f628b73da82e, $$e4eca77c-71f8-425a-a01f-2480e17cd1e3], "DiscreteLevelValues": [{"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 1}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 2}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 3}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 4}], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
-        <properties-setByUserFlag-data valType="String">["Nature"]</properties-setByUserFlag-data>
+        <member-data valType="String">{"DisplayText": "P37 - (B0_P16) FP_122_DMS_GITTER[51,46]: N_LAYER", "ID": "00FD1324-0C17-4D33-A14F-FD594D9E92B8", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureDiscrete", "LowerBound": 0, "UpperBound": 0, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 1}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 1}, "UseManufacturableValues": False, "NumberOfLevels": 4, "DistributionType": "Gauss", "DistributionLowerBound": 0, "DistributionUpperBound": 0, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [$$724b82a7-75d5-40d5-a076-7ad1f48b830f, $$8cacb9c9-c156-4ffb-b57d-6a5116f91f38, $$ffed54dd-9c44-456d-b132-5be2a493e957, $$af5ca9ea-865c-41ab-985c-787c0f09af24], "DiscreteLevelValues": [{"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 1}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 2}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 3}, {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 4}], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">72346775-5552-4A79-B224-3B608D7903F7</DXParameterID>
-          <NativeInitialValue valType="String">2</NativeInitialValue>
-          <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
+          <DXParameterID valType="String">00FD1324-0C17-4D33-A14F-FD594D9E92B8</DXParameterID>
+          <value-keys valType="String">{"DXParameterID": System.String}</value-keys>
         </custom-data>
       </Object>
       <Object Name="/Optimization/InputParameter:P36" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P36</object-name>
-        <member-data valType="String">{"DisplayText": "P36 - (B0_P15) FP_122_DMS_GITTER[51,46]: L_START_LOOP", "ID": "CAA6AAB7-8F9A-4DC6-ACB1-C89CEA78CA97", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 1.44, "UpperBound": 1.7600000000000002, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 1.6}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 1.6}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 1.44, "DistributionUpperBound": 1.7600000000000002, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P36 - (B0_P15) FP_122_DMS_GITTER[51,46]: L_START_LOOP", "ID": "30CEBCAF-B617-4DCB-89B8-24AEC3C139CF", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 1, "UpperBound": 10, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 1.6}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 5.5}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 1, "DistributionUpperBound": 10, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">CAA6AAB7-8F9A-4DC6-ACB1-C89CEA78CA97</DXParameterID>
+          <DXParameterID valType="String">30CEBCAF-B617-4DCB-89B8-24AEC3C139CF</DXParameterID>
           <NativeInitialValue valType="String">1.6</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1096,9 +1106,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P35" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P35</object-name>
-        <member-data valType="String">{"DisplayText": "P35 - (B0_P14) FP_122_DMS_GITTER[51,46]: L_PAD", "ID": "15B0E916-0B92-4E32-9289-30A8AF0A4A48", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 4.5, "UpperBound": 5.5, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 5}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 5}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 4.5, "DistributionUpperBound": 5.5, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P35 - (B0_P14) FP_122_DMS_GITTER[51,46]: L_PAD", "ID": "2EF0043C-4098-4595-A28B-80A532BA4817", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": False, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 4.5, "UpperBound": 5.5, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 5}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 5}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 4.5, "DistributionUpperBound": 5.5, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">15B0E916-0B92-4E32-9289-30A8AF0A4A48</DXParameterID>
+          <DXParameterID valType="String">2EF0043C-4098-4595-A28B-80A532BA4817</DXParameterID>
           <NativeInitialValue valType="String">5</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1106,10 +1116,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P34" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P34</object-name>
-        <member-data valType="String">{"DisplayText": "P34 - (B0_P13) FP_122_DMS_GITTER[51,46]: L_GAUGE", "ID": "91B21B79-1F30-4BF0-9477-76473686BFB8", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": False, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 18, "UpperBound": 22, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 20}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 20}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 18, "DistributionUpperBound": 22, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
-        <properties-setByUserFlag-data valType="String">["Enabled"]</properties-setByUserFlag-data>
+        <member-data valType="String">{"DisplayText": "P34 - (B0_P13) FP_122_DMS_GITTER[51,46]: L_GAUGE", "ID": "C1A796F9-7BB1-47F8-824A-AA933496095A", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": False, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 18, "UpperBound": 22, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 20}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 20}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 18, "DistributionUpperBound": 22, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">91B21B79-1F30-4BF0-9477-76473686BFB8</DXParameterID>
+          <DXParameterID valType="String">C1A796F9-7BB1-47F8-824A-AA933496095A</DXParameterID>
           <NativeInitialValue valType="String">20</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1117,9 +1126,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P33" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P33</object-name>
-        <member-data valType="String">{"DisplayText": "P33 - (B0_P12) FP_122_DMS_GITTER[51,46]: L_E", "ID": "50222C9D-A563-48B1-92D8-24859A2EA00D", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 1.44, "UpperBound": 1.7600000000000002, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 1.6}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 1.6}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 1.44, "DistributionUpperBound": 1.7600000000000002, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P33 - (B0_P12) FP_122_DMS_GITTER[51,46]: L_E", "ID": "C9E5ACFA-9503-4DBB-B7BA-DF61DC85511A", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 1, "UpperBound": 10, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 1.6}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 5.5}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 1, "DistributionUpperBound": 10, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">50222C9D-A563-48B1-92D8-24859A2EA00D</DXParameterID>
+          <DXParameterID valType="String">C9E5ACFA-9503-4DBB-B7BA-DF61DC85511A</DXParameterID>
           <NativeInitialValue valType="String">1.6</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1127,9 +1136,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P32" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P32</object-name>
-        <member-data valType="String">{"DisplayText": "P32 - (B0_P11) FP_122_DMS_GITTER[51,46]: L_A", "ID": "FC535F11-8316-4764-A67D-EB72738C0D9A", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 18, "UpperBound": 22, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 20}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 20}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 18, "DistributionUpperBound": 22, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P32 - (B0_P11) FP_122_DMS_GITTER[51,46]: L_A", "ID": "97601556-95B5-401B-9F3A-B20C430ABD4E", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 10, "UpperBound": 80, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 20}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 45}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 10, "DistributionUpperBound": 80, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">FC535F11-8316-4764-A67D-EB72738C0D9A</DXParameterID>
+          <DXParameterID valType="String">97601556-95B5-401B-9F3A-B20C430ABD4E</DXParameterID>
           <NativeInitialValue valType="String">20</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1137,9 +1146,10 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P31" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P31</object-name>
-        <member-data valType="String">{"DisplayText": "P31 - (B0_P10) FP_122_DMS_GITTER[51,46]: H_LAYER", "ID": "D9C8431F-694A-442B-B64B-C98ED2F3FADF", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 0.18, "UpperBound": 0.22000000000000003, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 0.2}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 0.2}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 0.18, "DistributionUpperBound": 0.22000000000000003, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P31 - (B0_P10) FP_122_DMS_GITTER[51,46]: H_LAYER", "ID": "D125C366-402F-4772-8C5F-43882FD8B315", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 0, "UpperBound": 1, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 0.2}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 0.15}, "UseManufacturableValues": True, "NumberOfLevels": 4, "DistributionType": "Gauss", "DistributionLowerBound": 0, "DistributionUpperBound": 1, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [0.15, 0.2, 0.3, 0.4], "CustomDefinitionList": None}</member-data>
+        <properties-setByUserFlag-data valType="String">["Nature"]</properties-setByUserFlag-data>
         <custom-data>
-          <DXParameterID valType="String">D9C8431F-694A-442B-B64B-C98ED2F3FADF</DXParameterID>
+          <DXParameterID valType="String">D125C366-402F-4772-8C5F-43882FD8B315</DXParameterID>
           <NativeInitialValue valType="String">0.2</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1147,9 +1157,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P30" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P30</object-name>
-        <member-data valType="String">{"DisplayText": "P30 - (B0_P9) FP_122_DMS_GITTER[51,46]: G_LEGS", "ID": "DAAE9FA7-4C78-4010-AC55-67C4545E0C79", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 0.72, "UpperBound": 0.88000000000000012, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 0.8}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 0.8}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 0.72, "DistributionUpperBound": 0.88000000000000012, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P30 - (B0_P9) FP_122_DMS_GITTER[51,46]: G_LEGS", "ID": "4B6FEB17-9495-41B4-98BE-2C10E52E7707", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 0.8, "UpperBound": 5, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 0.8}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 2.9}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 0.8, "DistributionUpperBound": 5, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">DAAE9FA7-4C78-4010-AC55-67C4545E0C79</DXParameterID>
+          <DXParameterID valType="String">4B6FEB17-9495-41B4-98BE-2C10E52E7707</DXParameterID>
           <NativeInitialValue valType="String">0.8</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1157,9 +1167,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P29" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P29</object-name>
-        <member-data valType="String">{"DisplayText": "P29 - (B0_P8) FP_122_DMS_GITTER[51,46]: B_GAUGE", "ID": "53AA6929-31EF-4067-A314-6ACFD72D3216", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 5.4, "UpperBound": 6.6, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 6}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 6}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 5.4, "DistributionUpperBound": 6.6, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P29 - (B0_P8) FP_122_DMS_GITTER[51,46]: B_GAUGE", "ID": "E8F45CD5-5A02-4C09-B5EB-ED1352D2B3A9", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 2, "UpperBound": 20, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 6}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 11}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 2, "DistributionUpperBound": 20, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">53AA6929-31EF-4067-A314-6ACFD72D3216</DXParameterID>
+          <DXParameterID valType="String">E8F45CD5-5A02-4C09-B5EB-ED1352D2B3A9</DXParameterID>
           <NativeInitialValue valType="String">6</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1167,9 +1177,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P28" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P28</object-name>
-        <member-data valType="String">{"DisplayText": "P28 - (B0_P7) FP_121_DMS_SUBSTRAT[51,40]: T_S", "ID": "67590888-B6FB-48AC-A434-90A53D8D8D26", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 0.54, "UpperBound": 0.65999999999999992, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 0.6}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 0.6}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 0.54, "DistributionUpperBound": 0.65999999999999992, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P28 - (B0_P7) FP_121_DMS_SUBSTRAT[51,40]: T_S", "ID": "75BB7A9E-16CF-4259-98EB-6FE18CA5B787", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 0.6, "UpperBound": 5, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 0.6}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 2.8}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 0.6, "DistributionUpperBound": 5, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">67590888-B6FB-48AC-A434-90A53D8D8D26</DXParameterID>
+          <DXParameterID valType="String">75BB7A9E-16CF-4259-98EB-6FE18CA5B787</DXParameterID>
           <NativeInitialValue valType="String">0.6</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1177,9 +1187,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P27" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P27</object-name>
-        <member-data valType="String">{"DisplayText": "P27 - (B0_P6) FP_121_DMS_SUBSTRAT[51,40]: L_S", "ID": "A5BD5BE9-B917-4DB2-BE47-535412268987", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 45, "UpperBound": 55, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 50}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 50}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 45, "DistributionUpperBound": 55, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P27 - (B0_P6) FP_121_DMS_SUBSTRAT[51,40]: L_S", "ID": "73C3107E-ED27-4658-B78F-8CEF8CB6FF9E", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 40, "UpperBound": 200, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 50}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 120}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 40, "DistributionUpperBound": 200, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">A5BD5BE9-B917-4DB2-BE47-535412268987</DXParameterID>
+          <DXParameterID valType="String">73C3107E-ED27-4658-B78F-8CEF8CB6FF9E</DXParameterID>
           <NativeInitialValue valType="String">50</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1187,9 +1197,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P26" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P26</object-name>
-        <member-data valType="String">{"DisplayText": "P26 - (B0_P5) FP_121_DMS_SUBSTRAT[51,40]: B_S", "ID": "6D0BCD2B-7BA3-4002-9A0A-8FF1694B6FA8", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 27, "UpperBound": 33, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 30}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 30}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 27, "DistributionUpperBound": 33, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P26 - (B0_P5) FP_121_DMS_SUBSTRAT[51,40]: B_S", "ID": "625B2083-AD3B-486E-987F-A7A127CCC2B0", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 20, "UpperBound": 100, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 30}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 60}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 20, "DistributionUpperBound": 100, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">6D0BCD2B-7BA3-4002-9A0A-8FF1694B6FA8</DXParameterID>
+          <DXParameterID valType="String">625B2083-AD3B-486E-987F-A7A127CCC2B0</DXParameterID>
           <NativeInitialValue valType="String">30</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1197,9 +1207,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P25" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P25</object-name>
-        <member-data valType="String">{"DisplayText": "P25 - (B0_P4) FP_110_FEDERKÖRPER[40]: T_FK", "ID": "8BC41DF6-F792-4A66-9EA5-7FCFCA4CD4DC", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 1.8, "UpperBound": 2.2, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 2}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 2}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 1.8, "DistributionUpperBound": 2.2, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P25 - (B0_P4) FP_110_FEDERKÖRPER[40]: T_FK", "ID": "17F980AB-B71F-43AA-B81F-12A9DE1D8E00", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 0.2, "UpperBound": 2, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 2}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 1.1}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 0.2, "DistributionUpperBound": 2, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">8BC41DF6-F792-4A66-9EA5-7FCFCA4CD4DC</DXParameterID>
+          <DXParameterID valType="String">17F980AB-B71F-43AA-B81F-12A9DE1D8E00</DXParameterID>
           <NativeInitialValue valType="String">2</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1207,9 +1217,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P24" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P24</object-name>
-        <member-data valType="String">{"DisplayText": "P24 - (B0_P3) FP_110_FEDERKÖRPER[40]: L_FK", "ID": "2791D23F-CE09-4754-AFBF-C917276B0674", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 90, "UpperBound": 110, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 100}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 100}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 90, "DistributionUpperBound": 110, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P24 - (B0_P3) FP_110_FEDERKÖRPER[40]: L_FK", "ID": "EEB4F6B5-D940-4BA1-ADA6-915E211775F4", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 50, "UpperBound": 210, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 100}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 130}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 50, "DistributionUpperBound": 210, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">2791D23F-CE09-4754-AFBF-C917276B0674</DXParameterID>
+          <DXParameterID valType="String">EEB4F6B5-D940-4BA1-ADA6-915E211775F4</DXParameterID>
           <NativeInitialValue valType="String">100</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1217,9 +1227,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P23" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P23</object-name>
-        <member-data valType="String">{"DisplayText": "P23 - (B0_P2) FP_110_FEDERKÖRPER[40]: ANS_W_FK", "ID": "EB50B8D5-604A-4163-B1BA-58ED7CA09530", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 45, "UpperBound": 55, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 50}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 50}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 45, "DistributionUpperBound": 55, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P23 - (B0_P2) FP_110_FEDERKÖRPER[40]: ANS_W_FK", "ID": "05441642-D298-48AC-AEEC-8E9144EEE18F", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 20, "UpperBound": 100, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 50}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 60}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 20, "DistributionUpperBound": 100, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">EB50B8D5-604A-4163-B1BA-58ED7CA09530</DXParameterID>
+          <DXParameterID valType="String">05441642-D298-48AC-AEEC-8E9144EEE18F</DXParameterID>
           <NativeInitialValue valType="String">50</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1227,9 +1237,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/InputParameter:P22" Version="2.0">
         <class-type valType="String">InputParameter</class-type>
         <object-name valType="String">P22</object-name>
-        <member-data valType="String">{"DisplayText": "P22 - (B0_P1) ANS_SUBSTRATE_OFFSET", "ID": "87E3061D-130E-4780-AFBE-A03BA25C1D55", "Input": True, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 27, "UpperBound": 33, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 30}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 30}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 27, "DistributionUpperBound": 33, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
+        <member-data valType="String">{"DisplayText": "P22 - (B0_P1) ANS_SUBSTRATE_OFFSET", "ID": "9C58455B-EF85-437A-95EE-D4EC8B44FC1D", "Input": True, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Dimensionless", "Units": None, "DataUnits": None, "Enabled": True, "AllowUncertainty": False, "IsEditable": True, "CanBeNonContinous": True, "Type": "DesignVariable", "Nature": "NatureContinuous", "LowerBound": 15, "UpperBound": 100, "ConstantValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 30}, "CurrentValue": {"__FRAMEWORK_ANY_SPEC__": "Ansys.Core.DataSpecs.RealSpec`1[[System.Double, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]", "value": 57.5}, "UseManufacturableValues": False, "NumberOfLevels": 0, "DistributionType": "Gauss", "DistributionLowerBound": 15, "DistributionUpperBound": 100, "Attribute1": 0, "Attribute2": 0, "Mean": 0, "StandardDeviation": 0, "Skewness": 0, "Kurtosis": 0, "DistributionChart": None, "DiscreteLevels": [], "DiscreteLevelValues": [], "DiscreteType": "Integer", "ManufacturableValues": [], "CustomDefinitionList": None}</member-data>
         <custom-data>
-          <DXParameterID valType="String">87E3061D-130E-4780-AFBE-A03BA25C1D55</DXParameterID>
+          <DXParameterID valType="String">9C58455B-EF85-437A-95EE-D4EC8B44FC1D</DXParameterID>
           <NativeInitialValue valType="String">30</NativeInitialValue>
           <value-keys valType="String">{"DXParameterID": System.String, "NativeInitialValue": System.Double}</value-keys>
         </custom-data>
@@ -1237,9 +1247,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/OutputParameter:P41" Version="1.0">
         <class-type valType="String">OutputParameter</class-type>
         <object-name valType="String">P41</object-name>
-        <member-data valType="String">{"DisplayText": "P41 - Change in Resistance", "ID": "376A64E0-5185-410F-8D73-4B76BD36A163", "Input": False, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": None, "Units": None, "DataUnits": None, "LowerBound": 0, "CurrentValue": 0, "UpperBound": 0, "MaximumPredictedError": -1, "InheritFromModelSettings": True, "MaxPredictedRelativeError": 5, "PredictedRelativeError": -1, "EnableAutoRefinement": False, "Tolerance": None, "TransformationType": "TransTypeYeo", "Scaling": True, "FTestFiltering": True, "IgnoreForFiltering": False, "CalculatedExtremum": False, "IsDerived": True}</member-data>
+        <member-data valType="String">{"DisplayText": "P41 - Change in Resistance", "ID": "B1633AA3-F809-40DE-8DDA-9F33832CC4AF", "Input": False, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": None, "Units": None, "DataUnits": None, "LowerBound": 0, "CurrentValue": 0, "UpperBound": 0, "MaximumPredictedError": -1, "InheritFromModelSettings": True, "MaxPredictedRelativeError": 5, "PredictedRelativeError": -1, "EnableAutoRefinement": False, "Tolerance": None, "TransformationType": "TransTypeYeo", "Scaling": True, "FTestFiltering": True, "IgnoreForFiltering": False, "CalculatedExtremum": False, "IsDerived": True}</member-data>
         <custom-data>
-          <DXParameterID valType="String">376A64E0-5185-410F-8D73-4B76BD36A163</DXParameterID>
+          <DXParameterID valType="String">B1633AA3-F809-40DE-8DDA-9F33832CC4AF</DXParameterID>
           <_lowerbound valType="String">0</_lowerbound>
           <_upperbound valType="String">0</_upperbound>
           <value-keys valType="String">{"DXParameterID": System.String, "_lowerbound": System.Double, "_upperbound": System.Double}</value-keys>
@@ -1248,9 +1258,9 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/OutputParameter:P20" Version="1.0">
         <class-type valType="String">OutputParameter</class-type>
         <object-name valType="String">P20</object-name>
-        <member-data valType="String">{"DisplayText": "P20 - Electric Voltage Maximum Maximum Value Over Time", "ID": "37421BFC-D8D1-41BE-9BF6-8321F6028527", "Input": False, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Voltage", "Units": "mV", "DataUnits": "mV", "LowerBound": 0, "CurrentValue": 163515.15197753906, "UpperBound": 0, "MaximumPredictedError": -1, "InheritFromModelSettings": True, "MaxPredictedRelativeError": 5, "PredictedRelativeError": -1, "EnableAutoRefinement": False, "Tolerance": None, "TransformationType": "TransTypeYeo", "Scaling": True, "FTestFiltering": True, "IgnoreForFiltering": False, "CalculatedExtremum": False, "IsDerived": False}</member-data>
+        <member-data valType="String">{"DisplayText": "P20 - Electric Voltage Maximum Maximum Value Over Time", "ID": "3F81C16B-386C-43C9-8CCD-DC7BBFBA4BDB", "Input": False, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Voltage", "Units": "mV", "DataUnits": "mV", "LowerBound": 0, "CurrentValue": 163515.15197753906, "UpperBound": 0, "MaximumPredictedError": -1, "InheritFromModelSettings": True, "MaxPredictedRelativeError": 5, "PredictedRelativeError": -1, "EnableAutoRefinement": False, "Tolerance": None, "TransformationType": "TransTypeYeo", "Scaling": True, "FTestFiltering": True, "IgnoreForFiltering": False, "CalculatedExtremum": False, "IsDerived": False}</member-data>
         <custom-data>
-          <DXParameterID valType="String">37421BFC-D8D1-41BE-9BF6-8321F6028527</DXParameterID>
+          <DXParameterID valType="String">3F81C16B-386C-43C9-8CCD-DC7BBFBA4BDB</DXParameterID>
           <_lowerbound valType="String">0</_lowerbound>
           <_upperbound valType="String">0</_upperbound>
           <value-keys valType="String">{"DXParameterID": System.String, "_lowerbound": System.Double, "_upperbound": System.Double}</value-keys>
@@ -1259,9 +1269,31 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/OutputParameter:P19" Version="1.0">
         <class-type valType="String">OutputParameter</class-type>
         <object-name valType="String">P19</object-name>
-        <member-data valType="String">{"DisplayText": "P19 - Electric Voltage Minimum Maximum Value Over Time", "ID": "0F383363-49C4-43B8-829D-07B3C0777723", "Input": False, "ParameterSetID": "2F6ADB71-BAF4-4586-93DA-D7264A88DEAE", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Voltage", "Units": "mV", "DataUnits": "mV", "LowerBound": 0, "CurrentValue": 163469.89440917969, "UpperBound": 0, "MaximumPredictedError": -1, "InheritFromModelSettings": True, "MaxPredictedRelativeError": 5, "PredictedRelativeError": -1, "EnableAutoRefinement": False, "Tolerance": None, "TransformationType": "TransTypeYeo", "Scaling": True, "FTestFiltering": True, "IgnoreForFiltering": False, "CalculatedExtremum": False, "IsDerived": False}</member-data>
+        <member-data valType="String">{"DisplayText": "P19 - Electric Voltage Minimum Maximum Value Over Time", "ID": "08B74C3C-E5C5-47DA-83D9-9518740FC71A", "Input": False, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": "Voltage", "Units": "mV", "DataUnits": "mV", "LowerBound": 0, "CurrentValue": 163469.89440917969, "UpperBound": 0, "MaximumPredictedError": -1, "InheritFromModelSettings": True, "MaxPredictedRelativeError": 5, "PredictedRelativeError": -1, "EnableAutoRefinement": False, "Tolerance": None, "TransformationType": "TransTypeYeo", "Scaling": True, "FTestFiltering": True, "IgnoreForFiltering": False, "CalculatedExtremum": False, "IsDerived": False}</member-data>
         <custom-data>
-          <DXParameterID valType="String">0F383363-49C4-43B8-829D-07B3C0777723</DXParameterID>
+          <DXParameterID valType="String">08B74C3C-E5C5-47DA-83D9-9518740FC71A</DXParameterID>
+          <_lowerbound valType="String">0</_lowerbound>
+          <_upperbound valType="String">0</_upperbound>
+          <value-keys valType="String">{"DXParameterID": System.String, "_lowerbound": System.Double, "_upperbound": System.Double}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/OutputParameter:P42" Version="1.0">
+        <class-type valType="String">OutputParameter</class-type>
+        <object-name valType="String">P42</object-name>
+        <member-data valType="String">{"DisplayText": "P42 - W_SG_TOTAL", "ID": "88012224-9F35-400D-8421-41B51E04D3B1", "Input": False, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": None, "Units": None, "DataUnits": None, "LowerBound": 0, "CurrentValue": 0, "UpperBound": 0, "MaximumPredictedError": -1, "InheritFromModelSettings": True, "MaxPredictedRelativeError": 5, "PredictedRelativeError": -1, "EnableAutoRefinement": False, "Tolerance": None, "TransformationType": "TransTypeYeo", "Scaling": True, "FTestFiltering": True, "IgnoreForFiltering": False, "CalculatedExtremum": False, "IsDerived": True}</member-data>
+        <custom-data>
+          <DXParameterID valType="String">88012224-9F35-400D-8421-41B51E04D3B1</DXParameterID>
+          <_lowerbound valType="String">0</_lowerbound>
+          <_upperbound valType="String">0</_upperbound>
+          <value-keys valType="String">{"DXParameterID": System.String, "_lowerbound": System.Double, "_upperbound": System.Double}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/OutputParameter:P43" Version="1.0">
+        <class-type valType="String">OutputParameter</class-type>
+        <object-name valType="String">P43</object-name>
+        <member-data valType="String">{"DisplayText": "P43 - H_SG_TOTAL", "ID": "C8A4A5F5-D337-484D-AB09-9071153E17D2", "Input": False, "ParameterSetID": "FB017CA3-617E-404C-A64A-458B8021293D", "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "QuantityName": None, "Units": None, "DataUnits": None, "LowerBound": 0, "CurrentValue": 0, "UpperBound": 0, "MaximumPredictedError": -1, "InheritFromModelSettings": True, "MaxPredictedRelativeError": 5, "PredictedRelativeError": -1, "EnableAutoRefinement": False, "Tolerance": None, "TransformationType": "TransTypeYeo", "Scaling": True, "FTestFiltering": True, "IgnoreForFiltering": False, "CalculatedExtremum": False, "IsDerived": True}</member-data>
+        <custom-data>
+          <DXParameterID valType="String">C8A4A5F5-D337-484D-AB09-9071153E17D2</DXParameterID>
           <_lowerbound valType="String">0</_lowerbound>
           <_upperbound valType="String">0</_upperbound>
           <value-keys valType="String">{"DXParameterID": System.String, "_lowerbound": System.Double, "_upperbound": System.Double}</value-keys>
@@ -1270,7 +1302,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/ParametricContext:ParametricContext" Version="2.0">
         <class-type valType="String">ParametricContext</class-type>
         <object-name valType="String">ParametricContext</object-name>
-        <member-data valType="String">{"DisplayText": "ParametricContext", "ID": "adfaf459-933b-486c-9f98-c65f690f3b13", "ParameterSetChanged": {"P42": "DerivedParametersAdded, DerivedExpressionChanged, ErrorMessageChanged", "P43": "DerivedParametersAdded, DerivedExpressionChanged, ErrorMessageChanged"}, "ApprovedGeneratedDataTimeStamp": 0}</member-data>
+        <member-data valType="String">{"DisplayText": "ParametricContext", "ID": "adfaf459-933b-486c-9f98-c65f690f3b13", "ParameterSetChanged": {"P44": "DerivedParametersAdded, ErrorMessageChanged, DerivedInputExpressionChanged"}, "ApprovedGeneratedDataTimeStamp": 0}</member-data>
         <custom-data>
           <DXContextID valType="String">adfaf459-933b-486c-9f98-c65f690f3b13</DXContextID>
           <DemoMode valType="String">False</DemoMode>
@@ -1286,7 +1318,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/Optimization/OptimizationModel:Optimization" Version="9.0">
         <class-type valType="String">OptimizationModel</class-type>
         <object-name valType="String">Optimization</object-name>
-        <member-data valType="String">{"DisplayText": "Optimization", "ID": "76423596-B476-434D-A34A-B1766D116B16", "SolveStatus": "MMNOT_SOLVED", "Nature": "NatureOptimization", "Dirty": False, "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "HasParent": False, "Edited": True, "Caption": "Optimization", "TimeStamp": "0", "PreserveDesignPoints": False, "ExportDesignPoints": False, "RetainDesignPoints": False, "OptimizeUpdateOrder": False, "DesignPointsStatus": None, "NumberOfRetries": 0, "RetryDelay": "120 [s]", "MethodSelection": "OMS_Manual", "RunTimeIndex": "RTI_5", "EstimatedNumberofEvaluations": 100, "OptimizationMethod": "OT_Screening", "MethodName": "ANSYS_SCREENING", "NumberOfSamples": 100, "NumberOfInitialSamples": 147, "MaximumNumberOfPermutations": 28, "NumberOfLHSInitialSamples": 147, "NumberOfScreeningSamples": 1700, "NumberOfStartingPoints": 171, "NumSamplesPerIter": 147, "ParetoPercentage": 70, "MutationProbability": 0.01, "CrossoverProbability": 0.98, "CurrentParetoPercentage": 0, "CurrentStabilityPercentage": 0, "MaxConvPercentage": 0.1, "MaxNumIterations": 7, "MaxNumEvaluations": 360, "MaxNumDomainReductions": 20, "MaxNumberReductionPerIteration": 40, "PercentageOfDomainReductions": 0.1, "ConvergenceTolerance": 1E-06, "RandomGeneratorSeed": 0, "MaxNumCycles": 10, "DerivativeApproximationType": "DA_ForwardDifference", "InitialSamples": 0, "TypeOfDiscCrossover": "E_ONE_POINT_CROSS", "TypeOfInitialSampling": "E_ConstrainedSampling", "TypeOfDiscEncoding": "E_GRAY", "ConstrHandlingType": "E_NO_PENALTY", "SampleSetSize": 0, "MaxNumCandidates": 5, "VerifyCandidatePoints": False, "ToleranceSettings": True, "NumIterations": 0, "NumberOfEvaluations": 0, "NumberOfDomainReductions": 0, "NumberOfDuplicates": 0, "NumberOfFailures": 0, "NumCandidates": 0, "Method": $$0ca03882-fc5c-4944-862e-0ea367030af7}</member-data>
+        <member-data valType="String">{"DisplayText": "Optimization", "ID": "76423596-B476-434D-A34A-B1766D116B16", "SolveStatus": "MMNOT_SOLVED", "Nature": "NatureOptimization", "Dirty": False, "DXContextName": "adfaf459-933b-486c-9f98-c65f690f3b13", "HasParent": False, "Edited": True, "Caption": "Optimization", "TimeStamp": "0", "PreserveDesignPoints": False, "ExportDesignPoints": False, "RetainDesignPoints": False, "OptimizeUpdateOrder": False, "DesignPointsStatus": None, "NumberOfRetries": 0, "RetryDelay": "120 [s]", "MethodSelection": "OMS_Manual", "RunTimeIndex": "RTI_5", "EstimatedNumberofEvaluations": 100, "OptimizationMethod": "OT_Screening", "MethodName": "ANSYS_SCREENING", "NumberOfSamples": 100, "NumberOfInitialSamples": 147, "MaximumNumberOfPermutations": 176, "NumberOfLHSInitialSamples": 147, "NumberOfScreeningSamples": 1700, "NumberOfStartingPoints": 171, "NumSamplesPerIter": 147, "ParetoPercentage": 70, "MutationProbability": 0.01, "CrossoverProbability": 0.98, "CurrentParetoPercentage": 0, "CurrentStabilityPercentage": 0, "MaxConvPercentage": 0.1, "MaxNumIterations": 7, "MaxNumEvaluations": 360, "MaxNumDomainReductions": 20, "MaxNumberReductionPerIteration": 40, "PercentageOfDomainReductions": 0.1, "ConvergenceTolerance": 1E-06, "RandomGeneratorSeed": 0, "MaxNumCycles": 10, "DerivativeApproximationType": "DA_ForwardDifference", "InitialSamples": 0, "TypeOfDiscCrossover": "E_ONE_POINT_CROSS", "TypeOfInitialSampling": "E_ConstrainedSampling", "TypeOfDiscEncoding": "E_GRAY", "ConstrHandlingType": "E_NO_PENALTY", "SampleSetSize": 0, "MaxNumCandidates": 5, "VerifyCandidatePoints": False, "ToleranceSettings": True, "NumIterations": 0, "NumberOfEvaluations": 0, "NumberOfDomainReductions": 0, "NumberOfDuplicates": 0, "NumberOfFailures": 0, "NumCandidates": 0, "Method": $$0ca03882-fc5c-4944-862e-0ea367030af7}</member-data>
         <properties-setByUserFlag-data valType="String">["MethodSelection", "MethodName"]</properties-setByUserFlag-data>
         <custom-data>
           <DXMetaModelID valType="String">76423596-B476-434D-A34A-B1766D116B16</DXMetaModelID>
@@ -1299,7 +1331,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
             <Version valType="String">5</Version>
             <State valType="String">6</State>
             <Details valType="String">2106</Details>
-            <SerializedCannotRunReasons valType="String">99:</SerializedCannotRunReasons>
+            <SerializedCannotRunReasons valType="String">99:60:</SerializedCannotRunReasons>
             <SerializedWarningReasons valType="String"></SerializedWarningReasons>
             <QuickHelpId valType="String">wb2qh_DXOPTmood</QuickHelpId>
             <QuickWarningId valType="String"></QuickWarningId>
@@ -1337,6 +1369,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <class-type valType="String">OptimizationCriterion</class-type>
         <object-name valType="String">P36</object-name>
         <member-data valType="String">{"DisplayText": "P36", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <properties-setByUserFlag-data valType="String">["LowerBound", "UpperBound"]</properties-setByUserFlag-data>
         <custom-data>
           <DXGoalID valType="String">4F104E02-7261-4A82-B492-56DC5D18FE74</DXGoalID>
           <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
@@ -1367,6 +1400,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <class-type valType="String">OptimizationCriterion</class-type>
         <object-name valType="String">P33</object-name>
         <member-data valType="String">{"DisplayText": "P33", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <properties-setByUserFlag-data valType="String">["LowerBound", "UpperBound"]</properties-setByUserFlag-data>
         <custom-data>
           <DXGoalID valType="String">1FF2DFC6-FBE2-4F0B-AD5E-4B2896EFC4CE</DXGoalID>
           <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
@@ -1377,6 +1411,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <class-type valType="String">OptimizationCriterion</class-type>
         <object-name valType="String">P32</object-name>
         <member-data valType="String">{"DisplayText": "P32", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <properties-setByUserFlag-data valType="String">["LowerBound", "UpperBound", "AllowedValues", "GridInterval"]</properties-setByUserFlag-data>
         <custom-data>
           <DXGoalID valType="String">8D91113F-0BE7-4893-AA61-9D0FD5715532</DXGoalID>
           <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
@@ -1387,6 +1422,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <class-type valType="String">OptimizationCriterion</class-type>
         <object-name valType="String">P31</object-name>
         <member-data valType="String">{"DisplayText": "P31", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <properties-setByUserFlag-data valType="String">["AllowedValues"]</properties-setByUserFlag-data>
         <custom-data>
           <DXGoalID valType="String">87FCD15D-E068-4430-8D1A-CAEBD438DCE1</DXGoalID>
           <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
@@ -1397,6 +1433,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <class-type valType="String">OptimizationCriterion</class-type>
         <object-name valType="String">P30</object-name>
         <member-data valType="String">{"DisplayText": "P30", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <properties-setByUserFlag-data valType="String">["LowerBound", "UpperBound"]</properties-setByUserFlag-data>
         <custom-data>
           <DXGoalID valType="String">EA95275C-9FF2-4CE4-8FD5-EC0809B37B18</DXGoalID>
           <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
@@ -1407,6 +1444,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <class-type valType="String">OptimizationCriterion</class-type>
         <object-name valType="String">P29</object-name>
         <member-data valType="String">{"DisplayText": "P29", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <properties-setByUserFlag-data valType="String">["UpperBound", "LowerBound"]</properties-setByUserFlag-data>
         <custom-data>
           <DXGoalID valType="String">F01864FD-9E0E-4F60-8E6B-44343354A46D</DXGoalID>
           <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
@@ -1417,6 +1455,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <class-type valType="String">OptimizationCriterion</class-type>
         <object-name valType="String">P28</object-name>
         <member-data valType="String">{"DisplayText": "P28", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <properties-setByUserFlag-data valType="String">["LowerBound", "UpperBound", "AllowedValues", "GridInterval"]</properties-setByUserFlag-data>
         <custom-data>
           <DXGoalID valType="String">6801952E-85FC-4D65-8F69-C96F1A6A0930</DXGoalID>
           <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
@@ -1427,6 +1466,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <class-type valType="String">OptimizationCriterion</class-type>
         <object-name valType="String">P27</object-name>
         <member-data valType="String">{"DisplayText": "P27", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <properties-setByUserFlag-data valType="String">["LowerBound", "UpperBound", "AllowedValues", "GridInterval"]</properties-setByUserFlag-data>
         <custom-data>
           <DXGoalID valType="String">FA2104CF-3A2C-44B0-B4CA-2E4C1BE5E59C</DXGoalID>
           <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
@@ -1437,6 +1477,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <class-type valType="String">OptimizationCriterion</class-type>
         <object-name valType="String">P26</object-name>
         <member-data valType="String">{"DisplayText": "P26", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <properties-setByUserFlag-data valType="String">["LowerBound", "UpperBound", "AllowedValues", "GridInterval"]</properties-setByUserFlag-data>
         <custom-data>
           <DXGoalID valType="String">7F73C2AB-4528-497D-BE64-D34A32E8A499</DXGoalID>
           <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
@@ -1447,6 +1488,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <class-type valType="String">OptimizationCriterion</class-type>
         <object-name valType="String">P25</object-name>
         <member-data valType="String">{"DisplayText": "P25", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <properties-setByUserFlag-data valType="String">["LowerBound", "UpperBound"]</properties-setByUserFlag-data>
         <custom-data>
           <DXGoalID valType="String">5F7F74A2-D0A1-4C91-AF26-A3E25DED7112</DXGoalID>
           <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
@@ -1457,6 +1499,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <class-type valType="String">OptimizationCriterion</class-type>
         <object-name valType="String">P24</object-name>
         <member-data valType="String">{"DisplayText": "P24", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <properties-setByUserFlag-data valType="String">["LowerBound", "UpperBound", "AllowedValues", "GridInterval"]</properties-setByUserFlag-data>
         <custom-data>
           <DXGoalID valType="String">34DE00D2-A3FE-4301-93CC-0C26F1690DEA</DXGoalID>
           <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
@@ -1467,6 +1510,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <class-type valType="String">OptimizationCriterion</class-type>
         <object-name valType="String">P23</object-name>
         <member-data valType="String">{"DisplayText": "P23", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <properties-setByUserFlag-data valType="String">["LowerBound", "UpperBound", "AllowedValues", "GridInterval"]</properties-setByUserFlag-data>
         <custom-data>
           <DXGoalID valType="String">6D66332E-FFB1-4A48-8FED-29E60C375765</DXGoalID>
           <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
@@ -1477,6 +1521,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <class-type valType="String">OptimizationCriterion</class-type>
         <object-name valType="String">P22</object-name>
         <member-data valType="String">{"DisplayText": "P22", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <properties-setByUserFlag-data valType="String">["LowerBound", "UpperBound", "AllowedValues", "GridInterval"]</properties-setByUserFlag-data>
         <custom-data>
           <DXGoalID valType="String">7AFF8CE8-F609-4A11-9B5D-E27B3C86C0F9</DXGoalID>
           <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
@@ -1535,10 +1580,30 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
           <value-keys valType="String">{"DXGoalID": System.String, "DisplayTextIsCustomized": System.Boolean}</value-keys>
         </custom-data>
       </Object>
+      <Object Name="/Optimization/OptimizationCriterion:P42" Version="4.0">
+        <class-type valType="String">OptimizationCriterion</class-type>
+        <object-name valType="String">P42</object-name>
+        <member-data valType="String">{"DisplayText": "P42", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <custom-data>
+          <DXGoalID valType="String">4461A07A-260C-4549-8792-078613489191</DXGoalID>
+          <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
+          <value-keys valType="String">{"DXGoalID": System.String, "DisplayTextIsCustomized": System.Boolean}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/OptimizationCriterion:P43" Version="4.0">
+        <class-type valType="String">OptimizationCriterion</class-type>
+        <object-name valType="String">P43</object-name>
+        <member-data valType="String">{"DisplayText": "P43", "CreationTimeStamp": 0, "HistoryChart": None, "CustomObjectiveDefinitionList": None, "CustomConstraintDefinitionList": None}</member-data>
+        <custom-data>
+          <DXGoalID valType="String">AA70132B-08F9-4600-A26E-118068163BAB</DXGoalID>
+          <DisplayTextIsCustomized valType="String">False</DisplayTextIsCustomized>
+          <value-keys valType="String">{"DXGoalID": System.String, "DisplayTextIsCustomized": System.Boolean}</value-keys>
+        </custom-data>
+      </Object>
       <Object Name="/Optimization/ScreeningOptimization:Method" Version="1.0">
         <class-type valType="String">ScreeningOptimization</class-type>
         <object-name valType="String">Method</object-name>
-        <member-data valType="String">{"DisplayText": "Method", "MaximumNumberOfPermutations": 28, "ConvergenceChart": None, "NumberOfSamples": 100, "MaxNumCandidates": 5, "SampleSetSize": 0, "NumberOfEvaluations": 0, "NumberOfFailures": 0, "NumCandidates": 0, "NumberOfDuplicates": 0}</member-data>
+        <member-data valType="String">{"DisplayText": "Method", "MaximumNumberOfPermutations": 176, "ConvergenceChart": None, "NumberOfSamples": 100, "MaxNumCandidates": 5, "SampleSetSize": 0, "NumberOfEvaluations": 0, "NumberOfFailures": 0, "NumCandidates": 0, "NumberOfDuplicates": 0}</member-data>
         <properties-setByUserFlag-data valType="String">["MaxNumCandidates", "NumberOfSamples"]</properties-setByUserFlag-data>
         <custom-data>
           <OptimizationModel valType="String">76423596-B476-434D-A34A-B1766D116B16</OptimizationModel>
@@ -1568,123 +1633,223 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
           <value-keys valType="String">{"OptimizationModel": System.String}</value-keys>
         </custom-data>
       </Object>
+      <Object Name="/Optimization/ParameterRelationship:ParameterRelationship" Version="3.0">
+        <class-type valType="String">ParameterRelationship</class-type>
+        <object-name valType="String">ParameterRelationship</object-name>
+        <member-data valType="String">{"DisplayText": "Substrate must be wider than SG height", "LeftExpression": "P26", "LeftExpressionValue": "60", "LeftExpressionUnitName": None, "LeftExpressionQuantityName": "", "RightExpression": "H_SG_TOTAL + 5", "RightExpressionValue": "Name 'H_SG_TOTAL' is not defined.", "RightExpressionUnitName": None, "RightExpressionQuantityName": "", "RelationshipType": "PRT_GreaterThanOrEqualTo", "Enabled": True, "ErrorMessage": "Right Expression: Name 'H_SG_TOTAL' is not defined.", "IsFeasible": False, "Model": $$dbb918f5-02f2-40ba-be6b-d62439ae50a6, "Chart": None, "HasConstantLeftExpression": False, "HasConstantRightExpression": False}</member-data>
+        <properties-setByUserFlag-data valType="String">["RightExpression", "LeftExpression", "RelationshipType", "DisplayText"]</properties-setByUserFlag-data>
+        <custom-data>
+          <DisplayTextIsCustomized valType="String">True</DisplayTextIsCustomized>
+          <value-keys valType="String">{"DisplayTextIsCustomized": System.Boolean}</value-keys>
+        </custom-data>
+      </Object>
       <Object Name="/Optimization/ParameterRelationship:ParameterRelationship 1" Version="3.0">
         <class-type valType="String">ParameterRelationship</class-type>
         <object-name valType="String">ParameterRelationship 1</object-name>
-        <member-data valType="String">{"DisplayText": "Steel plate has to be wider than substrate", "LeftExpression": "P23", "LeftExpressionValue": "50", "LeftExpressionUnitName": None, "LeftExpressionQuantityName": "", "RightExpression": "P26", "RightExpressionValue": "30", "RightExpressionUnitName": None, "RightExpressionQuantityName": "", "RelationshipType": "PRT_GreaterThanOrEqualTo", "Enabled": True, "ErrorMessage": "", "IsFeasible": True, "Model": $$dbb918f5-02f2-40ba-be6b-d62439ae50a6, "Chart": None, "HasConstantLeftExpression": False, "HasConstantRightExpression": False}</member-data>
+        <member-data valType="String">{"DisplayText": "Steel plate has to be wider than substrate", "LeftExpression": "P23", "LeftExpressionValue": "60", "LeftExpressionUnitName": None, "LeftExpressionQuantityName": "", "RightExpression": "P26", "RightExpressionValue": "60", "RightExpressionUnitName": None, "RightExpressionQuantityName": "", "RelationshipType": "PRT_GreaterThanOrEqualTo", "Enabled": True, "ErrorMessage": "", "IsFeasible": True, "Model": $$dbb918f5-02f2-40ba-be6b-d62439ae50a6, "Chart": None, "HasConstantLeftExpression": False, "HasConstantRightExpression": False}</member-data>
         <properties-setByUserFlag-data valType="String">["RelationshipType", "RightExpression", "DisplayText", "LeftExpression"]</properties-setByUserFlag-data>
         <custom-data>
           <DisplayTextIsCustomized valType="String">True</DisplayTextIsCustomized>
           <value-keys valType="String">{"DisplayTextIsCustomized": System.Boolean}</value-keys>
         </custom-data>
       </Object>
-      <Object Name="/Optimization/DiscreteLevel:Level" Version="2.0">
+      <Object Name="/Optimization/ParameterRelationship:ParameterRelationship 2" Version="3.0">
+        <class-type valType="String">ParameterRelationship</class-type>
+        <object-name valType="String">ParameterRelationship 2</object-name>
+        <member-data valType="String">{"DisplayText": "Substrate must be longer than SG width", "LeftExpression": "P27", "LeftExpressionValue": "120", "LeftExpressionUnitName": None, "LeftExpressionQuantityName": "", "RightExpression": "W_SG_TOTAL+5", "RightExpressionValue": "Name 'W_SG_TOTAL' is not defined.", "RightExpressionUnitName": None, "RightExpressionQuantityName": "", "RelationshipType": "PRT_GreaterThanOrEqualTo", "Enabled": True, "ErrorMessage": "Right Expression: Name 'W_SG_TOTAL' is not defined.", "IsFeasible": False, "Model": $$dbb918f5-02f2-40ba-be6b-d62439ae50a6, "Chart": None, "HasConstantLeftExpression": False, "HasConstantRightExpression": False}</member-data>
+        <properties-setByUserFlag-data valType="String">["RelationshipType", "LeftExpression", "DisplayText"]</properties-setByUserFlag-data>
+        <custom-data>
+          <DisplayTextIsCustomized valType="String">True</DisplayTextIsCustomized>
+          <value-keys valType="String">{"DisplayTextIsCustomized": System.Boolean}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/ParameterRelationship:ParameterRelationship 3" Version="3.0">
+        <class-type valType="String">ParameterRelationship</class-type>
+        <object-name valType="String">ParameterRelationship 3</object-name>
+        <member-data valType="String">{"DisplayText": "Substrate must be thicker than SG by at least 1 layer height", "LeftExpression": "P28", "LeftExpressionValue": "2.8", "LeftExpressionUnitName": None, "LeftExpressionQuantityName": "", "RightExpression": "T_SG+P31", "RightExpressionValue": "Name 'T_SG' is not defined.", "RightExpressionUnitName": None, "RightExpressionQuantityName": "", "RelationshipType": "PRT_GreaterThanOrEqualTo", "Enabled": True, "ErrorMessage": "Right Expression: Name 'T_SG' is not defined.", "IsFeasible": False, "Model": $$dbb918f5-02f2-40ba-be6b-d62439ae50a6, "Chart": None, "HasConstantLeftExpression": False, "HasConstantRightExpression": False}</member-data>
+        <properties-setByUserFlag-data valType="String">["RelationshipType", "LeftExpression", "RightExpression", "DisplayText"]</properties-setByUserFlag-data>
+        <custom-data>
+          <DisplayTextIsCustomized valType="String">True</DisplayTextIsCustomized>
+          <value-keys valType="String">{"DisplayTextIsCustomized": System.Boolean}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/ParameterRelationship:ParameterRelationship 4" Version="3.0">
+        <class-type valType="String">ParameterRelationship</class-type>
+        <object-name valType="String">ParameterRelationship 4</object-name>
+        <member-data valType="String">{"DisplayText": "Steel plate must be longer than substrate by 15mm margin so that load can be applied", "LeftExpression": "P24", "LeftExpressionValue": "130", "LeftExpressionUnitName": None, "LeftExpressionQuantityName": "", "RightExpression": "P27+15", "RightExpressionValue": "135", "RightExpressionUnitName": None, "RightExpressionQuantityName": "", "RelationshipType": "PRT_GreaterThanOrEqualTo", "Enabled": True, "ErrorMessage": "", "IsFeasible": False, "Model": $$dbb918f5-02f2-40ba-be6b-d62439ae50a6, "Chart": None, "HasConstantLeftExpression": False, "HasConstantRightExpression": False}</member-data>
+        <properties-setByUserFlag-data valType="String">["RelationshipType", "RightExpression", "DisplayText"]</properties-setByUserFlag-data>
+        <custom-data>
+          <DisplayTextIsCustomized valType="String">True</DisplayTextIsCustomized>
+          <value-keys valType="String">{"DisplayTextIsCustomized": System.Boolean}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/ParameterRelationship:ParameterRelationship 5" Version="3.0">
+        <class-type valType="String">ParameterRelationship</class-type>
+        <object-name valType="String">ParameterRelationship 5</object-name>
+        <member-data valType="String">{"DisplayText": "Leg gaps must be larger than twice the nozzle size", "LeftExpression": "P30", "LeftExpressionValue": "2.9", "LeftExpressionUnitName": None, "LeftExpressionQuantityName": "", "RightExpression": "0.8", "RightExpressionValue": "0.8", "RightExpressionUnitName": None, "RightExpressionQuantityName": "", "RelationshipType": "PRT_GreaterThanOrEqualTo", "Enabled": True, "ErrorMessage": "", "IsFeasible": True, "Model": $$dbb918f5-02f2-40ba-be6b-d62439ae50a6, "Chart": None, "HasConstantLeftExpression": False, "HasConstantRightExpression": True}</member-data>
+        <properties-setByUserFlag-data valType="String">["RelationshipType", "RightExpression", "DisplayText"]</properties-setByUserFlag-data>
+        <custom-data>
+          <DisplayTextIsCustomized valType="String">True</DisplayTextIsCustomized>
+          <value-keys valType="String">{"DisplayTextIsCustomized": System.Boolean}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/ParameterRelationship:ParameterRelationship 6" Version="3.0">
+        <class-type valType="String">ParameterRelationship</class-type>
+        <object-name valType="String">ParameterRelationship 6</object-name>
+        <member-data valType="String">{"DisplayText": "Substrate must lie entirely in steel plate", "LeftExpression": "P22+P27", "LeftExpressionValue": "177.5", "LeftExpressionUnitName": None, "LeftExpressionQuantityName": "", "RightExpression": "P24", "RightExpressionValue": "130", "RightExpressionUnitName": None, "RightExpressionQuantityName": "", "RelationshipType": "PRT_LessThanOrEqualTo", "Enabled": True, "ErrorMessage": "", "IsFeasible": False, "Model": $$dbb918f5-02f2-40ba-be6b-d62439ae50a6, "Chart": None, "HasConstantLeftExpression": False, "HasConstantRightExpression": False}</member-data>
+        <properties-setByUserFlag-data valType="String">["RightExpression", "DisplayText"]</properties-setByUserFlag-data>
+        <custom-data>
+          <DisplayTextIsCustomized valType="String">True</DisplayTextIsCustomized>
+          <value-keys valType="String">{"DisplayTextIsCustomized": System.Boolean}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/DiscreteLevel:Level 14" Version="2.0">
         <class-type valType="String">DiscreteLevel</class-type>
-        <object-name valType="String">Level</object-name>
-        <member-data valType="String">{"DisplayText": "Level", "Index": 0, "Parameter": $$a4adfeb0-e00a-408a-9898-81d56f81698f, "ParameterID": "68AAED2C-4E2D-42A7-9104-6E30E052F5F8"}</member-data>
+        <object-name valType="String">Level 14</object-name>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 10, "Parameter": $$8fd1003a-7389-415e-b9a8-da07ca00c6c0, "ParameterID": "DD38BCDC-0591-453C-BA73-EC7D34648A32"}</member-data>
         <custom-data>
           <ValueType valType="String">0</ValueType>
-          <Value valType="String">4</Value>
+          <Value valType="String">24</Value>
           <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
         </custom-data>
       </Object>
-      <Object Name="/Optimization/DiscreteLevel:Level 1" Version="2.0">
+      <Object Name="/Optimization/DiscreteLevel:Level 13" Version="2.0">
         <class-type valType="String">DiscreteLevel</class-type>
-        <object-name valType="String">Level 1</object-name>
-        <member-data valType="String">{"DisplayText": "Level", "Index": 1, "Parameter": $$a4adfeb0-e00a-408a-9898-81d56f81698f, "ParameterID": "68AAED2C-4E2D-42A7-9104-6E30E052F5F8"}</member-data>
+        <object-name valType="String">Level 13</object-name>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 9, "Parameter": $$8fd1003a-7389-415e-b9a8-da07ca00c6c0, "ParameterID": "DD38BCDC-0591-453C-BA73-EC7D34648A32"}</member-data>
         <custom-data>
           <ValueType valType="String">0</ValueType>
-          <Value valType="String">6</Value>
+          <Value valType="String">22</Value>
           <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
         </custom-data>
       </Object>
-      <Object Name="/Optimization/DiscreteLevel:Level 2" Version="2.0">
+      <Object Name="/Optimization/DiscreteLevel:Level 12" Version="2.0">
         <class-type valType="String">DiscreteLevel</class-type>
-        <object-name valType="String">Level 2</object-name>
-        <member-data valType="String">{"DisplayText": "Level", "Index": 2, "Parameter": $$a4adfeb0-e00a-408a-9898-81d56f81698f, "ParameterID": "68AAED2C-4E2D-42A7-9104-6E30E052F5F8"}</member-data>
+        <object-name valType="String">Level 12</object-name>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 8, "Parameter": $$8fd1003a-7389-415e-b9a8-da07ca00c6c0, "ParameterID": "DD38BCDC-0591-453C-BA73-EC7D34648A32"}</member-data>
         <custom-data>
           <ValueType valType="String">0</ValueType>
-          <Value valType="String">8</Value>
+          <Value valType="String">20</Value>
           <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
         </custom-data>
       </Object>
-      <Object Name="/Optimization/DiscreteLevel:Level 3" Version="2.0">
+      <Object Name="/Optimization/DiscreteLevel:Level 11" Version="2.0">
         <class-type valType="String">DiscreteLevel</class-type>
-        <object-name valType="String">Level 3</object-name>
-        <member-data valType="String">{"DisplayText": "Level", "Index": 3, "Parameter": $$a4adfeb0-e00a-408a-9898-81d56f81698f, "ParameterID": "68AAED2C-4E2D-42A7-9104-6E30E052F5F8"}</member-data>
+        <object-name valType="String">Level 11</object-name>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 7, "Parameter": $$8fd1003a-7389-415e-b9a8-da07ca00c6c0, "ParameterID": "DD38BCDC-0591-453C-BA73-EC7D34648A32"}</member-data>
         <custom-data>
           <ValueType valType="String">0</ValueType>
-          <Value valType="String">10</Value>
-          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
-        </custom-data>
-      </Object>
-      <Object Name="/Optimization/DiscreteLevel:Level 4" Version="2.0">
-        <class-type valType="String">DiscreteLevel</class-type>
-        <object-name valType="String">Level 4</object-name>
-        <member-data valType="String">{"DisplayText": "Level", "Index": 4, "Parameter": $$a4adfeb0-e00a-408a-9898-81d56f81698f, "ParameterID": "68AAED2C-4E2D-42A7-9104-6E30E052F5F8"}</member-data>
-        <custom-data>
-          <ValueType valType="String">0</ValueType>
-          <Value valType="String">12</Value>
-          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
-        </custom-data>
-      </Object>
-      <Object Name="/Optimization/DiscreteLevel:Level 5" Version="2.0">
-        <class-type valType="String">DiscreteLevel</class-type>
-        <object-name valType="String">Level 5</object-name>
-        <member-data valType="String">{"DisplayText": "Level", "Index": 5, "Parameter": $$a4adfeb0-e00a-408a-9898-81d56f81698f, "ParameterID": "68AAED2C-4E2D-42A7-9104-6E30E052F5F8"}</member-data>
-        <custom-data>
-          <ValueType valType="String">0</ValueType>
-          <Value valType="String">14</Value>
-          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
-        </custom-data>
-      </Object>
-      <Object Name="/Optimization/DiscreteLevel:Level 6" Version="2.0">
-        <class-type valType="String">DiscreteLevel</class-type>
-        <object-name valType="String">Level 6</object-name>
-        <member-data valType="String">{"DisplayText": "Level", "Index": 6, "Parameter": $$a4adfeb0-e00a-408a-9898-81d56f81698f, "ParameterID": "68AAED2C-4E2D-42A7-9104-6E30E052F5F8"}</member-data>
-        <custom-data>
-          <ValueType valType="String">0</ValueType>
-          <Value valType="String">16</Value>
-          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
-        </custom-data>
-      </Object>
-      <Object Name="/Optimization/DiscreteLevel:Level 7" Version="2.0">
-        <class-type valType="String">DiscreteLevel</class-type>
-        <object-name valType="String">Level 7</object-name>
-        <member-data valType="String">{"DisplayText": "Level", "Index": 0, "Parameter": $$ea80cdfe-317b-444f-9f1a-b28cac7f59a9, "ParameterID": "72346775-5552-4A79-B224-3B608D7903F7"}</member-data>
-        <custom-data>
-          <ValueType valType="String">0</ValueType>
-          <Value valType="String">1</Value>
-          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
-        </custom-data>
-      </Object>
-      <Object Name="/Optimization/DiscreteLevel:Level 8" Version="2.0">
-        <class-type valType="String">DiscreteLevel</class-type>
-        <object-name valType="String">Level 8</object-name>
-        <member-data valType="String">{"DisplayText": "Level", "Index": 1, "Parameter": $$ea80cdfe-317b-444f-9f1a-b28cac7f59a9, "ParameterID": "72346775-5552-4A79-B224-3B608D7903F7"}</member-data>
-        <custom-data>
-          <ValueType valType="String">0</ValueType>
-          <Value valType="String">2</Value>
-          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
-        </custom-data>
-      </Object>
-      <Object Name="/Optimization/DiscreteLevel:Level 9" Version="2.0">
-        <class-type valType="String">DiscreteLevel</class-type>
-        <object-name valType="String">Level 9</object-name>
-        <member-data valType="String">{"DisplayText": "Level", "Index": 2, "Parameter": $$ea80cdfe-317b-444f-9f1a-b28cac7f59a9, "ParameterID": "72346775-5552-4A79-B224-3B608D7903F7"}</member-data>
-        <custom-data>
-          <ValueType valType="String">0</ValueType>
-          <Value valType="String">3</Value>
+          <Value valType="String">18</Value>
           <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
         </custom-data>
       </Object>
       <Object Name="/Optimization/DiscreteLevel:Level 10" Version="2.0">
         <class-type valType="String">DiscreteLevel</class-type>
         <object-name valType="String">Level 10</object-name>
-        <member-data valType="String">{"DisplayText": "Level", "Index": 3, "Parameter": $$ea80cdfe-317b-444f-9f1a-b28cac7f59a9, "ParameterID": "72346775-5552-4A79-B224-3B608D7903F7"}</member-data>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 6, "Parameter": $$8fd1003a-7389-415e-b9a8-da07ca00c6c0, "ParameterID": "DD38BCDC-0591-453C-BA73-EC7D34648A32"}</member-data>
+        <custom-data>
+          <ValueType valType="String">0</ValueType>
+          <Value valType="String">16</Value>
+          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/DiscreteLevel:Level 9" Version="2.0">
+        <class-type valType="String">DiscreteLevel</class-type>
+        <object-name valType="String">Level 9</object-name>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 5, "Parameter": $$8fd1003a-7389-415e-b9a8-da07ca00c6c0, "ParameterID": "DD38BCDC-0591-453C-BA73-EC7D34648A32"}</member-data>
+        <custom-data>
+          <ValueType valType="String">0</ValueType>
+          <Value valType="String">14</Value>
+          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/DiscreteLevel:Level 8" Version="2.0">
+        <class-type valType="String">DiscreteLevel</class-type>
+        <object-name valType="String">Level 8</object-name>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 4, "Parameter": $$8fd1003a-7389-415e-b9a8-da07ca00c6c0, "ParameterID": "DD38BCDC-0591-453C-BA73-EC7D34648A32"}</member-data>
+        <custom-data>
+          <ValueType valType="String">0</ValueType>
+          <Value valType="String">12</Value>
+          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/DiscreteLevel:Level 7" Version="2.0">
+        <class-type valType="String">DiscreteLevel</class-type>
+        <object-name valType="String">Level 7</object-name>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 3, "Parameter": $$8fd1003a-7389-415e-b9a8-da07ca00c6c0, "ParameterID": "DD38BCDC-0591-453C-BA73-EC7D34648A32"}</member-data>
+        <custom-data>
+          <ValueType valType="String">0</ValueType>
+          <Value valType="String">10</Value>
+          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/DiscreteLevel:Level 6" Version="2.0">
+        <class-type valType="String">DiscreteLevel</class-type>
+        <object-name valType="String">Level 6</object-name>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 2, "Parameter": $$8fd1003a-7389-415e-b9a8-da07ca00c6c0, "ParameterID": "DD38BCDC-0591-453C-BA73-EC7D34648A32"}</member-data>
+        <custom-data>
+          <ValueType valType="String">0</ValueType>
+          <Value valType="String">8</Value>
+          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/DiscreteLevel:Level 5" Version="2.0">
+        <class-type valType="String">DiscreteLevel</class-type>
+        <object-name valType="String">Level 5</object-name>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 1, "Parameter": $$8fd1003a-7389-415e-b9a8-da07ca00c6c0, "ParameterID": "DD38BCDC-0591-453C-BA73-EC7D34648A32"}</member-data>
+        <custom-data>
+          <ValueType valType="String">0</ValueType>
+          <Value valType="String">6</Value>
+          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/DiscreteLevel:Level 4" Version="2.0">
+        <class-type valType="String">DiscreteLevel</class-type>
+        <object-name valType="String">Level 4</object-name>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 0, "Parameter": $$8fd1003a-7389-415e-b9a8-da07ca00c6c0, "ParameterID": "DD38BCDC-0591-453C-BA73-EC7D34648A32"}</member-data>
         <custom-data>
           <ValueType valType="String">0</ValueType>
           <Value valType="String">4</Value>
+          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/DiscreteLevel:Level 3" Version="2.0">
+        <class-type valType="String">DiscreteLevel</class-type>
+        <object-name valType="String">Level 3</object-name>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 3, "Parameter": $$21d11e30-14a6-4145-9754-4068e180fce3, "ParameterID": "00FD1324-0C17-4D33-A14F-FD594D9E92B8"}</member-data>
+        <custom-data>
+          <ValueType valType="String">0</ValueType>
+          <Value valType="String">4</Value>
+          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/DiscreteLevel:Level 2" Version="2.0">
+        <class-type valType="String">DiscreteLevel</class-type>
+        <object-name valType="String">Level 2</object-name>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 2, "Parameter": $$21d11e30-14a6-4145-9754-4068e180fce3, "ParameterID": "00FD1324-0C17-4D33-A14F-FD594D9E92B8"}</member-data>
+        <custom-data>
+          <ValueType valType="String">0</ValueType>
+          <Value valType="String">3</Value>
+          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/DiscreteLevel:Level 1" Version="2.0">
+        <class-type valType="String">DiscreteLevel</class-type>
+        <object-name valType="String">Level 1</object-name>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 1, "Parameter": $$21d11e30-14a6-4145-9754-4068e180fce3, "ParameterID": "00FD1324-0C17-4D33-A14F-FD594D9E92B8"}</member-data>
+        <custom-data>
+          <ValueType valType="String">0</ValueType>
+          <Value valType="String">2</Value>
+          <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
+        </custom-data>
+      </Object>
+      <Object Name="/Optimization/DiscreteLevel:Level" Version="2.0">
+        <class-type valType="String">DiscreteLevel</class-type>
+        <object-name valType="String">Level</object-name>
+        <member-data valType="String">{"DisplayText": "Level", "Index": 0, "Parameter": $$21d11e30-14a6-4145-9754-4068e180fce3, "ParameterID": "00FD1324-0C17-4D33-A14F-FD594D9E92B8"}</member-data>
+        <custom-data>
+          <ValueType valType="String">0</ValueType>
+          <Value valType="String">1</Value>
           <value-keys valType="String">{"ValueType": System.Int32, "Value": System.String}</value-keys>
         </custom-data>
       </Object>
@@ -1697,7 +1862,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <ChartFeaturesCount valType="Int32">0</ChartFeaturesCount>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 25173, "Input": 25175, "Output": 10672}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 30859, "Input": 30862, "Output": 10672}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/DXOptimizationEvaluateContainer/ParametricTable:RawDataTable" Version="1.0">
@@ -1705,7 +1870,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <object-name valType="String">RawDataTable</object-name>
         <member-data valType="String">{"DisplayText": "Raw Optimization Data", "IsUpToDate": True, "OutputValuesEditable": False, "HasUpdateOrder": False, "MaxUpdateOrder": 0}</member-data>
         <custom-data>
-          <DXDataTableID valType="String">FDBC129B-7006-4119-ADBC-DF3A7E18A721</DXDataTableID>
+          <DXDataTableID valType="String">6A5EDCEE-758B-449F-A98F-00E622B432EC</DXDataTableID>
           <value-keys valType="String">{"DXDataTableID": System.String}</value-keys>
         </custom-data>
       </Object>
@@ -1714,7 +1879,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
         <object-name valType="String">DesignPoints</object-name>
         <member-data valType="String">{"DisplayText": "Candidate Points", "IsUpToDate": False, "OutputValuesEditable": False, "HasUpdateOrder": False, "MaxUpdateOrder": 0}</member-data>
         <custom-data>
-          <DXDataTableID valType="String">83CBEDEB-61F2-4130-A09C-7D5D65645BAF</DXDataTableID>
+          <DXDataTableID valType="String">F44C0367-96CA-4708-AB7A-55E5904E3749</DXDataTableID>
           <value-keys valType="String">{"DXDataTableID": System.String}</value-keys>
         </custom-data>
       </Object>
@@ -1730,7 +1895,7 @@ The DesignXplorer license (dsdxm license feature) enables comparable functionali
       <Object Name="/DXOptimizationEvaluateContainer/Evaluation:MainEvaluation" Version="1.0">
         <class-type valType="String">Evaluation</class-type>
         <object-name valType="String">MainEvaluation</object-name>
-        <member-data valType="String">{"DisplayText": "MainEvaluation", "InputData": $$cb200d9f-675f-4403-a734-cbf10cbaa45c, "OutputData": $$cb200d9f-675f-4403-a734-cbf10cbaa45c, "Model": $$dbb918f5-02f2-40ba-be6b-d62439ae50a6}</member-data>
+        <member-data valType="String">{"DisplayText": "MainEvaluation", "InputData": $$35abaa1d-2d4a-4ad4-be87-c618cbf64f09, "OutputData": $$35abaa1d-2d4a-4ad4-be87-c618cbf64f09, "Model": $$dbb918f5-02f2-40ba-be6b-d62439ae50a6}</member-data>
         <custom-data>
           <DXEvaluationObjectID valType="String">MainEvaluation_NeedNewInstance</DXEvaluationObjectID>
           <value-keys valType="String">{"DXEvaluationObjectID": System.String}</value-keys>
