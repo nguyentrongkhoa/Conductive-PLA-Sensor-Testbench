@@ -2,18 +2,17 @@
 <Storage>
   <Project Version="25.2.1.0" />
   <Addins>
-    <addin-list valType="String">[Ansys.ParameterManager.ParameterManagerAddin, Ansys.HPS.Addin, Ansys.Simulation.Core.Addin, Ansys.EngineeringData.Commands.Addin, Ansys.MultiphysicsCoupling.Core.Addin, Ansys.DesignModeler.Core.Addin]</addin-list>
+    <addin-list valType="String">[Ansys.ParameterManager.ParameterManagerAddin, Ansys.HPS.Addin, Ansys.Simulation.Core.Addin, Ansys.EngineeringData.Commands.Addin, Ansys.DesignModeler.Core.Addin]</addin-list>
     <Addin Name="Ansys.ParameterManager.ParameterManagerAddin" Version="7.4" />
     <Addin Name="Ansys.HPS.Addin" Version="26.1.1.0">
       <is-optional-on-resume valType="Boolean">true</is-optional-on-resume>
     </Addin>
     <Addin Name="Ansys.Simulation.Core.Addin" Version="26.1.3.0" />
     <Addin Name="Ansys.EngineeringData.Commands.Addin" Version="26.1.0.79" />
-    <Addin Name="Ansys.MultiphysicsCoupling.Core.Addin" Version="26.1.0.0" />
     <Addin Name="Ansys.DesignModeler.Core.Addin" Version="21.2.0.0" />
   </Addins>
   <Containers>
-    <container-map valType="String">{"Scopes": Ansys.ParameterManager.ParameterManagerAddin:scopes, "Geometry": Ansys.DesignModeler.Core.Addin:Geometry, "Engineering Data": "Ansys.EngineeringData.Commands.Addin:Engineering Data", "Model": Ansys.Simulation.Core.Addin:SimulationModel, "Setup": Ansys.Simulation.Core.Addin:SimulationSetup, "Solution": Ansys.Simulation.Core.Addin:SimulationSolution, "Results": Ansys.Simulation.Core.Addin:SimulationResults, "Setup 2": Ansys.MultiphysicsCoupling.Core.Addin:Setup, "Solution 2": Ansys.MultiphysicsCoupling.Core.Addin:Solution}</container-map>
+    <container-map valType="String">{"Scopes": Ansys.ParameterManager.ParameterManagerAddin:scopes, "Geometry": Ansys.DesignModeler.Core.Addin:Geometry, "Engineering Data": "Ansys.EngineeringData.Commands.Addin:Engineering Data", "Model": Ansys.Simulation.Core.Addin:SimulationModel, "Setup": Ansys.Simulation.Core.Addin:SimulationSetup, "Solution": Ansys.Simulation.Core.Addin:SimulationSolution, "Results": Ansys.Simulation.Core.Addin:SimulationResults}</container-map>
     <static-container-ids valType="String">{"Scopes": Scopes}</static-container-ids>
     <Container Name="Scopes" Version="1.0">
       <container-type valType="String">Ansys.ParameterManager.ParameterManagerAddin:scopes</container-type>
@@ -35,7 +34,7 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">9763</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10553, "Input": 9760, "Output": 9760}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 13031, "Input": 9760, "Output": 9760}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
       <unique-system-dir valType="String">Geom</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
@@ -937,9 +936,9 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">9947</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10485, "Input": 9849, "Output": 9849}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 10623, "Input": 9849, "Output": 9849}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 8693, "Setup": 9015, "Solution": 9016, "Results": 9017, "Setup 2": 0, "Solution 2": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "DiscoverySessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 8693, "Setup": 9015, "Solution": 9016, "Results": 9017}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Model/SimulationConnection:SimulationConnection" Version="1.0">
@@ -1042,7 +1041,7 @@
       <last-updated valType="Int64">10549</last-updated>
       <last-modified-by-usage valType="String">{"Extrinsic": 10533, "Input": 10533, "Output": 10533}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 9947, "Setup": 10506, "Solution": 10507, "Results": 10511, "Setup 2": 0, "Solution 2": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "DiscoverySessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 9947, "Setup": 10506, "Solution": 10507, "Results": 10511}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Setup/MechanicalSystemType:SystemClass for MechanicalMultiphysics|Static|ANSYS" Version="1.0">
@@ -1112,7 +1111,7 @@
       <last-updated valType="Int64">10550</last-updated>
       <last-modified-by-usage valType="String">{"Extrinsic": 10535, "Input": 10535, "Output": 10535}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 9947, "Setup": 10549, "Solution": 10507, "Results": 10511, "Setup 2": 0, "Solution 2": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "DiscoverySessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 9947, "Setup": 10549, "Solution": 10507, "Results": 10511}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Solution/MechanicalSystemType:SystemClass for MechanicalMultiphysics|Static|ANSYS" Version="1.0">
@@ -1198,9 +1197,9 @@
       <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
       <deleted-sources valType="String">[]</deleted-sources>
       <last-updated valType="Int64">10551</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 10547, "Input": 10547, "Output": 10547}</last-modified-by-usage>
+      <last-modified-by-usage valType="String">{"Extrinsic": 10653, "Input": 10547, "Output": 10547}</last-modified-by-usage>
       <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 9947, "Setup": 10549, "Solution": 10550, "Results": 10511, "Setup 2": 0, "Solution 2": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "DiscoverySessionContainer": 0}</last-update-regen-times>
+      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 9763, "Engineering Data": 7769, "Model": 9947, "Setup": 10549, "Solution": 10550, "Results": 10511}</last-update-regen-times>
       <unique-system-dir valType="String">SYS</unique-system-dir>
       <contains-significant-data valType="Boolean">true</contains-significant-data>
       <Object Name="/Results/MechanicalSystemType:SystemClass for MechanicalMultiphysics|Static|ANSYS" Version="1.0">
@@ -1240,93 +1239,31 @@
           <value-keys valType="String">{"FindAnswersState": System.Int32, "AttentionRequired": System.Boolean, "ParameterValueModified": System.Boolean}</value-keys>
         </custom-data>
       </Object>
-    </Container>
-    <Container Name="Setup 2" Version="1.0">
-      <container-type valType="String">Ansys.MultiphysicsCoupling.Core.Addin:Setup</container-type>
-      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
-      <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 8247, "Input": 8257, "Output": 8247}</last-modified-by-usage>
-      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <last-update-regen-times valType="String">{"Preferences": 0, "ToolbarExp": 0, "FileTypesContainer": 0, "FileContainer": 0, "Messages": 0, "Parameters": 0, "Schematic": 0, "ReportDataContainer": 0, "Graphics": 0, "Units": 0, "HpsContainer": 0, "PyAddinManager": 0, "Scopes": 0, "Geometry": 4786, "Engineering Data": 7769, "Model": 8693, "Setup": 9015, "Solution": 9016, "Results": 9017, "Setup 2": 0, "Solution 2": 0, "EngineeringDataGeneratedChartData": 0, "EngineeringDataCurveFit": 0, "EngineeringDataFavoriteItems": 0, "DiscoverySessionContainer": 0}</last-update-regen-times>
-      <unique-system-dir valType="String">SC</unique-system-dir>
-      <contains-significant-data valType="Boolean">true</contains-significant-data>
-      <Object Name="/Setup 2/CouplingPartcipantConnectionsDataObject:CouplingParticipantConnections" Version="1.0">
-        <class-type valType="String">CouplingPartcipantConnectionsDataObject</class-type>
-        <object-name valType="String">CouplingParticipantConnections</object-name>
-        <member-data valType="String">{"DisplayText": "CouplingParticipantConnections", "InputConnections": $$42419011-4d4a-42b4-bcb7-04deccf79a84, "InputConnectionsToRemove": [], "UpstreamMpcParticipantData": {}, "CouplingServiceInputFile": None, "HighlightLinkedNodes": True, "SetupAttributes": {}, "RefreshResult": "RefreshSuccessful"}</member-data>
+      <Object Name="/Results/ParameterAdapter1:cec549af-cd33-485d-be0d-d92033e4b1b5" Version="1.0">
+        <class-type valType="String">Ansys.Simulation.Core.DataModel.Parameters.DynamicParameterObject, Ans.Simulation.Core</class-type>
+        <type-spec valType="String">{"SpecType": "Ansys.Core.DataModel.DataObjects.ParameterAdapterTypeSpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "System", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "JournalVariableName": "parameterAdapter1", "Methods": {}, "Version": 1, "Members": {"DisplayText": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "Display Text", "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": True}, "Value": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": "163469.711303711 [mV]", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Output", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Voltage"}, "WorkbenchParameterId": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": "", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}, "Access": {"SpecType": "Ansys.Core.DataSpecs.EnumSpec`1[[Ansys.Simulation.Core.DataModel.Parameters.ParameterAccess, Ans.Simulation.Core]], Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False, "OptionLabels": "SimulationParameterInput, SimulationParameterOutput", "ShouldTranslateOptionLabels": True}, "Type": {"SpecType": "Ansys.Core.DataSpecs.EnumSpec`1[[Ansys.Simulation.Core.DataModel.Parameters.ParameterType, Ans.Simulation.Core]], Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False, "OptionLabels": "SimulationParameterDouble, SimulationParameterInteger, SimulationParameterString, SimulationParameterBool, SimulationParameterStringOption", "ShouldTranslateOptionLabels": True}, "Name": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": "", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}, "FolderDSId": {"SpecType": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib]], Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": -1, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False, "UndefinedValue": 2147483647}, "FrameworkParameterReference": {"SpecType": "Ansys.Core.DataModel.DataReferenceSpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}}, "DataTypeHierarchy": "ParameterAdapter1,ParameterAdapter,DataEntity"}</type-spec>
+        <object-name valType="String">cec549af-cd33-485d-be0d-d92033e4b1b5</object-name>
+        <member-data valType="String">{"DisplayText": "cec549af-cd33-485d-be0d-d92033e4b1b5", "Value": "163469.711303711 [mV]", "WorkbenchParameterId": "cec549af-cd33-485d-be0d-d92033e4b1b5", "Access": "SimulationParameterOutput", "Type": "SimulationParameterDouble", "Name": "Electric Voltage Minimum Maximum Value Over Time", "FolderDSId": 44, "FrameworkParameterReference": $$ea1ec59a-aab5-4e31-8972-9ff6320bcdd4}</member-data>
+        <custom-data>
+          <ParamDataRef valType="String">ea1ec59a-aab5-4e31-8972-9ff6320bcdd4</ParamDataRef>
+          <IsParameterValueModified valType="String">False</IsParameterValueModified>
+          <value-keys valType="String">{"ParamDataRef": System.String, "IsParameterValueModified": System.Boolean}</value-keys>
+          <dictionary-keys valType="String">[Attributes]</dictionary-keys>
+          <Attributes />
+        </custom-data>
       </Object>
-      <Object Name="/Setup 2/AnalysisSettings:AnalysisSettings" Version="1.0">
-        <class-type valType="String">AnalysisSettings</class-type>
-        <object-name valType="String">AnalysisSettings</object-name>
-        <member-data valType="String">{"DisplayText": "AnalysisSettings", "AnalysisType": "General", "Initialization": "ProgramControlled", "StartTime": None, "StepSize": None, "DurationDefinedBy": "NumberOfSteps", "NumberOfSteps": 1, "EndTime": None, "MinimumIteration": 3, "MaximumIteration": 10, "RestartStep": 0, "RestartTime": None, "ObjectState": "UpToDate", "Messages": {}, "Errors": {}, "RestartStepTime": {}, "RestartStepFile": {}, "DisableSolutionUpdate": False}</member-data>
-        <properties-setByUserFlag-data valType="String">["MinimumIteration", "MaximumIteration"]</properties-setByUserFlag-data>
-      </Object>
-      <Object Name="/Setup 2/ExecutionControlSettings:ExecutionControl" Version="1.0">
-        <class-type valType="String">ExecutionControlSettings</class-type>
-        <object-name valType="String">ExecutionControl</object-name>
-        <member-data valType="String">{"DisplayText": "ExecutionControl", "EngineVersion": 2}</member-data>
-      </Object>
-      <Object Name="/Setup 2/SequenceControl:SequenceControls" Version="1.0">
-        <class-type valType="String">SequenceControl</class-type>
-        <object-name valType="String">SequenceControls</object-name>
-        <member-data valType="String">{"DisplayText": "SequenceControls", "Sequence": {}}</member-data>
-      </Object>
-      <Object Name="/Setup 2/ExpertSettings:ExpertSettings" Version="1.0">
-        <class-type valType="String">ExpertSettings</class-type>
-        <object-name valType="String">ExpertSettings</object-name>
-        <member-data valType="String">{"DisplayText": "ExpertSettings", "Settings": {}}</member-data>
-      </Object>
-      <Object Name="/Setup 2/IntermediateResultFilesOutputControls:IntermediateResultFilesOutputControls" Version="1.0">
-        <class-type valType="String">IntermediateResultFilesOutputControls</class-type>
-        <object-name valType="String">IntermediateResultFilesOutputControls</object-name>
-        <member-data valType="String">{"DisplayText": "IntermediateResultFilesOutputControls", "OutputFrequency": "None", "StepInterval": 1, "ObjectState": "UpToDate", "Messages": {}, "Errors": {}}</member-data>
-      </Object>
-      <Object Name="/Setup 2/CouplingSetupProvider:Setup 2Provider" Version="1.0">
-        <class-type valType="String">CouplingSetupProvider</class-type>
-        <object-name valType="String">Setup 2Provider</object-name>
-        <member-data valType="String">{"DisplayText": "Setup 2Provider", "DataConnections": ["0d87606a-b36e-482e-9231-2b96ce559c8b"], "TransferDataObject": None}</member-data>
-      </Object>
-      <Object Name="/Setup 2/ContainerInputConnections:CouplingContainerInputConnections" Version="1.0">
-        <class-type valType="String">ContainerInputConnections</class-type>
-        <object-name valType="String">CouplingContainerInputConnections</object-name>
-        <member-data valType="String">{"DisplayText": "CouplingContainerInputConnections", "Connections": {}}</member-data>
-      </Object>
-    </Container>
-    <Container Name="Solution 2" Version="1.0">
-      <container-type valType="String">Ansys.MultiphysicsCoupling.Core.Addin:Solution</container-type>
-      <storage-scheme-id valType="String">version-1-format</storage-scheme-id>
-      <deleted-sources valType="String">[]</deleted-sources>
-      <last-updated valType="Int64">0</last-updated>
-      <last-modified-by-usage valType="String">{"Extrinsic": 8241, "Input": 8246, "Output": 8236}</last-modified-by-usage>
-      <outputs-generated-by-type valType="String">{}</outputs-generated-by-type>
-      <unique-system-dir valType="String">SC</unique-system-dir>
-      <contains-significant-data valType="Boolean">false</contains-significant-data>
-      <Object Name="/Solution 2/SolutionConnectionsDataObject:CouplingSolutionConnections" Version="1.0">
-        <class-type valType="String">SolutionConnectionsDataObject</class-type>
-        <object-name valType="String">CouplingSolutionConnections</object-name>
-        <member-data valType="String">{"DisplayText": "CouplingSolutionConnections", "InputConnections": $$9948284b-549a-4949-94f2-d383d9625f4e, "InputConnectionsToRemove": [], "StandaloneStatusQuery": "MultiphysicsCoupling.BackgroundTaskGetStatus", "FinalSCLFile": "", "FinalSCRFile": "", "SetupProvider": None, "ShutdownCode": -1, "SystemCouplingErrorMessage": "", "NameDisplayNameMap": {}}</member-data>
-      </Object>
-      <Object Name="/Solution 2/SolutionComponentProperties:SolutionComponentProperties" Version="1.0">
-        <class-type valType="String">SolutionComponentProperties</class-type>
-        <object-name valType="String">SolutionComponentProperties</object-name>
-        <member-data valType="String">{"DisplayText": "SolutionComponentProperties", "UpdateOption": "Foreground", "CommandLineOptions": None}</member-data>
-      </Object>
-      <Object Name="/Solution 2/SolutionInformation:solutionInformation" Version="1.0">
-        <class-type valType="String">SolutionInformation</class-type>
-        <object-name valType="String">solutionInformation</object-name>
-        <member-data valType="String">{"DisplayText": "System Coupling", "RelativePath": r"SyC\SyC\SyC\SyC\SyC\SyC\SyC\SyC\SyC", "IsDefault": True, "Participant": None}</member-data>
-      </Object>
-      <Object Name="/Solution 2/SystemCouplingSettings:systemCouplingSettings" Version="1.0">
-        <class-type valType="String">Ansys.Core.DataModel.DataObjects.DynamicDataObject, Ans.Core</class-type>
-        <type-spec valType="String">{"SpecType": "Ansys.Core.DataModel.DataEntitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "System", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False, "JournalVariableName": "systemCouplingSettings", "Methods": {}, "Version": 1, "Members": {"DisplayText": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "Display Text", "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": True}, "IsSceneGraphOn": {"SpecType": "Ansys.Core.DataSpecs.BooleanSpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": False, "Exposure": "System", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": True, "IsParameterizable": False, "ReuseJournalVariables": False}}, "DataTypeHierarchy": "SystemCouplingSettings,DataEntity"}</type-spec>
-        <object-name valType="String">systemCouplingSettings</object-name>
-        <member-data valType="String">{"DisplayText": "systemCouplingSettings", "IsSceneGraphOn": True}</member-data>
-      </Object>
-      <Object Name="/Solution 2/ContainerInputConnections:CouplingContainerInputConnections" Version="1.0">
-        <class-type valType="String">ContainerInputConnections</class-type>
-        <object-name valType="String">CouplingContainerInputConnections</object-name>
-        <member-data valType="String">{"DisplayText": "CouplingContainerInputConnections", "Connections": {"Setup 2": {"$$482e6f8f-5473-44f7-b3e5-9a6464ccf4c3": {"CouplingSetupProvider": ["0d87606a-b36e-482e-9231-2b96ce559c8b"]}}}}</member-data>
+      <Object Name="/Results/ParameterAdapter2:d389c873-9b84-4dda-9307-0658b7f747a6" Version="1.0">
+        <class-type valType="String">Ansys.Simulation.Core.DataModel.Parameters.DynamicParameterObject, Ans.Simulation.Core</class-type>
+        <type-spec valType="String">{"SpecType": "Ansys.Core.DataModel.DataObjects.ParameterAdapterTypeSpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "System", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Input", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "JournalVariableName": "parameterAdapter2", "Methods": {}, "Version": 1, "Members": {"DisplayText": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Label": "Display Text", "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": True}, "Value": {"SpecType": "Ansys.Core.DataSpecs.QuantitySpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": "163516.891479492 [mV]", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Output", "IsDesignPointInvariant": False, "IsParameterizable": True, "ReuseJournalVariables": False, "UndefinedValue": "1.79769313486231E+308", "QuantityName": "Voltage"}, "WorkbenchParameterId": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": "", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}, "Access": {"SpecType": "Ansys.Core.DataSpecs.EnumSpec`1[[Ansys.Simulation.Core.DataModel.Parameters.ParameterAccess, Ans.Simulation.Core]], Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False, "OptionLabels": "SimulationParameterInput, SimulationParameterOutput", "ShouldTranslateOptionLabels": True}, "Type": {"SpecType": "Ansys.Core.DataSpecs.EnumSpec`1[[Ansys.Simulation.Core.DataModel.Parameters.ParameterType, Ans.Simulation.Core]], Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False, "OptionLabels": "SimulationParameterDouble, SimulationParameterInteger, SimulationParameterString, SimulationParameterBool, SimulationParameterStringOption", "ShouldTranslateOptionLabels": True}, "Name": {"SpecType": "Ansys.Core.DataSpecs.StringSpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": "", "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}, "FolderDSId": {"SpecType": "Ansys.Core.DataSpecs.IntegerSpec`1[[System.Int32, mscorlib]], Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Default": -1, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False, "UndefinedValue": 2147483647}, "FrameworkParameterReference": {"SpecType": "Ansys.Core.DataModel.DataReferenceSpec, Ans.Core", "Access": "UserWritable", "CanUndoPropertyChanges": True, "Exposure": "AnyUser", "IsOptional": False, "IsPersistent": True, "IsReadOnly": False, "Usage": "Extrinsic", "IsDesignPointInvariant": False, "IsParameterizable": False, "ReuseJournalVariables": False}}, "DataTypeHierarchy": "ParameterAdapter2,ParameterAdapter,DataEntity"}</type-spec>
+        <object-name valType="String">d389c873-9b84-4dda-9307-0658b7f747a6</object-name>
+        <member-data valType="String">{"DisplayText": "d389c873-9b84-4dda-9307-0658b7f747a6", "Value": "163516.891479492 [mV]", "WorkbenchParameterId": "d389c873-9b84-4dda-9307-0658b7f747a6", "Access": "SimulationParameterOutput", "Type": "SimulationParameterDouble", "Name": "Electric Voltage Maximum Maximum Value Over Time", "FolderDSId": 44, "FrameworkParameterReference": $$28986e81-ba72-41ac-871d-3bb525cb1c02}</member-data>
+        <custom-data>
+          <ParamDataRef valType="String">28986e81-ba72-41ac-871d-3bb525cb1c02</ParamDataRef>
+          <IsParameterValueModified valType="String">False</IsParameterValueModified>
+          <value-keys valType="String">{"ParamDataRef": System.String, "IsParameterValueModified": System.Boolean}</value-keys>
+          <dictionary-keys valType="String">[Attributes]</dictionary-keys>
+          <Attributes />
+        </custom-data>
       </Object>
     </Container>
   </Containers>
