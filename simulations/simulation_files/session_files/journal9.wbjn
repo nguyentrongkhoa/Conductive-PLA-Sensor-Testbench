@@ -1,0 +1,49 @@
+# encoding: utf-8
+# 2026 R1
+SetScriptVersion(Version="26.1.174")
+system1 = GetSystem(Name="Optimization")
+optimizationTask1 = system1.GetContainer(ComponentName="OptimizationTask")
+string1 = optimizationTask1.DynSendCommand(
+    Command="SHOW_NODE_DIALOG",
+    Scope="SYSTEM",
+    Arguments=IronPython.Runtime.PythonDictionary)
+ACT.DynHandleNotification(Command=IronPython.NewTypes.System.Object_1$1)
+ACT.DynHandleNotification(Command=IronPython.NewTypes.System.Object_1$1)
+ACT.DynHandleNotification(Command=IronPython.NewTypes.System.Object_1$1)
+ACT.DynHandleNotification(Command=IronPython.NewTypes.System.Object_1$1)
+ACT.DynHandleNotification(Command=IronPython.NewTypes.System.Object_1$1)
+ACT.DynHandleNotification(Command=IronPython.NewTypes.System.Object_1$1)
+designPoint1 = Parameters.CreateDesignPoint()
+parameter1 = Parameters.GetParameter(Name="P22")
+designPoint1.SetParameterExpression(
+    Parameter=parameter1,
+    Expression="20")
+designPoint1.Retained = True
+Parameters.SetBaseDesignPoint(DesignPoint=designPoint1)
+Refresh()
+Refresh()
+system2 = GetSystem(Name="Geometry")
+geometry1 = system2.GetContainer(ComponentName="Geometry")
+geometry1.Edit(IsDiscoveryGeometry=True)
+geometry1.Exit()
+Refresh()
+geometry1.Exit()
+system3 = GetSystem(Name="SYS")
+model1 = system3.GetContainer(ComponentName="Model")
+model1.Edit()
+designPoint2 = Parameters.CreateDesignPoint()
+parameter2 = Parameters.GetParameter(Name="P23")
+designPoint2.SetParameterExpression(
+    Parameter=parameter2,
+    Expression="100")
+designPoint3 = Parameters.GetDesignPoint(Name="0")
+designPoint3.Retained = False
+designPoint2.Retained = True
+Parameters.SetBaseDesignPoint(DesignPoint=designPoint2)
+Refresh()
+geometry1.Exit()
+Refresh()
+geometry1.Edit(IsDiscoveryGeometry=True)
+geometry1.Exit()
+Refresh()
+Save(Overwrite=True)

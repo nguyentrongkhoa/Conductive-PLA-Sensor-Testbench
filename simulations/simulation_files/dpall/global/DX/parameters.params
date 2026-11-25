@@ -30,6 +30,7 @@
     <ParameterSet ID="D7C773B9-4FC0-4C13-81D4-1FE4F06F31B5"/>
     <ParameterSet ID="BE54F0A9-A272-4947-8898-DA3F7F5094AF"/>
     <ParameterSet ID="D7E0AC0C-7088-43DC-B94B-866995167018"/>
+    <ParameterSet ID="8EB90BF1-5C5E-4885-A85C-672C4FD49BE2"/>
   </ParameterSets>
 
   <ExpressionIds>
@@ -212,7 +213,7 @@
         </ValueMapping>
       </ValueTypes>
       <DoubleValues>
-        <Value>163469.89440917969</Value>
+        <Value>0.</Value>
       </DoubleValues>
       <LongValues/>
       <ArrayValues/>
@@ -377,7 +378,7 @@
         </ValueMapping>
       </ValueTypes>
       <DoubleValues>
-        <Value>163515.15197753906</Value>
+        <Value>0.</Value>
       </DoubleValues>
       <LongValues/>
       <ArrayValues/>
@@ -14566,6 +14567,22 @@
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>
+      <Attribute ID="D4AA9965-D42D-4922-9594-1473D564A1AC">
+        <Name>ParameterErrorMessage</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ParameterErrorMessage</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ParameterErrorMessage</Name>
+            <Type>2</Type>
+            <StringValue>Dividing quantity by quantity with zero value (when converted into computational units)</StringValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
     </Attributes>
   </Parameter>
 
@@ -27230,6 +27247,22 @@
             <Name>B9092F5C-6FA7-464B-AC51-A3D4557137B3</Name>
             <Type>0</Type>
             <IntegerValue>0</IntegerValue>
+          </AttributeValueBase>
+        </AttributeValueBases>
+      </Attribute>
+      <Attribute ID="4896A799-181A-4034-AD21-84E03EB4A913">
+        <Name>ParameterErrorMessage</Name>
+        <AttributeTemplate>
+          <AttributeValueType>
+            <Type>2</Type>
+            <Name>ParameterErrorMessage</Name>
+          </AttributeValueType>
+        </AttributeTemplate>
+        <AttributeValueBases>
+          <AttributeValueBase>
+            <Name>ParameterErrorMessage</Name>
+            <Type>2</Type>
+            <StringValue>Dividing quantity by quantity with zero value (when converted into computational units)</StringValue>
           </AttributeValueBase>
         </AttributeValueBases>
       </Attribute>

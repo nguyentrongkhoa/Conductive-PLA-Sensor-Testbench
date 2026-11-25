@@ -36,23 +36,6 @@ Back to [[Home]] · Geometry: [[Implementation]] · Success criterion E1: FEM re
 - Outputs (R0, max strain, ΔR, buckling factor) as output parameters, sweep as design points; a Workbench journal script fills the table, updates all points and exports CSV → plot with matplotlib.
 - Downside: Workbench reopens Creo for every design point (slow, needs a free Creo licence).
 
-**Route B – Python drives both (most flexible)**
-- **Creoson** + `creopyson` controls Creo from Python: open model, set parameters, regenerate, export STEP.
-- **PyMechanical** (`ansys-mechanical-core`) or PyWorkbench: import STEP, assign materials, mesh, BCs, solve, return results.
-```python
-import creopyson, itertools
-c = creopyson.Client(); c.connect()
-c.file_open("fp_122_dms_gitter.prt")
-results = []
-for w, gap, n in itertools.product([0.8, 1.2], [0.8, 1.2], [2, 4, 6]):
-    for name, val in {"W": w, "G": gap, "N_LEG": n}.items():
-        c.file_set_parameter(name, val, file_="fp_122_dms_gitter.prt")
-    c.file_regenerate("fp_122_dms_gitter.prt")
-    c.file_export("fp_100_sensor_asm.asm", file_type="STEP", dirname=r"C:\sweep")
-    R, eps = run_ansys(r"C:\sweep\fp_100_sensor_asm.stp")  # own PyMechanical function
-    results.append((w, gap, n, R, eps))
-```
-**Route C – skip Creo in the loop:** rebuild the meander directly in PyAnsys Geometry / SpaceClaim script / APDL from the same parameters (fastest and most robust for large sweeps). Creo stays the master model for the drawings.
 
 Before automating: regenerate the Creo model by hand at the extreme parameter values (smallest gap, most legs) – most sweep failures are regeneration errors.
 
