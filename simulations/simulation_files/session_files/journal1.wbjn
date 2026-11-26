@@ -1,41 +1,28 @@
 # encoding: utf-8
 # 2026 R1
 SetScriptVersion(Version="26.1.174")
-DesignModeler.CreateGeometrySystemWithActiveCAD(
-    FilePath=r"C:\Users\khoa1\OneDrive\Desktop\Studium\Mechatronik\2. Sem\Forschungsprojekt\cad\FP_100_SENSOR_ASM.ASM",
-    PlugInName="ProEngineer[22696]")
-system1 = GetSystem(Name="Geometry")
-geometry1 = system1.GetContainer(ComponentName="Geometry")
-geometryProperties1 = geometry1.GetGeometryProperties()
-geometryProperties1.GeometryImportParameters = "CADImportParameterType_All"
-geometryProperties1.GeometryImportParametersFilter = ""
-geometryProperties1.GeometryImportNamedSelections = True
-geometryProperties1.GeometryImportCadAttributes = True
-geometry1.Edit(IsDiscoveryGeometry=True)
-geometry1.Edit(IsDiscoveryGeometry=True)
-geometry1.Edit(IsDiscoveryGeometry=True)
-geometry1.Exit()
-Save(Overwrite=True)
-geometry1.Edit(IsDiscoveryGeometry=True)
-Save(Overwrite=True)
-Save(Overwrite=True)
-Save(Overwrite=True)
-geometry1.Exit()
 template1 = GetTemplate(
     TemplateName="Static Mechanical",
     Solver="ANSYS")
-system2 = template1.CreateSystem(
+system1 = template1.CreateSystem()
+template2 = GetTemplate(TemplateName="Geometry")
+system2 = template2.CreateSystem(
     Position="Right",
     RelativeTo=system1)
-geometryComponent1 = system2.GetComponent(Name="Geometry")
-geometryComponent2 = system1.GetComponent(Name="Geometry")
+geometryComponent1 = system1.GetComponent(Name="Geometry")
+geometryComponent2 = system2.GetComponent(Name="Geometry")
 geometryComponent1.ReplaceWithShare(
-    TargetSystem=system2,
+    TargetSystem=system1,
     ComponentToShare=geometryComponent2,
-    SourceSystem=system1)
+    SourceSystem=system2)
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath="C:/Users/khoa1/OneDrive/Desktop/Studium/Mechatronik/2. Sem/Forschungsprojekt/simulations/fp_100_sensor_asm.stp")
 Save(Overwrite=True)
 favorites1 = EngData.LoadFavoriteItems()
-engineeringData1 = system2.GetContainer(ComponentName="Engineering Data")
+library1 = EngData.OpenLibrary(
+    Name="Additive Manufacturing Materials",
+    Source="Additive_Manufacturing_Materials.xml")
+engineeringData1 = system1.GetContainer(ComponentName="Engineering Data")
 matl1 = engineeringData1.ImportMaterial(
     Name="PLA",
     Source="Additive_Manufacturing_Materials.xml")
@@ -43,36 +30,14 @@ matl2 = engineeringData1.ImportMaterial(
     Name="Protopasta cPLA",
     Source="Additive_Manufacturing_Materials.xml")
 Save(Overwrite=True)
-modelComponent1 = system2.GetComponent(Name="Model")
+modelComponent1 = system1.GetComponent(Name="Model")
 modelComponent1.Refresh()
-model1 = system2.GetContainer(ComponentName="Model")
+model1 = system1.GetContainer(ComponentName="Model")
 model1.Edit()
 Save(Overwrite=True)
 Save(Overwrite=True)
 Save(Overwrite=True)
 Save(Overwrite=True)
 Save(Overwrite=True)
-model1.Exit()
-template2 = GetTemplate(
-    TemplateName="Electric",
-    Solver="ANSYS")
-system3 = template2.CreateSystem(
-    Position="Right",
-    RelativeTo=system2)
-geometryComponent3 = system3.GetComponent(Name="Geometry")
-geometryComponent3.ReplaceWithShare(
-    TargetSystem=system3,
-    ComponentToShare=geometryComponent2,
-    SourceSystem=system1)
-engineeringDataComponent1 = system3.GetComponent(Name="Engineering Data")
-engineeringDataComponent2 = system2.GetComponent(Name="Engineering Data")
-engineeringDataComponent1.ReplaceWithShare(
-    TargetSystem=system3,
-    ComponentToShare=engineeringDataComponent2,
-    SourceSystem=system2)
-modelComponent2 = system3.GetComponent(Name="Model")
-modelComponent2.Refresh()
-model2 = system3.GetContainer(ComponentName="Model")
-model2.Edit()
-model2.Exit()
+Save(Overwrite=True)
 Save(Overwrite=True)

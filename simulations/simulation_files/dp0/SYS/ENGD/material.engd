@@ -87,16 +87,16 @@
               <Qualifier name="Localized Name">Tensile Yield Strength</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr8">
+          <PropertyData property="pr6">
             <Data format="string">-</Data>
             <Qualifier name="Localized Name">Tensile Ultimate Strength</Qualifier>
-            <ParameterValue parameter="pa16" format="float">
+            <ParameterValue parameter="pa14" format="float">
               <Data>460000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Tensile Ultimate Strength</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr9">
+          <PropertyData property="pr8">
             <Data format="string">-</Data>
             <Qualifier name="Definition">Secant</Qualifier>
             <Qualifier name="Behavior">Isotropic</Qualifier>
@@ -110,7 +110,7 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa18" format="float">
+            <ParameterValue parameter="pa19" format="float">
               <Data>1.2e-05</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Coefficient of Thermal Expansion</Qualifier>
@@ -168,7 +168,7 @@
               <Qualifier name="Lower Limit">10.5</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr7">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -181,7 +181,7 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="float">
+            <ParameterValue parameter="pa20" format="float">
               <Data>60.5</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Thermal Conductivity</Qualifier>
@@ -256,11 +256,11 @@
               <Qualifier name="Localized Name">Cyclic Strain Hardening Exponent</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr6">
+          <PropertyData property="pr7">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Localized Name">Isotropic Resistivity</Qualifier>
-            <ParameterValue parameter="pa14" format="float">
+            <ParameterValue parameter="pa16" format="float">
               <Data>1.7e-07</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Resistivity</Qualifier>
@@ -444,11 +444,11 @@
               <Qualifier name="Localized Name">Tensile Yield Strength</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr6">
+          <PropertyData property="pr7">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Localized Name">Isotropic Resistivity</Qualifier>
-            <ParameterValue parameter="pa14" format="float">
+            <ParameterValue parameter="pa16" format="float">
               <Data>1000000000</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Resistivity</Qualifier>
@@ -459,7 +459,7 @@
               <Qualifier name="Localized Name">Temperature</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr7">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -472,7 +472,7 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="float">
+            <ParameterValue parameter="pa20" format="float">
               <Data>0.136</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Thermal Conductivity</Qualifier>
@@ -558,7 +558,7 @@
               <Qualifier name="Lower Limit">Program Controlled</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr6">
+          <PropertyData property="pr7">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Orthotropic</Qualifier>
             <Qualifier name="Localized Name">Orthotropic Resistivity</Qualifier>
@@ -567,12 +567,12 @@
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Resistivity X direction</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa19" format="float">
+            <ParameterValue parameter="pa17" format="float">
               <Data>0.3</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Resistivity Y direction</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa20" format="float">
+            <ParameterValue parameter="pa18" format="float">
               <Data>1.15</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Resistivity Z direction</Qualifier>
@@ -619,7 +619,7 @@
               <Qualifier name="Localized Name">Tensile Yield Strength</Qualifier>
             </ParameterValue>
           </PropertyData>
-          <PropertyData property="pr7">
+          <PropertyData property="pr9">
             <Data format="string">-</Data>
             <Qualifier name="Behavior">Isotropic</Qualifier>
             <Qualifier name="Field Variable Compatible">Temperature</Qualifier>
@@ -632,7 +632,7 @@
               <Qualifier name="ExtrapolationType">Projection to the Bounding Box</Qualifier>
               <Qualifier name="Localized Name">Interpolation Options</Qualifier>
             </ParameterValue>
-            <ParameterValue parameter="pa17" format="float">
+            <ParameterValue parameter="pa20" format="float">
               <Data>0.136</Data>
               <Qualifier name="Variable Type">Dependent</Qualifier>
               <Qualifier name="Localized Name">Thermal Conductivity</Qualifier>
@@ -690,7 +690,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa16">
+        <ParameterDetails id="pa14">
           <Name>Tensile Ultimate Strength</Name>
           <Units name="Stress">
             <Unit>
@@ -698,7 +698,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa18">
+        <ParameterDetails id="pa19">
           <Name>Coefficient of Thermal Expansion</Name>
           <Units name="InvTemp1">
             <Unit power="-1">
@@ -807,7 +807,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa14">
+        <ParameterDetails id="pa16">
           <Name>Resistivity</Name>
           <Units name="Electrical Resistivity">
             <Unit>
@@ -824,7 +824,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa17">
+        <ParameterDetails id="pa20">
           <Name>Thermal Conductivity</Name>
           <Units name="Thermal Conductivity">
             <Unit>
@@ -883,7 +883,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa19">
+        <ParameterDetails id="pa17">
           <Name>Resistivity Y direction</Name>
           <Units name="Electrical Resistivity">
             <Unit>
@@ -900,7 +900,7 @@
             </Unit>
           </Units>
         </ParameterDetails>
-        <ParameterDetails id="pa20">
+        <ParameterDetails id="pa18">
           <Name>Resistivity Z direction</Name>
           <Units name="Electrical Resistivity">
             <Unit>
@@ -943,19 +943,19 @@
         </PropertyDetails>
         <PropertyDetails id="pr6">
           <Unitless />
-          <Name>Resistivity</Name>
+          <Name>Tensile Ultimate Strength</Name>
         </PropertyDetails>
         <PropertyDetails id="pr7">
           <Unitless />
-          <Name>Thermal Conductivity</Name>
+          <Name>Resistivity</Name>
         </PropertyDetails>
         <PropertyDetails id="pr8">
           <Unitless />
-          <Name>Tensile Ultimate Strength</Name>
+          <Name>Coefficient of Thermal Expansion</Name>
         </PropertyDetails>
         <PropertyDetails id="pr9">
           <Unitless />
-          <Name>Coefficient of Thermal Expansion</Name>
+          <Name>Thermal Conductivity</Name>
         </PropertyDetails>
         <PropertyDetails id="pr10">
           <Unitless />
@@ -992,19 +992,19 @@
     <Materials>
       <Material>
         <Name>Structural Steel</Name>
-        <DataTransferID>a3d9a21d-36e6-4d8e-8cc2-468473fe3e1a</DataTransferID>
+        <DataTransferID>31ccb7e0-423a-4705-8c75-0f0ef94aff6d</DataTransferID>
         <PreviousTransferIDs>
         </PreviousTransferIDs>
       </Material>
       <Material>
         <Name>PLA</Name>
-        <DataTransferID>d33f132a-19e4-4e46-bcbf-3b4ef99c0288</DataTransferID>
+        <DataTransferID>3ffd4270-42f3-47f2-8ad1-12eecb6865e6</DataTransferID>
         <PreviousTransferIDs>
         </PreviousTransferIDs>
       </Material>
       <Material>
         <Name>Protopasta cPLA</Name>
-        <DataTransferID>4e4d42a5-56c7-4d6c-b357-7599c7f48361</DataTransferID>
+        <DataTransferID>9c8d8010-4175-4f9f-8e01-216b3596d857</DataTransferID>
         <PreviousTransferIDs>
         </PreviousTransferIDs>
       </Material>
