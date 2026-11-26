@@ -167,3 +167,6 @@ FP-130: a printed tray with a pocket matching the carrier outline (+0.2 mm clear
 
 ## 8. What to vary later (Creo parameters → DoE)
 `N_LEG` 2/4/6 · `W` 0.8/1.2 mm · `L_A` 6/10/14 mm · `T_G` 0.3/0.45 mm · bonded vs. embedded. See [[Versuchsplanung#Factors]].
+
+Right nozzle is Protopasta cPLA
+Left nozzle is normal PLA
