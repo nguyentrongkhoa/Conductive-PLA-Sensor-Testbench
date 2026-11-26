@@ -18,8 +18,12 @@ Usage
 
 The parameters are set in every Creo model of the cad folder that has a parameter of
 that name. Parameters missing in all models (maybe H_LAYER, N_LAYER) are skipped with
-a warning. The model files are NOT saved: only the Creo session changes, and the
-cad files stay as they are on disk.
+a warning. The model files are NOT saved. After each sensor the models are erased from
+the Creo session (use --no-erase to keep them), so every sensor starts from the files on
+disk, and the cad files stay unchanged.
+
+Regeneration order: changed parts, then sub-assemblies (e.g. fp_120), then the top
+assembly. If a sensor fails, the error is printed and the script goes on with the next.
 """
 
 import argparse
@@ -35,6 +39,7 @@ from generate_params_clean import PARAM_COLS
 
 HERE = Path(__file__).resolve().parent
 ASSEMBLY = "fp_100_sensor_asm.asm"     # top-level assembly that is exported
+_ERASE_WARNED = []
 
 # Values derived from the sheet; only set if a Creo model has a parameter of that name.
 # Grid thickness = number of layers * layer height (constraint 4 in the notes).
@@ -88,13 +93,31 @@ def apply_params(client, pmap, params):
     return touched
 
 
-def regenerate(client, touched):
-    """Regenerate the changed parts first, then the top-level assembly."""
-    for filename in sorted(touched):
+def regenerate(client, touched, subassemblies):
+    """Regenerate bottom-up: changed parts, then sub-assemblies, then the top assembly."""
+    order = ([f for f in sorted(touched) if f.lower().endswith(".prt")]
+             + sorted(subassemblies) + [ASSEMBLY])
+    for filename in order:
         client.file_open(filename, display=True, activate=True)
         client.file_regenerate(filename)
-    client.file_open(ASSEMBLY, display=True, activate=True)
-    client.file_regenerate(ASSEMBLY)
+
+
+def reset_session(client, cad_dir):
+    """Close and erase all cad models from the Creo session WITHOUT saving, so the next
+    sensor starts from the files on disk (also keeps the session from filling up)."""
+    files = sorted(cad_dir.glob("*.asm")) + sorted(cad_dir.glob("*.prt"))
+    for f in files:
+        try:
+            client.file_close_window(f.name)
+        except Exception:  # noqa: BLE001 - not open / already closed
+            pass
+    for f in files:
+        try:
+            client.file_erase(file_=f.name, erase_children=True)
+        except Exception as exc:  # noqa: BLE001
+            if not _ERASE_WARNED:      # warn once; models not in the session also raise
+                _ERASE_WARNED.append(1)
+                print(f"   (erase of {f.name} reported: {exc}; further such messages hidden)")
 
 
 def export_step(client, target, tmp_dir):
@@ -117,14 +140,17 @@ def export_step(client, target, tmp_dir):
 # Main loop
 # --------------------------------------------------------------------------- #
 def run(xlsx_path, out_dir, cad_dir, host="localhost", port=9056, start=None, end=None,
-        overwrite=False, excel_row_numbers=False):
+        overwrite=False, excel_row_numbers=False, erase=True):
     out_dir.mkdir(parents=True, exist_ok=True)
     client = creopyson.Client(ip_adress=host, port=port)
     client.connect()
     results = []
     try:
         client.creo_cd(str(cad_dir))
+        subassemblies = [f.name for f in cad_dir.glob("*.asm") if f.name != ASSEMBLY]
         pmap = build_param_map(client, cad_dir)
+        if erase:
+            reset_session(client, cad_dir)   # start from the files on disk
         missing = [c for c in PARAM_COLS if c.upper() not in pmap]
         if missing:
             print("Not found in any Creo model (skipped): " + ", ".join(missing))
@@ -141,13 +167,15 @@ def run(xlsx_path, out_dir, cad_dir, host="localhost", port=9056, start=None, en
             print(f"\n=== sensor_{number} (Excel row {excel_row}) ===")
             try:
                 touched = apply_params(client, pmap, params)
-                regenerate(client, touched)
+                regenerate(client, touched, subassemblies)
                 export_step(client, target, out_dir / "_export_tmp")
                 print(f"-> {target}")
                 results.append((number, "ok"))
             except Exception as exc:  # noqa: BLE001 - keep going with the next line
                 print(f"!! sensor_{number} failed: {exc}")
                 results.append((number, f"FAILED: {exc}"))
+            if erase:
+                reset_session(client, cad_dir)
     finally:
         try:
             client.disconnect()
@@ -172,8 +200,10 @@ if __name__ == "__main__":
     ap.add_argument("--overwrite", action="store_true", help="re-export existing STEP files")
     ap.add_argument("--excel-row-numbers", action="store_true",
                     help="number sensors by the raw Excel row (first data line = sensor_2)")
+    ap.add_argument("--no-erase", action="store_true",
+                    help="keep the models in the Creo session between sensors")
     a = ap.parse_args()
     if not a.xlsx.exists():
         sys.exit(f"Excel file not found: {a.xlsx}")
     run(a.xlsx, a.out, a.cad.resolve(), a.host, a.port, a.start, a.end,
-        a.overwrite, a.excel_row_numbers)
+        a.overwrite, a.excel_row_numbers, erase=not a.no_erase)
