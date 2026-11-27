@@ -72,11 +72,11 @@ SUBSTRATE_OFFSET = 30.0              # ANS_SUBSTRATE_OFFSET is fixed (mm); needs
 
 # Carrier size relative to the substrate (min, max) in mm
 CARRIER_WIDTH_EXTRA = (0.0, 30.0)    # ANS_W_FK = B_S + extra   (constraint 1)
-CARRIER_LENGTH_EXTRA = (70, 100.0)  # L_FK = L_S + extra (min must be >= SUBSTRATE_OFFSET)
+CARRIER_LENGTH_EXTRA = (70, 1000.0)  # L_FK = L_S + extra (min must be >= SUBSTRATE_OFFSET)
 
 EPS = 1e-6
 H_LAYER_CHOICES = (0.15, 0.2, 0.3, 0.4)
-N_LAYER_CHOICES = (2, 2)
+N_LAYER_CHOICES = (2, 3, 4, 5)
 
 # --------------------------------------------------------------------------- #
 # Constraints: name -> function(p) -> bool   (each becomes a boolean column)
@@ -104,6 +104,20 @@ PARAM_COLS = ["N_LEG", "B_GAUGE", "G_LEGS", "H_LAYER", "N_LAYER", "L_A",
 CONSTRAINT_COLS = list(CONSTRAINTS)
 RESULT_COL = "R"
 HEADER = PARAM_COLS + CONSTRAINT_COLS + [RESULT_COL]
+
+# Second sheet "NitroCELL": one column per design point (DP1, DP2, ...), laid out like the
+# value column of the Nitro-CELL "DesignPoints" template so one column can be copied and
+# pasted straight into it.  Entries are (label in Creo, DoE column); None = empty row.
+# NOTE: the Creo parameter is called W_LEG, the DoE column W_LEGS.
+NITRO_SHEET = "NitroCELL"
+NITRO_LAYOUT = [
+    ("N_LEG", "N_LEG"), ("B_GAUGE", "B_GAUGE"), ("G_LEGS", "G_LEGS"), ("H_LAYER", "H_LAYER"),
+    ("L_A", "L_A"), ("L_E", "L_E"), ("L_START_LOOP", "L_START_LOOP"), ("W_LEG", "W_LEGS"),
+    None, None, None,                       # model : REGENERATE / OPEN rows in the template
+    ("B_S", "B_S"), ("L_S", "L_S"),
+    None, None, None,
+    ("ANS_W_FK", "ANS_W_FK"), ("L_FK", "L_FK"),
+]
 
 
 def check_constraints(p):
@@ -187,10 +201,40 @@ def generate_params(rng=None, valid_only=True, max_tries=100_000):
 # --------------------------------------------------------------------------- #
 # 2) n sets -> Excel
 # --------------------------------------------------------------------------- #
+def write_nitro_sheet(wb, ws):
+    """(Re)build the "NitroCELL" sheet from all data rows of the DoE sheet `ws`.
+
+    Column B = DP1 = first data row of the DoE sheet, column C = DP2, ...
+    (DPk is the same set as sensor_k).  Rows 2 ... 19 match the template's
+    parameter rows, including the empty rows between the groups.
+    """
+    if NITRO_SHEET in wb.sheetnames:
+        del wb[NITRO_SHEET]
+    ns = wb.create_sheet(NITRO_SHEET)
+    col_of = {name: i for i, name in enumerate(HEADER)}
+    data = [row for row in ws.iter_rows(min_row=2, values_only=True) if row[0] is not None]
+
+    ns.cell(row=1, column=1, value="Parameter")
+    for k, row in enumerate(data, start=1):
+        ns.cell(row=1, column=1 + k, value=f"DP{k}")
+        for r, item in enumerate(NITRO_LAYOUT, start=2):
+            if item is not None:
+                ns.cell(row=r, column=1 + k, value=row[col_of[item[1]]])
+    for r, item in enumerate(NITRO_LAYOUT, start=2):
+        if item is not None:
+            ns.cell(row=r, column=1, value=item[0])
+    ns.freeze_panes = "B2"
+    ns.column_dimensions["A"].width = 16
+    for k in range(1, len(data) + 1):
+        ns.column_dimensions[ns.cell(row=1, column=1 + k).column_letter].width = 10
+
+
 def append_sets_to_excel(n, path=None, seed=None, valid_only=True):
     """Generate n parameter sets and append them to an .xlsx file (created if missing).
 
-    Columns: 12 parameters | one boolean column per constraint | R (empty).
+    Sheet "DoE": 12 parameters | one boolean column per constraint | R (empty).
+    Sheet "NitroCELL": the same sets, one column per design point (DP1, DP2, ...),
+    laid out like the Nitro-CELL template (rebuilt on every call; n = 0 just rebuilds it).
     Sets already present in the file are skipped (no duplicates).
     Returns the number of rows appended.
     """
@@ -199,7 +243,7 @@ def append_sets_to_excel(n, path=None, seed=None, valid_only=True):
 
     if path.exists():
         wb = load_workbook(path)
-        ws = wb.active
+        ws = wb["DoE"] if "DoE" in wb.sheetnames else wb.active
         header = [c.value for c in ws[1]]
         if header != HEADER:
             raise ValueError(f"{path.name} has a different header than expected:\n{header}")
@@ -230,13 +274,15 @@ def append_sets_to_excel(n, path=None, seed=None, valid_only=True):
     ws.freeze_panes = "A2"
     for i, name in enumerate(HEADER, start=1):
         ws.column_dimensions[ws.cell(row=1, column=i).column_letter].width = max(8, len(name) + 2)
+    write_nitro_sheet(wb, ws)
+    wb.active = wb.sheetnames.index(ws.title)
     wb.save(path)
     return added
 
 
 if __name__ == "__main__":
     ap = argparse.ArgumentParser(description="Append random strain-gauge parameter sets to an Excel file.")
-    ap.add_argument("n", type=int, help="number of sets to generate")
+    ap.add_argument("n", type=int, help="number of sets to generate (0 = only rebuild the NitroCELL sheet)")
     ap.add_argument("--out", type=Path, default=None,
                     help="xlsx file (default: doe_params.xlsx next to this script)")
     ap.add_argument("--seed", type=int, default=None, help="random seed for reproducible sets")
