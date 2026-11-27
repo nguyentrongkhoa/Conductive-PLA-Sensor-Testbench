@@ -14,7 +14,7 @@ PARAMETERS (15 columns: the 12 from the notes + 3 that were missing)
  6. L_A           real, 10 ... 50 mm
  7. L_E           real, 1 ... 10 mm
  8. L_START_LOOP  real, 1 ... 10 mm
- 9. W             real, 0.8 ... 5
+ 9. W_LEGS        real, 0.8 ... 5, at most B_GAUGE/2 - 1 (constraint 6)
 10. B_S           derived from constraint 2
 11. L_S           derived from constraint 3 (and 5)
 12. T_S           derived from constraint 4
@@ -37,6 +37,8 @@ CONSTRAINTS (one boolean column each)
  C5  10 <= L_S + ANS_SUBSTRATE_OFFSET <= L_FK
        substrate lies entirely on the steel plate carrier and leaves 10 mm
        for the loading area
+ C6  W_LEGS <= B_GAUGE / 2 - 1
+       leg width at most half the gauge width minus 1 mm
 
 DRAW ORDER of the dependent values: L_S first, then L_FK = L_S + (30 ... 100).
 ANS_SUBSTRATE_OFFSET is fixed at 30. ANS_W_FK follows B_S.
@@ -91,11 +93,13 @@ CONSTRAINTS = {
                    <= (p["N_LAYER"] + 5) * p["H_LAYER"] + EPS),
     "C5_substrate_on_carrier":
         lambda p: 10 - EPS <= p["L_S"] + p["ANS_SUBSTRATE_OFFSET"] <= p["L_FK"] + EPS,
+    "C6_leg_width_limit":
+        lambda p: p["W_LEGS"] <= p["B_GAUGE"] / 2 - 1 + EPS,
 }
 
 # 12 parameters + ANS_SUBSTRATE_OFFSET (13th) + the two carrier values that depend on B_S and L_S
 PARAM_COLS = ["N_LEG", "B_GAUGE", "G_LEGS", "H_LAYER", "N_LAYER", "L_A",
-              "L_E", "L_START_LOOP", "W", "B_S", "L_S", "T_S",
+              "L_E", "L_START_LOOP", "W_LEGS", "B_S", "L_S", "T_S",
               "ANS_SUBSTRATE_OFFSET", "ANS_W_FK", "L_FK"]
 CONSTRAINT_COLS = list(CONSTRAINTS)
 RESULT_COL = "R"
@@ -115,7 +119,7 @@ def _uniform(rng, lo, hi):
 
 
 def _draw_valid(rng):
-    """One draw that satisfies C2, C3, C4, C5 by construction (C1 checked after)."""
+    """One draw that satisfies C2, C3, C4, C5, C6 by construction (C1 checked after)."""
     p = {
         "N_LEG": rng.randrange(4, 21, 2),
         "B_GAUGE": _uniform(rng, 2, 10),
@@ -125,8 +129,12 @@ def _draw_valid(rng):
         "L_A": _uniform(rng, 10, 50),
         "L_E": _uniform(rng, 1, 10),
         "L_START_LOOP": _uniform(rng, 1, 10),
-        "W": _uniform(rng, 0.8, 5),
     }
+    # C6: W_LEGS <= B_GAUGE/2 - 1. B_GAUGE is redrawn until at least 0.8 mm remain
+    # for W_LEGS (so effectively B_GAUGE >= 3.6 mm).
+    while p["B_GAUGE"] / 2 - 1 < 0.8:
+        p["B_GAUGE"] = _uniform(rng, 2, 10)
+    p["W_LEGS"] = _uniform(rng, 0.8, min(5, p["B_GAUGE"] / 2 - 1))
     p["B_S"] = round(p["L_A"] + p["L_E"] + p["L_START_LOOP"] + 5, 2)            # C2
     layers = rng.randint(p["N_LAYER"] + 1, p["N_LAYER"] + 5)                    # C4
     p["T_S"] = round(layers * p["H_LAYER"], 3)
@@ -146,7 +154,7 @@ def _draw_any(rng):
              "G_LEGS": _uniform(rng, 0.8, 2), "H_LAYER": rng.choice(H_LAYER_CHOICES),
              "N_LAYER": rng.choice(N_LAYER_CHOICES), "L_A": _uniform(rng, 10, 50),
              "L_E": _uniform(rng, 1, 10), "L_START_LOOP": _uniform(rng, 1, 10),
-             "W": _uniform(rng, 0.8, 5)}
+             "W_LEGS": _uniform(rng, 0.8, 5)}
     p["B_S"] = _uniform(rng, 5, 90)
     p["L_S"] = _uniform(rng, 5, 200)
     p["T_S"] = round(rng.uniform(0.1, 3.0), 3)

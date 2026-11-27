@@ -1,0 +1,45 @@
+﻿
+
+ MODEL NAME       : FP_122_DMS_GITTER
+ FEATURE LINK LIST:
+ ******************
+
+Num  ID     Name                                 Type            Sup Order   Regen Status            
+
+0001 000001 RIGHT                                DATUM PLANE                 Regenerated                  
+0002 000003 TOP                                  DATUM PLANE                 Regenerated                  
+0003 000005 FRONT                                DATUM PLANE                 Regenerated                  
+0004 000007 PRT_CSYS_DEF                         COORDINATE SYST             Regenerated                  
+0005 000100 MEANDER_SECTION                      CURVE                       Regenerated                  
+0006 001110                                      PATTERN                     Regenerated                  
+0007 000112 MEANDER_BASE_LEFT                    PROTRUSION                  Regenerated                  
+0008 001111                                      PROTRUSION                  Regenerated                  
+0009 001112                                      PROTRUSION                  Regenerated                  
+0010 001210                                      PROTRUSION                  Regenerated                  
+0011 001211                                      PROTRUSION                  Regenerated                  
+0012 001212                                      PROTRUSION                  Regenerated                  
+0013 001452                                      PATTERN                     Regenerated                  
+0014 001046 MEANDER_BASE_RIGHT                   MIRROR                      Regenerated                  
+0015 001049                                      PROTRUSION                  Regenerated                  
+0016 001453 COPIED_GROUP                         MIRROR                      Regenerated                  
+0017 001456                                      PROTRUSION                  Regenerated                  
+0018 001545 COPIED_GROUP_2                       MIRROR                      Regenerated                  
+0019 001548                                      PROTRUSION                  Regenerated                  
+0020 001591 COPIED_GROUP_3                       MIRROR                      Regenerated                  
+0021 001594                                      PROTRUSION                  Regenerated                  
+0022 001683 COPIED_GROUP_5                       MIRROR                      Regenerated                  
+0023 001686                                      PROTRUSION                  Regenerated                  
+0024 001729 COPIED_GROUP_6                       MIRROR                      Regenerated                  
+0025 001732                                      PROTRUSION                  Regenerated                  
+0026 002272 ORIGIN                               DATUM POINT                 Regenerated                  
+0027 002274 CS0                                  COORDINATE SYST             Regenerated                  
+0028 002276 CS0_ORIGIN                           DATUM POINT                 Regenerated                  
+0029 002278 CS_PAD                               COORDINATE SYST             Regenerated                  
+0030 002280 PAD_ORIGIN                           DATUM POINT                 Regenerated                  
+0031 002568 PAD_ENDPOINTS                        DATUM POINT                 Regenerated                  
+     002572 PAD_SKETCH                           CURVE           1           Suppressed                   
+     002580 PAD_1                                PROTRUSION      1           Suppressed                   
+     002634 PAD2                                 MIRROR          1           Suppressed                   
+     002637                                      PROTRUSION      1           Suppressed                   
+0032 004475 CS_FOR_SUBSTRATE                     COORDINATE SYST             Regenerated                  
+
