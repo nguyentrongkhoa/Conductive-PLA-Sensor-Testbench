@@ -1,0 +1,18 @@
+# encoding: utf-8
+# 2026 R1
+SetScriptVersion(Version="26.1.174")
+system1 = GetSystem(Name="SYS")
+geometry1 = system1.GetContainer(ComponentName="Geometry")
+geometry1.SetFile(FilePath="C:/Users/khoa1/OneDrive/Desktop/Studium/Mechatronik/2. Sem/Forschungsprojekt/cad/step_files/sensor_2.stp")
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent1.Refresh()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+Save(Overwrite=True)
+geometry1.SetFile(FilePath="C:/Users/khoa1/OneDrive/Desktop/Studium/Mechatronik/2. Sem/Forschungsprojekt/cad/step_files/sensor_3.stp")
+Update()
+Save(Overwrite=True)
+geometry1.SetFile(FilePath="C:/Users/khoa1/OneDrive/Desktop/Studium/Mechatronik/2. Sem/Forschungsprojekt/cad/step_files/sensor_4.stp")
+Save(Overwrite=True)
+Save(Overwrite=True)
+model1.Exit()
